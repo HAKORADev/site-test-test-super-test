@@ -121,5 +121,65 @@
       "desc": "The mother sauce doing the heavy lifting"
     }
   ],
-  "storage": "Refrigerates 4 days; reheats covered at 180°C / 350°F with a spoonful of milk stirred in. Freezes well for 2 months — bake from frozen at 180°C for an hour."
+  "storage": "Refrigerates 4 days; reheats covered at 180°C / 350°F with a spoonful of milk stirred in. Freezes well for 2 months — bake from frozen at 180°C for an hour.",
+  "equipment": [
+    {
+      "t": "stockpot"
+    },
+    {
+      "t": "saucepan",
+      "n": "the roux wants a tall, heavy pan"
+    },
+    {
+      "t": "whisk",
+      "n": "the bechamel's personal trainer"
+    },
+    {
+      "t": "box-grater"
+    },
+    {
+      "t": "baking-dish"
+    },
+    {
+      "t": "colander"
+    },
+    {
+      "t": "oven"
+    }
+  ],
+  "facts": {
+    "course": "Main — or the side that eats like a main",
+    "base": "dairy — a cheese sauce with pasta in it",
+    "origin": "Britain, adopted and roofed by America",
+    "first_recorded": "1390s — 'makerouns' in The Forme of Cury; Thomas Jefferson later shipped a macaroni machine home",
+    "name_means": "Macaroni comes from Italian maccaruni — and nobody is sure where that came from either.",
+    "technique": "Roux → béchamel → mornay, then a golden gratin lid",
+    "heat": 0,
+    "budget": "$",
+    "season": "Winter, custody battles and potlucks",
+    "signature": "Sharp cheddar depth, nutmeg whisper, crusty top",
+    "serve_at": "Bubbling, five minutes out of the oven — no sooner",
+    "pour": "Crisp pilsner or an unoaked Chardonnay",
+    "wiki": "https://en.wikipedia.org/wiki/Macaroni_and_cheese"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "authentic-carbonara",
+        "n": "cheese-and-starch comfort, two nations, two temperatures"
+      },
+      {
+        "s": "french-onion-soup",
+        "n": "the cheese-lid club: golden tops with structural ambition"
+      },
+      {
+        "s": "shepherds-pie",
+        "n": "golden-topped bakes, spoon-tender insides"
+      }
+    ]
+  }
 }

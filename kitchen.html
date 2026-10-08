@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Tool Wall — Salt &amp; Ember</title>
+<meta name="description" content="The kitchen&#x27;s tool catalog — 49 pots, blades and machines, reverse-indexed to thirty recipes.">
+<meta property="og:title" content="The Tool Wall">
+<meta property="og:description" content="The kitchen&#x27;s tool catalog — 49 pots, blades and machines, reverse-indexed to thirty recipes.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chrome-ember-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="index.html" class="">Home</a><a href="recipes.html" class="">All Recipes</a><a href="collections.html" class="">Collections</a><a href="kitchen.html" class="active">The Tool Wall</a><a href="search.html" class="">Search</a><a href="about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<section class="wrap page-head">
+<h1 class="page-title">The Tool Wall</h1>
+<p class="page-sub">49 pots, blades and machines — what each one is actually for, linked to the full story on Wikipedia, and reverse-indexed to every recipe in this kitchen that leans on it.</p>
+</section>
+<section class="wrap"><p class="kitchen-hint">Every recipe page lists its own tools under <strong>“The tool wall”</strong>, with notes on why each one matters for <em>that</em> dish. Click any tool name below for its Wikipedia page; the small links are the recipes that use it.</p>
+<div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">🔪</span> Blades &amp; boards <span class="tool-cat-count">6</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-chefs-knife">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Chef%27s_knife" target="_blank" rel="noopener">Chef&#x27;s knife ↗</a><span class="tool-count">24 recipes</span></div>
+<p class="tool-blurb">The one tool that touches everything. Pinch grip, weight forward, and it quietly does ninety percent of the kitchen&#x27;s work.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a>
+<a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a>
+<a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/ratatouille.html">Ratatouille</a>
+<a href="recipe/seafood-paella.html">Seafood Paella</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/smash-burger.html">Smash Burger</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a>
+<a href="recipe/spanish-tortilla.html">Spanish Tortilla</a></div>
+</div><div class="tool-card" id="tool-cutting-board">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Cutting_board" target="_blank" rel="noopener">Cutting board ↗</a><span class="tool-count">22 recipes</span></div>
+<p class="tool-blurb">Wood or plastic, never glass - glass dulls edges and hates your knife back. Own two: one for alliums, one for fruit.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/ratatouille.html">Ratatouille</a>
+<a href="recipe/seafood-paella.html">Seafood Paella</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/smash-burger.html">Smash Burger</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a>
+<a href="recipe/spanish-tortilla.html">Spanish Tortilla</a></div>
+</div><div class="tool-card" id="tool-box-grater">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Grater" target="_blank" rel="noopener">Box grater ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">Four sides, four opinions. The coarse face is for cheese mountains; the small one is for nutmeg grudges.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a></div>
+</div><div class="tool-card" id="tool-mandoline">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Mandoline" target="_blank" rel="noopener">Mandoline ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Paper-thin slices at machine speed, and zero mercy for fingertips. Use the guard. Always use the guard.</p>
+<div class="tool-used"><a href="recipe/spanish-tortilla.html">Spanish Tortilla</a></div>
+</div><div class="tool-card" id="tool-microplane">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Microplane" target="_blank" rel="noopener">Microplane / zester ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Turns hard cheese to snow and citrus zest to perfume. A carpenter&#x27;s rasp that defected to the kitchen, luckily.</p>
+<div class="tool-used"><a href="recipe/mushroom-risotto.html">Mushroom Risotto</a></div>
+</div><div class="tool-card" id="tool-pepper-mill">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Black_pepper" target="_blank" rel="noopener">Pepper mill ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Ground pepper goes stale in minutes. The mill is the difference between seasoning and decoration.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a></div>
+</div></div>
+</div><div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">🍲</span> Pots &amp; pans <span class="tool-cat-count">9</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-frying-pan">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Frying_pan" target="_blank" rel="noopener">Frying pan / saute pan ↗</a><span class="tool-count">8 recipes</span></div>
+<p class="tool-blurb">The everyday workhorse - wide, flat sides, and honest about how much oil you actually poured.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/ratatouille.html">Ratatouille</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a>
+<a href="recipe/spanish-tortilla.html">Spanish Tortilla</a></div>
+</div><div class="tool-card" id="tool-stockpot">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Stockpot" target="_blank" rel="noopener">Stockpot ↗</a><span class="tool-count">8 recipes</span></div>
+<p class="tool-blurb">Tall and patient - built for broths, blanching, and boiling pasta water like you mean it. Salt it like the sea.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/ratatouille.html">Ratatouille</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a></div>
+</div><div class="tool-card" id="tool-saucepan">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Saucepan" target="_blank" rel="noopener">Saucepan ↗</a><span class="tool-count">7 recipes</span></div>
+<p class="tool-blurb">Where sauces, rice and custards happen. The tall sides slow evaporation on purpose - that is the feature.</p>
+<div class="tool-used"><a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/chocolate-lava-cake.html">Chocolate Lava Cake</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/tiramisu.html">Classic Tiramisu</a></div>
+</div><div class="tool-card" id="tool-cast-iron-skillet">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Cast-iron_cookware" target="_blank" rel="noopener">Cast-iron skillet ↗</a><span class="tool-count">6 recipes</span></div>
+<p class="tool-blurb">Slow to heat, impossible to scare. It holds temperature when cold meat hits the pan, which is where crusts come from.</p>
+<div class="tool-used"><a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/smash-burger.html">Smash Burger</a></div>
+</div><div class="tool-card" id="tool-dutch-oven">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Dutch_oven" target="_blank" rel="noopener">Dutch oven ↗</a><span class="tool-count">5 recipes</span></div>
+<p class="tool-blurb">The heavy lidded pot that braises, fries, bakes bread and outlives its owner. Buy once, will it to someone.</p>
+<div class="tool-used"><a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a></div>
+</div><div class="tool-card" id="tool-baking-dish">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Cookware_and_bakeware" target="_blank" rel="noopener">Baking dish ↗</a><span class="tool-count">3 recipes</span></div>
+<p class="tool-blurb">Ceramic or glass, goes oven-to-table, and hosts every gratin, mac and shepherd&#x27;s pie you will ever love.</p>
+<div class="tool-used"><a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a></div>
+</div><div class="tool-card" id="tool-ramekin">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Ramekin" target="_blank" rel="noopener">Ramekins ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">Small ceramic cups with big jobs: creme brulee, lava cake, and mise en place for adults.</p>
+<div class="tool-used"><a href="recipe/chocolate-lava-cake.html">Chocolate Lava Cake</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a></div>
+</div><div class="tool-card" id="tool-wok">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Wok" target="_blank" rel="noopener">Wok ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Curved, thin, screaming hot. A round bottom loves fire; a flat bottom forgives electric stoves. Either way: mise en place or perish.</p>
+<div class="tool-used"><a href="recipe/pad-thai.html">Pad Thai</a></div>
+</div><div class="tool-card" id="tool-paella-pan">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Paella_pan" target="_blank" rel="noopener">Paella pan ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Wide, shallow, dented steel. Maximum rice touching the bottom is the entire design brief - that is where the socarrat lives.</p>
+<div class="tool-used"><a href="recipe/seafood-paella.html">Seafood Paella</a></div>
+</div></div>
+</div><div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">🔥</span> Fire &amp; heat <span class="tool-cat-count">5</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-oven">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Oven" target="_blank" rel="noopener">Oven ↗</a><span class="tool-count">11 recipes</span></div>
+<p class="tool-blurb">The room where nothing is stirred. Every oven has hot spots; learn yours - they are characters.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a>
+<a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/chocolate-lava-cake.html">Chocolate Lava Cake</a>
+<a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a></div>
+</div><div class="tool-card" id="tool-stove">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Stove" target="_blank" rel="noopener">Stovetop ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Gas forgives, induction responds, electric insists. Learn which one you married.</p>
+<div class="tool-used"><a href="recipe/seafood-paella.html">Seafood Paella</a></div>
+</div><div class="tool-card" id="tool-grill">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Grilling" target="_blank" rel="noopener">Grill / grill pan ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Char is a flavor, not a mistake. A grill pan gives you the stripes and part of the smoke, indoors, year-round.</p>
+<div class="tool-used"><a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a></div>
+</div><div class="tool-card" id="tool-skewers">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Skewer" target="_blank" rel="noopener">Skewers ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Soak the wooden ones for thirty minutes or watch them burn - a small ritual that protects big flavor.</p>
+<div class="tool-used"><a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a></div>
+</div><div class="tool-card" id="tool-blowtorch">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Blowtorch" target="_blank" rel="noopener">Kitchen torch ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">The only tool that announces dessert is not done until something is caramelized. Keep it moving, 5 cm from the sugar.</p>
+<div class="tool-used"><a href="recipe/creme-brulee.html">Crème Brûlée</a></div>
+</div></div>
+</div><div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">⚖</span> Prep &amp; measure <span class="tool-cat-count">19</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-mixing-bowl">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Mixing_bowl" target="_blank" rel="noopener">Mixing bowls ↗</a><span class="tool-count">15 recipes</span></div>
+<p class="tool-blurb">The kitchen&#x27;s true supporting cast. You need more than you own, and the day you learn this is the day you buy four.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a>
+<a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/chocolate-lava-cake.html">Chocolate Lava Cake</a>
+<a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a>
+<a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/spanish-tortilla.html">Spanish Tortilla</a>
+<a href="recipe/tiramisu.html">Classic Tiramisu</a></div>
+</div><div class="tool-card" id="tool-wooden-spoon">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Wooden_spoon" target="_blank" rel="noopener">Wooden spoon ↗</a><span class="tool-count">9 recipes</span></div>
+<p class="tool-blurb">Does not scratch, melt, or conduct heat into your hand - and stirs risotto like it is the job. It is.</p>
+<div class="tool-used"><a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/butter-chicken.html">Butter Chicken</a>
+<a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/ratatouille.html">Ratatouille</a>
+<a href="recipe/seafood-paella.html">Seafood Paella</a>
+<a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a></div>
+</div><div class="tool-card" id="tool-colander">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Colander" target="_blank" rel="noopener">Colander ↗</a><span class="tool-count">8 recipes</span></div>
+<p class="tool-blurb">The pasta&#x27;s exit strategy. Also rinses chickpeas, drains noodles, and holds fruit at a picnic.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a></div>
+</div><div class="tool-card" id="tool-citrus-juicer">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Juicer" target="_blank" rel="noopener">Citrus squeezer ↗</a><span class="tool-count">7 recipes</span></div>
+<p class="tool-blurb">Half a lemon&#x27;s juice hides. This finds all of it, seeds staying behind where they belong.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a>
+<a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/seafood-paella.html">Seafood Paella</a></div>
+</div><div class="tool-card" id="tool-thermometer">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Meat_thermometer" target="_blank" rel="noopener">Instant-read thermometer ↗</a><span class="tool-count">6 recipes</span></div>
+<p class="tool-blurb">Ends the guessing career of overcooked chicken, shy custards and lukewarm oil. The cheapest upgrade in the kitchen.</p>
+<div class="tool-used"><a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a></div>
+</div><div class="tool-card" id="tool-whisk">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Whisk" target="_blank" rel="noopener">Whisk ↗</a><span class="tool-count">6 recipes</span></div>
+<p class="tool-blurb">Eight wires of persuasion - for emulsions, custards, and rescuing lumpy plans at the last second.</p>
+<div class="tool-used"><a href="recipe/authentic-carbonara.html">Authentic Carbonara</a>
+<a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/baked-mac-and-cheese.html">Baked Mac and Cheese</a>
+<a href="recipe/chocolate-lava-cake.html">Chocolate Lava Cake</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/tiramisu.html">Classic Tiramisu</a></div>
+</div><div class="tool-card" id="tool-ladle">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Ladle_(spoon)" target="_blank" rel="noopener">Ladle ↗</a><span class="tool-count">6 recipes</span></div>
+<p class="tool-blurb">For serving soup and for feeding hot stock into risotto one slow circle at a time.</p>
+<div class="tool-used"><a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/chicken-noodle-soup.html">Chicken Noodle Soup</a>
+<a href="recipe/french-onion-soup.html">French Onion Soup</a>
+<a href="recipe/mushroom-risotto.html">Mushroom Risotto</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a></div>
+</div><div class="tool-card" id="tool-tongs">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Tongs" target="_blank" rel="noopener">Tongs ↗</a><span class="tool-count">5 recipes</span></div>
+<p class="tool-blurb">The extension of your hand that does not burn. Flip, toss, lift, serve - then click them twice, for confidence.</p>
+<div class="tool-used"><a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a>
+<a href="recipe/chicken-souvlaki.html">Chicken Souvlaki</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/spaghetti-aglio-e-olio.html">Spaghetti Aglio e Olio</a></div>
+</div><div class="tool-card" id="tool-fine-sieve">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Sieve" target="_blank" rel="noopener">Fine-mesh sieve ↗</a><span class="tool-count">5 recipes</span></div>
+<p class="tool-blurb">The difference between sauce and silk - and the bodyguard of every custard ever made.</p>
+<div class="tool-used"><a href="recipe/beef-bourguignon.html">Beef Bourguignon</a>
+<a href="recipe/creme-brulee.html">Crème Brûlée</a>
+<a href="recipe/pho-bo.html">Pho Bo</a>
+<a href="recipe/shoyu-ramen.html">Shoyu Ramen</a>
+<a href="recipe/tiramisu.html">Classic Tiramisu</a></div>
+</div><div class="tool-card" id="tool-spatula">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Spatula" target="_blank" rel="noopener">Spatula ↗</a><span class="tool-count">4 recipes</span></div>
+<p class="tool-blurb">Flexible for fish, firm for flipping. The boundary between cooking and juggling.</p>
+<div class="tool-used"><a href="recipe/pad-thai.html">Pad Thai</a>
+<a href="recipe/smash-burger.html">Smash Burger</a>
+<a href="recipe/spanish-tortilla.html">Spanish Tortilla</a>
+<a href="recipe/tiramisu.html">Classic Tiramisu</a></div>
+</div><div class="tool-card" id="tool-kitchen-scale">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Weighing_scale" target="_blank" rel="noopener">Kitchen scale ↗</a><span class="tool-count">3 recipes</span></div>
+<p class="tool-blurb">Grams do not argue. Baking&#x27;s entire personality is a scale; everything else is vibes and apology.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a>
+<a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a></div>
+</div><div class="tool-card" id="tool-bench-scraper">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Bench_scraper" target="_blank" rel="noopener">Bench scraper ↗</a><span class="tool-count">3 recipes</span></div>
+<p class="tool-blurb">Dough handler, board cleaner, and the smash burger&#x27;s secret weapon. Three tools in a flat metal lie.</p>
+<div class="tool-used"><a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a>
+<a href="recipe/no-knead-sourdough.html">No-Knead Sourdough</a>
+<a href="recipe/smash-burger.html">Smash Burger</a></div>
+</div><div class="tool-card" id="tool-spider">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Skimmer_(utensil)" target="_blank" rel="noopener">Spider / skimmer ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">A basket on a stick for lifting things out of hot oil or blanching water without bringing the bath with them.</p>
+<div class="tool-used"><a href="recipe/falafel-tahini.html">Falafel with Tahini</a>
+<a href="recipe/pho-bo.html">Pho Bo</a></div>
+</div><div class="tool-card" id="tool-mortar-pestle">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Mortar_and_pestle" target="_blank" rel="noopener">Mortar &amp; pestle ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">Crushing releases oils that grinding cannot reach. The oldest machine in the kitchen, still undefeated.</p>
+<div class="tool-used"><a href="recipe/chana-masala.html">Chana Masala</a>
+<a href="recipe/falafel-tahini.html">Falafel with Tahini</a></div>
+</div><div class="tool-card" id="tool-pastry-brush">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Pastry_brush" target="_blank" rel="noopener">Pastry brush ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Egg wash, melted butter, glaze - the difference between pale and golden is one swipe.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a></div>
+</div><div class="tool-card" id="tool-kitchen-twine">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Twine" target="_blank" rel="noopener">Kitchen twine ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Ties roasts, trusses poultry and holds the bouquet garni together while it lectures the pot.</p>
+<div class="tool-used"><a href="recipe/beef-bourguignon.html">Beef Bourguignon</a></div>
+</div><div class="tool-card" id="tool-potato-masher">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Potato_masher" target="_blank" rel="noopener">Potato masher ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">For roofs with texture. Machines make glue; arms make mash.</p>
+<div class="tool-used"><a href="recipe/shepherds-pie.html">Shepherd&#x27;s Pie</a></div>
+</div><div class="tool-card" id="tool-meat-mallet">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Tenderising_mallet" target="_blank" rel="noopener">Meat mallet ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">One side spikes, one side flattens. Even thickness is the whole secret of cutlets that cook at the same speed.</p>
+<div class="tool-used"><a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a></div>
+</div><div class="tool-card" id="tool-measuring-cups">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Measuring_cup" target="_blank" rel="noopener">Measuring cups &amp; spoons ↗</a><span class="tool-count">0 recipes</span></div>
+<p class="tool-blurb">For cooks who level the spoon with a finger. No judgment. Some judgment.</p>
+<div class="tool-used"><span>nobody yet — the quiet shelf</span></div>
+</div></div>
+</div><div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">🥧</span> Baking &amp; pastry <span class="tool-cat-count">5</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-sheet-pan">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Sheet_pan" target="_blank" rel="noopener">Sheet pan ↗</a><span class="tool-count">3 recipes</span></div>
+<p class="tool-blurb">The kitchen&#x27;s stage: roasting, broiling, proofing, catching drips, feeding a crowd at midnight.</p>
+<div class="tool-used"><a href="recipe/carnitas.html">Carnitas</a>
+<a href="recipe/chicken-shawarma.html">Chicken Shawarma</a>
+<a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a></div>
+</div><div class="tool-card" id="tool-wire-rack">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Cookware_and_bakeware" target="_blank" rel="noopener">Wire rack ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">Air under fried things keeps the bottom crisp. Steam is the enemy of everything you just worked for.</p>
+<div class="tool-used"><a href="recipe/baja-fish-tacos.html">Baja Fish Tacos</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a></div>
+</div><div class="tool-card" id="tool-rolling-pin">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Rolling_pin" target="_blank" rel="noopener">Rolling pin ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Even thickness or bust - a crust is only as honest as its thinnest spot.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a></div>
+</div><div class="tool-card" id="tool-pie-dish">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Pie" target="_blank" rel="noopener">Pie dish ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Glass shows you the crust&#x27;s underside; ceramic browns it harder. Either way, the crimp is yours to live with.</p>
+<div class="tool-used"><a href="recipe/apple-pie.html">All-American Apple Pie</a></div>
+</div><div class="tool-card" id="tool-pizza-stone">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Pizza_stone" target="_blank" rel="noopener">Pizza stone / steel ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Pre-heated mass that plays the floor of a bread oven. The leopard-spotted blister comes from here, not from hope.</p>
+<div class="tool-used"><a href="recipe/classic-margherita-pizza.html">Classic Margherita Pizza</a></div>
+</div></div>
+</div><div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">⚙</span> Machines <span class="tool-cat-count">5</span></h3>
+<div class="tool-grid"><div class="tool-card" id="tool-rice-cooker">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Rice_cooker" target="_blank" rel="noopener">Rice cooker ↗</a><span class="tool-count">2 recipes</span></div>
+<p class="tool-blurb">Click, forget, perfect. The most honest appliance in the kitchen - it tells you exactly when it is done.</p>
+<div class="tool-used"><a href="recipe/bibimbap.html">Bibimbap</a>
+<a href="recipe/chicken-katsu-curry.html">Chicken Katsu Curry</a></div>
+</div><div class="tool-card" id="tool-food-processor">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Food_processor" target="_blank" rel="noopener">Food processor ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">Blades do in eight seconds what knives do in eight minutes. Falafel paste is its hometown.</p>
+<div class="tool-used"><a href="recipe/falafel-tahini.html">Falafel with Tahini</a></div>
+</div><div class="tool-card" id="tool-blender">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Blender" target="_blank" rel="noopener">Blender ↗</a><span class="tool-count">1 recipe</span></div>
+<p class="tool-blurb">For sauces that must be silk, not texture. Butter chicken&#x27;s quiet hero, standing behind the marinade.</p>
+<div class="tool-used"><a href="recipe/butter-chicken.html">Butter Chicken</a></div>
+</div><div class="tool-card" id="tool-immersion-blender">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Immersion_blender" target="_blank" rel="noopener">Immersion blender ↗</a><span class="tool-count">0 recipes</span></div>
+<p class="tool-blurb">Purees soup in the pot. One less thing to wash, one more thing to love.</p>
+<div class="tool-used"><span>nobody yet — the quiet shelf</span></div>
+</div><div class="tool-card" id="tool-stand-mixer">
+<div class="tool-card-head"><a class="tool-card-name" href="https://en.wikipedia.org/wiki/Mixer_(cooking)" target="_blank" rel="noopener">Stand mixer ↗</a><span class="tool-count">0 recipes</span></div>
+<p class="tool-blurb">Kneads while you read. Strictly optional, but so is sleep.</p>
+<div class="tool-used"><span>nobody yet — the quiet shelf</span></div>
+</div></div>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="collection/italian-classics.html">Italian Classics</a><a href="collection/french-bistro.html">French Bistro</a><a href="collection/asian-kitchen.html">Asian Kitchen</a><a href="collection/spice-route.html">Spice Route</a><a href="collection/mediterranean-sun.html">Mediterranean Sun</a><a href="collection/street-food.html">Street Food</a><a href="collection/comfort-food.html">Comfort Food</a><a href="collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="recipes.html">All recipes</a>
+      <a href="kitchen.html">The tool wall</a>
+      <a href="search.html">Search the pantry</a>
+      <a href="about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "" };</script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

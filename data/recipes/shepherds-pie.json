@@ -131,5 +131,63 @@
       "desc": "Filling thickness science and topping techniques"
     }
   ],
-  "storage": "Refrigerates 4 days, freezes 3 months — genuinely better reheated. Re-bake covered at 180°C / 350°F until heated through, then uncovered to re-crisp the top."
+  "storage": "Refrigerates 4 days, freezes 3 months — genuinely better reheated. Re-bake covered at 180°C / 350°F until heated through, then uncovered to re-crisp the top.",
+  "equipment": [
+    {
+      "t": "dutch-oven",
+      "n": "the stew is born here"
+    },
+    {
+      "t": "potato-masher",
+      "n": "roofs with texture - machines make glue"
+    },
+    {
+      "t": "baking-dish",
+      "n": "fork-ridged, golden, non-negotiable"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "wooden-spoon"
+    },
+    {
+      "t": "oven"
+    }
+  ],
+  "facts": {
+    "course": "Main — baked pie",
+    "base": "meat — ground lamb under potato",
+    "origin": "Britain and Ireland — farmhouse leftovers turned institution",
+    "first_recorded": "1791 — 'cottage pie' in print; the shepherd's name for the lamb version stuck later",
+    "name_means": "Shepherd's because it is lamb; cottage because it is beef. The internet forgets this weekly.",
+    "technique": "Stew below, mash roof above, fork ridges for the golden crust",
+    "heat": 1,
+    "budget": "$",
+    "season": "Winter — it is a blanket you can eat",
+    "signature": "Worcestershire depth, rosemary, potato roof with brown peaks",
+    "serve_at": "Resting ten minutes or it runs — patience, briefly",
+    "pour": "A bitter ale, room-temperature British",
+    "wiki": "https://en.wikipedia.org/wiki/Shepherd%27s_pie"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "beef-bourguignon",
+        "cluster": "braised-roofed"
+      }
+    ],
+    "cluster_note": "Slow braised meat, two roofs: crusty bread beside the bowl or a fork-ridged potato lid on top.",
+    "similar": [
+      {
+        "s": "baked-mac-and-cheese",
+        "n": "golden-topped bakes, spoon-tender insides"
+      }
+    ]
+  }
 }

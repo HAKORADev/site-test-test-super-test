@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>All Recipes — Salt &amp; Ember</title>
-<meta name="description" content="Browse all thirty recipes with live filtering by collection, tag and text.">
+<meta name="description" content="Browse all thirty recipes with live filtering by collection, tag, base, heat and budget.">
 <meta property="og:title" content="All Recipes">
-<meta property="og:description" content="Browse all thirty recipes with live filtering by collection, tag and text.">
+<meta property="og:description" content="Browse all thirty recipes with live filtering by collection, tag, base, heat and budget.">
 <meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chrome-ember-1.jpg">
 <meta property="og:site_name" content="Salt & Ember">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -23,7 +23,7 @@
       <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
       <span class="logo-word">Salt <em>&amp;</em> Ember</span>
     </a>
-    <nav class="nav-links"><a href="index.html" class="">Home</a><a href="recipes.html" class="active">All Recipes</a><a href="collections.html" class="">Collections</a><a href="search.html" class="">Search</a><a href="about.html" class="">About</a></nav>
+    <nav class="nav-links"><a href="index.html" class="">Home</a><a href="recipes.html" class="active">All Recipes</a><a href="collections.html" class="">Collections</a><a href="kitchen.html" class="">The Tool Wall</a><a href="search.html" class="">Search</a><a href="about.html" class="">About</a></nav>
     <div class="nav-actions">
       <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
       <form class="nav-search" action="search.html" method="get">
@@ -42,9 +42,12 @@
 <input type="search" id="filterInput" class="filter-input" placeholder="Type to filter — “ramen”, “baking”, “one-pot”…">
 <div class="chip-row"><span class="chip-label">Collections</span><button class="chip genre-chip" data-genre="Italian Classics">Italian Classics</button><button class="chip genre-chip" data-genre="French Bistro">French Bistro</button><button class="chip genre-chip" data-genre="Asian Kitchen">Asian Kitchen</button><button class="chip genre-chip" data-genre="Spice Route">Spice Route</button><button class="chip genre-chip" data-genre="Mediterranean Sun">Mediterranean Sun</button><button class="chip genre-chip" data-genre="Street Food">Street Food</button><button class="chip genre-chip" data-genre="Comfort Food">Comfort Food</button><button class="chip genre-chip" data-genre="Sweet &amp; Baked">Sweet &amp; Baked</button></div>
 <div class="chip-row"><span class="chip-label">Tags</span><button class="chip tag-chip" data-tag="budget">budget</button><button class="chip tag-chip" data-tag="cheesy">cheesy</button><button class="chip tag-chip" data-tag="comfort">comfort</button><button class="chip tag-chip" data-tag="crowd-pleaser">crowd-pleaser</button><button class="chip tag-chip" data-tag="dessert">dessert</button><button class="chip tag-chip" data-tag="fresh">fresh</button><button class="chip tag-chip" data-tag="high-protein">high-protein</button><button class="chip tag-chip" data-tag="make-ahead">make-ahead</button><button class="chip tag-chip" data-tag="one-pot">one-pot</button><button class="chip tag-chip" data-tag="quick">quick</button><button class="chip tag-chip" data-tag="seafood">seafood</button><button class="chip tag-chip" data-tag="seafood-option">seafood-option</button><button class="chip tag-chip" data-tag="spicy">spicy</button><button class="chip tag-chip" data-tag="vegan">vegan</button><button class="chip tag-chip" data-tag="vegan-option">vegan-option</button><button class="chip tag-chip" data-tag="vegetarian">vegetarian</button><button class="chip tag-chip" data-tag="vegetarian-option">vegetarian-option</button><button class="chip tag-chip" data-tag="weekend-project">weekend-project</button></div>
+<div class="chip-row"><span class="chip-label">Base</span><button class="chip meta-chip" data-base="plant">plant</button><button class="chip meta-chip" data-base="meat">meat</button><button class="chip meta-chip" data-base="seafood">seafood</button><button class="chip meta-chip" data-base="dairy">dairy</button><button class="chip meta-chip" data-base="egg">egg</button><button class="chip meta-chip" data-base="grain">grain</button><button class="chip meta-chip" data-base="mixed">mixed</button></div>
+<div class="chip-row"><span class="chip-label">Heat</span><button class="chip meta-chip" data-heat="none">no heat</button><button class="chip meta-chip" data-heat="gentle">gentle heat</button><button class="chip meta-chip" data-heat="spicy">proper spicy</button></div>
+<div class="chip-row"><span class="chip-label">Budget</span><button class="chip meta-chip" data-budget="$">$</button><button class="chip meta-chip" data-budget="$$">$$</button><button class="chip meta-chip" data-budget="$$$">$$$</button></div>
 <div class="filter-foot"><span id="filterCount"></span><button class="btn btn-ghost btn-tiny" id="filterClear" hidden>Clear filters</button></div>
 </section>
-<section class="wrap"><div class="card-grid" id="recipeGrid"><a class="card recipe-card" href="recipe/apple-pie.html" data-genre="Sweet &amp; Baked" data-tags="dessert,weekend-project,crowd-pleaser" data-title="all-american apple pie">
+<section class="wrap"><div class="card-grid" id="recipeGrid"><a class="card recipe-card" href="recipe/apple-pie.html" data-genre="Sweet &amp; Baked" data-tags="dessert,weekend-project,crowd-pleaser" data-title="all-american apple pie" data-base="plant" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/apple-pie-1.jpg" alt="All-American Apple Pie" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -53,7 +56,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 3 hrs (with dough rest)</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">dessert</span><span class="tag">weekend-project</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/authentic-carbonara.html" data-genre="Italian Classics" data-tags="quick,comfort,crowd-pleaser" data-title="authentic carbonara">
+</a><a class="card recipe-card" href="recipe/authentic-carbonara.html" data-genre="Italian Classics" data-tags="quick,comfort,crowd-pleaser" data-title="authentic carbonara" data-base="meat" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/authentic-carbonara-1.jpg" alt="Authentic Carbonara" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Italian Classics</div>
@@ -62,7 +65,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 25 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">quick</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/baja-fish-tacos.html" data-genre="Street Food" data-tags="seafood,quick,crowd-pleaser,fresh" data-title="baja fish tacos">
+</a><a class="card recipe-card" href="recipe/baja-fish-tacos.html" data-genre="Street Food" data-tags="seafood,quick,crowd-pleaser,fresh" data-title="baja fish tacos" data-base="seafood" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/baja-fish-tacos-1.jpg" alt="Baja Fish Tacos" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Street Food</div>
@@ -71,7 +74,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">seafood</span><span class="tag">quick</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/baked-mac-and-cheese.html" data-genre="Comfort Food" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="baked mac and cheese">
+</a><a class="card recipe-card" href="recipe/baked-mac-and-cheese.html" data-genre="Comfort Food" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="baked mac and cheese" data-base="dairy" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/baked-mac-and-cheese-1.jpg" alt="Baked Mac and Cheese" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Comfort Food</div>
@@ -80,7 +83,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 55 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/beef-bourguignon.html" data-genre="French Bistro" data-tags="one-pot,comfort,make-ahead,weekend-project" data-title="beef bourguignon">
+</a><a class="card recipe-card" href="recipe/beef-bourguignon.html" data-genre="French Bistro" data-tags="one-pot,comfort,make-ahead,weekend-project" data-title="beef bourguignon" data-base="meat" data-heat="none" data-budget="$$$">
   <div class="card-media"><img src="assets/img/beef-bourguignon-1.jpg" alt="Beef Bourguignon" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">French Bistro</div>
@@ -89,7 +92,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 3 hr 30 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">one-pot</span><span class="tag">comfort</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/bibimbap.html" data-genre="Asian Kitchen" data-tags="vegetarian-option,crowd-pleaser,comfort,fresh" data-title="bibimbap">
+</a><a class="card recipe-card" href="recipe/bibimbap.html" data-genre="Asian Kitchen" data-tags="vegetarian-option,crowd-pleaser,comfort,fresh" data-title="bibimbap" data-base="mixed" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/bibimbap-1.jpg" alt="Bibimbap" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -98,7 +101,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 10 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian-option</span><span class="tag">crowd-pleaser</span><span class="tag">comfort</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/butter-chicken.html" data-genre="Spice Route" data-tags="comfort,crowd-pleaser,make-ahead" data-title="butter chicken">
+</a><a class="card recipe-card" href="recipe/butter-chicken.html" data-genre="Spice Route" data-tags="comfort,crowd-pleaser,make-ahead" data-title="butter chicken" data-base="meat" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/butter-chicken-1.jpg" alt="Butter Chicken" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Spice Route</div>
@@ -107,7 +110,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 10 min + overnight marinade</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/carnitas.html" data-genre="Street Food" data-tags="make-ahead,crowd-pleaser,one-pot,weekend-project" data-title="carnitas">
+</a><a class="card recipe-card" href="recipe/carnitas.html" data-genre="Street Food" data-tags="make-ahead,crowd-pleaser,one-pot,weekend-project" data-title="carnitas" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/carnitas-1.jpg" alt="Carnitas" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Street Food</div>
@@ -116,7 +119,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 3 hr 20 min (mostly unattended)</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span><span class="tag">one-pot</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chana-masala.html" data-genre="Spice Route" data-tags="vegetarian,vegan-option,budget,one-pot,spicy" data-title="chana masala">
+</a><a class="card recipe-card" href="recipe/chana-masala.html" data-genre="Spice Route" data-tags="vegetarian,vegan-option,budget,one-pot,spicy" data-title="chana masala" data-base="plant" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/chana-masala-1.jpg" alt="Chana Masala" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Spice Route</div>
@@ -125,7 +128,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan-option</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chicken-katsu-curry.html" data-genre="Asian Kitchen" data-tags="comfort,crowd-pleaser,budget" data-title="chicken katsu curry">
+</a><a class="card recipe-card" href="recipe/chicken-katsu-curry.html" data-genre="Asian Kitchen" data-tags="comfort,crowd-pleaser,budget" data-title="chicken katsu curry" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/chicken-katsu-curry-1.jpg" alt="Chicken Katsu Curry" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -134,7 +137,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 5 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chicken-noodle-soup.html" data-genre="Comfort Food" data-tags="one-pot,make-ahead,budget,crowd-pleaser" data-title="chicken noodle soup">
+</a><a class="card recipe-card" href="recipe/chicken-noodle-soup.html" data-genre="Comfort Food" data-tags="one-pot,make-ahead,budget,crowd-pleaser" data-title="chicken noodle soup" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/chicken-noodle-soup-1.jpg" alt="Chicken Noodle Soup" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Comfort Food</div>
@@ -143,7 +146,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 20 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">one-pot</span><span class="tag">make-ahead</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chicken-shawarma.html" data-genre="Spice Route" data-tags="crowd-pleaser,make-ahead,fresh" data-title="chicken shawarma">
+</a><a class="card recipe-card" href="recipe/chicken-shawarma.html" data-genre="Spice Route" data-tags="crowd-pleaser,make-ahead,fresh" data-title="chicken shawarma" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/chicken-shawarma-1.jpg" alt="Chicken Shawarma" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Spice Route</div>
@@ -152,7 +155,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 50 min + overnight marinade</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span><span class="tag">fresh</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chicken-souvlaki.html" data-genre="Mediterranean Sun" data-tags="crowd-pleaser,make-ahead,fresh,high-protein" data-title="chicken souvlaki">
+</a><a class="card recipe-card" href="recipe/chicken-souvlaki.html" data-genre="Mediterranean Sun" data-tags="crowd-pleaser,make-ahead,fresh,high-protein" data-title="chicken souvlaki" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/chicken-souvlaki-1.jpg" alt="Chicken Souvlaki" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Mediterranean Sun</div>
@@ -161,7 +164,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 35 min + 2 hr marinade</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span><span class="tag">fresh</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chocolate-lava-cake.html" data-genre="Sweet &amp; Baked" data-tags="dessert,quick,crowd-pleaser" data-title="chocolate lava cake">
+</a><a class="card recipe-card" href="recipe/chocolate-lava-cake.html" data-genre="Sweet &amp; Baked" data-tags="dessert,quick,crowd-pleaser" data-title="chocolate lava cake" data-base="dairy" data-heat="none" data-budget="$$">
   <div class="card-media"><img src="assets/img/chocolate-lava-cake-1.jpg" alt="Chocolate Lava Cake" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -170,7 +173,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 30 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">dessert</span><span class="tag">quick</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/classic-margherita-pizza.html" data-genre="Italian Classics" data-tags="vegetarian,weekend-project,crowd-pleaser,cheesy" data-title="classic margherita pizza">
+</a><a class="card recipe-card" href="recipe/classic-margherita-pizza.html" data-genre="Italian Classics" data-tags="vegetarian,weekend-project,crowd-pleaser,cheesy" data-title="classic margherita pizza" data-base="plant" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/classic-margherita-pizza-1.jpg" alt="Classic Margherita Pizza" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Italian Classics</div>
@@ -179,7 +182,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 4-24 hrs (dough rests)</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">weekend-project</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/creme-brulee.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="crème brûlée">
+</a><a class="card recipe-card" href="recipe/creme-brulee.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="crème brûlée" data-base="dairy" data-heat="none" data-budget="$$">
   <div class="card-media"><img src="assets/img/creme-brulee-1.jpg" alt="Crème Brûlée" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -188,7 +191,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 55 min + 4 hrs chill</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">dessert</span><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/falafel-tahini.html" data-genre="Spice Route" data-tags="vegetarian,vegan,crowd-pleaser,budget,weekend-project" data-title="falafel with tahini">
+</a><a class="card recipe-card" href="recipe/falafel-tahini.html" data-genre="Spice Route" data-tags="vegetarian,vegan,crowd-pleaser,budget,weekend-project" data-title="falafel with tahini" data-base="plant" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/falafel-tahini-1.jpg" alt="Falafel with Tahini" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Spice Route</div>
@@ -197,7 +200,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr + overnight soaking</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/french-onion-soup.html" data-genre="French Bistro" data-tags="vegetarian-option,comfort,budget,make-ahead" data-title="french onion soup">
+</a><a class="card recipe-card" href="recipe/french-onion-soup.html" data-genre="French Bistro" data-tags="vegetarian-option,comfort,budget,make-ahead" data-title="french onion soup" data-base="plant" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/french-onion-soup-1.jpg" alt="French Onion Soup" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">French Bistro</div>
@@ -206,7 +209,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 30 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian-option</span><span class="tag">comfort</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/mushroom-risotto.html" data-genre="Italian Classics" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="mushroom risotto">
+</a><a class="card recipe-card" href="recipe/mushroom-risotto.html" data-genre="Italian Classics" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="mushroom risotto" data-base="plant" data-heat="none" data-budget="$$">
   <div class="card-media"><img src="assets/img/mushroom-risotto-1.jpg" alt="Mushroom Risotto" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Italian Classics</div>
@@ -215,7 +218,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/no-knead-sourdough.html" data-genre="Sweet &amp; Baked" data-tags="vegetarian,weekend-project,make-ahead,budget" data-title="no-knead sourdough">
+</a><a class="card recipe-card" href="recipe/no-knead-sourdough.html" data-genre="Sweet &amp; Baked" data-tags="vegetarian,weekend-project,make-ahead,budget" data-title="no-knead sourdough" data-base="grain" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/no-knead-sourdough-1.jpg" alt="No-Knead Sourdough" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -224,7 +227,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 18-24 hrs (mostly waiting)</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">weekend-project</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/pad-thai.html" data-genre="Asian Kitchen" data-tags="quick,crowd-pleaser,seafood-option" data-title="pad thai">
+</a><a class="card recipe-card" href="recipe/pad-thai.html" data-genre="Asian Kitchen" data-tags="quick,crowd-pleaser,seafood-option" data-title="pad thai" data-base="mixed" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/pad-thai-1.jpg" alt="Pad Thai" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -233,7 +236,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 35 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">quick</span><span class="tag">crowd-pleaser</span><span class="tag">seafood-option</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/pho-bo.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,make-ahead" data-title="pho bo">
+</a><a class="card recipe-card" href="recipe/pho-bo.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,make-ahead" data-title="pho bo" data-base="meat" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/pho-bo-1.jpg" alt="Pho Bo" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -242,7 +245,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 5 hrs (mostly unattended)</span><span class="meta-item">◆ Project</span></div>
     <div class="card-tags"><span class="tag">weekend-project</span><span class="tag">comfort</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/ratatouille.html" data-genre="French Bistro" data-tags="vegetarian,vegan-option,comfort,make-ahead,budget" data-title="ratatouille">
+</a><a class="card recipe-card" href="recipe/ratatouille.html" data-genre="French Bistro" data-tags="vegetarian,vegan-option,comfort,make-ahead,budget" data-title="ratatouille" data-base="plant" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/ratatouille-1.jpg" alt="Ratatouille" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">French Bistro</div>
@@ -251,7 +254,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 10 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan-option</span><span class="tag">comfort</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/seafood-paella.html" data-genre="Mediterranean Sun" data-tags="seafood,crowd-pleaser,weekend-project,make-ahead" data-title="seafood paella">
+</a><a class="card recipe-card" href="recipe/seafood-paella.html" data-genre="Mediterranean Sun" data-tags="seafood,crowd-pleaser,weekend-project,make-ahead" data-title="seafood paella" data-base="seafood" data-heat="gentle" data-budget="$$$">
   <div class="card-media"><img src="assets/img/seafood-paella-1.jpg" alt="Seafood Paella" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Mediterranean Sun</div>
@@ -260,7 +263,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 15 min</span><span class="meta-item">◆ Project</span></div>
     <div class="card-tags"><span class="tag">seafood</span><span class="tag">crowd-pleaser</span><span class="tag">weekend-project</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/shepherds-pie.html" data-genre="Comfort Food" data-tags="one-pot,make-ahead,comfort,crowd-pleaser" data-title="shepherd&#x27;s pie">
+</a><a class="card recipe-card" href="recipe/shepherds-pie.html" data-genre="Comfort Food" data-tags="one-pot,make-ahead,comfort,crowd-pleaser" data-title="shepherd&#x27;s pie" data-base="meat" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/shepherds-pie-1.jpg" alt="Shepherd&#x27;s Pie" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Comfort Food</div>
@@ -269,7 +272,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 1 hr 15 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">one-pot</span><span class="tag">make-ahead</span><span class="tag">comfort</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/shoyu-ramen.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,crowd-pleaser" data-title="shoyu ramen">
+</a><a class="card recipe-card" href="recipe/shoyu-ramen.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,crowd-pleaser" data-title="shoyu ramen" data-base="mixed" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/shoyu-ramen-1.jpg" alt="Shoyu Ramen" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -278,7 +281,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 4 hrs (worth it)</span><span class="meta-item">◆ Project</span></div>
     <div class="card-tags"><span class="tag">weekend-project</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/smash-burger.html" data-genre="Street Food" data-tags="quick,crowd-pleaser,budget,comfort" data-title="smash burger">
+</a><a class="card recipe-card" href="recipe/smash-burger.html" data-genre="Street Food" data-tags="quick,crowd-pleaser,budget,comfort" data-title="smash burger" data-base="meat" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/smash-burger-1.jpg" alt="Smash Burger" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Street Food</div>
@@ -287,7 +290,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 25 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">quick</span><span class="tag">crowd-pleaser</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/spaghetti-aglio-e-olio.html" data-genre="Italian Classics" data-tags="vegetarian,quick,budget,comfort" data-title="spaghetti aglio e olio">
+</a><a class="card recipe-card" href="recipe/spaghetti-aglio-e-olio.html" data-genre="Italian Classics" data-tags="vegetarian,quick,budget,comfort" data-title="spaghetti aglio e olio" data-base="grain" data-heat="gentle" data-budget="$">
   <div class="card-media"><img src="assets/img/spaghetti-aglio-e-olio-1.jpg" alt="Spaghetti Aglio e Olio" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Italian Classics</div>
@@ -296,7 +299,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 20 min</span><span class="meta-item">◆ Easy</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">quick</span><span class="tag">budget</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/spanish-tortilla.html" data-genre="Mediterranean Sun" data-tags="vegetarian,budget,comfort,crowd-pleaser" data-title="spanish tortilla">
+</a><a class="card recipe-card" href="recipe/spanish-tortilla.html" data-genre="Mediterranean Sun" data-tags="vegetarian,budget,comfort,crowd-pleaser" data-title="spanish tortilla" data-base="egg" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/spanish-tortilla-1.jpg" alt="Spanish Tortilla" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Mediterranean Sun</div>
@@ -305,7 +308,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 55 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">budget</span><span class="tag">comfort</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/tiramisu.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="classic tiramisu">
+</a><a class="card recipe-card" href="recipe/tiramisu.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="classic tiramisu" data-base="dairy" data-heat="none" data-budget="$$">
   <div class="card-media"><img src="assets/img/tiramisu-1.jpg" alt="Classic Tiramisu" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -332,6 +335,7 @@
     <div class="footer-col">
       <h4>Kitchen</h4>
       <a href="recipes.html">All recipes</a>
+      <a href="kitchen.html">The tool wall</a>
       <a href="search.html">Search the pantry</a>
       <a href="about.html">About this test</a>
       <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>

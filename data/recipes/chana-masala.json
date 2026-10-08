@@ -133,5 +133,67 @@
       "desc": "The dried mango powder doing the sour heavy lifting"
     }
   ],
-  "storage": "Refrigerates 5 days, freezes 3 months. Reheat with a splash of water; the chickpeas reabsorb sauce overnight, so loosen generously."
+  "storage": "Refrigerates 5 days, freezes 3 months. Reheat with a splash of water; the chickpeas reabsorb sauce overnight, so loosen generously.",
+  "equipment": [
+    {
+      "t": "mortar-pestle",
+      "n": "bloom the spices fresh - or toast and grind them"
+    },
+    {
+      "t": "frying-pan"
+    },
+    {
+      "t": "wooden-spoon"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "citrus-juicer",
+      "n": "the finishing squeeze is not optional"
+    }
+  ],
+  "facts": {
+    "course": "Main — curry",
+    "base": "plant — chickpeas entirely",
+    "origin": "Punjab, North India",
+    "first_recorded": "No single birthday — chickpeas have been in the subcontinent for millennia, the spice layering is Mughal-era craft",
+    "name_means": "Chana = chickpeas, masala = the spice mix. Case closed, lunch served.",
+    "technique": "Blooming spices in oil before anything wet is allowed in",
+    "heat": 2,
+    "budget": "$",
+    "season": "Any — the cheapest great dinner there is",
+    "signature": "Toasted cumin, amchoor sourness, ginger heat",
+    "serve_at": "With rice or bhature — mop, do not sip",
+    "pour": "Mango lassi, cold enough to argue back",
+    "wiki": "https://en.wikipedia.org/wiki/Chana_masala"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "butter-chicken",
+        "cluster": "gravies"
+      },
+      {
+        "s": "chicken-katsu-curry",
+        "cluster": "gravies"
+      }
+    ],
+    "cluster_note": "The gravy drawer: three kitchens that independently decided rice is a vehicle for sauce.",
+    "similar": [
+      {
+        "s": "falafel-tahini",
+        "n": "chickpeas, promoted to main character"
+      },
+      {
+        "s": "ratatouille",
+        "n": "vegetables as the entire point"
+      }
+    ]
+  }
 }

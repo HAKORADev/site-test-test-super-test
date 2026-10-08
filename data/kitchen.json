@@ -1,0 +1,607 @@
+{
+  "cats": {
+    "blades": "Blades & boards",
+    "pots": "Pots & pans",
+    "fire": "Fire & heat",
+    "prep": "Prep & measure",
+    "bake": "Baking & pastry",
+    "machines": "Machines"
+  },
+  "tools": {
+    "chefs-knife": {
+      "name": "Chef's knife",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Chef%27s_knife",
+      "blurb": "The one tool that touches everything. Pinch grip, weight forward, and it quietly does ninety percent of the kitchen's work."
+    },
+    "cutting-board": {
+      "name": "Cutting board",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Cutting_board",
+      "blurb": "Wood or plastic, never glass - glass dulls edges and hates your knife back. Own two: one for alliums, one for fruit."
+    },
+    "mandoline": {
+      "name": "Mandoline",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Mandoline",
+      "blurb": "Paper-thin slices at machine speed, and zero mercy for fingertips. Use the guard. Always use the guard."
+    },
+    "box-grater": {
+      "name": "Box grater",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Grater",
+      "blurb": "Four sides, four opinions. The coarse face is for cheese mountains; the small one is for nutmeg grudges."
+    },
+    "microplane": {
+      "name": "Microplane / zester",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Microplane",
+      "blurb": "Turns hard cheese to snow and citrus zest to perfume. A carpenter's rasp that defected to the kitchen, luckily."
+    },
+    "pepper-mill": {
+      "name": "Pepper mill",
+      "cat": "blades",
+      "url": "https://en.wikipedia.org/wiki/Black_pepper",
+      "blurb": "Ground pepper goes stale in minutes. The mill is the difference between seasoning and decoration."
+    },
+    "cast-iron-skillet": {
+      "name": "Cast-iron skillet",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Cast-iron_cookware",
+      "blurb": "Slow to heat, impossible to scare. It holds temperature when cold meat hits the pan, which is where crusts come from."
+    },
+    "frying-pan": {
+      "name": "Frying pan / saute pan",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Frying_pan",
+      "blurb": "The everyday workhorse - wide, flat sides, and honest about how much oil you actually poured."
+    },
+    "dutch-oven": {
+      "name": "Dutch oven",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Dutch_oven",
+      "blurb": "The heavy lidded pot that braises, fries, bakes bread and outlives its owner. Buy once, will it to someone."
+    },
+    "stockpot": {
+      "name": "Stockpot",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Stockpot",
+      "blurb": "Tall and patient - built for broths, blanching, and boiling pasta water like you mean it. Salt it like the sea."
+    },
+    "saucepan": {
+      "name": "Saucepan",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Saucepan",
+      "blurb": "Where sauces, rice and custards happen. The tall sides slow evaporation on purpose - that is the feature."
+    },
+    "wok": {
+      "name": "Wok",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Wok",
+      "blurb": "Curved, thin, screaming hot. A round bottom loves fire; a flat bottom forgives electric stoves. Either way: mise en place or perish."
+    },
+    "paella-pan": {
+      "name": "Paella pan",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Paella_pan",
+      "blurb": "Wide, shallow, dented steel. Maximum rice touching the bottom is the entire design brief - that is where the socarrat lives."
+    },
+    "baking-dish": {
+      "name": "Baking dish",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Cookware_and_bakeware",
+      "blurb": "Ceramic or glass, goes oven-to-table, and hosts every gratin, mac and shepherd's pie you will ever love."
+    },
+    "ramekin": {
+      "name": "Ramekins",
+      "cat": "pots",
+      "url": "https://en.wikipedia.org/wiki/Ramekin",
+      "blurb": "Small ceramic cups with big jobs: creme brulee, lava cake, and mise en place for adults."
+    },
+    "oven": {
+      "name": "Oven",
+      "cat": "fire",
+      "url": "https://en.wikipedia.org/wiki/Oven",
+      "blurb": "The room where nothing is stirred. Every oven has hot spots; learn yours - they are characters."
+    },
+    "stove": {
+      "name": "Stovetop",
+      "cat": "fire",
+      "url": "https://en.wikipedia.org/wiki/Stove",
+      "blurb": "Gas forgives, induction responds, electric insists. Learn which one you married."
+    },
+    "grill": {
+      "name": "Grill / grill pan",
+      "cat": "fire",
+      "url": "https://en.wikipedia.org/wiki/Grilling",
+      "blurb": "Char is a flavor, not a mistake. A grill pan gives you the stripes and part of the smoke, indoors, year-round."
+    },
+    "skewers": {
+      "name": "Skewers",
+      "cat": "fire",
+      "url": "https://en.wikipedia.org/wiki/Skewer",
+      "blurb": "Soak the wooden ones for thirty minutes or watch them burn - a small ritual that protects big flavor."
+    },
+    "blowtorch": {
+      "name": "Kitchen torch",
+      "cat": "fire",
+      "url": "https://en.wikipedia.org/wiki/Blowtorch",
+      "blurb": "The only tool that announces dessert is not done until something is caramelized. Keep it moving, 5 cm from the sugar."
+    },
+    "thermometer": {
+      "name": "Instant-read thermometer",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Meat_thermometer",
+      "blurb": "Ends the guessing career of overcooked chicken, shy custards and lukewarm oil. The cheapest upgrade in the kitchen."
+    },
+    "kitchen-scale": {
+      "name": "Kitchen scale",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Weighing_scale",
+      "blurb": "Grams do not argue. Baking's entire personality is a scale; everything else is vibes and apology."
+    },
+    "measuring-cups": {
+      "name": "Measuring cups & spoons",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Measuring_cup",
+      "blurb": "For cooks who level the spoon with a finger. No judgment. Some judgment."
+    },
+    "mixing-bowl": {
+      "name": "Mixing bowls",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Mixing_bowl",
+      "blurb": "The kitchen's true supporting cast. You need more than you own, and the day you learn this is the day you buy four."
+    },
+    "whisk": {
+      "name": "Whisk",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Whisk",
+      "blurb": "Eight wires of persuasion - for emulsions, custards, and rescuing lumpy plans at the last second."
+    },
+    "wooden-spoon": {
+      "name": "Wooden spoon",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Wooden_spoon",
+      "blurb": "Does not scratch, melt, or conduct heat into your hand - and stirs risotto like it is the job. It is."
+    },
+    "spatula": {
+      "name": "Spatula",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Spatula",
+      "blurb": "Flexible for fish, firm for flipping. The boundary between cooking and juggling."
+    },
+    "tongs": {
+      "name": "Tongs",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Tongs",
+      "blurb": "The extension of your hand that does not burn. Flip, toss, lift, serve - then click them twice, for confidence."
+    },
+    "ladle": {
+      "name": "Ladle",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Ladle_(spoon)",
+      "blurb": "For serving soup and for feeding hot stock into risotto one slow circle at a time."
+    },
+    "colander": {
+      "name": "Colander",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Colander",
+      "blurb": "The pasta's exit strategy. Also rinses chickpeas, drains noodles, and holds fruit at a picnic."
+    },
+    "fine-sieve": {
+      "name": "Fine-mesh sieve",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Sieve",
+      "blurb": "The difference between sauce and silk - and the bodyguard of every custard ever made."
+    },
+    "spider": {
+      "name": "Spider / skimmer",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Skimmer_(utensil)",
+      "blurb": "A basket on a stick for lifting things out of hot oil or blanching water without bringing the bath with them."
+    },
+    "citrus-juicer": {
+      "name": "Citrus squeezer",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Juicer",
+      "blurb": "Half a lemon's juice hides. This finds all of it, seeds staying behind where they belong."
+    },
+    "mortar-pestle": {
+      "name": "Mortar & pestle",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Mortar_and_pestle",
+      "blurb": "Crushing releases oils that grinding cannot reach. The oldest machine in the kitchen, still undefeated."
+    },
+    "bench-scraper": {
+      "name": "Bench scraper",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Bench_scraper",
+      "blurb": "Dough handler, board cleaner, and the smash burger's secret weapon. Three tools in a flat metal lie."
+    },
+    "pastry-brush": {
+      "name": "Pastry brush",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Pastry_brush",
+      "blurb": "Egg wash, melted butter, glaze - the difference between pale and golden is one swipe."
+    },
+    "kitchen-twine": {
+      "name": "Kitchen twine",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Twine",
+      "blurb": "Ties roasts, trusses poultry and holds the bouquet garni together while it lectures the pot."
+    },
+    "potato-masher": {
+      "name": "Potato masher",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Potato_masher",
+      "blurb": "For roofs with texture. Machines make glue; arms make mash."
+    },
+    "meat-mallet": {
+      "name": "Meat mallet",
+      "cat": "prep",
+      "url": "https://en.wikipedia.org/wiki/Tenderising_mallet",
+      "blurb": "One side spikes, one side flattens. Even thickness is the whole secret of cutlets that cook at the same speed."
+    },
+    "rolling-pin": {
+      "name": "Rolling pin",
+      "cat": "bake",
+      "url": "https://en.wikipedia.org/wiki/Rolling_pin",
+      "blurb": "Even thickness or bust - a crust is only as honest as its thinnest spot."
+    },
+    "pie-dish": {
+      "name": "Pie dish",
+      "cat": "bake",
+      "url": "https://en.wikipedia.org/wiki/Pie",
+      "blurb": "Glass shows you the crust's underside; ceramic browns it harder. Either way, the crimp is yours to live with."
+    },
+    "sheet-pan": {
+      "name": "Sheet pan",
+      "cat": "bake",
+      "url": "https://en.wikipedia.org/wiki/Sheet_pan",
+      "blurb": "The kitchen's stage: roasting, broiling, proofing, catching drips, feeding a crowd at midnight."
+    },
+    "wire-rack": {
+      "name": "Wire rack",
+      "cat": "bake",
+      "url": "https://en.wikipedia.org/wiki/Cookware_and_bakeware",
+      "blurb": "Air under fried things keeps the bottom crisp. Steam is the enemy of everything you just worked for."
+    },
+    "pizza-stone": {
+      "name": "Pizza stone / steel",
+      "cat": "bake",
+      "url": "https://en.wikipedia.org/wiki/Pizza_stone",
+      "blurb": "Pre-heated mass that plays the floor of a bread oven. The leopard-spotted blister comes from here, not from hope."
+    },
+    "food-processor": {
+      "name": "Food processor",
+      "cat": "machines",
+      "url": "https://en.wikipedia.org/wiki/Food_processor",
+      "blurb": "Blades do in eight seconds what knives do in eight minutes. Falafel paste is its hometown."
+    },
+    "blender": {
+      "name": "Blender",
+      "cat": "machines",
+      "url": "https://en.wikipedia.org/wiki/Blender",
+      "blurb": "For sauces that must be silk, not texture. Butter chicken's quiet hero, standing behind the marinade."
+    },
+    "immersion-blender": {
+      "name": "Immersion blender",
+      "cat": "machines",
+      "url": "https://en.wikipedia.org/wiki/Immersion_blender",
+      "blurb": "Purees soup in the pot. One less thing to wash, one more thing to love."
+    },
+    "stand-mixer": {
+      "name": "Stand mixer",
+      "cat": "machines",
+      "url": "https://en.wikipedia.org/wiki/Mixer_(cooking)",
+      "blurb": "Kneads while you read. Strictly optional, but so is sleep."
+    },
+    "rice-cooker": {
+      "name": "Rice cooker",
+      "cat": "machines",
+      "url": "https://en.wikipedia.org/wiki/Rice_cooker",
+      "blurb": "Click, forget, perfect. The most honest appliance in the kitchen - it tells you exactly when it is done."
+    }
+  },
+  "used_by": {
+    "chefs-knife": [
+      "apple-pie",
+      "authentic-carbonara",
+      "baja-fish-tacos",
+      "beef-bourguignon",
+      "bibimbap",
+      "butter-chicken",
+      "carnitas",
+      "chana-masala",
+      "chicken-katsu-curry",
+      "chicken-noodle-soup",
+      "chicken-shawarma",
+      "chicken-souvlaki",
+      "french-onion-soup",
+      "mushroom-risotto",
+      "no-knead-sourdough",
+      "pad-thai",
+      "pho-bo",
+      "ratatouille",
+      "seafood-paella",
+      "shepherds-pie",
+      "shoyu-ramen",
+      "smash-burger",
+      "spaghetti-aglio-e-olio",
+      "spanish-tortilla"
+    ],
+    "cutting-board": [
+      "authentic-carbonara",
+      "baja-fish-tacos",
+      "beef-bourguignon",
+      "bibimbap",
+      "butter-chicken",
+      "carnitas",
+      "chana-masala",
+      "chicken-katsu-curry",
+      "chicken-noodle-soup",
+      "chicken-shawarma",
+      "chicken-souvlaki",
+      "french-onion-soup",
+      "mushroom-risotto",
+      "pad-thai",
+      "pho-bo",
+      "ratatouille",
+      "seafood-paella",
+      "shepherds-pie",
+      "shoyu-ramen",
+      "smash-burger",
+      "spaghetti-aglio-e-olio",
+      "spanish-tortilla"
+    ],
+    "mandoline": [
+      "spanish-tortilla"
+    ],
+    "box-grater": [
+      "authentic-carbonara",
+      "baked-mac-and-cheese"
+    ],
+    "microplane": [
+      "mushroom-risotto"
+    ],
+    "pepper-mill": [
+      "authentic-carbonara"
+    ],
+    "cast-iron-skillet": [
+      "baja-fish-tacos",
+      "bibimbap",
+      "butter-chicken",
+      "chicken-shawarma",
+      "falafel-tahini",
+      "smash-burger"
+    ],
+    "frying-pan": [
+      "authentic-carbonara",
+      "bibimbap",
+      "chana-masala",
+      "chicken-katsu-curry",
+      "mushroom-risotto",
+      "ratatouille",
+      "spaghetti-aglio-e-olio",
+      "spanish-tortilla"
+    ],
+    "dutch-oven": [
+      "beef-bourguignon",
+      "carnitas",
+      "french-onion-soup",
+      "no-knead-sourdough",
+      "shepherds-pie"
+    ],
+    "stockpot": [
+      "authentic-carbonara",
+      "baked-mac-and-cheese",
+      "chicken-noodle-soup",
+      "mushroom-risotto",
+      "pho-bo",
+      "ratatouille",
+      "shoyu-ramen",
+      "spaghetti-aglio-e-olio"
+    ],
+    "saucepan": [
+      "baked-mac-and-cheese",
+      "butter-chicken",
+      "chicken-katsu-curry",
+      "chocolate-lava-cake",
+      "creme-brulee",
+      "shoyu-ramen",
+      "tiramisu"
+    ],
+    "wok": [
+      "pad-thai"
+    ],
+    "paella-pan": [
+      "seafood-paella"
+    ],
+    "baking-dish": [
+      "baked-mac-and-cheese",
+      "creme-brulee",
+      "shepherds-pie"
+    ],
+    "ramekin": [
+      "chocolate-lava-cake",
+      "creme-brulee"
+    ],
+    "oven": [
+      "apple-pie",
+      "baked-mac-and-cheese",
+      "beef-bourguignon",
+      "carnitas",
+      "chicken-shawarma",
+      "chocolate-lava-cake",
+      "classic-margherita-pizza",
+      "creme-brulee",
+      "french-onion-soup",
+      "no-knead-sourdough",
+      "shepherds-pie"
+    ],
+    "stove": [
+      "seafood-paella"
+    ],
+    "grill": [
+      "chicken-souvlaki"
+    ],
+    "skewers": [
+      "chicken-souvlaki"
+    ],
+    "blowtorch": [
+      "creme-brulee"
+    ],
+    "thermometer": [
+      "baja-fish-tacos",
+      "chicken-katsu-curry",
+      "chicken-souvlaki",
+      "creme-brulee",
+      "falafel-tahini",
+      "no-knead-sourdough"
+    ],
+    "kitchen-scale": [
+      "apple-pie",
+      "classic-margherita-pizza",
+      "no-knead-sourdough"
+    ],
+    "measuring-cups": [],
+    "mixing-bowl": [
+      "apple-pie",
+      "authentic-carbonara",
+      "baja-fish-tacos",
+      "bibimbap",
+      "butter-chicken",
+      "chicken-shawarma",
+      "chicken-souvlaki",
+      "chocolate-lava-cake",
+      "classic-margherita-pizza",
+      "creme-brulee",
+      "falafel-tahini",
+      "no-knead-sourdough",
+      "pad-thai",
+      "spanish-tortilla",
+      "tiramisu"
+    ],
+    "whisk": [
+      "authentic-carbonara",
+      "baja-fish-tacos",
+      "baked-mac-and-cheese",
+      "chocolate-lava-cake",
+      "creme-brulee",
+      "tiramisu"
+    ],
+    "wooden-spoon": [
+      "beef-bourguignon",
+      "butter-chicken",
+      "chana-masala",
+      "chicken-noodle-soup",
+      "french-onion-soup",
+      "mushroom-risotto",
+      "ratatouille",
+      "seafood-paella",
+      "shepherds-pie"
+    ],
+    "spatula": [
+      "pad-thai",
+      "smash-burger",
+      "spanish-tortilla",
+      "tiramisu"
+    ],
+    "tongs": [
+      "carnitas",
+      "chicken-katsu-curry",
+      "chicken-souvlaki",
+      "shoyu-ramen",
+      "spaghetti-aglio-e-olio"
+    ],
+    "ladle": [
+      "beef-bourguignon",
+      "chicken-noodle-soup",
+      "french-onion-soup",
+      "mushroom-risotto",
+      "pho-bo",
+      "shoyu-ramen"
+    ],
+    "colander": [
+      "authentic-carbonara",
+      "baked-mac-and-cheese",
+      "chicken-noodle-soup",
+      "falafel-tahini",
+      "pad-thai",
+      "pho-bo",
+      "shoyu-ramen",
+      "spaghetti-aglio-e-olio"
+    ],
+    "fine-sieve": [
+      "beef-bourguignon",
+      "creme-brulee",
+      "pho-bo",
+      "shoyu-ramen",
+      "tiramisu"
+    ],
+    "spider": [
+      "falafel-tahini",
+      "pho-bo"
+    ],
+    "citrus-juicer": [
+      "apple-pie",
+      "baja-fish-tacos",
+      "chana-masala",
+      "chicken-souvlaki",
+      "falafel-tahini",
+      "pad-thai",
+      "seafood-paella"
+    ],
+    "mortar-pestle": [
+      "chana-masala",
+      "falafel-tahini"
+    ],
+    "bench-scraper": [
+      "classic-margherita-pizza",
+      "no-knead-sourdough",
+      "smash-burger"
+    ],
+    "pastry-brush": [
+      "apple-pie"
+    ],
+    "kitchen-twine": [
+      "beef-bourguignon"
+    ],
+    "potato-masher": [
+      "shepherds-pie"
+    ],
+    "meat-mallet": [
+      "chicken-katsu-curry"
+    ],
+    "rolling-pin": [
+      "apple-pie"
+    ],
+    "pie-dish": [
+      "apple-pie"
+    ],
+    "sheet-pan": [
+      "carnitas",
+      "chicken-shawarma",
+      "classic-margherita-pizza"
+    ],
+    "wire-rack": [
+      "baja-fish-tacos",
+      "chicken-katsu-curry"
+    ],
+    "pizza-stone": [
+      "classic-margherita-pizza"
+    ],
+    "food-processor": [
+      "falafel-tahini"
+    ],
+    "blender": [
+      "butter-chicken"
+    ],
+    "immersion-blender": [],
+    "stand-mixer": [],
+    "rice-cooker": [
+      "bibimbap",
+      "chicken-katsu-curry"
+    ]
+  }
+}

@@ -132,5 +132,59 @@
       "desc": "Korea's fermented chili paste, the sauce's backbone"
     }
   ],
-  "storage": "Namul refrigerate 3 days; gochujang sauce a month. Rice and eggs fresh each time. Assembled bowls should be eaten immediately — mixed bibimbap waits for no one."
+  "storage": "Namul refrigerate 3 days; gochujang sauce a month. Rice and eggs fresh each time. Assembled bowls should be eaten immediately — mixed bibimbap waits for no one.",
+  "equipment": [
+    {
+      "t": "rice-cooker"
+    },
+    {
+      "t": "frying-pan",
+      "n": "each vegetable cooks separately - yes, all of them, sorry"
+    },
+    {
+      "t": "cast-iron-skillet",
+      "n": "the dolsot's understudy, for the crackling rice bottom"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "mixing-bowl"
+    }
+  ],
+  "facts": {
+    "course": "Main — rice bowl",
+    "base": "mixed — vegetables, beef, egg",
+    "origin": "Jeonju, South Korea",
+    "first_recorded": "Late 1800s — first written down in the cookbook Siuijeonseo",
+    "name_means": "Literally 'mixed rice' (bibim = mixed, bap = rice). The recipe is the instruction manual for itself.",
+    "technique": "Every component cooked separately, mixed only at the table",
+    "heat": 2,
+    "budget": "$$",
+    "season": "Any — gochujang is all-weather",
+    "signature": "Toasted sesame, gochujang warmth, crackling stone-bowl rice",
+    "serve_at": "Hot, with a raw egg yolk you stir in yourself",
+    "pour": "Makgeolli, or barley tea if it is lunch",
+    "wiki": "https://en.wikipedia.org/wiki/Bibimbap"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chicken-katsu-curry",
+        "cluster": "rice-bowls"
+      }
+    ],
+    "cluster_note": "Bowls over rice where everything is cooked separately, then mixed at the table — by you, with intent.",
+    "similar": [
+      {
+        "s": "pad-thai",
+        "n": "mixed-at-the-table energy"
+      }
+    ]
+  }
 }

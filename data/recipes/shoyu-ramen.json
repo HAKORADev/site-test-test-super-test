@@ -130,5 +130,71 @@
       "desc": "Tare theory and broth clarity, tested at length"
     }
   ],
-  "storage": "Components, not assembled bowls: broth and tare refrigerate 4 days (freeze 3 months); marinated eggs keep 3 days and get progressively more seasoned; noodles only fresh."
+  "storage": "Components, not assembled bowls: broth and tare refrigerate 4 days (freeze 3 months); marinated eggs keep 3 days and get progressively more seasoned; noodles only fresh.",
+  "equipment": [
+    {
+      "t": "stockpot",
+      "n": "the broth is built in layers here"
+    },
+    {
+      "t": "fine-sieve",
+      "n": "strain before the tare goes in"
+    },
+    {
+      "t": "saucepan",
+      "n": "warms the tare and the toppings"
+    },
+    {
+      "t": "ladle"
+    },
+    {
+      "t": "colander",
+      "n": "noodles get their own water - never the broth's"
+    },
+    {
+      "t": "tongs"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Soup — noodle",
+    "base": "mixed — chicken broth, pork chashu, egg",
+    "origin": "Japan, via Chinese noodle shops",
+    "first_recorded": "1910 — Rairaiken opens in Tokyo and the Japanese ramen era begins",
+    "name_means": "Shoyu = soy sauce — the tare, the seasoning layer that names the whole bowl.",
+    "technique": "Layered broth + tare + noodles cooked separately, always",
+    "heat": 1,
+    "budget": "$$",
+    "season": "Any — but a cold night makes it spiritual",
+    "signature": "Clear amber broth, chashu fat, ajitama yolk",
+    "serve_at": "Scalding. Slurp — it is aeration, not rudeness",
+    "pour": "Cold lager, or nothing before the broth is gone",
+    "wiki": "https://en.wikipedia.org/wiki/Ramen"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chicken-noodle-soup",
+        "cluster": "noodle-soups"
+      },
+      {
+        "s": "pho-bo",
+        "cluster": "noodle-soups"
+      }
+    ],
+    "cluster_note": "Three answers to one question. Tokyo says soy and wheat; Hanoi says clarity and rice; your grandmother says chicken.",
+    "similar": [
+      {
+        "s": "french-onion-soup",
+        "n": "deep brown broths, opposite roads: charred layers vs slow caramel"
+      }
+    ]
+  }
 }

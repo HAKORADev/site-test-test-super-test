@@ -96,5 +96,58 @@
       "desc": "The national dish, from Spain's official tourism board"
     }
   ],
-  "storage": "Refrigerates 3 days; traditional Spanish bars leave it at room temperature all day, but home food-safety says chill it. Best eaten at room temperature — take it out 30 minutes before serving."
+  "storage": "Refrigerates 3 days; traditional Spanish bars leave it at room temperature all day, but home food-safety says chill it. Best eaten at room temperature — take it out 30 minutes before serving.",
+  "equipment": [
+    {
+      "t": "frying-pan",
+      "n": "nonstick or well-seasoned, 20-22 cm - the flip needs a plate larger than the pan and one deep breath"
+    },
+    {
+      "t": "mandoline",
+      "n": "potatoes at 3 mm, even; or a very calm knife"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "spatula"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Main — or tapa, or breakfast",
+    "base": "egg — with potato and onion",
+    "origin": "Spain — Basque Country and Navarra both claim it",
+    "first_recorded": "First written mention 1817; the Carlist-general legends are later decorations",
+    "name_means": "Tortilla here means 'little cake' — nothing to do with the Mexican kind, a fact learned by everyone once, awkwardly.",
+    "technique": "Low-slow potato confit, then the flip (one plate, one breath)",
+    "heat": 0,
+    "budget": "$",
+    "season": "Any — it is lunch, dinner and midnight alike",
+    "signature": "Silky potato interior, jammy center, olive oil richness",
+    "serve_at": "Room temperature — which is its superpower",
+    "pour": "Albariño, or nothing — tortilla travels alone",
+    "wiki": "https://en.wikipedia.org/wiki/Spanish_omelette"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "ratatouille",
+        "n": "Mediterranean patience, best at room temperature"
+      },
+      {
+        "s": "seafood-paella",
+        "n": "Spanish pan logic: shallow, confident, shared from the vessel"
+      }
+    ]
+  }
 }

@@ -121,5 +121,66 @@
       "desc": "The four-ingredient garlic emulsion that rules the wrap"
     }
   ],
-  "storage": "Marinated raw chicken keeps 2 days. Cooked meat 4 days refrigerated, 2 months frozen. Toum keeps a week refrigerated and gets hotter with age."
+  "storage": "Marinated raw chicken keeps 2 days. Cooked meat 4 days refrigerated, 2 months frozen. Toum keeps a week refrigerated and gets hotter with age.",
+  "equipment": [
+    {
+      "t": "mixing-bowl",
+      "n": "the marinade is seven layers deep"
+    },
+    {
+      "t": "oven",
+      "n": "fake the spit: stack the meat, roast hot, then broil"
+    },
+    {
+      "t": "sheet-pan",
+      "n": "the stacked tower roasts right on it"
+    },
+    {
+      "t": "cast-iron-skillet",
+      "n": "the final crisp in its own fat"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "shave it thin like the street vendors do"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Street food",
+    "base": "meat — chicken, spit-roasted",
+    "origin": "The Ottoman Levant — Bursa to Damascus to Beirut",
+    "first_recorded": "1870s — the rotating vertical spit (döner) is invented in Bursa",
+    "name_means": "From Turkish çevirme, 'turning'. The Arabic word took the trip and stayed.",
+    "technique": "Layered yogurt-spice marinade, stacked roast, razor shavings",
+    "heat": 2,
+    "budget": "$",
+    "season": "Any — it is a street, streets do not close",
+    "signature": "Turmeric-turmeric-turmeric, garlic toum, charred edges",
+    "serve_at": "Wrapped tight, eaten leaning over paper",
+    "pour": "Ayran — the salted yogurt drink that cools everything down",
+    "wiki": "https://en.wikipedia.org/wiki/Shawarma"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chicken-souvlaki",
+        "cluster": "marinated-chicken"
+      }
+    ],
+    "cluster_note": "Same idea, two empires: the rotating shaved roast (Ottoman) versus the lemon-oregano skewer (Greek).",
+    "similar": [
+      {
+        "s": "falafel-tahini",
+        "n": "the street-wrap family: one plants, one shaves"
+      },
+      {
+        "s": "butter-chicken",
+        "n": "yogurt-and-spice marinade logic, two empires"
+      }
+    ]
+  }
 }

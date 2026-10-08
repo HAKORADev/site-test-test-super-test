@@ -89,6 +89,18 @@ def slugify(s):
 def rel(depth):
     return "../" * depth
 
+def heat_bucket(h):
+    if h >= 3: return "spicy"
+    if h >= 1: return "gentle"
+    return "none"
+
+def heat_dots(h):
+    label = {0: "no heat", 1: "a whisper", 2: "gentle", 3: "warm", 4: "proper spicy"}.get(h, "inferno")
+    return "●" * h + "○" * (5 - h), label
+
+def base_axis(base):
+    return base.split(" — ")[0].strip().lower() if " — " in base else base.strip().lower()
+
 def fmt_time(mins):
     if mins is None:
         return "—"
@@ -102,7 +114,8 @@ def fmt_time(mins):
 def recipe_card(r, p=""):
     img = r["hero_image"]
     tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in r["tags"][:3])
-    return f'''<a class="card recipe-card" href="{p}recipe/{r['slug']}.html" data-genre="{esc(r['genre'])}" data-tags="{esc(','.join(r['tags']))}" data-title="{esc(r['title'].lower())}">
+    facts = r.get("facts", {})
+    return f'''<a class="card recipe-card" href="{p}recipe/{r['slug']}.html" data-genre="{esc(r['genre'])}" data-tags="{esc(','.join(r['tags']))}" data-title="{esc(r['title'].lower())}" data-base="{esc(base_axis(facts.get('base','')))}" data-heat="{heat_bucket(facts.get('heat', 0))}" data-budget="{esc(facts.get('budget','$'))}">
   <div class="card-media"><img src="{esc(p)}{esc(img)}" alt="{esc(r['title'])}" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">{esc(r['genre'])}</div>
@@ -134,7 +147,7 @@ def head(title, desc, depth, og_image=None, extra_css="", page_class=""):
 
 def nav(depth, active=""):
     p = rel(depth)
-    items = [("index.html", "Home", "home"), ("recipes.html", "All Recipes", "recipes"), ("collections.html", "Collections", "collections"), ("search.html", "Search", "search"), ("about.html", "About", "about")]
+    items = [("index.html", "Home", "home"), ("recipes.html", "All Recipes", "recipes"), ("collections.html", "Collections", "collections"), ("kitchen.html", "The Tool Wall", "kitchen"), ("search.html", "Search", "search"), ("about.html", "About", "about")]
     links = "".join(f'<a href="{p}{href}" class="{"active" if key == active else ""}">{label}</a>' for href, label, key in items)
     return f'''<header class="site-header" id="siteHeader">
   <div class="wrap nav-wrap">
@@ -171,6 +184,7 @@ def footer(depth):
     <div class="footer-col">
       <h4>Kitchen</h4>
       <a href="{p}recipes.html">All recipes</a>
+      <a href="{p}kitchen.html">The tool wall</a>
       <a href="{p}search.html">Search the pantry</a>
       <a href="{p}about.html">About this test</a>
       <a href="{REPO_URL}" target="_blank" rel="noopener">Source on GitHub ↗</a>

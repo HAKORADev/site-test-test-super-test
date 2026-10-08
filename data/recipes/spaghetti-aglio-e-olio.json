@@ -98,5 +98,60 @@
       "desc": "Why pasta water is the secret ingredient"
     }
   ],
-  "storage": "It will not be good tomorrow — this dish has a fifteen-minute lifespan. Make exactly as much as you will eat."
+  "storage": "It will not be good tomorrow — this dish has a fifteen-minute lifespan. Make exactly as much as you will eat.",
+  "equipment": [
+    {
+      "t": "stockpot"
+    },
+    {
+      "t": "frying-pan",
+      "n": "cold pan, cold garlic - low heat is the entire game"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "garlic sliced, never pressed"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "tongs",
+      "n": "toss in the pan, pasta water still dripping"
+    },
+    {
+      "t": "colander"
+    }
+  ],
+  "facts": {
+    "course": "Main — pasta",
+    "base": "grain — pasta with garlic and olive oil",
+    "origin": "Naples, Italy — la cucina povera",
+    "first_recorded": "Cooked for centuries before it was written down; printed recipes only settle in the 19th–20th century",
+    "name_means": "Literally 'garlic and oil'. The recipe is the menu.",
+    "technique": "Infusing oil, never burning garlic, emulsion nerve",
+    "heat": 1,
+    "budget": "$",
+    "season": "Midnight, year-round",
+    "signature": "Golden garlic, peperoncino bite, olive oil silk",
+    "serve_at": "Twice out of the pan — it waits for no one either",
+    "pour": "Chianti, or the last of whatever is open",
+    "wiki": "https://en.wikipedia.org/wiki/Aglio_e_olio"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "authentic-carbonara",
+        "cluster": "roman-pasta"
+      }
+    ],
+    "cluster_note": "Roman pasta logic: no sauce, just emulsion. Fat, starch, water, nerve.",
+    "similar": [
+      {
+        "s": "pad-thai",
+        "n": "hot fat, garlic, noodles — Naples and Bangkok agree"
+      }
+    ]
+  }
 }

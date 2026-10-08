@@ -117,5 +117,64 @@
       "desc": "The taxonomy of Mexico's greatest export"
     }
   ],
-  "storage": "Refrigerates 5 days, freezes 3 months. Always re-crisp under the broiler or in a hot skillet — microwaved carnitas are a betrayal."
+  "storage": "Refrigerates 5 days, freezes 3 months. Always re-crisp under the broiler or in a hot skillet — microwaved carnitas are a betrayal.",
+  "equipment": [
+    {
+      "t": "dutch-oven",
+      "n": "lard, orange, patience - the confit happens here"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "sheet-pan",
+      "n": "the crisping finale under the broiler"
+    },
+    {
+      "t": "oven"
+    },
+    {
+      "t": "tongs",
+      "n": "pull the pork apart, do not shred it politely"
+    }
+  ],
+  "facts": {
+    "course": "Main / street food",
+    "base": "meat — pork shoulder",
+    "origin": "Michoacán, Mexico",
+    "first_recorded": "Colonial era — copper pots, rendered lard, whole villages' Sunday plans",
+    "name_means": "'Little meats' — the pork is confited in big pieces then broken small.",
+    "technique": "Lard confit, then a hard crisp under the broiler",
+    "heat": 1,
+    "budget": "$",
+    "season": "Any — taco night has no season",
+    "signature": "Deep pork richness, orange brightness, edges like candy",
+    "serve_at": "In warm tortillas with salsa, immediately",
+    "pour": "Michelada, or horchata for the afternoon shift",
+    "wiki": "https://en.wikipedia.org/wiki/Carnitas"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "baja-fish-tacos",
+        "cluster": "taco-school"
+      }
+    ],
+    "cluster_note": "Two taco philosophies from one country: slow lard-confited pork versus tempura-crunch fish.",
+    "similar": [
+      {
+        "s": "smash-burger",
+        "n": "crust is the point — both fried in their own fat"
+      },
+      {
+        "s": "beef-bourguignon",
+        "n": "slow fat, two continents: wine braise vs lard confit"
+      }
+    ]
+  }
 }

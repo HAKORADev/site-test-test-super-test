@@ -112,5 +112,65 @@
       "desc": "Stirred vs. no-stir methods, tested side by side"
     }
   ],
-  "storage": "Risotto waits for nobody at the table, and does not reheat well as risotto. Do chill leftovers and fry them as arancini or patties the next day."
+  "storage": "Risotto waits for nobody at the table, and does not reheat well as risotto. Do chill leftovers and fry them as arancini or patties the next day.",
+  "equipment": [
+    {
+      "t": "frying-pan",
+      "n": "wide and heavy - the rice wants a shallow lake"
+    },
+    {
+      "t": "stockpot",
+      "n": "the stock stays steaming on the next burner"
+    },
+    {
+      "t": "ladle",
+      "n": "one circle of stock at a time"
+    },
+    {
+      "t": "wooden-spoon",
+      "n": "the official tool of risotto"
+    },
+    {
+      "t": "microplane",
+      "n": "parmesan snow, grated at the last second"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Main — risotto",
+    "base": "plant — mushrooms over rice and butter",
+    "origin": "Northern Italy — Milan and the Po valley",
+    "first_recorded": "1574 — the saffron-stained Duomo glassworker legend in Milan; codified by the 19th century",
+    "name_means": "Risotto from riso, rice — the dish named after the grain it worships.",
+    "technique": "Starch cultivation: toast, ladle, stir, never rush",
+    "heat": 0,
+    "budget": "$$",
+    "season": "Autumn — porcini season, obviously",
+    "signature": "Roasted mushroom depth, parmesan, all'onda wave",
+    "serve_at": "All'onda — it should ripple when you shake the plate",
+    "pour": "Gavi, or Barbera if the mushrooms were wild",
+    "wiki": "https://en.wikipedia.org/wiki/Risotto"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "seafood-paella",
+        "cluster": "rice-cookery"
+      }
+    ],
+    "cluster_note": "Two rice schools that share a border: the north stirs starch in; Valencia leaves it alone until it crackles.",
+    "similar": [
+      {
+        "s": "french-onion-soup",
+        "n": "the stirring school: meditation with a spoon"
+      }
+    ]
+  }
 }

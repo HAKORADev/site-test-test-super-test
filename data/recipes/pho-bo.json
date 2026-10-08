@@ -135,5 +135,63 @@
       "desc": "Broth clarity techniques, tested exhaustively"
     }
   ],
-  "storage": "Broth refrigerates 4 days / freezes 3 months. Assemble bowls fresh every time; noodles and herbs never live in the broth."
+  "storage": "Broth refrigerates 4 days / freezes 3 months. Assemble bowls fresh every time; noodles and herbs never live in the broth.",
+  "equipment": [
+    {
+      "t": "stockpot",
+      "n": "the four-hour clarity marathon"
+    },
+    {
+      "t": "fine-sieve",
+      "n": "skim, then strain - a cloudy broth is a lost argument"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "freeze the eye round 30 minutes, slice paper-thin"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "ladle"
+    },
+    {
+      "t": "spider",
+      "n": "blanch the noodles in seconds"
+    },
+    {
+      "t": "colander"
+    }
+  ],
+  "facts": {
+    "course": "Soup — noodle",
+    "base": "meat — beef, clear-brothed",
+    "origin": "Hanoi, Vietnam",
+    "first_recorded": "c. 1900–1910 — street stalls in Hanoi, with French colonial beef demand in the background",
+    "name_means": "Pronounced 'fuh?' — theories run from French feu (pot-au-feu) to the cry of vendors. Nobody knows. Slurp anyway.",
+    "technique": "Clarity above all: parboil, skim, char the aromatics",
+    "heat": 2,
+    "budget": "$$",
+    "season": "Any — breakfast in Hanoi is 5 AM",
+    "signature": "Star anise, charred ginger, Thai basil on top",
+    "serve_at": "With the plate of herbs to build as you go",
+    "pour": "Jasmine tea, or a bia hoi if it is that hour",
+    "wiki": "https://en.wikipedia.org/wiki/Pho"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chicken-noodle-soup",
+        "cluster": "noodle-soups"
+      },
+      {
+        "s": "shoyu-ramen",
+        "cluster": "noodle-soups"
+      }
+    ],
+    "cluster_note": "Three answers to one question. Tokyo says soy and wheat; Hanoi says clarity and rice; your grandmother says chicken.",
+    "similar": []
+  }
 }

@@ -110,5 +110,62 @@
       "desc": "The sponge finger's long diplomatic career"
     }
   ],
-  "storage": "Refrigerates 3 days (cocoa dusted fresh per serving). Freezes surprisingly well for a month — thaw overnight in the fridge. Do not reheat, obviously, and never needed."
+  "storage": "Refrigerates 3 days (cocoa dusted fresh per serving). Freezes surprisingly well for a month — thaw overnight in the fridge. Do not reheat, obviously, and never needed.",
+  "equipment": [
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "whisk",
+      "n": "or a hand mixer for the yolk ribbons"
+    },
+    {
+      "t": "saucepan",
+      "n": "the zabaglione, over simmering water"
+    },
+    {
+      "t": "spatula",
+      "n": "fold, do not stir"
+    },
+    {
+      "t": "fine-sieve",
+      "n": "the cocoa snowfall at the end"
+    }
+  ],
+  "facts": {
+    "course": "Dessert",
+    "base": "dairy — mascarpone, eggs, coffee-soaked savoiardi",
+    "origin": "Treviso, Italy",
+    "first_recorded": "1969–72 — Le Beccherie restaurant; the Cannella/Carminati claims came later",
+    "name_means": "'Pick me up' (tirami sù) — the most literal dessert name in Italy.",
+    "technique": "Zabaglione + fold + overnight rest — build, chill, wait",
+    "heat": 0,
+    "budget": "$$",
+    "season": "Any — better tomorrow anyway",
+    "signature": "Espresso-soaked layers, cocoa dust, cloud-light mascarpone",
+    "serve_at": "Cold, sliced with a clean knife, next day ideally",
+    "pour": "A double espresso, obviously — commit to the theme",
+    "wiki": "https://en.wikipedia.org/wiki/Tiramisu"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chocolate-lava-cake",
+        "cluster": "dessert-finale"
+      },
+      {
+        "s": "creme-brulee",
+        "cluster": "dessert-finale"
+      }
+    ],
+    "cluster_note": "The restaurant-dessert finale, three ways: underbake on purpose, torch at the table, or assemble a day early and act casual.",
+    "similar": [
+      {
+        "s": "apple-pie",
+        "n": "make-ahead desserts that taste better tomorrow"
+      }
+    ]
+  }
 }

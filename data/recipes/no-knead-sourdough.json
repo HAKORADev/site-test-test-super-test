@@ -101,5 +101,74 @@
       "desc": "The 2006 recipe that started it all (NYT Cooking)"
     }
   ],
-  "storage": "Crusty bread has a short life: 1 day at peak, 2 days good. Never refrigerate — it stales faster in the fridge. Freeze halves sliced, toast straight from frozen to resurrect."
+  "storage": "Crusty bread has a short life: 1 day at peak, 2 days good. Never refrigerate — it stales faster in the fridge. Freeze halves sliced, toast straight from frozen to resurrect.",
+  "equipment": [
+    {
+      "t": "kitchen-scale",
+      "n": "baker's percentages - flour is math"
+    },
+    {
+      "t": "mixing-bowl",
+      "n": "one bowl, one day"
+    },
+    {
+      "t": "bench-scraper",
+      "n": "folds and shaping without sticking"
+    },
+    {
+      "t": "thermometer",
+      "n": "dough at 24 C is the target; the kitchen is your incubator"
+    },
+    {
+      "t": "dutch-oven",
+      "n": "the bread oven inside your oven"
+    },
+    {
+      "t": "oven"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "score the loaf - confident, one centimeter deep"
+    }
+  ],
+  "facts": {
+    "course": "Bread",
+    "base": "grain — flour, water, salt, time",
+    "origin": "Ancient Egypt by lineage; this exact recipe is 2006 New York",
+    "first_recorded": "Bread itself: ~3000 BC Egypt. The no-knead method: Jim Lahey, 2006, front page of the New York Times dining section",
+    "name_means": "The name is the recipe: no kneading. The dough does the work while you sleep.",
+    "technique": "Wild-yeast fermentation, long autolyse, Dutch-oven steam",
+    "heat": 0,
+    "budget": "$",
+    "season": "Any — the starter never rests",
+    "signature": "Crackled crust, lactic sourness, open crumb",
+    "serve_at": "Cooled at least an hour — cutting early is a crime scene",
+    "pour": "Salted butter, standing by",
+    "wiki": "https://en.wikipedia.org/wiki/Sourdough"
+  },
+  "relations": {
+    "used_in": [
+      {
+        "s": "french-onion-soup",
+        "n": "thick slices under the gruyère — the soup's crouton, engineered"
+      },
+      {
+        "s": "chicken-noodle-soup",
+        "n": "the official dunker — technically a side, spiritually required"
+      }
+    ],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "apple-pie",
+        "n": "dough confidence: flour, patience, and a hot oven"
+      },
+      {
+        "s": "classic-margherita-pizza",
+        "n": "the fermentation culture club"
+      }
+    ]
+  }
 }

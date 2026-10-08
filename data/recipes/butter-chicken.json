@@ -121,5 +121,67 @@
       "desc": "The parent dish from which it was rescued"
     }
   ],
-  "storage": "Refrigerates 4 days and freezes 2 months; reheats beautifully with a splash of water. Like all curry-house dishes, day two is arguably the peak."
+  "storage": "Refrigerates 4 days and freezes 2 months; reheats beautifully with a splash of water. Like all curry-house dishes, day two is arguably the peak.",
+  "equipment": [
+    {
+      "t": "mixing-bowl",
+      "n": "the yogurt marinade, overnight"
+    },
+    {
+      "t": "cast-iron-skillet",
+      "n": "char the chicken hard first - the smoke spots are flavor"
+    },
+    {
+      "t": "blender",
+      "n": "the sauce must be silk, not texture"
+    },
+    {
+      "t": "saucepan"
+    },
+    {
+      "t": "wooden-spoon"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Main — curry",
+    "base": "meat — chicken, tandoor-adjacent",
+    "origin": "Delhi, India",
+    "first_recorded": "1950s — Moti Mahal restaurant, tandoori chicken rescued by tomato-butter gravy",
+    "name_means": "Murgh makhani — 'butter chicken', named with characteristic directness.",
+    "technique": "Marinade → hard char → silk sauce → a finish of cream and butter",
+    "heat": 2,
+    "budget": "$$",
+    "season": "Any — this is monsoon and blizzard food alike",
+    "signature": "Tandoori char, tomato-tikka sweetness, fenugreek finish",
+    "serve_at": "With naan positioned like a shovel",
+    "pour": "Off-dry Riesling — the classic argument-winner",
+    "wiki": "https://en.wikipedia.org/wiki/Butter_chicken"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chana-masala",
+        "cluster": "gravies"
+      },
+      {
+        "s": "chicken-katsu-curry",
+        "cluster": "gravies"
+      }
+    ],
+    "cluster_note": "The gravy drawer: three kitchens that independently decided rice is a vehicle for sauce.",
+    "similar": [
+      {
+        "s": "chicken-shawarma",
+        "n": "yogurt-and-spice marinade logic, two empires"
+      }
+    ]
+  }
 }

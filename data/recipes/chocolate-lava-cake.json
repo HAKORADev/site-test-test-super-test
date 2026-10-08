@@ -110,5 +110,56 @@
       "desc": "Bake-time diagrams and the frozen-core technique"
     }
   ],
-  "storage": "There is no storage. This is a fresh-bake dessert by definition. The batter (in ramekins) keeps refrigerated a day, and that is the whole point."
+  "storage": "There is no storage. This is a fresh-bake dessert by definition. The batter (in ramekins) keeps refrigerated a day, and that is the whole point.",
+  "equipment": [
+    {
+      "t": "ramekin",
+      "n": "buttered and sugared like you mean it - this is the escape route"
+    },
+    {
+      "t": "saucepan",
+      "n": "melt the chocolate gently, or a bowl over it"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "whisk"
+    },
+    {
+      "t": "oven",
+      "n": "12 minutes at 200 C - the recipe is a stopwatch"
+    }
+  ],
+  "facts": {
+    "course": "Dessert",
+    "base": "dairy — chocolate, butter, eggs",
+    "origin": "France (Michel Bras) and New York — parallel claims",
+    "first_recorded": "1981–87 — Bras' frozen-ganache coulant; NYC chefs claim the same idea independently",
+    "name_means": "Bras called his a coulant — 'flowing'. Americans went with what they saw.",
+    "technique": "Underbake on purpose: set walls, liquid center",
+    "heat": 0,
+    "budget": "$$",
+    "season": "Any — restaurant desserts ignore seasons",
+    "signature": "Bittersweet molten center, barely-set crumb",
+    "serve_at": "Within four minutes, or not at all",
+    "pour": "Cold milk, or an espresso if you are pretending it is late",
+    "wiki": "https://en.wikipedia.org/wiki/Chocolate_lava_cake"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "creme-brulee",
+        "cluster": "dessert-finale"
+      },
+      {
+        "s": "tiramisu",
+        "cluster": "dessert-finale"
+      }
+    ],
+    "cluster_note": "The restaurant-dessert finale, three ways: underbake on purpose, torch at the table, or assemble a day early and act casual.",
+    "similar": []
+  }
 }

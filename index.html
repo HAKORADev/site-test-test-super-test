@@ -23,7 +23,7 @@
       <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
       <span class="logo-word">Salt <em>&amp;</em> Ember</span>
     </a>
-    <nav class="nav-links"><a href="index.html" class="active">Home</a><a href="recipes.html" class="">All Recipes</a><a href="collections.html" class="">Collections</a><a href="search.html" class="">Search</a><a href="about.html" class="">About</a></nav>
+    <nav class="nav-links"><a href="index.html" class="active">Home</a><a href="recipes.html" class="">All Recipes</a><a href="collections.html" class="">Collections</a><a href="kitchen.html" class="">The Tool Wall</a><a href="search.html" class="">Search</a><a href="about.html" class="">About</a></nav>
     <div class="nav-actions">
       <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
       <form class="nav-search" action="search.html" method="get">
@@ -84,7 +84,7 @@
 
 <section class="wrap home-section">
 <div class="section-head"><h2>From the kitchen</h2><a class="see-all" href="recipes.html">All recipes →</a></div>
-<div class="card-grid"><a class="card recipe-card" href="recipe/beef-bourguignon.html" data-genre="French Bistro" data-tags="one-pot,comfort,make-ahead,weekend-project" data-title="beef bourguignon">
+<div class="card-grid"><a class="card recipe-card" href="recipe/beef-bourguignon.html" data-genre="French Bistro" data-tags="one-pot,comfort,make-ahead,weekend-project" data-title="beef bourguignon" data-base="meat" data-heat="none" data-budget="$$$">
   <div class="card-media"><img src="assets/img/beef-bourguignon-1.jpg" alt="Beef Bourguignon" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">French Bistro</div>
@@ -93,7 +93,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 3 hr 30 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">one-pot</span><span class="tag">comfort</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/chocolate-lava-cake.html" data-genre="Sweet &amp; Baked" data-tags="dessert,quick,crowd-pleaser" data-title="chocolate lava cake">
+</a><a class="card recipe-card" href="recipe/chocolate-lava-cake.html" data-genre="Sweet &amp; Baked" data-tags="dessert,quick,crowd-pleaser" data-title="chocolate lava cake" data-base="dairy" data-heat="none" data-budget="$$">
   <div class="card-media"><img src="assets/img/chocolate-lava-cake-1.jpg" alt="Chocolate Lava Cake" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Sweet &amp; Baked</div>
@@ -102,7 +102,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 30 min</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">dessert</span><span class="tag">quick</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/classic-margherita-pizza.html" data-genre="Italian Classics" data-tags="vegetarian,weekend-project,crowd-pleaser,cheesy" data-title="classic margherita pizza">
+</a><a class="card recipe-card" href="recipe/classic-margherita-pizza.html" data-genre="Italian Classics" data-tags="vegetarian,weekend-project,crowd-pleaser,cheesy" data-title="classic margherita pizza" data-base="plant" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/classic-margherita-pizza-1.jpg" alt="Classic Margherita Pizza" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Italian Classics</div>
@@ -111,7 +111,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 4-24 hrs (dough rests)</span><span class="meta-item">◆ Medium</span></div>
     <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">weekend-project</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/pho-bo.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,make-ahead" data-title="pho bo">
+</a><a class="card recipe-card" href="recipe/pho-bo.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,make-ahead" data-title="pho bo" data-base="meat" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/pho-bo-1.jpg" alt="Pho Bo" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -120,7 +120,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 5 hrs (mostly unattended)</span><span class="meta-item">◆ Project</span></div>
     <div class="card-tags"><span class="tag">weekend-project</span><span class="tag">comfort</span><span class="tag">make-ahead</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/shoyu-ramen.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,crowd-pleaser" data-title="shoyu ramen">
+</a><a class="card recipe-card" href="recipe/shoyu-ramen.html" data-genre="Asian Kitchen" data-tags="weekend-project,comfort,crowd-pleaser" data-title="shoyu ramen" data-base="mixed" data-heat="gentle" data-budget="$$">
   <div class="card-media"><img src="assets/img/shoyu-ramen-1.jpg" alt="Shoyu Ramen" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Asian Kitchen</div>
@@ -129,7 +129,7 @@
     <div class="card-meta"><span class="meta-item">⏱ 4 hrs (worth it)</span><span class="meta-item">◆ Project</span></div>
     <div class="card-tags"><span class="tag">weekend-project</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
   </div>
-</a><a class="card recipe-card" href="recipe/smash-burger.html" data-genre="Street Food" data-tags="quick,crowd-pleaser,budget,comfort" data-title="smash burger">
+</a><a class="card recipe-card" href="recipe/smash-burger.html" data-genre="Street Food" data-tags="quick,crowd-pleaser,budget,comfort" data-title="smash burger" data-base="meat" data-heat="none" data-budget="$">
   <div class="card-media"><img src="assets/img/smash-burger-1.jpg" alt="Smash Burger" loading="lazy"></div>
   <div class="card-body">
     <div class="card-genre">Street Food</div>
@@ -159,6 +159,7 @@
     <div class="footer-col">
       <h4>Kitchen</h4>
       <a href="recipes.html">All recipes</a>
+      <a href="kitchen.html">The tool wall</a>
       <a href="search.html">Search the pantry</a>
       <a href="about.html">About this test</a>
       <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>

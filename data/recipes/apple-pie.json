@@ -125,5 +125,65 @@
       "desc": "Why pre-cooking the filling fixes sog bottoms and gaps"
     }
   ],
-  "storage": "Room temperature 2 days under a dome, refrigerate after — re-crisp slices in a 180°C / 350°F oven for 10 minutes. Baked pie freezes 3 months; thaw and re-crisp."
+  "storage": "Room temperature 2 days under a dome, refrigerate after — re-crisp slices in a 180°C / 350°F oven for 10 minutes. Baked pie freezes 3 months; thaw and re-crisp.",
+  "equipment": [
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "kitchen-scale",
+      "n": "butter and flour by weight - crust is math"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "citrus-juicer",
+      "n": "the lemon keeps the apples from browning"
+    },
+    {
+      "t": "rolling-pin"
+    },
+    {
+      "t": "pie-dish"
+    },
+    {
+      "t": "pastry-brush",
+      "n": "egg wash for the lacquered top"
+    },
+    {
+      "t": "oven"
+    }
+  ],
+  "facts": {
+    "course": "Dessert",
+    "base": "plant — orchard fruit under wheat",
+    "origin": "England, then everywhere",
+    "first_recorded": "1381 — a printed recipe in The Forme of Cury",
+    "name_means": "Exactly what it says. The honesty is the point.",
+    "technique": "Blind bake the bottom, thicken the filling, vent the roof",
+    "heat": 0,
+    "budget": "$",
+    "season": "Autumn — pie weather",
+    "signature": "Cinnamon, butter pastry, apples holding their shape",
+    "serve_at": "Warm, with cold cream running into the gap",
+    "pour": "Hot coffee, or cold cider if you have it",
+    "wiki": "https://en.wikipedia.org/wiki/Apple_pie"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "no-knead-sourdough",
+        "n": "dough confidence: flour, patience, and a hot oven"
+      },
+      {
+        "s": "tiramisu",
+        "n": "make-ahead desserts that taste better tomorrow"
+      }
+    ]
+  }
 }

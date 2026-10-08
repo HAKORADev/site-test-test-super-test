@@ -100,5 +100,70 @@
       "desc": "Set temperatures and water-bath physics, tested"
     }
   ],
-  "storage": "Custards keep refrigerated 3 days before torching. Torched and cracked — eat immediately; the glass top weeps within the hour."
+  "storage": "Custards keep refrigerated 3 days before torching. Torched and cracked — eat immediately; the glass top weeps within the hour.",
+  "equipment": [
+    {
+      "t": "saucepan",
+      "n": "scald the cream - it changes the proteins, really"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "whisk"
+    },
+    {
+      "t": "fine-sieve",
+      "n": "strain the custard. Always. No witnesses needed"
+    },
+    {
+      "t": "ramekin"
+    },
+    {
+      "t": "baking-dish",
+      "n": "the water bath - hot but not boiling"
+    },
+    {
+      "t": "oven"
+    },
+    {
+      "t": "thermometer",
+      "n": "custard sets at 80 C; above that, it weeps"
+    },
+    {
+      "t": "blowtorch",
+      "n": "the finale - 5 cm from the sugar, keep it moving"
+    }
+  ],
+  "facts": {
+    "course": "Dessert",
+    "base": "dairy — cream, egg yolks, sugar",
+    "origin": "France, England and Catalonia — all three claim it",
+    "first_recorded": "1691 — Massialot's cookbook; Trinity College's 'burnt cream' and crema catalana say otherwise",
+    "name_means": "'Burnt cream' — the one recipe where scorching is the finish line.",
+    "technique": "Water-bath custard, chilled overnight, torched to glass",
+    "heat": 0,
+    "budget": "$$",
+    "season": "Any — it is a candle-lit constant",
+    "signature": "Vanilla custard under shattering caramel glass",
+    "serve_at": "Cold center, hot lid — the 30-second window after the torch",
+    "pour": "Sauternes, the textbook answer that is also the right one",
+    "wiki": "https://en.wikipedia.org/wiki/Cr%C3%A8me_bru%C3%BBl%C3%A9e"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chocolate-lava-cake",
+        "cluster": "dessert-finale"
+      },
+      {
+        "s": "tiramisu",
+        "cluster": "dessert-finale"
+      }
+    ],
+    "cluster_note": "The restaurant-dessert finale, three ways: underbake on purpose, torch at the table, or assemble a day early and act casual.",
+    "similar": []
+  }
 }

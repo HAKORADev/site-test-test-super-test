@@ -107,5 +107,71 @@
       "desc": "Caramelization stages photographed and timed"
     }
   ],
-  "storage": "Soup base refrigerates 4-5 days, freezes 3 months. Gratinéed bowls do not keep — assemble those fresh per serving."
+  "storage": "Soup base refrigerates 4-5 days, freezes 3 months. Gratinéed bowls do not keep — assemble those fresh per serving.",
+  "equipment": [
+    {
+      "t": "dutch-oven",
+      "n": "45 minutes of onions - the pot forgives everything"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "wooden-spoon",
+      "n": "stir the fond loose, that brown glaze is the dish"
+    },
+    {
+      "t": "oven"
+    },
+    {
+      "t": "ladle"
+    }
+  ],
+  "facts": {
+    "course": "Soup",
+    "base": "plant — onions, hours of them",
+    "origin": "Paris — Les Halles, the old belly of the city",
+    "first_recorded": "1651 — La Varenne prints an onion soup; Les Halles market workers made it a religion",
+    "name_means": "Soupe à l'oignon. It never needed a fancier name.",
+    "technique": "Deep caramelization (45+ min), deglaze, gratinéed lid",
+    "heat": 0,
+    "budget": "$",
+    "season": "Late autumn through the last frost",
+    "signature": "Dark amber sweetness, beef depth, molten gruyère lid",
+    "serve_at": "Under the cheese lid, with a spoon that reaches the bottom",
+    "pour": "Côtes du Rhône, rustic and unbothered",
+    "wiki": "https://en.wikipedia.org/wiki/French_onion_soup"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [
+      {
+        "s": "no-knead-sourdough",
+        "n": "thick slices under the gruyère — the soup's crouton, engineered"
+      }
+    ],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "shoyu-ramen",
+        "n": "deep brown broths, opposite roads: charred layers vs slow caramel"
+      },
+      {
+        "s": "mushroom-risotto",
+        "n": "the stirring school: meditation with a spoon"
+      },
+      {
+        "s": "baked-mac-and-cheese",
+        "n": "the cheese-lid club: golden tops with structural ambition"
+      },
+      {
+        "s": "chicken-noodle-soup",
+        "n": "restorative broths — one chicken, one onion"
+      }
+    ]
+  }
 }

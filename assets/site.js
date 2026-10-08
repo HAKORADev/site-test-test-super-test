@@ -114,7 +114,7 @@
     var input = $("#filterInput");
     var countEl = $("#filterCount");
     var clearBtn = $("#filterClear");
-    var state = { q: "", genre: null, tag: null };
+    var state = { q: "", genre: null, tag: null, base: null, heat: null, budget: null };
     var params = new URLSearchParams(window.location.search);
     if (params.get("q")) { state.q = params.get("q").toLowerCase(); input.value = params.get("q"); }
     if (params.get("genre")) state.genre = params.get("genre");
@@ -135,9 +135,20 @@
         apply();
       });
     });
+    [["base"], ["heat"], ["budget"]].forEach(function (kv) {
+      var key = kv[0];
+      $$(".meta-chip[data-" + key + "]").forEach(function (ch) {
+        if (ch.dataset[key] === state[key]) ch.classList.add("on");
+        ch.addEventListener("click", function () {
+          state[key] = state[key] === ch.dataset[key] ? null : ch.dataset[key];
+          $$(".meta-chip[data-" + key + "]").forEach(function (c) { c.classList.toggle("on", c.dataset[key] === state[key]); });
+          apply();
+        });
+      });
+    });
     input.addEventListener("input", function () { state.q = input.value.toLowerCase(); apply(); });
     clearBtn.addEventListener("click", function () {
-      state = { q: "", genre: null, tag: null };
+      state = { q: "", genre: null, tag: null, base: null, heat: null, budget: null };
       input.value = ""; $$(".chip.on").forEach(function (c) { c.classList.remove("on"); });
       apply();
     });
@@ -147,12 +158,15 @@
         var txt = card.textContent.toLowerCase();
         var ok = (!state.q || txt.indexOf(state.q) > -1) &&
                  (!state.genre || card.dataset.genre === state.genre) &&
-                 (!state.tag || ("," + card.dataset.tags + ",").indexOf("," + state.tag + ",") > -1);
+                 (!state.tag || ("," + card.dataset.tags + ",").indexOf("," + state.tag + ",") > -1) &&
+                 (!state.base || card.dataset.base === state.base) &&
+                 (!state.heat || card.dataset.heat === state.heat) &&
+                 (!state.budget || card.dataset.budget === state.budget);
         card.style.display = ok ? "" : "none";
         if (ok) shown++;
       });
       countEl.textContent = shown + " of " + cards.length + " recipes";
-      clearBtn.hidden = !(state.q || state.genre || state.tag);
+      clearBtn.hidden = !(state.q || state.genre || state.tag || state.base || state.heat || state.budget);
       var nr = $("#noResults");
       if (nr) nr.hidden = shown > 0;
     }
@@ -212,11 +226,12 @@
         resBox.innerHTML = current.slice(0, 12).map(function (r) {
           var firstWord = qlist[0] || "";
           var kick = highlight(r.kicker, firstWord);
+          var originLine = r.origin ? '<span>' + esc(r.origin.split(" — ")[0]) + '</span>' : '';
           return '<a class="sr-item" href="' + PREFIX + 'recipe/' + r.slug + '.html">' +
             '<img src="' + PREFIX + esc(r.img) + '" alt="">' +
             '<div><div class="sr-genre">' + esc(r.genre) + '</div><h3>' + highlight(r.title, firstWord) + '</h3>' +
             '<p>' + kick + '</p>' +
-            '<div class="sr-meta"><span>⏱ ' + esc(r.time_label) + '</span><span>◆ ' + esc(r.difficulty) + '</span>' +
+            '<div class="sr-meta"><span>⏱ ' + esc(r.time_label) + '</span><span>◆ ' + esc(r.difficulty) + '</span>' + originLine +
             r.tags.slice(0, 3).map(function (t) { return '<span>#' + esc(t) + '</span>'; }).join("") + '</div></div></a>';
         }).join("");
       });

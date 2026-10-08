@@ -131,5 +131,64 @@
       "desc": "Wok technique and tamarind sourcing, tested"
     }
   ],
-  "storage": "Best eaten within minutes. The sauce base keeps 3 weeks refrigerated — make a jar, and pad thai becomes a 10-minute weeknight habit."
+  "storage": "Best eaten within minutes. The sauce base keeps 3 weeks refrigerated — make a jar, and pad thai becomes a 10-minute weeknight habit.",
+  "equipment": [
+    {
+      "t": "wok",
+      "n": "hotter than you think; then hotter"
+    },
+    {
+      "t": "spatula",
+      "n": "toss, do not stir"
+    },
+    {
+      "t": "mixing-bowl",
+      "n": "sauce first - everything after is a sprint"
+    },
+    {
+      "t": "colander",
+      "n": "soak the noodles, never boil them"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "citrus-juicer",
+      "n": "lime at the table, not the wok"
+    }
+  ],
+  "facts": {
+    "course": "Main — noodles",
+    "base": "mixed — shrimp, egg, peanut over rice noodles",
+    "origin": "Thailand — a Bangkok government campaign that outlived the government",
+    "first_recorded": "1930s–40s — promoted nationally under PM Plaek Phibunsongkhram to build a Thai noodle identity",
+    "name_means": "Simply 'Thai-style stir-fry' — a nationalism project you can order in three minutes.",
+    "technique": "Sauce-first wok sprint: soak, toss, finish in seconds",
+    "heat": 1,
+    "budget": "$",
+    "season": "Any — Bangkok does not do seasons",
+    "signature": "Tamarind sour-sweet, fish sauce depth, peanut crunch",
+    "serve_at": "Chopped peanuts and lime at the table, mixed by the eater",
+    "pour": "Thai iced tea, or a Singha if the evening allows",
+    "wiki": "https://en.wikipedia.org/wiki/Pad_thai"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "spaghetti-aglio-e-olio",
+        "n": "hot fat, garlic, noodles — Naples and Bangkok agree"
+      },
+      {
+        "s": "bibimbap",
+        "n": "mixed-at-the-table energy"
+      }
+    ]
+  }
 }

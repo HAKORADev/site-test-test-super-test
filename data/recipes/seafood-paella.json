@@ -131,5 +131,60 @@
       "desc": "Crackled-rice science and pan sizing"
     }
   ],
-  "storage": "Paella is best within the hour. Refrigerate leftovers up to 2 days; reheat in a covered pan with a splash of stock — the socarrat softens, the flavor remains."
+  "storage": "Paella is best within the hour. Refrigerate leftovers up to 2 days; reheat in a covered pan with a splash of stock — the socarrat softens, the flavor remains.",
+  "equipment": [
+    {
+      "t": "paella-pan",
+      "n": "wide as your burner allows - rice in one layer, thin"
+    },
+    {
+      "t": "stove"
+    },
+    {
+      "t": "wooden-spoon",
+      "n": "a spoon you will deliberately not use once the stock goes in"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "citrus-juicer",
+      "n": "lemon wedges arrive at the end"
+    }
+  ],
+  "facts": {
+    "course": "Main — rice",
+    "base": "seafood — shrimp, mussels, squid",
+    "origin": "Valencia, Spain — the coastal cousin of the original",
+    "first_recorded": "19th century — rice paddies of the Albufera, cooked over orange-wood fires",
+    "name_means": "Paella is the Valencian word for the pan itself — from Latin patella. The dish is named after its stage.",
+    "technique": "Socarrat engineering: one layer, no stirring, listen for crackle",
+    "heat": 1,
+    "budget": "$$$",
+    "season": "Summer — outdoors, ideally with arguments about it",
+    "signature": "Saffron gold, smoked paprika, the crackled rice floor",
+    "serve_at": "Straight from the pan, everyone at their own wedge",
+    "pour": "Albariño, or Cava if there is something to celebrate",
+    "wiki": "https://en.wikipedia.org/wiki/Paella"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "mushroom-risotto",
+        "cluster": "rice-cookery"
+      }
+    ],
+    "cluster_note": "Two rice schools that share a border: the north stirs starch in; Valencia leaves it alone until it crackles.",
+    "similar": [
+      {
+        "s": "spanish-tortilla",
+        "n": "Spanish pan logic: shallow, confident, shared from the vessel"
+      }
+    ]
+  }
 }

@@ -137,5 +137,72 @@
       "desc": "Sesame paste's long history and its sauce physics"
     }
   ],
-  "storage": "Raw mix: 2 days refrigerated, 3 months frozen shaped. Fried falafel: best immediately, re-crisp in the oven next day. Tahini sauce: 5 days refrigerated, whisk back to life with water."
+  "storage": "Raw mix: 2 days refrigerated, 3 months frozen shaped. Fried falafel: best immediately, re-crisp in the oven next day. Tahini sauce: 5 days refrigerated, whisk back to life with water.",
+  "equipment": [
+    {
+      "t": "food-processor",
+      "n": "soaked chickpeas, never cooked - the machine makes the paste"
+    },
+    {
+      "t": "colander",
+      "n": "the overnight soak exits here"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "cast-iron-skillet",
+      "n": "2-3 cm of neutral oil"
+    },
+    {
+      "t": "thermometer",
+      "n": "175 C, and drop the dough in cold"
+    },
+    {
+      "t": "spider",
+      "n": "lift them out before the second crunch"
+    },
+    {
+      "t": "mortar-pestle",
+      "n": "garlic for the tahini sauce"
+    },
+    {
+      "t": "citrus-juicer"
+    }
+  ],
+  "facts": {
+    "course": "Street food",
+    "base": "plant — chickpeas and herbs, fried",
+    "origin": "Egypt; the Levant claims it too and neither will blink first",
+    "first_recorded": "1882 in an Egyptian cookbook; the oral history is older than print",
+    "name_means": "From Arabic falāfil — possibly a plural of filfil, 'pepper'. Small word, big argument.",
+    "technique": "Soaked (never cooked) chickpeas ground raw — the law of the dish",
+    "heat": 1,
+    "budget": "$",
+    "season": "Any — but Middle Eastern summer is its home turf",
+    "signature": "Herb-green interior, sesame crunch, garlic tahini",
+    "serve_at": "In pita with pickles, still cooling from the oil",
+    "pour": "Mint lemonade, heavily iced",
+    "wiki": "https://en.wikipedia.org/wiki/Falafel"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "chicken-shawarma",
+        "n": "the street-wrap family: one plants, one shaves"
+      },
+      {
+        "s": "chana-masala",
+        "n": "chickpeas, promoted to main character"
+      },
+      {
+        "s": "chicken-souvlaki",
+        "n": "eastern-Mediterranean street food: skewers vs croquettes"
+      }
+    ]
+  }
 }

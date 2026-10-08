@@ -136,5 +136,66 @@
       "desc": "The regional cuisine that produced it"
     }
   ],
-  "storage": "Everything stores separately: crema 5 days, slaw 1 day (it weeps), fried fish 2 days re-crisped. The assembled taco waits for exactly nobody."
+  "storage": "Everything stores separately: crema 5 days, slaw 1 day (it weeps), fried fish 2 days re-crisped. The assembled taco waits for exactly nobody.",
+  "equipment": [
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "cast-iron-skillet",
+      "n": "two fingers of oil - or any heavy pot"
+    },
+    {
+      "t": "thermometer",
+      "n": "oil at 180 C; guessing is how fish gets greasy"
+    },
+    {
+      "t": "wire-rack",
+      "n": "drain on air, never on paper towels"
+    },
+    {
+      "t": "whisk"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "citrus-juicer"
+    }
+  ],
+  "facts": {
+    "course": "Street food",
+    "base": "seafood — white fish, fried",
+    "origin": "Baja California, Mexico",
+    "first_recorded": "Mid-1900s Ensenada and Rosarito; Japanese immigrants brought the tempura crunch",
+    "name_means": "Named for the peninsula, not the fish — the fish is whatever came in that morning.",
+    "technique": "Tempura-style fry + cold crema against hot fish",
+    "heat": 2,
+    "budget": "$",
+    "season": "Summer, ideally within earshot of the Pacific",
+    "signature": "Crackling batter, lime, chipotle crema, cold cabbage",
+    "serve_at": "Standing up, within sixty seconds of frying",
+    "pour": "Lager with lime, or a very cold Pacifico",
+    "wiki": "https://en.wikipedia.org/wiki/Tacos_de_pescado"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "carnitas",
+        "cluster": "taco-school"
+      }
+    ],
+    "cluster_note": "Two taco philosophies from one country: slow lard-confited pork versus tempura-crunch fish.",
+    "similar": [
+      {
+        "s": "smash-burger",
+        "n": "hand food, napkin abandoned"
+      }
+    ]
+  }
 }

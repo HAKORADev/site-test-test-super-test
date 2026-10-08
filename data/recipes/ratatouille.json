@@ -109,5 +109,56 @@
       "desc": "Thomas Keller's spiral version that inspired the film"
     }
   ],
-  "storage": "Refrigerate 5 days — flavor peaks on day two. Freezes acceptably for 2 months, texture slightly softer on thaw. Serve at room temperature after reheating gently."
+  "storage": "Refrigerate 5 days — flavor peaks on day two. Freezes acceptably for 2 months, texture slightly softer on thaw. Serve at room temperature after reheating gently.",
+  "equipment": [
+    {
+      "t": "frying-pan",
+      "n": "each vegetable cooks separately - the church of ratatouille"
+    },
+    {
+      "t": "stockpot",
+      "n": "where they finally meet the tomato"
+    },
+    {
+      "t": "wooden-spoon"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "or a mandoline if you are doing the byaldi thing"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Main — vegetable stew",
+    "base": "plant — zucchini, eggplant, pepper, tomato",
+    "origin": "Nice, France",
+    "first_recorded": "18th century — the word ratatolha is older than any written recipe",
+    "name_means": "From Occitan ratatolha — related to touiller, 'to stir things up'.",
+    "technique": "Cook each vegetable separately, then marry them low and slow",
+    "heat": 0,
+    "budget": "$",
+    "season": "Summer — when the vegetables need no help",
+    "signature": "Olive oil gloss, basil, sweetness coaxed from nothing",
+    "serve_at": "Warm or room temperature — better the second day",
+    "pour": "Bandol rosé, cold",
+    "wiki": "https://en.wikipedia.org/wiki/Ratatouille"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "spanish-tortilla",
+        "n": "Mediterranean patience, best at room temperature"
+      },
+      {
+        "s": "chana-masala",
+        "n": "vegetables as the entire point"
+      }
+    ]
+  }
 }

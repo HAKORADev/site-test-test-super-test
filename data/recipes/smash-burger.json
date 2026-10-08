@@ -111,5 +111,61 @@
       "desc": "The browning chemistry your griddle is performing"
     }
   ],
-  "storage": "Smash burgers are a now-food. Leftover cooked patties keep 2 days and re-crisp in a skillet — but honestly, form the extra balls instead and smash fresh."
+  "storage": "Smash burgers are a now-food. Leftover cooked patties keep 2 days and re-crisp in a skillet — but honestly, form the extra balls instead and smash fresh.",
+  "equipment": [
+    {
+      "t": "cast-iron-skillet",
+      "n": "flat-top substitute; pre-heat until it just smokes"
+    },
+    {
+      "t": "spatula",
+      "n": "stiff, metal - you will smash with it"
+    },
+    {
+      "t": "bench-scraper",
+      "n": "the flip-and-scrape trick keeps the crust on the patty"
+    },
+    {
+      "t": "chefs-knife",
+      "n": "onion shaved to translucent whispers"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Street food",
+    "base": "meat — beef, smashed thin",
+    "origin": "American diners and drive-ins",
+    "first_recorded": "2000s — the crust became the point; the Smashburger brand arrived 2007 and the style went national",
+    "name_means": "Named after the verb. The whole technique is in the smash.",
+    "technique": "Maillard maximization: smash thin, scrape, flip once",
+    "heat": 0,
+    "budget": "$",
+    "season": "Any — it is diner food, diners have no season",
+    "signature": "Lacy beef crust, melted American, steam-softened onions",
+    "serve_at": "In the paper wrapper, slightly crushed on purpose",
+    "pour": "A vanilla milkshake — the correct answer",
+    "wiki": "https://en.wikipedia.org/wiki/Hamburger"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "carnitas",
+        "n": "crust is the point — both fried in their own fat"
+      },
+      {
+        "s": "chicken-katsu-curry",
+        "n": "the crunch is structural"
+      },
+      {
+        "s": "baja-fish-tacos",
+        "n": "hand food, napkin abandoned"
+      }
+    ]
+  }
 }

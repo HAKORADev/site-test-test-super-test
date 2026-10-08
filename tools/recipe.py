@@ -1,6 +1,7 @@
-from common import (esc, rel, fmt_time, GENRES, recipe_card, layout, SITE_URL, REPO_URL)
+from common import (esc, rel, fmt_time, GENRES, recipe_card, layout, SITE_URL, REPO_URL,
+                    heat_dots, base_axis)
 
-def build_recipe_page(r, all_recipes):
+def build_recipe_page(r, all_recipes, kitchen=None):
     depth = 1
     p = rel(depth)
     imgs = r["images"]
@@ -54,14 +55,90 @@ def build_recipe_page(r, all_recipes):
 <h2 class="section-title"><span>Pairs well with</span></h2>
 <div class="pair-grid">{pair_cards}</div>
 </section>'''
+    equipment_html = ""
+    eq = r.get("equipment", [])
+    if eq:
+        tool_cards = "".join(
+            f'''<a class="tool-link" href="{esc(kitchen['tools'][e['t']]['url'] if kitchen else '#')}" target="_blank" rel="noopener">
+<div class="tool-link-head"><span class="tool-name">{esc(kitchen['tools'][e['t']]['name'] if kitchen else e['t'])}</span><span class="tool-domain">wikipedia ↗</span></div>
+{('<p class="tool-note">' + esc(e['n']) + '</p>') if e.get('n') else ''}
+</a>'''
+            for e in eq)
+        equipment_html = f'''<section class="recipe-section" id="equipment">
+<h2 class="section-title"><span>The tool wall</span></h2>
+<p class="section-sub">Every tool this recipe leans on — click any tool for its full story. The whole catalog lives on <a href="{p}kitchen.html">the Tool Wall</a>.</p>
+<div class="equip-grid">{tool_cards}</div>
+</section>'''
+    f = r.get("facts", {})
+    dots, hlabel = heat_dots(f.get("heat", 0))
+    facts_rows = [
+        ("Course", f.get("course", "—")),
+        ("Base", f.get("base", "—")),
+        ("Origin", f.get("origin", "—")),
+        ("First recorded", f.get("first_recorded", "—")),
+        ("Name means", f.get("name_means", "—")),
+        ("Key technique", f.get("technique", "—")),
+        ("Heat", f'<span class="heat-dots">{dots}</span> {esc(hlabel)}'),
+        ("Budget", f'{esc(f.get("budget", "—"))}<span class="budget-hint">{" pocket change" if f.get("budget")=="$" else " fair" if f.get("budget")=="$$" else " occasion"}</span>'),
+        ("Best season", f.get("season", "—")),
+        ("Signature", f.get("signature", "—")),
+        ("Serve it", f.get("serve_at", "—")),
+        ("Pour", f.get("pour", "—")),
+    ]
+    facts_html = "".join(
+        f'<div class="fact-row"><div class="fact-k">{esc(k)}</div><div class="fact-v">{v}</div></div>'
+        for k, v in facts_rows)
+    datasheet_html = f'''<section class="recipe-section" id="datasheet">
+<h2 class="section-title"><span>Data sheet</span></h2>
+<p class="section-sub">The dish at a glance — twelve field notes for the collectors.</p>
+<div class="facts-table">{facts_html}
+<div class="fact-row fact-link"><div class="fact-k">Wikipedia</div><div class="fact-v"><a href="{esc(f.get('wiki','#'))}" target="_blank" rel="noopener">{esc(f.get('wiki','#').split('/wiki/')[-1].replace('_',' '))} ↗</a></div></div>
+</div>
+</section>'''
+    rels = r.get("relations", {})
+    by_slug = {x["slug"]: x for x in all_recipes}
+    def rel_row(x, note):
+        rx = by_slug.get(x["s"] if isinstance(x, dict) else x)
+        if not rx: return ""
+        n = note(x) if note else ""
+        return f'''<a class="rel-item" href="{p}recipe/{rx['slug']}.html">
+<img src="{p}{esc(rx['hero_image'])}" alt="" loading="lazy">
+<div class="rel-body"><div class="rel-genre">{esc(rx['genre'])}</div><h4>{esc(rx['title'])}</h4>
+{('<p>' + esc(n) + '</p>') if n else ''}</div><span class="rel-arrow">→</span>
+</a>'''
+    ft_parts = []
+    if rels.get("used_in"):
+        rows = "".join(rel_row(x, lambda x: x.get("n", "")) for x in rels["used_in"])
+        ft_parts.append(f'<div class="ft-block"><h4 class="ft-title">Used in</h4><p class="ft-sub">Other dishes in this kitchen that lean on this recipe.</p>{rows}</div>')
+    if rels.get("uses"):
+        rows = "".join(rel_row(x, lambda x: x.get("n", "")) for x in rels["uses"])
+        ft_parts.append(f'<div class="ft-block"><h4 class="ft-title">Uses from the pantry</h4><p class="ft-sub">Recipes this dish quietly depends on.</p>{rows}</div>')
+    if rels.get("variants"):
+        note = rels.get("cluster_note", "")
+        sub = f'<p class="ft-sub">{esc(note)}</p>' if note else ""
+        rows = "".join(rel_row(x, lambda x: "") for x in rels["variants"])
+        ft_parts.append(f'<div class="ft-block"><h4 class="ft-title">Versions of the idea</h4>{sub}{rows}</div>')
+    if rels.get("similar"):
+        rows = "".join(rel_row(x, lambda x: x.get("n", "")) for x in rels["similar"][:3])
+        ft_parts.append(f'<div class="ft-block"><h4 class="ft-title">Similar in spirit</h4><p class="ft-sub">If this one works for you, the neighbors probably will too.</p>{rows}</div>')
+    family_html = ""
+    if ft_parts:
+        family_html = f'''<section class="recipe-section" id="family">
+<h2 class="section-title"><span>The family tree</span></h2>
+<div class="family-tree">{"".join(ft_parts)}</div>
+</section>'''
     side_jump = f'''<li><a href="#story">The story</a></li>
 <li><a href="#ingredients">Ingredients</a></li>
+{('<li><a href="#equipment">The tool wall</a></li>' if equipment_html else '')}
 <li><a href="#method">Method</a></li>
 {('<li><a href="#gallery">Gallery</a></li>' if gallery_html else '')}
 {('<li><a href="#watch">Videos</a></li>' if videos_html else '')}
 <li><a href="#notes">Chef's notes</a></li>
+<li><a href="#datasheet">Data sheet</a></li>
 <li><a href="#links">Related links</a></li>
-<li><a href="#comments">Comments</a></li>'''
+<li><a href="#comments">Comments</a></li>
+{('<li><a href="#pairings">Pairs with</a></li>' if pairings_html else '')}
+{('<li><a href="#family">Family tree</a></li>' if family_html else '')}'''
     body = f'''<article class="recipe-hero">
 <div class="recipe-hero-bg" style="background-image:url('{p}{esc(hero)}')"></div>
 <div class="recipe-hero-veil"></div>
@@ -111,6 +188,8 @@ def build_recipe_page(r, all_recipes):
 <ul class="ing-list">{ing_rows}</ul>
 </section>
 
+{equipment_html}
+
 <section class="recipe-section" id="method">
 <h2 class="section-title"><span>Method</span></h2>
 <ol class="steps">{steps_html}</ol>
@@ -124,6 +203,8 @@ def build_recipe_page(r, all_recipes):
 <ul class="notes-list">{notes_html}</ul>
 <div class="storage"><strong>Keeping it:</strong> {esc(r['storage'])}</div>
 </section>
+
+{datasheet_html}
 
 <section class="recipe-section" id="links">
 <h2 class="section-title"><span>Go deeper</span></h2>
@@ -140,6 +221,8 @@ def build_recipe_page(r, all_recipes):
 </section>
 
 {pairings_html}
+
+{family_html}
 </div>
 </div>'''
     desc = r["kicker"]

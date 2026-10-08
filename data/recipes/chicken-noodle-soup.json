@@ -126,5 +126,66 @@
       "desc": "The 12th-century prescription that started the tradition's paper trail"
     }
   ],
-  "storage": "Broth and chicken refrigerate 4 days together; noodles separately, 2 days. Freeze broth (with or without chicken) 3 months. Always reassemble with fresh noodles."
+  "storage": "Broth and chicken refrigerate 4 days together; noodles separately, 2 days. Freeze broth (with or without chicken) 3 months. Always reassemble with fresh noodles.",
+  "equipment": [
+    {
+      "t": "stockpot"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "ladle"
+    },
+    {
+      "t": "colander"
+    },
+    {
+      "t": "wooden-spoon"
+    }
+  ],
+  "facts": {
+    "course": "Soup",
+    "base": "meat — chicken, whole poached",
+    "origin": "Everywhere, via the Jewish shtetl to America",
+    "first_recorded": "Chicken soup as medicine: Maimonides recommended it in the 12th century",
+    "name_means": "Three nouns, one truth. The Jewish penicillin joke is only half a joke.",
+    "technique": "Gentle poach, skim twice, noodles in last",
+    "heat": 1,
+    "budget": "$",
+    "season": "Winter, and any fever",
+    "signature": "Golden fat beads, dill, celery backbone",
+    "serve_at": "Scalding, with the best bread in the house",
+    "pour": "Smoky black tea, or nothing at all",
+    "wiki": "https://en.wikipedia.org/wiki/Chicken_soup"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [
+      {
+        "s": "no-knead-sourdough",
+        "n": "the official dunker — technically a side, spiritually required"
+      }
+    ],
+    "variants": [
+      {
+        "s": "pho-bo",
+        "cluster": "noodle-soups"
+      },
+      {
+        "s": "shoyu-ramen",
+        "cluster": "noodle-soups"
+      }
+    ],
+    "cluster_note": "Three answers to one question. Tokyo says soy and wheat; Hanoi says clarity and rice; your grandmother says chicken.",
+    "similar": [
+      {
+        "s": "french-onion-soup",
+        "n": "restorative broths — one chicken, one onion"
+      }
+    ]
+  }
 }

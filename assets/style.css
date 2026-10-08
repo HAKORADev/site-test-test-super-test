@@ -274,6 +274,61 @@ button{font-family:inherit;cursor:pointer}
 .about-facts strong{color:var(--ember-deep)}
 .about-side p{font-size:.95rem!important;color:var(--ink-soft)!important;line-height:1.6!important;margin-bottom:12px!important}
 
+/* ============ tool wall (recipe page) ============ */
+.equip-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.tool-link{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:14px 18px;display:flex;flex-direction:column;gap:7px;transition:.16s;color:var(--ink);box-shadow:var(--shadow)}
+.tool-link:hover{transform:translateY(-2px);border-color:var(--ember);box-shadow:var(--shadow-lift);color:var(--ink)}
+.tool-link-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.tool-name{font-weight:700;font-size:.97rem}
+.tool-domain{font-size:.72rem;font-weight:700;color:var(--ember-deep);white-space:nowrap}
+.tool-note{font-size:.85rem!important;color:var(--ink-soft)!important;margin:0!important;line-height:1.5!important}
+
+/* ============ data sheet ============ */
+.facts-table{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--radius);box-shadow:var(--shadow);max-width:780px;overflow:hidden}
+.fact-row{display:grid;grid-template-columns:170px 1fr;gap:18px;padding:13px 22px;border-bottom:1px dashed var(--line-soft);transition:background .15s}
+.fact-row:hover{background:var(--paper)}
+.fact-row:last-child{border-bottom:none}
+.fact-k{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-faint);padding-top:3px}
+.fact-v{color:#43362A;font-size:.98rem;line-height:1.55}
+.fact-link .fact-v a{font-weight:600}
+.heat-dots{color:var(--ember);letter-spacing:2px;font-size:.85rem}
+.budget-hint{color:var(--ink-faint);font-size:.84rem;margin-left:6px}
+
+/* ============ family tree ============ */
+.family-tree{display:flex;flex-direction:column;gap:26px}
+.ft-block{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow)}
+.ft-title{font-size:1.14rem;margin-bottom:4px;color:var(--ember-deep)}
+.ft-sub{color:var(--ink-faint);font-size:.88rem!important;margin:0 0 14px!important;font-style:italic}
+.rel-item{display:flex;align-items:center;gap:14px;padding:10px 12px;border-radius:var(--radius-sm);transition:.15s;color:var(--ink);border:1px solid transparent}
+.rel-item:hover{background:var(--ember-soft);border-color:#F0D5C2;color:var(--ink)}
+.rel-item + .rel-item{margin-top:4px}
+.rel-item img{width:58px;height:44px;object-fit:cover;border-radius:8px;flex-shrink:0}
+.rel-body{min-width:0}
+.rel-genre{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ember)}
+.rel-item h4{font-size:1rem;margin:1px 0}
+.rel-item p{font-size:.84rem!important;color:var(--ink-soft)!important;margin:2px 0 0!important;line-height:1.4!important}
+.rel-arrow{margin-left:auto;color:var(--ink-faint);transition:.15s}
+.rel-item:hover .rel-arrow{color:var(--ember-deep);transform:translateX(3px)}
+
+/* ============ kitchen.html ============ */
+.kitchen-hint{background:var(--paper-deep);border-radius:var(--radius-sm);padding:14px 20px;color:var(--ink-soft);font-size:.95rem;margin-bottom:36px;line-height:1.6}
+.tool-cat{margin-bottom:44px}
+.tool-cat-title{font-size:1.5rem;display:flex;align-items:center;gap:12px;padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:20px}
+.tool-cat-ic{font-size:1.2rem}
+.tool-cat-count{font-size:.85rem;font-weight:700;color:var(--ink-faint);background:var(--paper-deep);border-radius:999px;padding:2px 12px}
+.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tool-card{background:var(--card);border:1px solid var(--line-soft);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:9px;transition:.18s}
+.tool-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lift);border-color:var(--mustard)}
+.tool-card-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.tool-card-name{font-family:var(--serif);font-weight:600;font-size:1.12rem;color:var(--ink)}
+.tool-card-name:hover{color:var(--ember-deep)}
+.tool-count{font-size:.74rem;font-weight:700;color:var(--olive);background:rgba(102,113,63,.1);padding:3px 10px;border-radius:999px;white-space:nowrap}
+.tool-blurb{font-size:.9rem!important;color:var(--ink-soft)!important;line-height:1.55!important;margin:0!important}
+.tool-used{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:8px;border-top:1px dashed var(--line-soft)}
+.tool-used a{font-size:.78rem;font-weight:600;color:var(--ember-deep);background:var(--ember-soft);padding:2px 10px;border-radius:999px;transition:.14s}
+.tool-used a:hover{background:var(--ember);color:#fff}
+.tool-used span{font-size:.8rem;color:var(--ink-faint);font-style:italic}
+
 /* ============ 404 ============ */
 .notfound{text-align:center;padding:110px 32px 140px}
 .nf-title{font-size:7rem;font-weight:900;color:var(--ember)}
@@ -313,7 +368,7 @@ button{font-family:inherit;cursor:pointer}
 
 /* ============ print ============ */
 @media print{
-  .site-header,.site-footer,.recipe-side,.recipe-hero,.gallery,.video-grid,#comments,.pairings,.funfact,.credits,.filter-bar,.home-strip{display:none!important}
+  .site-header,.site-footer,.recipe-side,.recipe-hero,.gallery,.video-grid,#comments,.pairings,.funfact,.credits,.filter-bar,.home-strip,.family-tree,#datasheet,.equip-grid{display:none!important}
   body{background:#fff;color:#000;font-size:12pt}
   .recipe-layout{display:block}
   .recipe-main{max-width:100%}
@@ -330,6 +385,7 @@ button{font-family:inherit;cursor:pointer}
   .recipe-layout{grid-template-columns:1fr;gap:30px}
   .recipe-side{position:static;flex-direction:row;flex-wrap:wrap}
   .side-card{flex:1;min-width:260px}
+  .equip-grid,.tool-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:760px){
   .nav-links,.nav-search{display:none}
@@ -340,4 +396,6 @@ button{font-family:inherit;cursor:pointer}
   .footer-grid{grid-template-columns:1fr}
   .wrap{padding:0 18px}
   .page-title{font-size:2.2rem}
+  .equip-grid,.tool-grid{grid-template-columns:1fr}
+  .fact-row{grid-template-columns:1fr;gap:4px;padding:11px 16px}
 }

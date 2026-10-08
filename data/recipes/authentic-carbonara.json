@@ -101,5 +101,69 @@
       "desc": "The Roman orthodoxy, from an Italian kitchen"
     }
   ],
-  "storage": "Carbonara does not keep — the sauce breaks as it cools. If you must, refrigerate and reheat gently with a splash of water, but know that it is a different, sadder dish."
+  "storage": "Carbonara does not keep — the sauce breaks as it cools. If you must, refrigerate and reheat gently with a splash of water, but know that it is a different, sadder dish.",
+  "equipment": [
+    {
+      "t": "stockpot"
+    },
+    {
+      "t": "frying-pan",
+      "n": "heavy - cast iron or stainless, for rendering the guanciale"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "whisk"
+    },
+    {
+      "t": "box-grater",
+      "n": "pecorino, grated fine enough to melt instantly"
+    },
+    {
+      "t": "pepper-mill",
+      "n": "coarse crack - pre-ground pepper is a different dish"
+    },
+    {
+      "t": "colander"
+    }
+  ],
+  "facts": {
+    "course": "Main — pasta",
+    "base": "meat — cured pork jowl",
+    "origin": "Rome, Lazio, Italy",
+    "first_recorded": "c. 1950 — startlingly young for something this canonized",
+    "name_means": "Most likely from carbonaro, 'charcoal worker' — though Rome argues about it daily.",
+    "technique": "Off-heat emulsion: eggs, cheese, pasta water, nerve",
+    "heat": 1,
+    "budget": "$$",
+    "season": "Any — carbonara ignores the calendar",
+    "signature": "Guanciale fat, sheep's-milk salt, black pepper warmth",
+    "serve_at": "Immediately — the sauce peaks for about 90 seconds",
+    "pour": "Frascati, or any Roman white you would drink chilled",
+    "wiki": "https://en.wikipedia.org/wiki/Carbonara"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "spaghetti-aglio-e-olio",
+        "cluster": "roman-pasta"
+      }
+    ],
+    "cluster_note": "Roman pasta logic: no sauce, just emulsion. Fat, starch, water, nerve.",
+    "similar": [
+      {
+        "s": "baked-mac-and-cheese",
+        "n": "cheese-and-starch comfort, two nations, two temperatures"
+      }
+    ]
+  }
 }

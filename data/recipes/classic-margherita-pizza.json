@@ -2,9 +2,19 @@
   "slug": "classic-margherita-pizza",
   "title": "Classic Margherita Pizza",
   "genre": "Italian Classics",
-  "tags": ["vegetarian", "weekend-project", "crowd-pleaser", "cheesy"],
+  "tags": [
+    "vegetarian",
+    "weekend-project",
+    "crowd-pleaser",
+    "cheesy"
+  ],
   "difficulty": "medium",
-  "time": {"prep": "30 min hands-on", "cook": "8 min", "total_label": "4-24 hrs (dough rests)", "total_min": 300},
+  "time": {
+    "prep": "30 min hands-on",
+    "cook": "8 min",
+    "total_label": "4-24 hrs (dough rests)",
+    "total_min": 300
+  },
   "servings": "2 x 12-inch pizzas",
   "kicker": "Three ingredients, one blistered crust, zero shortcuts that matter.",
   "story": [
@@ -13,35 +23,158 @@
   ],
   "fun_fact": "Real pizza al taglio aside, Naples holds a UNESCO World Heritage listing for the art of its pizzaiuoli — the pizza makers themselves, not the pizza.",
   "ingredients": [
-    {"amount": "500 g", "item": "bread flour (or 00 flour)", "note": "00 gives a silkier crust; bread flour is a fine stand-in"},
-    {"amount": "325 g", "item": "water, cool", "note": "65% hydration"},
-    {"amount": "10 g", "item": "fine sea salt", "note": ""},
-    {"amount": "2 g", "item": "instant dry yeast", "note": "about half a teaspoon — deliberately little"},
-    {"amount": "200 g", "item": "whole peeled San Marzano tomatoes", "note": "crushed by hand, nothing added"},
-    {"amount": "200 g", "item": "fresh mozzarella (fior di latte)", "note": "torn and drained 30 min ahead"},
-    {"amount": "1 bunch", "item": "fresh basil leaves", "note": ""},
-    {"amount": "2 tbsp", "item": "extra-virgin olive oil", "note": "the good bottle"}
+    {
+      "amount": "500 g",
+      "item": "bread flour (or 00 flour)",
+      "note": "00 gives a silkier crust; bread flour is a fine stand-in"
+    },
+    {
+      "amount": "325 g",
+      "item": "water, cool",
+      "note": "65% hydration"
+    },
+    {
+      "amount": "10 g",
+      "item": "fine sea salt",
+      "note": ""
+    },
+    {
+      "amount": "2 g",
+      "item": "instant dry yeast",
+      "note": "about half a teaspoon — deliberately little"
+    },
+    {
+      "amount": "200 g",
+      "item": "whole peeled San Marzano tomatoes",
+      "note": "crushed by hand, nothing added"
+    },
+    {
+      "amount": "200 g",
+      "item": "fresh mozzarella (fior di latte)",
+      "note": "torn and drained 30 min ahead"
+    },
+    {
+      "amount": "1 bunch",
+      "item": "fresh basil leaves",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "extra-virgin olive oil",
+      "note": "the good bottle"
+    }
   ],
   "steps": [
-    {"title": "Mix and rest", "text": "Dissolve the yeast in the water. Add flour and mix to a shaggy mass, then rest 20 minutes — this autolyse makes the dough dramatically easier to handle. Add the salt, knead 5 minutes until smooth. It will still look slack; that is correct."},
-    {"title": "Cold ferment", "text": "Cover and refrigerate 24 hours (minimum 4). The slow rise is where the crust gets its flavor — skip it and no oven trick will compensate."},
-    {"title": "Ball up", "text": "Divide into two 400 g balls. Let them sit, covered, at room temperature 2 hours before shaping. Cold dough tears; relaxed dough stretches."},
-    {"title": "Heat the living daylights out of the oven", "text": "Set a pizza steel or overturned cast-iron skillet on the top rack and preheat at your oven's maximum (275°C / 525°F+) for a full hour. This is the single biggest upgrade available to a home oven."},
-    {"title": "Sauce with restraint", "text": "Crush the tomatoes by hand with a pinch of salt. No cooking, no garlic, no oregano — the sauce cooks on the pizza in 90 seconds."},
-    {"title": "Stretch, never roll", "text": "Press the ball flat from the center, leave a 2 cm rim, then stretch over your knuckles, letting gravity work. A rolling pin crushes the gas bubbles you spent a day building."},
-    {"title": "Top and launch", "text": "Sauce thinly, scatter mozzarella, drizzle oil. Slide onto the screaming steel. Bake 6-8 minutes until the rim is blistered and spotted with char."},
-    {"title": "Basil, then eat immediately", "text": "Tear basil over the top the moment it leaves the oven — added earlier it blackens. Wait 60 seconds before slicing so the cheese sets. That first cut is the whole point."}
+    {
+      "title": "Mix and rest",
+      "text": "Dissolve the yeast in the water. Add flour and mix to a shaggy mass, then rest 20 minutes — this autolyse makes the dough dramatically easier to handle. Add the salt, knead 5 minutes until smooth. It will still look slack; that is correct."
+    },
+    {
+      "title": "Cold ferment",
+      "text": "Cover and refrigerate 24 hours (minimum 4). The slow rise is where the crust gets its flavor — skip it and no oven trick will compensate."
+    },
+    {
+      "title": "Ball up",
+      "text": "Divide into two 400 g balls. Let them sit, covered, at room temperature 2 hours before shaping. Cold dough tears; relaxed dough stretches."
+    },
+    {
+      "title": "Heat the living daylights out of the oven",
+      "text": "Set a pizza steel or overturned cast-iron skillet on the top rack and preheat at your oven's maximum (275°C / 525°F+) for a full hour. This is the single biggest upgrade available to a home oven."
+    },
+    {
+      "title": "Sauce with restraint",
+      "text": "Crush the tomatoes by hand with a pinch of salt. No cooking, no garlic, no oregano — the sauce cooks on the pizza in 90 seconds."
+    },
+    {
+      "title": "Stretch, never roll",
+      "text": "Press the ball flat from the center, leave a 2 cm rim, then stretch over your knuckles, letting gravity work. A rolling pin crushes the gas bubbles you spent a day building."
+    },
+    {
+      "title": "Top and launch",
+      "text": "Sauce thinly, scatter mozzarella, drizzle oil. Slide onto the screaming steel. Bake 6-8 minutes until the rim is blistered and spotted with char."
+    },
+    {
+      "title": "Basil, then eat immediately",
+      "text": "Tear basil over the top the moment it leaves the oven — added earlier it blackens. Wait 60 seconds before slicing so the cheese sets. That first cut is the whole point."
+    }
   ],
   "notes": [
     "No steel or stone? A preheated heavy baking sheet on the highest rack for the full hour gets you 70% of the way there.",
     "Wet mozzarella equals soggy pizza. Tear it and let it drain on a paper towel for half an hour before topping.",
     "Dough balls freeze beautifully for up to 3 months; thaw overnight in the fridge, then rest 2 hours at room temperature."
   ],
-  "pairings": ["mushroom-risotto", "tiramisu"],
-  "links": [
-    {"title": "Pizza — Wikipedia", "url": "https://en.wikipedia.org/wiki/Pizza", "desc": "History from ancient flatbreads to the Margherita legend"},
-    {"title": "Pizza Napoletana — Wikipedia", "url": "https://en.wikipedia.org/wiki/Neapolitan_pizza", "desc": "The rules that make a Neapolitan pizza official"},
-    {"title": "Serious Eats — Pizza Guide", "url": "https://www.seriouseats.com/pizza", "desc": "Deep dives on dough hydration and home-oven tricks"}
+  "pairings": [
+    "mushroom-risotto",
+    "tiramisu"
   ],
-  "storage": "Refrigerate leftover slices up to 3 days. Reheat in a dry skillet over medium heat, lid on for 2 minutes — the crust re-crisps instead of turning to leather."
+  "links": [
+    {
+      "title": "Pizza — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pizza",
+      "desc": "History from ancient flatbreads to the Margherita legend"
+    },
+    {
+      "title": "Pizza Napoletana — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Neapolitan_pizza",
+      "desc": "The rules that make a Neapolitan pizza official"
+    },
+    {
+      "title": "Serious Eats — Pizza Guide",
+      "url": "https://www.seriouseats.com/pizza",
+      "desc": "Deep dives on dough hydration and home-oven tricks"
+    }
+  ],
+  "storage": "Refrigerate leftover slices up to 3 days. Reheat in a dry skillet over medium heat, lid on for 2 minutes — the crust re-crisps instead of turning to leather.",
+  "equipment": [
+    {
+      "t": "kitchen-scale",
+      "n": "dough is math; cups are folklore"
+    },
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "bench-scraper",
+      "n": "divide the dough, stretch with hands not pins"
+    },
+    {
+      "t": "sheet-pan",
+      "n": "for proofing the balls"
+    },
+    {
+      "t": "pizza-stone",
+      "n": "pre-heat a full hour - the blister lives here"
+    },
+    {
+      "t": "oven",
+      "n": "as hot as it legally goes, 280 C if it has it"
+    }
+  ],
+  "facts": {
+    "course": "Main — pizza",
+    "base": "plant — tomato and basil over dairy",
+    "origin": "Naples, Italy",
+    "first_recorded": "1889 — the Queen Margherita legend at Pizzeria Brandi; tomato-cheese pizzas are older than the story",
+    "name_means": "Named for a queen, colored like a flag: tomato, mozzarella, basil.",
+    "technique": "Fermented dough, hand-stretched, blistering floor heat",
+    "heat": 0,
+    "budget": "$",
+    "season": "Any — but August tomatoes cheat",
+    "signature": "Charred leopard crust, sweet tomato, milky fior di latte",
+    "serve_at": "Cut on the board, folded, devoured — three minutes of prime",
+    "pour": "Chilled Lambrusco, no apologies",
+    "wiki": "https://en.wikipedia.org/wiki/Pizza_margherita"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [],
+    "cluster_note": "",
+    "similar": [
+      {
+        "s": "no-knead-sourdough",
+        "n": "the fermentation culture club"
+      }
+    ]
+  }
 }

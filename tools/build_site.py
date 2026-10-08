@@ -1,13 +1,16 @@
 import json, os, sys, random
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (REPO, SITE_NAME, SITE_TAGLINE, SITE_URL, REPO_URL, BUILT_NOTE,
-                    GENRES, load_recipes, esc, rel, fmt_time, recipe_card, layout)
+                    GENRES, load_recipes, esc, rel, fmt_time, recipe_card, layout,
+                    heat_bucket, base_axis)
 from recipe import build_recipe_page
 
 recipes = load_recipes()
 by_genre = {}
 for r in recipes:
     by_genre.setdefault(r["genre"], []).append(r)
+
+KITCHEN = json.load(open(os.path.join(REPO, "data", "kitchen.json"), encoding="utf-8"))
 
 OUT = REPO
 
@@ -66,6 +69,12 @@ all_cards = "".join(recipe_card(r) for r in recipes)
 all_tags = sorted({t for r in recipes for t in r["tags"]})
 tag_chips = "".join(f'<button class="chip tag-chip" data-tag="{esc(t)}">{esc(t)}</button>' for t in all_tags)
 genre_chips = "".join(f'<button class="chip genre-chip" data-genre="{esc(name)}">{esc(name)}</button>' for name in GENRES)
+base_chips = "".join(f'<button class="chip meta-chip" data-base="{esc(b)}">{esc(l)}</button>' for b, l in [
+    ("plant", "plant"), ("meat", "meat"), ("seafood", "seafood"),
+    ("dairy", "dairy"), ("egg", "egg"), ("grain", "grain"), ("mixed", "mixed")])
+heat_chips = "".join(f'<button class="chip meta-chip" data-heat="{esc(h)}">{esc(l)}</button>' for h, l in [
+    ("none", "no heat"), ("gentle", "gentle heat"), ("spicy", "proper spicy")])
+budget_chips = "".join(f'<button class="chip meta-chip" data-budget="{esc(b)}">{esc(b)}</button>' for b in ["$", "$$", "$$$"])
 body = f'''<section class="wrap page-head">
 <h1 class="page-title">All recipes</h1>
 <p class="page-sub">Thirty dishes. Filter by collection, tag, or just start typing — the grid answers instantly.</p>
@@ -74,12 +83,15 @@ body = f'''<section class="wrap page-head">
 <input type="search" id="filterInput" class="filter-input" placeholder="Type to filter — “ramen”, “baking”, “one-pot”…">
 <div class="chip-row"><span class="chip-label">Collections</span>{genre_chips}</div>
 <div class="chip-row"><span class="chip-label">Tags</span>{tag_chips}</div>
+<div class="chip-row"><span class="chip-label">Base</span>{base_chips}</div>
+<div class="chip-row"><span class="chip-label">Heat</span>{heat_chips}</div>
+<div class="chip-row"><span class="chip-label">Budget</span>{budget_chips}</div>
 <div class="filter-foot"><span id="filterCount"></span><button class="btn btn-ghost btn-tiny" id="filterClear" hidden>Clear filters</button></div>
 </section>
 <section class="wrap"><div class="card-grid" id="recipeGrid">{all_cards}</div>
 <div class="no-results" id="noResults" hidden><h3>Nothing in the pantry matches.</h3><p>Try “quick”, “vegetarian”, “soup” — or <a href="search.html">open full search</a>.</p></div>
 </section>'''
-write("recipes.html", layout("All Recipes", "Browse all thirty recipes with live filtering by collection, tag and text.", 0, body, active="recipes"))
+write("recipes.html", layout("All Recipes", "Browse all thirty recipes with live filtering by collection, tag, base, heat and budget.", 0, body, active="recipes"))
 
 # ---------- collections.html ----------
 coll_cards2 = "".join(f'''<a class="card coll-card big" href="collection/{g['slug']}.html">
@@ -109,6 +121,34 @@ for name, g in GENRES.items():
 <div class="tag-cloud"><span class="chip-label">Tags in this shelf</span>{cloud}</div></section>'''
     write(f"collection/{g['slug']}.html", layout(name, g["blurb"], 1, cbody, active="collections", og_image=cover))
 
+# ---------- kitchen.html ----------
+used_by = KITCHEN["used_by"]
+cat_icons = {"blades": "🔪", "pots": "🍲", "fire": "🔥", "prep": "⚖", "bake": "🥧", "machines": "⚙"}
+cat_sections = ""
+for cat, cat_label in KITCHEN["cats"].items():
+    tools = {k: v for k, v in KITCHEN["tools"].items() if v["cat"] == cat}
+    if not tools:
+        continue
+    tool_cards = "".join(
+        f'''<div class="tool-card" id="tool-{esc(k)}">
+<div class="tool-card-head"><a class="tool-card-name" href="{esc(v['url'])}" target="_blank" rel="noopener">{esc(v['name'])} ↗</a><span class="tool-count">{len(used_by.get(k, []))} recipe{'s' if len(used_by.get(k, [])) != 1 else ''}</span></div>
+<p class="tool-blurb">{esc(v['blurb'])}</p>
+<div class="tool-used">{(chr(10)).join(f'<a href="recipe/{s}.html">{esc(next(x["title"] for x in recipes if x["slug"] == s))}</a>' for s in used_by.get(k, [])) or '<span>nobody yet — the quiet shelf</span>'}</div>
+</div>'''
+        for k, v in sorted(tools.items(), key=lambda kv: -len(used_by.get(kv[0], []))))
+    cat_sections = cat_sections + f'''<div class="tool-cat">
+<h3 class="tool-cat-title"><span class="tool-cat-ic">{cat_icons.get(cat, "•")}</span> {esc(cat_label)} <span class="tool-cat-count">{len(tools)}</span></h3>
+<div class="tool-grid">{tool_cards}</div>
+</div>'''
+kbody = f'''<section class="wrap page-head">
+<h1 class="page-title">The Tool Wall</h1>
+<p class="page-sub">{len(KITCHEN['tools'])} pots, blades and machines — what each one is actually for, linked to the full story on Wikipedia, and reverse-indexed to every recipe in this kitchen that leans on it.</p>
+</section>
+<section class="wrap"><p class="kitchen-hint">Every recipe page lists its own tools under <strong>“The tool wall”</strong>, with notes on why each one matters for <em>that</em> dish. Click any tool name below for its Wikipedia page; the small links are the recipes that use it.</p>
+{cat_sections}
+</section>'''
+write("kitchen.html", layout("The Tool Wall", f"The kitchen's tool catalog — {len(KITCHEN['tools'])} pots, blades and machines, reverse-indexed to thirty recipes.", 0, kbody, active="kitchen"))
+
 # ---------- search.html ----------
 body = f'''<section class="wrap page-head">
 <h1 class="page-title">Search the pantry</h1>
@@ -133,6 +173,10 @@ media_stats = json.load(open(os.path.join(REPO, "assets", "data", "media.json"),
 n_imgs = sum(len(v["images"]) for k, v in media_stats.items() if not k.startswith("chrome"))
 n_vids = sum(len(v["videos"]) for k, v in media_stats.items() if not k.startswith("chrome"))
 n_tags = len({t for r in recipes for t in r["tags"]})
+n_tools = len(KITCHEN["tools"])
+n_rel = (sum(len(r.get("relations", {}).get("variants", [])) for r in recipes) +
+         sum(len(r.get("relations", {}).get("similar", [])) for r in recipes)) // 2 + \
+        sum(len(r.get("relations", {}).get("uses", [])) for r in recipes)
 about_body = f'''<section class="wrap page-head">
 <h1 class="page-title">About this kitchen</h1>
 <p class="page-sub">A very specific experiment with a very honest answer.</p>
@@ -153,6 +197,8 @@ about_body = f'''<section class="wrap page-head">
 <li><strong>{n_imgs}</strong> web-sourced photos, self-hosted with credits</li>
 <li><strong>{n_vids}</strong> verified YouTube videos</li>
 <li><strong>8</strong> collections, {n_tags} tags</li>
+<li><strong>{n_tools}</strong> tools on the wall, each with its own story</li>
+<li><strong>{n_rel}</strong> recipe-to-recipe links in the family tree</li>
 <li><strong>30</strong> GitHub issues as comment threads</li>
 <li><strong>0</strong> frameworks, trackers, or cookies</li>
 <li><strong>1</strong> easter egg, if you click the pot</li>
@@ -184,19 +230,25 @@ write("404.html", layout("Page not found", "404 — this recipe went missing.", 
 # ---------- search index ----------
 idx = []
 for r in recipes:
+    f = r.get("facts", {})
+    eq_names = [KITCHEN["tools"][e["t"]]["name"] for e in r.get("equipment", []) if e["t"] in KITCHEN["tools"]]
     idx.append({
         "slug": r["slug"], "title": r["title"], "genre": r["genre"], "tags": r["tags"],
         "difficulty": r["difficulty"], "total_min": r["time"]["total_min"], "time_label": r["time"]["total_label"],
         "kicker": r["kicker"], "img": r["hero_image"],
+        "origin": f.get("origin", ""), "first_recorded": f.get("first_recorded", ""),
+        "heat": f.get("heat", 0), "budget": f.get("budget", ""), "base": base_axis(f.get("base", "")),
         "text": " ".join([r["title"], r["genre"], r["kicker"], " ".join(r["tags"]),
                           " ".join(i["item"] for i in r["ingredients"]),
-                          " ".join(s["text"] for s in r["steps"]), " ".join(r["story"])]).lower(),
+                          " ".join(s["text"] for s in r["steps"]), " ".join(r["story"]),
+                          " ".join(str(v) for v in f.values()) if isinstance(f, dict) else "",
+                          " ".join(eq_names)]).lower(),
     })
 json.dump(idx, open(os.path.join(OUT, "assets", "search-index.json"), "w"), ensure_ascii=False)
 print("wrote assets/search-index.json")
 
 # ---------- sitemap + robots ----------
-urls = ["", "recipes.html", "collections.html", "search.html", "about.html"]
+urls = ["", "recipes.html", "collections.html", "kitchen.html", "search.html", "about.html"]
 for r in recipes:
     urls.append("recipe/" + r["slug"] + ".html")
 for g in GENRES.values():
@@ -209,6 +261,6 @@ write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n"
 
 # ---------- recipe pages ----------
 for r in recipes:
-    write(f"recipe/{r['slug']}.html", build_recipe_page(r, recipes))
+    write(f"recipe/{r['slug']}.html", build_recipe_page(r, recipes, KITCHEN))
 
-print(f"\nDONE: {len(recipes)} recipe pages, {len(GENRES)} collection pages, index/search/about/404/sitemap")
+print(f"\nDONE: {len(recipes)} recipe pages, {len(GENRES)} collection pages, kitchen.html with {n_tools} tools, index/search/about/404/sitemap")

@@ -127,5 +127,66 @@
       "desc": "The yogurt-cucumber sauce family across the Balkans and Levant"
     }
   ],
-  "storage": "Marinated raw chicken keeps 2 days refrigerated. Cooked chicken 4 days — great cold over salad. Tzatziki 4 days refrigerated; stir before serving."
+  "storage": "Marinated raw chicken keeps 2 days refrigerated. Cooked chicken 4 days — great cold over salad. Tzatziki 4 days refrigerated; stir before serving.",
+  "equipment": [
+    {
+      "t": "mixing-bowl"
+    },
+    {
+      "t": "skewers",
+      "n": "soak wooden ones 30 minutes or sacrifice them"
+    },
+    {
+      "t": "grill",
+      "n": "or a grill pan - the stripes are flavor"
+    },
+    {
+      "t": "citrus-juicer"
+    },
+    {
+      "t": "tongs"
+    },
+    {
+      "t": "thermometer",
+      "n": "pull at 74 C, rest, be happy"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Street food",
+    "base": "meat — chicken chunks, skewered",
+    "origin": "Greece",
+    "first_recorded": "3,600 years — stone cooking lines for skewers found at Akrotiri, Santorini",
+    "name_means": "Diminutive of souvla (big skewer) — 'little skewer', said with affection.",
+    "technique": "Lemon-oregano marinade, high fire, rest, wrap",
+    "heat": 1,
+    "budget": "$",
+    "season": "Summer — ideally with sand nearby",
+    "signature": "Charred lemon, oregano, garlic yogurt",
+    "serve_at": "Off the skewer, in pita, at golden hour",
+    "pour": "Retsina — pine resin wine, an acquired taste worth acquiring",
+    "wiki": "https://en.wikipedia.org/wiki/Souvlaki"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "chicken-shawarma",
+        "cluster": "marinated-chicken"
+      }
+    ],
+    "cluster_note": "Same idea, two empires: the rotating shaved roast (Ottoman) versus the lemon-oregano skewer (Greek).",
+    "similar": [
+      {
+        "s": "falafel-tahini",
+        "n": "eastern-Mediterranean street food: skewers vs croquettes"
+      }
+    ]
+  }
 }

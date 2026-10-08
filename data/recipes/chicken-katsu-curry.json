@@ -126,5 +126,79 @@
       "desc": "How the Royal Navy's curry became Japan's comfort food"
     }
   ],
-  "storage": "Keep sauce refrigerated up to 4 days (freezes 1 month). Cutlets re-crisp in a 200°C / 400°F oven for 10 minutes; the microwave is a crunch assassin."
+  "storage": "Keep sauce refrigerated up to 4 days (freezes 1 month). Cutlets re-crisp in a 200°C / 400°F oven for 10 minutes; the microwave is a crunch assassin.",
+  "equipment": [
+    {
+      "t": "meat-mallet",
+      "n": "even thickness is even crunch"
+    },
+    {
+      "t": "frying-pan",
+      "n": "a centimeter of oil, shallow fry, no more"
+    },
+    {
+      "t": "thermometer",
+      "n": "170 C - panko burns above it and sulks below it"
+    },
+    {
+      "t": "wire-rack",
+      "n": "drain on air so the crust stays loud"
+    },
+    {
+      "t": "saucepan",
+      "n": "the curry gravy"
+    },
+    {
+      "t": "rice-cooker"
+    },
+    {
+      "t": "tongs"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    }
+  ],
+  "facts": {
+    "course": "Main — rice + curry + cutlet",
+    "base": "meat — breaded chicken",
+    "origin": "Japan, via the Royal Navy via Anglo-Indian curry",
+    "first_recorded": "1870s–90s Meiji era; the breaded cutlet itself dates to 1899 at Rengatei, Ginza",
+    "name_means": "Katsu is a squeeze of katsuretsu, Japan's take on 'cutlet'.",
+    "technique": "Panko crust fried loud, curry gravy ladled to the edge",
+    "heat": 1,
+    "budget": "$",
+    "season": "Any — exam-season comfort in Japan",
+    "signature": "Panko shatter, sweet-dark curry silk, pickles to cut it",
+    "serve_at": "With the cutlet sliced, still audible",
+    "pour": "An ice-cold lager, seriously",
+    "wiki": "https://en.wikipedia.org/wiki/Chicken_katsu"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "butter-chicken",
+        "cluster": "gravies"
+      },
+      {
+        "s": "chana-masala",
+        "cluster": "gravies"
+      },
+      {
+        "s": "bibimbap",
+        "cluster": "gravies"
+      }
+    ],
+    "cluster_note": "The gravy drawer: three kitchens that independently decided rice is a vehicle for sauce.",
+    "similar": [
+      {
+        "s": "smash-burger",
+        "n": "the crunch is structural"
+      }
+    ]
+  }
 }

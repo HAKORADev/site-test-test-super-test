@@ -126,5 +126,66 @@
       "desc": "Braise science: collagen, temperature and why low-and-slow wins"
     }
   ],
-  "storage": "Refrigerate up to 4 days; flavor peaks at 24-48 hours. Freeze up to 3 months. Skimmed fat keeps well as a roast-potato frying fat — nothing wasted."
+  "storage": "Refrigerate up to 4 days; flavor peaks at 24-48 hours. Freeze up to 3 months. Skimmed fat keeps well as a roast-potato frying fat — nothing wasted.",
+  "equipment": [
+    {
+      "t": "dutch-oven",
+      "n": "the entire recipe happens inside this one pot"
+    },
+    {
+      "t": "chefs-knife"
+    },
+    {
+      "t": "cutting-board"
+    },
+    {
+      "t": "wooden-spoon"
+    },
+    {
+      "t": "fine-sieve",
+      "n": "strain the braising liquid - silk, not stew with lumps"
+    },
+    {
+      "t": "ladle"
+    },
+    {
+      "t": "kitchen-twine",
+      "n": "holds the bouquet garni together"
+    },
+    {
+      "t": "oven"
+    }
+  ],
+  "facts": {
+    "course": "Main — braise",
+    "base": "meat — beef chuck, wine-braised",
+    "origin": "Burgundy, France",
+    "first_recorded": "A peasant braise for centuries; codified in print in the 19th century, canonized by Escoffier",
+    "name_means": "Burgundy-style beef — named for the wine it was born next to.",
+    "technique": "Wine braise, staged reductions, pearl onions on the side",
+    "heat": 0,
+    "budget": "$$$",
+    "season": "Deep winter — snow outside is ideal",
+    "signature": "Red-wine depth, thyme, glossy sauce that coats a spoon",
+    "serve_at": "The day after you made it, honestly",
+    "pour": "The same Burgundy you cooked with — it earned it",
+    "wiki": "https://en.wikipedia.org/wiki/Beef_bourguignon"
+  },
+  "relations": {
+    "used_in": [],
+    "uses": [],
+    "variants": [
+      {
+        "s": "shepherds-pie",
+        "cluster": "braised-roofed"
+      }
+    ],
+    "cluster_note": "Slow braised meat, two roofs: crusty bread beside the bowl or a fork-ridged potato lid on top.",
+    "similar": [
+      {
+        "s": "carnitas",
+        "n": "slow fat, two continents: wine braise vs lard confit"
+      }
+    ]
+  }
 }
