@@ -116,9 +116,10 @@ def recipe_card(r, p=""):
 def head(title, desc, depth, og_image=None, extra_css="", page_class=""):
     p = rel(depth)
     og_img = SITE_URL + (og_image or "assets/img/chrome-ember-1.jpg")
+    full_title = title if title == SITE_NAME else f"{title} — {SITE_NAME}"
     return f'''<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)} — {SITE_NAME}</title>
+<title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">

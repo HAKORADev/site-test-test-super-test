@@ -1,6 +1,71 @@
 {
  "apple-pie": {
-  "images": [],
+  "images": [
+   {
+    "file": "assets/img/apple-pie-1.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/8565/15581303453_55d43b20ac_b.jpg",
+    "alt": "Apple Pie",
+    "creator": "djwtwo",
+    "license": "by-nc-sa"
+   },
+   {
+    "file": "assets/img/apple-pie-2.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/76/181803048_8625f3b850_b.jpg",
+    "alt": "Apple Pie",
+    "creator": "joebeone",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/apple-pie-3.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/4136/4759076529_b0b2317d02_b.jpg",
+    "alt": "Homemade Apple Pie",
+    "creator": "WinstonWong*",
+    "license": "by-nc-sa"
+   },
+   {
+    "file": "assets/img/apple-pie-4.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/7647/17049892248_09e9b154c3_b.jpg",
+    "alt": "Apple Pie",
+    "creator": "leguico",
+    "license": "by-nc-nd"
+   },
+   {
+    "file": "assets/img/apple-pie-5.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3059/3063024748_7d252abc83_b.jpg",
+    "alt": "Apple Pie-31",
+    "creator": "1lenore",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/apple-pie-6.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/4064/4392427021_e216753cac_b.jpg",
+    "alt": "Apple pie anyone?",
+    "creator": "karen H. nickname.{ pooh}",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/apple-pie-7.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/6184/6076181270_90d8fc4fff_b.jpg",
+    "alt": "homemade American apple pie",
+    "creator": "invisible_helicopter",
+    "license": "by-nc"
+   },
+   {
+    "file": "assets/img/apple-pie-8.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/7514/15924477918_94f0f1c624_b.jpg",
+    "alt": "Apple Pie Flavored Coffee, the Big Apple, Colborne, Ontario, Canada",
+    "creator": "gruntzooki",
+    "license": "by-sa"
+   }
+  ],
   "videos": [
    {
     "id": "KbyahTnzbKA",
@@ -161,7 +226,72 @@
   ]
  },
  "baked-mac-and-cheese": {
-  "images": [],
+  "images": [
+   {
+    "file": "assets/img/baked-mac-and-cheese-1.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3192/3285048362_1aca2cae10_b.jpg",
+    "alt": "_Real_ macaroni and cheese.",
+    "creator": "ffg",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-2.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/2288/2215025518_3a9c358247_b.jpg",
+    "alt": "Macaroni and Cheese",
+    "creator": "Benimoto",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-3.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/7045/6968265835_6f7a47a3b5_b.jpg",
+    "alt": "Gluten-free macaroni and cheese",
+    "creator": "Jason Riedy",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-4.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3061/2383484064_6945cf76e3_b.jpg",
+    "alt": "Macaroni and Cheese",
+    "creator": "kalleboo",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-5.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/2378/2254947358_c64ea8acd1_b.jpg",
+    "alt": "Tex-Mex Macaroni and Cheese",
+    "creator": "Qfamily",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-6.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/7674/17341353235_ec618de376_b.jpg",
+    "alt": "Kraft Macaroni and Cheese, Minions",
+    "creator": "JeepersMedia",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-7.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/7545/16224084011_636326150f_b.jpg",
+    "alt": "Macaroni and cheese in a personalized black bowl on a wood table next to a glass bowl of pureed cauliflower",
+    "creator": "PersonalCreations.com",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/baked-mac-and-cheese-8.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3135/3073445539_3eb4ee49ea_b.jpg",
+    "alt": "*Real* Macaroni and Cheese",
+    "creator": "ffg",
+    "license": "by"
+   }
+  ],
   "videos": [
    {
     "id": "Soqqq8XIT0U",
@@ -205,7 +335,7 @@
    },
    {
     "file": "assets/img/beef-bourguignon-4.jpg",
-    "source": "Le Coup de Gr\u00e2ce",
+    "source": "Le Coup de Grâce",
     "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e7ad314745ad.jpg",
     "alt": ""
    },
@@ -249,7 +379,7 @@
    },
    {
     "id": "_Bx9P32tdaM",
-    "title": "Recipe: Beef Bourguignon \u2013 Tender, Red Wine\u2013Braised Perfection",
+    "title": "Recipe: Beef Bourguignon – Tender, Red Wine–Braised Perfection",
     "channel": "Cafe Delites",
     "source_url": "https://www.youtube.com/watch?v=_Bx9P32tdaM"
    }
@@ -315,8 +445,8 @@
    },
    {
     "id": "9m3W3QAQVWI",
-    "title": "How to make Bibimbap (Korean rice bowl) \u301c\u30d3\u30d3\u30f3\u30d0\u301c  | easy Japanese home cooking recipe",
-    "channel": "Taiji \u0301s Kitchen",
+    "title": "How to make Bibimbap (Korean rice bowl) 〜ビビンバ〜  | easy Japanese home cooking recipe",
+    "channel": "Taiji ́s Kitchen",
     "source_url": "https://www.youtube.com/watch?v=9m3W3QAQVWI"
    }
   ]
@@ -375,7 +505,7 @@
   "videos": [
    {
     "id": "a03U45jFxOI",
-    "title": "How To Make Butter Chicken At Home | Restaurant Style Recipe | The Bombay Chef \u2013 Varun Inamdar",
+    "title": "How To Make Butter Chicken At Home | Restaurant Style Recipe | The Bombay Chef – Varun Inamdar",
     "channel": "Get Curried",
     "source_url": "https://www.youtube.com/watch?v=a03U45jFxOI"
    },
@@ -387,7 +517,7 @@
    },
    {
     "id": "tKeMMG32ATo",
-    "title": "The ONLY\u00a0Butter\u00a0Chicken\u00a0Recipe\u00a0You Need! | Restaurant-Style Butter Chicken",
+    "title": "The ONLY Butter Chicken Recipe You Need! | Restaurant-Style Butter Chicken",
     "channel": "With Wendy and Shannon",
     "source_url": "https://www.youtube.com/watch?v=tKeMMG32ATo"
    }
@@ -889,7 +1019,7 @@
   "images": [
    {
     "file": "assets/img/chrome-ember-1.jpg",
-    "source": "\u00dcberleben",
+    "source": "Überleben",
     "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a30c89be5179.jpg",
     "alt": ""
    },
@@ -907,7 +1037,7 @@
    },
    {
     "file": "assets/img/chrome-ember-4.jpg",
-    "source": "\u00dcberleben",
+    "source": "Überleben",
     "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3f75b05acbc2.jpg",
     "alt": ""
    },
@@ -1172,7 +1302,20 @@
     "alt": ""
    }
   ],
-  "videos": []
+  "videos": [
+   {
+    "id": "6tSdlo0r0Io",
+    "title": "Easy and Amazing Creme Brulee Recipe | Preppy Kitchen",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=6tSdlo0r0Io"
+   },
+   {
+    "id": "jPjGfMCS9ds",
+    "title": "How to make Crème Brûlée 🇫🇷🥄 #CremeBrulee #Dessert #Recipe",
+    "channel": "Kai Kani",
+    "source_url": "https://www.youtube.com/watch?v=jPjGfMCS9ds"
+   }
+  ]
  },
  "falafel-tahini": {
   "images": [
@@ -1423,7 +1566,20 @@
     "alt": ""
    }
   ],
-  "videos": []
+  "videos": [
+   {
+    "id": "wf9lDE95T20",
+    "title": "The Easiest (Actually) No Knead Sourdough Bread on YouTube",
+    "channel": "Grant Bakes",
+    "source_url": "https://www.youtube.com/watch?v=wf9lDE95T20"
+   },
+   {
+    "id": "4r8irdLuUtc",
+    "title": "Easy Homemade Sourdough Bread | A Basic No Knead Recipe That Gives Amazing Results Every Time",
+    "channel": "Culinary Exploration",
+    "source_url": "https://www.youtube.com/watch?v=4r8irdLuUtc"
+   }
+  ]
  },
  "pad-thai": {
   "images": [
@@ -1558,7 +1714,7 @@
    {
     "id": "a6fORUxrUcw",
     "title": "Beef Pho Recipe | Vietnamese Beef Noodle Soup",
-    "channel": "Certified Angus Beef \u00ae",
+    "channel": "Certified Angus Beef ®",
     "source_url": "https://www.youtube.com/watch?v=a6fORUxrUcw"
    }
   ]
@@ -1708,7 +1864,72 @@
   ]
  },
  "shepherds-pie": {
-  "images": [],
+  "images": [
+   {
+    "file": "assets/img/shepherds-pie-1.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/8198/8227698373_0598d6de4f_b.jpg",
+    "alt": "Shepherd's Pie",
+    "creator": "SodanieChea",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/shepherds-pie-2.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/8088/8567452924_987a927190_b.jpg",
+    "alt": "Beef and Lamb Shepherd's Pie with Guinness",
+    "creator": "djwtwo",
+    "license": "by-nc-sa"
+   },
+   {
+    "file": "assets/img/shepherds-pie-3.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/4075/4897135759_a6a8e9e324_b.jpg",
+    "alt": "365.223: Shepherd's pie",
+    "creator": "WordRidden",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/shepherds-pie-4.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/2455/3583163932_da3a0d56e8_b.jpg",
+    "alt": "Shepherd's Pie",
+    "creator": "DesheBoard",
+    "license": "by"
+   },
+   {
+    "file": "assets/img/shepherds-pie-5.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/6231/6311000790_c231ed27c8_b.jpg",
+    "alt": "11/03/11 - Shepherd's Pie",
+    "creator": "trpnblies7",
+    "license": "by-nc-nd"
+   },
+   {
+    "file": "assets/img/shepherds-pie-6.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/4039/4184026586_333b194661_b.jpg",
+    "alt": "2009-12-13 - German Shepherd's Pie - 0006",
+    "creator": "smiteme",
+    "license": "by-nc"
+   },
+   {
+    "file": "assets/img/shepherds-pie-7.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3158/5816841515_386bdbf644_b.jpg",
+    "alt": "Vegan Shepherd's Pie",
+    "creator": "Jeffrey Coolwater",
+    "license": "by-nc-nd"
+   },
+   {
+    "file": "assets/img/shepherds-pie-8.jpg",
+    "source": "Flickr via Openverse",
+    "src_url": "https://live.staticflickr.com/3793/11457181264_dc80ecda14_b.jpg",
+    "alt": "Another Vegan Shepherd's Pie",
+    "creator": "Jeffrey Coolwater",
+    "license": "by-nc-nd"
+   }
+  ],
   "videos": [
    {
     "id": "lElYYrovajg",
@@ -1863,7 +2084,7 @@
    {
     "id": "foD42-73wdI",
     "title": "Better Than Fast Food! Classic Smash Burger Recipe",
-    "channel": "Certified Angus Beef \u00ae",
+    "channel": "Certified Angus Beef ®",
     "source_url": "https://www.youtube.com/watch?v=foD42-73wdI"
    }
   ]

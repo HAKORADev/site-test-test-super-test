@@ -20,10 +20,15 @@ def build_recipe_page(r, all_recipes):
             for im in imgs[1:])
         srcs = sorted({im.get("src_url", "") for im in imgs[1:] if im.get("src_url")})
         src_list = "".join(f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a>' for u in srcs[:8])
+        extra = ""
+        creators = [im for im in imgs[1:] if im.get("creator")]
+        if creators:
+            extra = "<p>CC-licensed images: " + "; ".join(
+                f"{esc(im['creator'])} ({esc(im.get('license','cc')).upper()})" for im in creators[:8]) + ".</p>"
         gallery_html = f'''<section class="recipe-section" id="gallery">
 <h2 class="section-title"><span>Gallery</span></h2>
 <div class="gallery">{figs}</div>
-<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p>{src_list}</details>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p>{extra}{src_list}</details>
 </section>'''
     videos_html = ""
     if r["videos"]:
