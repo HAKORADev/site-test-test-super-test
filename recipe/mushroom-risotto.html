@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mushroom Risotto — Salt & Ember</title>
+<meta name="description" content="Twenty minutes of stirring buys you the creamiest rice in the Western canon.">
+<meta property="og:title" content="Mushroom Risotto">
+<meta property="og:description" content="Twenty minutes of stirring buys you the creamiest rice in the Western canon.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/mushroom-risotto-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/mushroom-risotto-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/italian-classics.html">← Italian Classics</a>
+<h1 class="recipe-title">Mushroom Risotto</h1>
+<p class="recipe-kicker">Twenty minutes of stirring buys you the creamiest rice in the Western canon.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 50 min</span>
+<span class="meta-pill">◆ Medium</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=vegetarian">vegetarian</a><a class="chip" href="../recipes.html?tag=comfort">comfort</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=budget">budget</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="25">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">Risotto is northern Italy&#x27;s answer to the question &#x27;what if comfort food were a technique?&#x27; Starch-rich short-grain rice — arborio, carnaroli — toasted, then drowned repeatedly in hot stock while you stir. The motion isn&#x27;t mystical; it just knocks the starch granules loose so they thicken the cooking liquid into a sauce around each grain, which stays pointedly al dente at the center.</p>
+<p>With mushrooms, the dish becomes earthy and deep: brown the mushrooms hard and separately so they develop real color, then fold them through at the end. The finishing move is mantecatura — beating cold butter and parmesan into the pan off the heat until the whole thing turns glossy and waves lazily when you shake it. Italians call that wave all&#x27;onda. It is the single most satisfying texture in the recipe.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Risotto likely arrived with Arab rice traders through Venice. The famous &#x27;saffron risotto&#x27; legend involves a stained-glass apprentice&#x27;s yellow pigment — a story Italians themselves admit is too good to check.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">320 g</span><span class="ing-item">carnaroli or arborio rice <em>carnaroli forgives more</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">450 g</span><span class="ing-item">mixed mushrooms <em>cremini, shiitake, oyster — texture contrast matters</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1.2 L</span><span class="ing-item">light mushroom or vegetable stock <em>kept hot on a back burner</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">shallot <em>finely minced</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">120 ml</span><span class="ing-item">dry white wine <em>something you would drink</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">60 g</span><span class="ing-item">parmesan <em>finely grated</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">60 g</span><span class="ing-item">cold butter, cubed <em>for the mantecatura</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tbsp</span><span class="ing-item">olive oil</span></label></li><li><label class="ing"><input type="checkbox" data-ing="mushroom-risotto"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 sprig</span><span class="ing-item">thyme</span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Brown the mushrooms first</h4><p>Hot pan, oil, mushrooms in a single layer, and then the hard part: leave them alone. Two to three minutes per side for real caramelization. Season at the end, set aside.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Soffritto and tostatura</h4><p>In a wide pan, sweat the shallot in a knob of butter until translucent. Add the rice and toast two minutes until the edges turn glassy and the centers stay chalk-white.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Wine, then the long stir</h4><p>Pour in the wine; let it evaporate completely. Then add hot stock a ladle at a time, stirring with a relaxed, constant rhythm. Each addition should just cover the rice. Sixteen to eighteen minutes total.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Learn to read the rice</h4><p>Taste at fourteen minutes. You want the grain tender outside, with a defiant little center. Undercooked is chalk; overcooked is baby food. Aim between.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Off the heat, the finale</h4><p>Kill the heat. Beat in the cold butter and parmesan vigorously — this is what makes it creamy, not the stirring. Fold in the mushrooms. Shake the pan; the risotto should ripple like the sea. Serve on flat plates, immediately.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-2.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>The Gourmet Bon Vivant</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-3.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>The Modern Proper</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-4.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>Lizzy Loves Food</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-5.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>Flavor the Moments</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-6.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>HandmadeV</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-7.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>Coley Cooks</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/mushroom-risotto-8.jpg" alt="Mushroom Risotto" loading="lazy"><figcaption>HelloFresh</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1d1c5107c910.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1d1c5107c910.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/282ab52bdc94.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/282ab52bdc94.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6137004d4d6b.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6137004d4d6b.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/61d277b4674f.jpeg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/61d277b4674f.jpeg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7200bc6bd91d.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7200bc6bd91d.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/889a44022fc0.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/889a44022fc0.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec1036421852.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec1036421852.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="3wLgpjcOcQE" tabindex="0" role="button" aria-label="Play: Easy Mushroom Risotto">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/3wLgpjcOcQE/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Easy Mushroom Risotto</h4><p>Lidia Bastianich</p></div>
+</div><div class="video-card" data-yt="bhaXBrJuRVU" tabindex="0" role="button" aria-label="Play: How To Make An Easy Mushroom Risotto | Easy Recipe | Jamie Oliver">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/bhaXBrJuRVU/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How To Make An Easy Mushroom Risotto | Easy Recipe | Jamie Oliver</h4><p>Jamie Oliver</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Stock must stay hot. Cold stock shocks the rice, stalls the cooking, and gums up the starch release.</li><li>Dried porcini (10 g, soaked, chopped) added with the stock is a cheap depth multiplier.</li><li>Leftover risotto becomes tomorrow&#x27;s suppì al riso — press into patties, stuff with mozzarella, bread and fry. The leftovers might be better than the dinner.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Risotto waits for nobody at the table, and does not reheat well as risotto. Do chill leftovers and fry them as arancini or patties the next day.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Risotto" target="_blank" rel="noopener"><div class="ext-body"><h4>Risotto — Wikipedia</h4><p>Northern Italy&#x27;s rice tradition and its regional variants</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/how-to-make-perfect-risotto-recipe" target="_blank" rel="noopener"><div class="ext-body"><h4>Serious Eats — Risotto Fundamentals</h4><p>Stirred vs. no-stir methods, tested side by side</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="mushroom-risotto" data-title="Mushroom Risotto" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/classic-margherita-pizza.html" data-genre="Italian Classics" data-tags="vegetarian,weekend-project,crowd-pleaser,cheesy" data-title="classic margherita pizza">
+  <div class="card-media"><img src="../assets/img/classic-margherita-pizza-1.jpg" alt="Classic Margherita Pizza" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Italian Classics</div>
+    <h3 class="card-title">Classic Margherita Pizza</h3>
+    <p class="card-kicker">Three ingredients, one blistered crust, zero shortcuts that matter.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 4-24 hrs (dough rests)</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">weekend-project</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/french-onion-soup.html" data-genre="French Bistro" data-tags="vegetarian-option,comfort,budget,make-ahead" data-title="french onion soup">
+  <div class="card-media"><img src="../assets/img/french-onion-soup-1.jpg" alt="French Onion Soup" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">French Bistro</div>
+    <h3 class="card-title">French Onion Soup</h3>
+    <p class="card-kicker">Onions, patience, and a cheese lid that requires commitment and a spoon.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr 30 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian-option</span><span class="tag">comfort</span><span class="tag">budget</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

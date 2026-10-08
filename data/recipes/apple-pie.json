@@ -1,0 +1,129 @@
+{
+  "slug": "apple-pie",
+  "title": "All-American Apple Pie",
+  "genre": "Sweet & Baked",
+  "tags": [
+    "dessert",
+    "weekend-project",
+    "crowd-pleaser"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "45 min + chill",
+    "cook": "55 min",
+    "total_label": "3 hrs (with dough rest)",
+    "total_min": 180
+  },
+  "servings": "8",
+  "kicker": "A lattice that took patience, apples that kept their spine, and a filling that never turns to soup.",
+  "story": [
+    "Apple pie's reputation as American shorthand hides a much older passport — English apple pyes date to the 14th century, often with savory intents. The American move was the double crust, the lattice, and the confidence that dessert can be the main event. Done right, it is an engineering project: a bottom crust that stays crisp under a lake of fruit, a filling thick enough to slice, a top that shatters.",
+    "The three secrets are apple selection, pre-cooking, and flour discipline. Use a mix of apples — tart Granny Smiths for structure, a sweet variety for flavor. Pre-cook the filling briefly so the apples collapse first in the pan instead of inside the pie, which creates the dreaded gap under the lid. And thicken with just enough flour or cornstarch; the juices should turn to jam, not wallpaper paste."
+  ],
+  "fun_fact": "'As American as apple pie' — but the apple itself is an immigrant, and during WWII soldiers answered 'mom and apple pie' when asked what they fought for. The phrase outlived the war.",
+  "ingredients": [
+    {
+      "amount": "1 double crust",
+      "item": "butter pie dough",
+      "note": "2.5 cups flour, 220 g cold butter, 1 tsp salt, 1 tbsp sugar, ice water — chilled 1 hr minimum"
+    },
+    {
+      "amount": "1.4 kg",
+      "item": "mixed apples",
+      "note": "half Granny Smith, half Golden Delicious or Honeycrisp"
+    },
+    {
+      "amount": "70 g",
+      "item": "sugar",
+      "note": "adjust to apple sweetness"
+    },
+    {
+      "amount": "30 g",
+      "item": "brown sugar",
+      "note": ""
+    },
+    {
+      "amount": "25 g",
+      "item": "flour or cornstarch",
+      "note": "the thickener"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "cinnamon + 1/4 tsp nutmeg",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "lemon juice",
+      "note": ""
+    },
+    {
+      "amount": "1 pinch",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "30 g",
+      "item": "butter, dotted",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "egg",
+      "note": "beaten, for the wash"
+    },
+    {
+      "amount": "—",
+      "item": "coarse sugar",
+      "note": "the sparkle on the lid"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Dough first, always ahead",
+      "text": "Make the dough by cutting cold butter into flour until pea-sized rubble remains, add ice water until it just holds, divide in two, flatten, wrap, chill an hour. Cold butter chunks = flaky layers. Warm butter = cardboard."
+    },
+    {
+      "title": "Pre-cook the filling",
+      "text": "Peel, core, slice apples 1 cm thick. Toss with sugars, flour, spices, lemon, salt. Cook in a wide pan over medium 8-10 minutes until juices thicken and apples just bend. Cool completely — this is the anti-gap, anti-sog move."
+    },
+    {
+      "title": "Roll the bottom",
+      "text": "Roll the first disc 3 mm thick, a circle larger than the pan. Drape into a 23 cm / 9-inch dish, press into the corner without stretching (stretched dough shrinks), leave the overhang."
+    },
+    {
+      "title": "Fill high and proud",
+      "text": "Pile the cooled filling in the center — it sinks as it bakes, so mound it. Dot with butter. Brush the rim with egg so the lid welds on."
+    },
+    {
+      "title": "Lattice (or a vented lid)",
+      "text": "Roll the second disc, cut 2.5 cm strips, weave over the filling — over, under, repeat — or lay a full lid with 5 vents cut. Trim, fold, crimp the edge. Egg wash and coarse sugar everywhere."
+    },
+    {
+      "title": "Bake the two-stage bake",
+      "text": "220°C / 425°F for 20 minutes to set the lid, then 180°C / 350°F for 40-45 minutes until the filling bubbles through the vents — bubbling means the thickener worked. Foil-shield the rim if it darkens fast. Cool 3 hours minimum. Slicing hot pie is filling assassination."
+    }
+  ],
+  "notes": [
+    "The 3-hour cool is real: the filling sets as it cools, and warm pie slices into soup. Warm-ish after 3 hours is the perfect state.",
+    "Dough scraps rerolled with cinnamon sugar make baker's snacks — the cook's tax.",
+    "Serve with sharp cheddar slices (New England style) or vanilla ice cream. Choose a side in the war, or eat both."
+  ],
+  "pairings": [
+    "no-knead-sourdough",
+    "creme-brulee"
+  ],
+  "links": [
+    {
+      "title": "Apple pie — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Apple_pie",
+      "desc": "Fourteenth-century English roots to the American icon"
+    },
+    {
+      "title": "Serious Eats — Pie Science",
+      "url": "https://www.seriouseats.com/the-food-labs-how-to-make-apple-pie-recipe",
+      "desc": "Why pre-cooking the filling fixes sog bottoms and gaps"
+    }
+  ],
+  "storage": "Room temperature 2 days under a dome, refrigerate after — re-crisp slices in a 180°C / 350°F oven for 10 minutes. Baked pie freezes 3 months; thaw and re-crisp."
+}

@@ -1,0 +1,2075 @@
+{
+ "apple-pie": {
+  "images": [],
+  "videos": [
+   {
+    "id": "KbyahTnzbKA",
+    "title": "The Only APPLE PIE Recipe You'll Need",
+    "channel": "Natashas Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=KbyahTnzbKA"
+   },
+   {
+    "id": "PzFo8G6YNz0",
+    "title": "The BEST Apple Pie Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=PzFo8G6YNz0"
+   },
+   {
+    "id": "6017jeozxlQ",
+    "title": "How to Make Apple Pie, 3 Ways (Classic, Easy, Caramel) | Allrecipes",
+    "channel": "Allrecipes",
+    "source_url": "https://www.youtube.com/watch?v=6017jeozxlQ"
+   }
+  ]
+ },
+ "authentic-carbonara": {
+  "images": [
+   {
+    "file": "assets/img/authentic-carbonara-1.jpg",
+    "source": "Amateur Gourmet",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0ddf22517595.webp",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-2.jpg",
+    "source": "Schnax",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a2105f1c0203.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-3.jpg",
+    "source": "Dreamstime.com",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c88ed0fc6553.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-4.jpg",
+    "source": "Mashed",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e7a1ea262873.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-5.jpg",
+    "source": "DeLallo",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f94f90c7b5df.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-6.jpg",
+    "source": "Live Learn Lovewell",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/45c362f70607.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-7.jpg",
+    "source": "Savoring Italy - Substack",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/87c99773f827.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/authentic-carbonara-8.jpg",
+    "source": "PassionSpoon",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7d6bc325346e.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "3AAdKl1UYZs",
+    "title": "Real Spaghetti Carbonara | Antonio Carluccio",
+    "channel": "Jamie Oliver",
+    "source_url": "https://www.youtube.com/watch?v=3AAdKl1UYZs"
+   },
+   {
+    "id": "VcxDN3bkuy0",
+    "title": "Spaghetti Carbonara - Chef in Italy shares Recipe",
+    "channel": "Aden Films",
+    "source_url": "https://www.youtube.com/watch?v=VcxDN3bkuy0"
+   }
+  ]
+ },
+ "baja-fish-tacos": {
+  "images": [
+   {
+    "file": "assets/img/baja-fish-tacos-1.jpg",
+    "source": "Sweet and Savory Meals",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4eccc1f9a8f9.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-2.jpg",
+    "source": "Taste of Home",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f838b5d2949b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-3.jpg",
+    "source": "Noble Pig",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3224f1c3cea1.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-4.jpg",
+    "source": "Mashed",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f61cfeb6cd96.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-5.jpg",
+    "source": "HelloFresh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/696374446b63.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-6.jpg",
+    "source": "Mexican Made Meatless",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7dcacf88ac46.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-7.jpg",
+    "source": "Three Olives Branch",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed1bc5a0a9c0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/baja-fish-tacos-8.jpg",
+    "source": "Foodology Geek",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4ef366f47b31.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "AyVqSbMb_pw",
+    "title": "BAJA FISH & SHRIMP TACOS - My FULL Cookbook Recipe for Tacos Ensenada (Beer Batter, Slaw & Sauce)",
+    "channel": "ArnieTex",
+    "source_url": "https://www.youtube.com/watch?v=AyVqSbMb_pw"
+   },
+   {
+    "id": "9ugi0S0uUVA",
+    "title": "This is How To Make The ULTIMATE Baja Fish Tacos Drizzled with Zesty Homemade Dressing",
+    "channel": "Hey Grill Hey",
+    "source_url": "https://www.youtube.com/watch?v=9ugi0S0uUVA&vl=en"
+   },
+   {
+    "id": "Iemre976Gpk",
+    "title": "Perfect Baja Fish Tacos Recipe",
+    "channel": "Chef Billy Parisi",
+    "source_url": "https://www.youtube.com/watch?v=Iemre976Gpk"
+   }
+  ]
+ },
+ "baked-mac-and-cheese": {
+  "images": [],
+  "videos": [
+   {
+    "id": "Soqqq8XIT0U",
+    "title": "Baked Macaroni & Cheese Recipe",
+    "channel": "Marsha",
+    "source_url": "https://www.youtube.com/watch?v=Soqqq8XIT0U&xstg=CAMSBhUDzO3xHw%3D%3D"
+   },
+   {
+    "id": "1fJGpUFo_FA",
+    "title": "The BEST Mac & Cheese Recipe  | Easy, Creamy and Delicious | Thanksgiving Side Dish Idea!",
+    "channel": "Island Vibe Cooking",
+    "source_url": "https://www.youtube.com/watch?v=1fJGpUFo_FA&xstg=CAMSBhUDzO3xHw%3D%3D"
+   },
+   {
+    "id": "Wg_0I27OyGk",
+    "title": "AMAZING Baked Mac and Cheese Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=Wg_0I27OyGk&xstg=CAMSBhUDzO3xHw%3D%3D"
+   }
+  ]
+ },
+ "beef-bourguignon": {
+  "images": [
+   {
+    "file": "assets/img/beef-bourguignon-1.jpg",
+    "source": "Baked Bree",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e20fe2623d27.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-2.jpg",
+    "source": "Mad about Macarons",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2708a791c45e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-3.jpg",
+    "source": "Reluctant Entertainer",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a5eb86fa0b6.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-4.jpg",
+    "source": "Le Coup de Gr\u00e2ce",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e7ad314745ad.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-5.jpg",
+    "source": "The Daring Gourmet",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/311c6e13211c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-6.jpg",
+    "source": "Vikalinka",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d50f05ef4103.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-7.jpg",
+    "source": "SueBee Homemaker",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a3f50c53828.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/beef-bourguignon-8.jpg",
+    "source": "So Much Food",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4426ec9776b1.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "OlcMgfSW0mc",
+    "title": "Beef Bourguignon - The Most Comforting Classic French Stew",
+    "channel": "Sip and Feast",
+    "source_url": "https://www.youtube.com/watch?v=OlcMgfSW0mc"
+   },
+   {
+    "id": "lLKOIkAVge8",
+    "title": "How to Make Beef Bourguignon | Step-by-Step With Melissa Clark | NYT Cooking",
+    "channel": "NYT Cooking",
+    "source_url": "https://www.youtube.com/watch?v=lLKOIkAVge8"
+   },
+   {
+    "id": "_Bx9P32tdaM",
+    "title": "Recipe: Beef Bourguignon \u2013 Tender, Red Wine\u2013Braised Perfection",
+    "channel": "Cafe Delites",
+    "source_url": "https://www.youtube.com/watch?v=_Bx9P32tdaM"
+   }
+  ]
+ },
+ "bibimbap": {
+  "images": [
+   {
+    "file": "assets/img/bibimbap-1.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7f539942b6b1.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-2.jpg",
+    "source": "Sandra's Easy Cooking",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/05837f5e0bb7.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-3.jpg",
+    "source": "Sandra's Easy Cooking",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/685ae8fc5812.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-4.jpg",
+    "source": "Carlsbad Cravings",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f9056b3ced6f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-5.jpg",
+    "source": "HelloFresh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6d903a30f99.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-6.jpg",
+    "source": "Minimalist Baker",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7068b5505538.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-7.jpg",
+    "source": "Minimalist Baker",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2e5e24faae9f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/bibimbap-8.jpg",
+    "source": "Fast Running",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed2629710198.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "HAbK252ICdg",
+    "title": "Easy Authentic Bibimbap At Home",
+    "channel": "Joshua Weissman",
+    "source_url": "https://www.youtube.com/watch?v=HAbK252ICdg"
+   },
+   {
+    "id": "9m3W3QAQVWI",
+    "title": "How to make Bibimbap (Korean rice bowl) \u301c\u30d3\u30d3\u30f3\u30d0\u301c  | easy Japanese home cooking recipe",
+    "channel": "Taiji \u0301s Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=9m3W3QAQVWI"
+   }
+  ]
+ },
+ "butter-chicken": {
+  "images": [
+   {
+    "file": "assets/img/butter-chicken-1.jpg",
+    "source": "The Endless Meal",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/df43353949a4.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-2.jpg",
+    "source": "Aqueena The Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec68577ddd7c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-3.jpg",
+    "source": "HelloFresh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8cd92c27fff4.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-4.jpg",
+    "source": "Hello Chef",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5da356a20ba9.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-5.jpg",
+    "source": "Foodle Club",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0ec60884ed91.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-6.jpg",
+    "source": "12 Tomatoes",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/26eac95ba3a9.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-7.jpg",
+    "source": "chili & tonic",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/36018d7bd8d3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/butter-chicken-8.jpg",
+    "source": "HelloFresh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5df62083296.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "a03U45jFxOI",
+    "title": "How To Make Butter Chicken At Home | Restaurant Style Recipe | The Bombay Chef \u2013 Varun Inamdar",
+    "channel": "Get Curried",
+    "source_url": "https://www.youtube.com/watch?v=a03U45jFxOI"
+   },
+   {
+    "id": "tIH6dyEsKyg",
+    "title": "One-Pan Golden Butter Chicken | Fast and Easy Chicken Curry | Food Wishes",
+    "channel": "Food Wishes",
+    "source_url": "https://www.youtube.com/watch?v=tIH6dyEsKyg"
+   },
+   {
+    "id": "tKeMMG32ATo",
+    "title": "The ONLY\u00a0Butter\u00a0Chicken\u00a0Recipe\u00a0You Need! | Restaurant-Style Butter Chicken",
+    "channel": "With Wendy and Shannon",
+    "source_url": "https://www.youtube.com/watch?v=tKeMMG32ATo"
+   }
+  ]
+ },
+ "carnitas": {
+  "images": [
+   {
+    "file": "assets/img/carnitas-1.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8d6d3027399d.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-2.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/400e9248b009.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-3.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d1c1f3ff2064.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-4.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7c643037ac40.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-5.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/073e46a03ea2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-6.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0b529600ba6e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-7.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7c1b39d7bfc5.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/carnitas-8.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/69b3ee57f474.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "N0EJy9XlJAY",
+    "title": "No-Fuss TRADITIONAL CARNITAS That Come Out PERFECT Every Time, Easier than EVER!",
+    "channel": "Cooking Con Claudia",
+    "source_url": "https://www.youtube.com/watch?v=N0EJy9XlJAY"
+   },
+   {
+    "id": "j37bPwNwrvs",
+    "title": "How to make TRADITIONAL MEXICAN CARNITAS, the EASIEST, SIMPLEST, and most DELICIOUS Recipe!",
+    "channel": "Cooking Con Claudia",
+    "source_url": "https://www.youtube.com/watch?v=j37bPwNwrvs"
+   },
+   {
+    "id": "XiP9dnaSRRE",
+    "title": "The Ultimate CARNITAS Recipe Guide: Pork Butt, Ribs, Cuero & Traditional Ingredients | Arnie's Asada",
+    "channel": "ArnieTex",
+    "source_url": "https://www.youtube.com/watch?v=XiP9dnaSRRE"
+   }
+  ]
+ },
+ "chana-masala": {
+  "images": [
+   {
+    "file": "assets/img/chana-masala-1.jpg",
+    "source": "Tea for Turmeric",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7be3212a7fc2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-2.jpg",
+    "source": "WTTW",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/94b98c59721c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-3.jpg",
+    "source": "Everyday Nourishing Foods",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7aa742d0da42.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-4.jpg",
+    "source": "Tea for Turmeric",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b05d1532e67f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-5.jpg",
+    "source": "Tea for Turmeric",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/677c705d085a.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-6.jpg",
+    "source": "Healthy Vegan",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a890b8ae1d1.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-7.jpg",
+    "source": "Garden Fresh Foodie",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/77714b595010.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chana-masala-8.jpg",
+    "source": "Food.com",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d6b122b3b5de.jpeg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "3Vf5_St-DEo",
+    "title": "Restaurant Style Chana Masala/ Chole Masala Recipe/ Chana Masala Gravy",
+    "channel": "Dindigul Food Court",
+    "source_url": "https://www.youtube.com/watch?v=3Vf5_St-DEo"
+   },
+   {
+    "id": "81qLj6Odfgs",
+    "title": "How to Make Chana Masala",
+    "channel": "America's Test Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=81qLj6Odfgs"
+   },
+   {
+    "id": "muyq3vjYyvc",
+    "title": "Got Chickpeas? Make My Chana Masala | Zainab Shah | NYT Cooking",
+    "channel": "NYT Cooking",
+    "source_url": "https://www.youtube.com/watch?v=muyq3vjYyvc"
+   }
+  ]
+ },
+ "chicken-katsu-curry": {
+  "images": [
+   {
+    "file": "assets/img/chicken-katsu-curry-1.jpg",
+    "source": "One Happy Bite",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8f990059323c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-2.jpg",
+    "source": "Takes Two Eggs",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d48898f86e10.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-3.jpg",
+    "source": "Oishi Book",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a2596a248837.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-4.jpg",
+    "source": "Cravings Journal",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b0a190cb6503.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-5.jpg",
+    "source": "Krumpli",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e3288fc11a7a.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-6.jpg",
+    "source": "One Happy Bite",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/acebb19403cc.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-7.jpg",
+    "source": "Alamy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8465c5bd06dc.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-katsu-curry-8.jpg",
+    "source": "Cooking With Ayeh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0f985832a994.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "bLvQutBaaac",
+    "title": "Japanese Chicken Katsu Curry | (EASY)",
+    "channel": "Chef Jack Ovens",
+    "source_url": "https://www.youtube.com/watch?v=bLvQutBaaac"
+   },
+   {
+    "id": "WfRbviqgiSA",
+    "title": "How To Make Chicken Katsu Curry",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=WfRbviqgiSA"
+   }
+  ]
+ },
+ "chicken-noodle-soup": {
+  "images": [
+   {
+    "file": "assets/img/chicken-noodle-soup-1.jpg",
+    "source": "Baker by Nature",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/34d447038414.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-2.jpg",
+    "source": "The Girl Who Ate Everything",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/34e2abd76616.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-3.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e09851ba7ae8.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-4.jpg",
+    "source": "Momsdish",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4f220a879169.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-5.jpg",
+    "source": "Inspired Taste",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9521a06ba5dd.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-6.jpg",
+    "source": "The Kitchn",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2a01224c145b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-7.jpg",
+    "source": "One Pot Recipes",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/03d061328522.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-noodle-soup-8.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7493a01decf6.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "Hd53fxoLlAo",
+    "title": "The Best Chicken Noodle Soup Recipe",
+    "channel": "Inspired Taste",
+    "source_url": "https://www.youtube.com/watch?v=Hd53fxoLlAo"
+   },
+   {
+    "id": "O2XXgo_u7b0",
+    "title": "Easy Chicken Noodle Soup Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=O2XXgo_u7b0"
+   },
+   {
+    "id": "zcgYweT_Gys",
+    "title": "Chicken Noodle Soup | Easy Chicken Noodle Soup From Scratch | Allrecipes",
+    "channel": "Allrecipes",
+    "source_url": "https://www.youtube.com/watch?v=zcgYweT_Gys&vl=en"
+   }
+  ]
+ },
+ "chicken-shawarma": {
+  "images": [
+   {
+    "file": "assets/img/chicken-shawarma-1.jpg",
+    "source": "The Bite with Jackie",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f135aa9c0d13.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-2.jpg",
+    "source": "Just a Little Bit of Bacon",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6a8c7fab2cb.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-3.jpg",
+    "source": "Dinner, then Dessert",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2d49c2252186.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-4.jpg",
+    "source": "Just a Little Bit of Bacon",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c198d6f24371.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-5.jpg",
+    "source": "At the Immigrant's Table",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7449b6802413.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-6.jpg",
+    "source": "Savory and Sweet Food",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/36ea21968064.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-7.jpg",
+    "source": "TheSpicyJuju",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0109b3154ad1.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-shawarma-8.jpg",
+    "source": "Chicken and Chive",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/41ffb355bf3e.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "RooEdtq_Lfo",
+    "title": "How To Make Chicken Shawarma At Home",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=RooEdtq_Lfo"
+   },
+   {
+    "id": "lrb_cJBPzLM",
+    "title": "Chicken Shawarma Arabic Style By Recipes Of the World",
+    "channel": "Recipes of the world",
+    "source_url": "https://www.youtube.com/watch?v=lrb_cJBPzLM"
+   },
+   {
+    "id": "n7uG7Q02bBc",
+    "title": "Chicken Shawarma Recipe | Homemade Chicken Shawarma with French Fry and Garlic Sauce | Chicken Wrap",
+    "channel": "Hands Touch",
+    "source_url": "https://www.youtube.com/watch?v=n7uG7Q02bBc"
+   }
+  ]
+ },
+ "chicken-souvlaki": {
+  "images": [
+   {
+    "file": "assets/img/chicken-souvlaki-1.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d9a563cb793d.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-2.jpg",
+    "source": "Kristine's Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0fe57ac56b46.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-3.jpg",
+    "source": "Kristine's Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/14a261eea3ec.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-4.jpg",
+    "source": "Taste of Home",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/59d0424bf898.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-5.jpg",
+    "source": "The Domestic Dietitian",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/87b03c37a34e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-6.jpg",
+    "source": "Lemons for Lulu",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c35af44e897b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-7.jpg",
+    "source": "Jo Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c945b2437b64.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chicken-souvlaki-8.jpg",
+    "source": "Gift of Hospitality",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4038133ac1e2.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "PLd_Uelzvw4",
+    "title": "GREEK CHICKEN SOUVLAKI | The Best Mediterranean Grilled Chicken Skewers",
+    "channel": "Downshiftology",
+    "source_url": "https://www.youtube.com/watch?v=PLd_Uelzvw4"
+   },
+   {
+    "id": "G7hcK6OXGPY",
+    "title": "BEST Greek Chicken Souvlaki Recipe | The Mediterranean Dish",
+    "channel": "The Mediterranean Dish",
+    "source_url": "https://www.youtube.com/watch?v=G7hcK6OXGPY"
+   }
+  ]
+ },
+ "chocolate-lava-cake": {
+  "images": [
+   {
+    "file": "assets/img/chocolate-lava-cake-1.jpg",
+    "source": "A Bountiful Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b1051e6c4325.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-2.jpg",
+    "source": "Savor the Best",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9b9924be18ab.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-3.jpg",
+    "source": "The Global Vegetarian",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8ecbcc7eb82e.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-4.jpg",
+    "source": "Teri-Ann Carty",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f8ac5b9d073e.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-5.jpg",
+    "source": "YouTube",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1442e93c47da.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-6.jpg",
+    "source": "Around The Nook",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/55ad23fadf86.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-7.jpg",
+    "source": "Baked By An Introvert",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bed03cec92c7.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chocolate-lava-cake-8.jpg",
+    "source": "Dreamstime",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6b3b5f9b071b.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "gW3JtHpuzrk",
+    "title": "Easy Chocolate Lava Cake Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=gW3JtHpuzrk"
+   },
+   {
+    "id": "0gS6qZYxik0",
+    "title": "Perfect Chocolate Lava Cake At Home",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=0gS6qZYxik0"
+   },
+   {
+    "id": "s5fQEm4jS3c",
+    "title": "Chocolate Lava Cake / Molten Chocolate Cakes",
+    "channel": "RecipeTin Eats",
+    "source_url": "https://www.youtube.com/watch?v=s5fQEm4jS3c"
+   }
+  ]
+ },
+ "chrome-ember": {
+  "images": [
+   {
+    "file": "assets/img/chrome-ember-1.jpg",
+    "source": "\u00dcberleben",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a30c89be5179.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-ember-2.jpg",
+    "source": "Reddit",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f190e3f33bbb.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-ember-3.jpg",
+    "source": "Edible Monterey Bay",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4c7fc174833b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-ember-4.jpg",
+    "source": "\u00dcberleben",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3f75b05acbc2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-ember-5.jpg",
+    "source": "Etsy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b8480de7b5a7.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-ember-6.jpg",
+    "source": "Homes and Gardens",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/afde47063d08.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "chrome-hands": {
+  "images": [
+   {
+    "file": "assets/img/chrome-hands-1.jpg",
+    "source": "America's Test Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7266cb33f88b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-hands-2.jpg",
+    "source": "Nest Homeware",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/43799a7f5e39.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-hands-3.jpg",
+    "source": "Deposit Photos",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a052a9cbdb73.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-hands-4.jpg",
+    "source": "America's Test Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bd217b57d952.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-hands-5.jpg",
+    "source": "The Perfect Loaf",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8b798583837e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-hands-6.jpg",
+    "source": "Brod & Taylor",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c839cdc4bb41.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "chrome-spices": {
+  "images": [
+   {
+    "file": "assets/img/chrome-spices-1.jpg",
+    "source": "Plays Well With Butter",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4bdb2fc22f3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-spices-2.jpg",
+    "source": "A Farmgirl's Dabbles",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/24c4e2f68ca6.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-spices-3.jpg",
+    "source": "End of the Fork",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0b9efe278deb.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-spices-4.jpg",
+    "source": "FoodShot AI",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e1338b2fb651.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-spices-5.jpg",
+    "source": "Chive Studio",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/68ab73fcd22a.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-spices-6.jpg",
+    "source": "Jenn Eats Goood",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/88b00a6adaf2.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "chrome-table": {
+  "images": [
+   {
+    "file": "assets/img/chrome-table-1.jpg",
+    "source": "DepositPhotos",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/753ae56da2f7.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-table-2.jpg",
+    "source": "YouWorkForThem",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e171a50379dc.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-table-3.jpg",
+    "source": "Restaurant Supply",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b4536cd465ae.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-table-4.jpg",
+    "source": "Dreamstime",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/70f4b0577dd2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-table-5.jpg",
+    "source": "Jo Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4439c48238e9.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/chrome-table-6.jpg",
+    "source": "YouWorkForThem",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c3f2ee9fdafd.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "classic-margherita-pizza": {
+  "images": [
+   {
+    "file": "assets/img/classic-margherita-pizza-1.jpg",
+    "source": "Mutti",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d98a9ba29799.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-2.jpg",
+    "source": "Dreamstime",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6533cda2517.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-3.jpg",
+    "source": "Dreamstime",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/621a65e7907f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-4.jpg",
+    "source": "123RF",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/28654be7a84c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-5.jpg",
+    "source": "Pinterest",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bae679b31d9a.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-6.jpg",
+    "source": "Alamy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed3897fc1f53.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-7.jpg",
+    "source": "Alamy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/baa2e2242bd2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/classic-margherita-pizza-8.jpg",
+    "source": "Bearded Foodie's Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/98a8cbaf459a.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "xKDnD8sJsuY",
+    "title": "How to Make PIZZA MARGHERITA like a Neapolitan Pizza Chef",
+    "channel": "Vincenzo's Plate",
+    "source_url": "https://www.youtube.com/watch?v=xKDnD8sJsuY"
+   },
+   {
+    "id": "vcfNpDtVqOw",
+    "title": "How to Make Margherita Pizza at Home | Gordon Ramsay",
+    "channel": "Gordon Ramsay",
+    "source_url": "https://www.youtube.com/watch?v=vcfNpDtVqOw"
+   },
+   {
+    "id": "4VSW29yWPlA",
+    "title": "Margherita Pizza Recipe / Homemade Pizza Recipe",
+    "channel": "Recipes by Carina",
+    "source_url": "https://www.youtube.com/watch?v=4VSW29yWPlA"
+   }
+  ]
+ },
+ "creme-brulee": {
+  "images": [
+   {
+    "file": "assets/img/creme-brulee-1.jpg",
+    "source": "Pressure Cooking Today",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bd7b1a1f394c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-2.jpg",
+    "source": "Just Easy Recipes",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/94f7c72b48fc.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-3.jpg",
+    "source": "Taste of Home",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/72040dadbfe3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-4.jpg",
+    "source": "Bakeologie",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f1a37e9e48c9.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-5.jpg",
+    "source": "Art of Natural Living",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fb52b1ee43d3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-6.jpg",
+    "source": "Our Zesty Life",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/30f40aeb4125.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-7.jpg",
+    "source": "Masala Monk",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed4c0f73d54b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/creme-brulee-8.jpg",
+    "source": "Baking With Butter",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c1c766f2c431.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "falafel-tahini": {
+  "images": [
+   {
+    "file": "assets/img/falafel-tahini-1.jpg",
+    "source": "Wholefood Soulfood Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/962fb3ea4aca.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-2.jpg",
+    "source": "simply ceecee",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f57e43439ae0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-3.jpg",
+    "source": "Wholly Tasteful",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7770612925a3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-4.jpg",
+    "source": "Plays Well With Butter",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5f50693dd8e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-5.jpg",
+    "source": "My Pure Plants",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c51dd040a48e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-6.jpg",
+    "source": "The Hungry Bites",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/121a9b085fc8.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-7.jpg",
+    "source": "Micheline's Pita House",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cab426645071.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/falafel-tahini-8.jpg",
+    "source": "Dassana's Veg Recipes",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/65a01466932f.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "4QoEyTACaos",
+    "title": "Best Homemade Falafels with Tahini Sauce | Bonus Mini Pita Recipe | How to make Falafel Sandwiches",
+    "channel": "Sip and App",
+    "source_url": "https://www.youtube.com/watch?v=4QoEyTACaos"
+   },
+   {
+    "id": "fSUXX829K1U",
+    "title": "The BEST Homemade Falafel Recipe",
+    "channel": "Brian Lagerstrom ",
+    "source_url": "https://www.youtube.com/watch?v=fSUXX829K1U"
+   }
+  ]
+ },
+ "french-onion-soup": {
+  "images": [
+   {
+    "file": "assets/img/french-onion-soup-1.jpg",
+    "source": "GastroGays",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4a8c95c02320.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-2.jpg",
+    "source": "Reluctant Entertainer",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7e0e4ddaf9ec.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-3.jpg",
+    "source": "Mon Petit Four",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/12327602c766.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-4.jpg",
+    "source": "Chez Le Reve Francais",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0c7c71000aa6.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-5.jpg",
+    "source": "Tangled with Taste",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f00dfaadcdd0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-6.jpg",
+    "source": "Sheri Silver",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f660bb091ed0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-7.jpg",
+    "source": "I Believe I Can Fry",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d3a16918c6d0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/french-onion-soup-8.jpg",
+    "source": "Pardon Your French",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1c411daf581d.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "cYY6mBu-UQ0",
+    "title": "The Perfect French Onion Soup",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=cYY6mBu-UQ0"
+   },
+   {
+    "id": "mnT1FOYR5XE",
+    "title": "Delicious French Onion Soup Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=mnT1FOYR5XE"
+   }
+  ]
+ },
+ "mushroom-risotto": {
+  "images": [
+   {
+    "file": "assets/img/mushroom-risotto-1.jpg",
+    "source": "Julia Recipes",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/714926488cd4.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-2.jpg",
+    "source": "The Gourmet Bon Vivant",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7200bc6bd91d.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-3.jpg",
+    "source": "The Modern Proper",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/889a44022fc0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-4.jpg",
+    "source": "Lizzy Loves Food",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6137004d4d6b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-5.jpg",
+    "source": "Flavor the Moments",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/282ab52bdc94.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-6.jpg",
+    "source": "HandmadeV",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec1036421852.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-7.jpg",
+    "source": "Coley Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1d1c5107c910.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/mushroom-risotto-8.jpg",
+    "source": "HelloFresh",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/61d277b4674f.jpeg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "3wLgpjcOcQE",
+    "title": "Easy Mushroom Risotto",
+    "channel": "Lidia Bastianich",
+    "source_url": "https://www.youtube.com/watch?v=3wLgpjcOcQE"
+   },
+   {
+    "id": "bhaXBrJuRVU",
+    "title": "How To Make An Easy Mushroom Risotto | Easy Recipe | Jamie Oliver",
+    "channel": "Jamie Oliver",
+    "source_url": "https://www.youtube.com/watch?v=bhaXBrJuRVU"
+   }
+  ]
+ },
+ "no-knead-sourdough": {
+  "images": [
+   {
+    "file": "assets/img/no-knead-sourdough-1.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6babee218a0f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-2.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2604c08e48ca.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-3.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7251a4e47ebd.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-4.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/881e16ac7a76.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-5.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f653ba706d3b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-6.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4d1e232816de.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-7.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/86969dfd4375.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/no-knead-sourdough-8.jpg",
+    "source": "",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8d865c4bf3ac.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": []
+ },
+ "pad-thai": {
+  "images": [
+   {
+    "file": "assets/img/pad-thai-1.jpg",
+    "source": "Omnivore's Cookbook",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/94674f466063.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-2.jpg",
+    "source": "Garrison Street Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4e51d24c3024.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-3.jpg",
+    "source": "Delishably",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8f6f7afd2988.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-4.jpg",
+    "source": "Vikalinka",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0c1c55a3fde5.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-5.jpg",
+    "source": "SideChef",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d46e4bce9ac9.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-6.jpg",
+    "source": "Recipe.net",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/77f1af369c85.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-7.jpg",
+    "source": "Nest Wellness",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5b8510b43b0d.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pad-thai-8.jpg",
+    "source": "Delishably",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c42e55dc0a90.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "70vfRls1vqA",
+    "title": "How To Make Authentic Pad Thai",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=70vfRls1vqA"
+   },
+   {
+    "id": "F86GfZIph8o",
+    "title": "How to Make Authentic Pad Thai in 5 Mins! + Pad Thai Sauce Recipe",
+    "channel": "Pailin's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=F86GfZIph8o"
+   }
+  ]
+ },
+ "pho-bo": {
+  "images": [
+   {
+    "file": "assets/img/pho-bo-1.jpg",
+    "source": "Taste of Home",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9bc2f90c2fab.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-2.jpg",
+    "source": "RunAwayRice",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1df3e1a220a2.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-3.jpg",
+    "source": "Vicky Pham",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/67c0abd3621f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-4.jpg",
+    "source": "Foodology Geek",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/59537e31ae7a.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-5.jpg",
+    "source": "Alamy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1ba484ca0f24.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-6.jpg",
+    "source": "Food.com",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/07a1c0964398.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-7.jpg",
+    "source": "Eat, Little Bird",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ec680b7280bb.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/pho-bo-8.jpg",
+    "source": "Costco Wholesale",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bc9603028396.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "FXa2tAH3Ulw",
+    "title": "The Best Vietnamese Pho Made At Home",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=FXa2tAH3Ulw"
+   },
+   {
+    "id": "bR3rVyy6RfY",
+    "title": "The Easiest Vietnamese Beef Pho Noodle Soup Recipe - Made from Scratch",
+    "channel": "The Meatmen Channel",
+    "source_url": "https://www.youtube.com/watch?v=bR3rVyy6RfY"
+   },
+   {
+    "id": "a6fORUxrUcw",
+    "title": "Beef Pho Recipe | Vietnamese Beef Noodle Soup",
+    "channel": "Certified Angus Beef \u00ae",
+    "source_url": "https://www.youtube.com/watch?v=a6fORUxrUcw"
+   }
+  ]
+ },
+ "ratatouille": {
+  "images": [
+   {
+    "file": "assets/img/ratatouille-1.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/388ea4313816.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-2.jpg",
+    "source": "Frugal Hausfrau",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a81bc3d7b735.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-3.jpg",
+    "source": "Ceara's Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e99d49ae5c94.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-4.jpg",
+    "source": "Fountain Avenue Kitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b31ab2c8865e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-5.jpg",
+    "source": "Pardon Your French",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/518a205838e0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-6.jpg",
+    "source": "My Pure Plants",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a711f8d37793.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-7.jpg",
+    "source": "sabrina's table",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d31c21b073a6.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/ratatouille-8.jpg",
+    "source": "Food Faith Fitness",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fe3019b08996.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "M8eeWdpqGo0",
+    "title": "The Exact Ratatouille Recipe From The Movie",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=M8eeWdpqGo0"
+   },
+   {
+    "id": "maV7qfJIE9k",
+    "title": "PERFECT RATATOUILLE | A Super Tasty Vegetarian Recipe!",
+    "channel": "Downshiftology",
+    "source_url": "https://www.youtube.com/watch?v=maV7qfJIE9k"
+   },
+   {
+    "id": "q1vmVmbeH20",
+    "title": "Traditional ratatouille recipe by chef Vivien",
+    "channel": "Chef Vivien",
+    "source_url": "https://www.youtube.com/watch?v=q1vmVmbeH20"
+   }
+  ]
+ },
+ "seafood-paella": {
+  "images": [
+   {
+    "file": "assets/img/seafood-paella-1.jpg",
+    "source": "SueBee Homemaker",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/32634ffdeb61.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-2.jpg",
+    "source": "RecipeTin Eats",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7a5bf3678b00.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-3.jpg",
+    "source": "DoorDash Blog",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4cd1a2220f1.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-4.jpg",
+    "source": "SheCooks.Design",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/01e3633fe74b.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-5.jpg",
+    "source": "Jo Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/19e33803d48c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-6.jpg",
+    "source": "SheCooks.Design",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/408e1dcfa4bd.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-7.jpg",
+    "source": "BigBoyRecipe",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f262e2b714e6.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/seafood-paella-8.jpg",
+    "source": "Reddit",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/56ca0701ded4.jpeg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "vNBuXsTY15E",
+    "title": "Authentic Spanish Seafood Paella Recipe - Colab With Best Bites Forever",
+    "channel": "Spain on a Fork",
+    "source_url": "https://www.youtube.com/watch?v=vNBuXsTY15E"
+   },
+   {
+    "id": "6q_Vs6A2Gmw",
+    "title": "SPECTACULAR Seafood Paella with MINIMAL Effort | Quick & Easy Recipe",
+    "channel": "Spain on a Fork",
+    "source_url": "https://www.youtube.com/watch?v=6q_Vs6A2Gmw"
+   },
+   {
+    "id": "yOEq8yimeqk",
+    "title": "How To Make Authentic Spanish Paella",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=yOEq8yimeqk"
+   }
+  ]
+ },
+ "shepherds-pie": {
+  "images": [],
+  "videos": [
+   {
+    "id": "lElYYrovajg",
+    "title": "Easy Shepherd's Pie Recipe",
+    "channel": "Natashas Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=lElYYrovajg&vl=en"
+   },
+   {
+    "id": "a3EYQARJkLk",
+    "title": "Shepherd's Pie Recipe | How to Make Perfect Shepherd's Pie",
+    "channel": "The Cooking Foodie",
+    "source_url": "https://www.youtube.com/watch?v=a3EYQARJkLk"
+   },
+   {
+    "id": "TqIoyTImsFQ",
+    "title": "Sheperds Pie Recipe - Super Easy Dinner Recipe!",
+    "channel": "Laura in the Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=TqIoyTImsFQ"
+   }
+  ]
+ },
+ "shoyu-ramen": {
+  "images": [
+   {
+    "file": "assets/img/shoyu-ramen-1.jpg",
+    "source": "Taste of Home",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dfd3f48cc299.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-2.jpg",
+    "source": "Dreamstime",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/37283b11f8b8.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-3.jpg",
+    "source": "maru ryouri -",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/193c30a34da7.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-4.jpg",
+    "source": "Aaron and Claire",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/63c521951136.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-5.jpg",
+    "source": "Reddit",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a27a6c73f538.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-6.jpg",
+    "source": "Shutterstock",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c5c7883d9321.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-7.jpg",
+    "source": "The Wasabi Company",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3ba977cb5770.webp",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/shoyu-ramen-8.jpg",
+    "source": "Punchfork",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f81449f57ac7.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "cnvomlflES4",
+    "title": "How to Make Authentic Shoyu Ramen at Home (Beginner-Friendly Japanese Classic)",
+    "channel": "Sudachi | Japanese Recipes | Yuto Omura",
+    "source_url": "https://www.youtube.com/watch?v=cnvomlflES4&xstg=CAMSBhUDzO3xHw%3D%3D"
+   },
+   {
+    "id": "YWOYPyI5k_A",
+    "title": "How to Make Traditional SHOYU RAMEN at Home (Simple Recipe) with The Sushi Man",
+    "channel": "The Sushi Man",
+    "source_url": "https://www.youtube.com/watch?v=YWOYPyI5k_A&xstg=CAMSBhUDzO3xHw%3D%3D"
+   },
+   {
+    "id": "dXrMCkqWCkM",
+    "title": "Easy Shoyu Ramen Broth",
+    "channel": "No Recipes",
+    "source_url": "https://www.youtube.com/watch?v=dXrMCkqWCkM&xstg=CAMSBhUDzO3xHw%3D%3D"
+   }
+  ]
+ },
+ "smash-burger": {
+  "images": [
+   {
+    "file": "assets/img/smash-burger-1.jpg",
+    "source": "The Flat Top King",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/591292a776e3.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-2.jpg",
+    "source": "Real Simple Good",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9dd3490f0b36.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-3.jpg",
+    "source": "Reddit",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/675fa7213e2e.jpeg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-4.jpg",
+    "source": "Heritage Foods",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a820b5599474.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-5.jpg",
+    "source": "im hungry for that",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/db4af357c944.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-6.jpg",
+    "source": "The Kitchen Coalition",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/41fe087e6ad0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-7.jpg",
+    "source": "Nordic Ware",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/089b752e2a56.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/smash-burger-8.jpg",
+    "source": "Or Whatever You Do",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/66b7f2f37c2d.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "qEeg5mnLPzA",
+    "title": "The Perfect Smash Burger Recipe",
+    "channel": "Nick's Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=qEeg5mnLPzA"
+   },
+   {
+    "id": "foD42-73wdI",
+    "title": "Better Than Fast Food! Classic Smash Burger Recipe",
+    "channel": "Certified Angus Beef \u00ae",
+    "source_url": "https://www.youtube.com/watch?v=foD42-73wdI"
+   }
+  ]
+ },
+ "spaghetti-aglio-e-olio": {
+  "images": [
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-1.jpg",
+    "source": "Love and Lemons",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f142fdaba843.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-2.jpg",
+    "source": "Mediterranean Taste",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/223aefdadf70.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-3.jpg",
+    "source": "YouTube",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/46651f233925.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-4.jpg",
+    "source": "The Baking Fairy",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8efdaafb10ac.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-5.jpg",
+    "source": "YouTube",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3bdef0d42003.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-6.jpg",
+    "source": "Jo Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dc83a662fbb0.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-7.jpg",
+    "source": "Platings + Pairings",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/59fff3b9000b.png",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spaghetti-aglio-e-olio-8.jpg",
+    "source": "Posh Journal",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1c3e2eeeede1.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "UmTqq_o6FSI",
+    "title": "Spaghetti Aglio e Olio Recipe",
+    "channel": "The Cooking Foodie",
+    "source_url": "https://www.youtube.com/watch?v=UmTqq_o6FSI"
+   },
+   {
+    "id": "oVGPaPGV5jQ",
+    "title": "How to Cook Perfect Spaghetti Aglio e Olio",
+    "channel": "Vincenzo's Plate",
+    "source_url": "https://www.youtube.com/watch?v=oVGPaPGV5jQ"
+   }
+  ]
+ },
+ "spanish-tortilla": {
+  "images": [
+   {
+    "file": "assets/img/spanish-tortilla-1.jpg",
+    "source": "Ben Lippett | Substack",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dd1af58cd79d.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-2.jpg",
+    "source": "philosokitchen",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/34942a139d8c.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-3.jpg",
+    "source": "Three Friends Cook",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dc5bfb15f426.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-4.jpg",
+    "source": "Edible Nutmeg - Edible Communities",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b5565928ab64.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-5.jpg",
+    "source": "Food52",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cf2fcd9f630e.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-6.jpg",
+    "source": "thatOtherCookingBlog",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6b9c2593a117.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-7.jpg",
+    "source": "Stephie Cooks",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f1952624177f.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/spanish-tortilla-8.jpg",
+    "source": "Cafe Delites",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/75b1b2e36f77.jpg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "iFqHp0Ksjik",
+    "title": "How To Make The Perfect Spanish Tortilla",
+    "channel": "Cooking from Spain",
+    "source_url": "https://www.youtube.com/watch?v=iFqHp0Ksjik"
+   },
+   {
+    "id": "ARDpbyxkzXI",
+    "title": "The Perfect Tortilla: Mastering Spain's Most Iconic Dish",
+    "channel": "Fallow",
+    "source_url": "https://www.youtube.com/watch?v=ARDpbyxkzXI"
+   }
+  ]
+ },
+ "tiramisu": {
+  "images": [
+   {
+    "file": "assets/img/tiramisu-1.jpg",
+    "source": "The Cooking Foodie",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/df6780b2bbea.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-2.jpg",
+    "source": "Electric Blue Food",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/944d5e104661.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-3.jpg",
+    "source": "Cooking Italians",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/69581bd76b06.webp",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-4.jpg",
+    "source": "A Latte Food",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/72c766e99782.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-5.jpg",
+    "source": "NYT Cooking - The New York Times",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8146d51229bd.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-6.jpg",
+    "source": "A Family Feast",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2fc5b3860ae1.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-7.jpg",
+    "source": "My Baking Addiction",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8e97db062a07.jpg",
+    "alt": ""
+   },
+   {
+    "file": "assets/img/tiramisu-8.jpg",
+    "source": "The Mindful Meringue",
+    "src_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bc8e08b81c68.jpeg",
+    "alt": ""
+   }
+  ],
+  "videos": [
+   {
+    "id": "87V4nizNJiE",
+    "title": "Tiramisu",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=87V4nizNJiE"
+   },
+   {
+    "id": "7VTtenyKRg4",
+    "title": "Tiramisu Recipe | How to Make Tiramisu",
+    "channel": "The Cooking Foodie",
+    "source_url": "https://www.youtube.com/watch?v=7VTtenyKRg4"
+   },
+   {
+    "id": "ZZoLlQNdp7Q",
+    "title": "Easy Tiramisu Recipe",
+    "channel": "Preppy Kitchen",
+    "source_url": "https://www.youtube.com/watch?v=ZZoLlQNdp7Q"
+   }
+  ]
+ }
+}

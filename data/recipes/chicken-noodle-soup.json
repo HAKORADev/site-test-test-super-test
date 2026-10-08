@@ -1,0 +1,130 @@
+{
+  "slug": "chicken-noodle-soup",
+  "title": "Chicken Noodle Soup",
+  "genre": "Comfort Food",
+  "tags": [
+    "one-pot",
+    "make-ahead",
+    "budget",
+    "crowd-pleaser"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min",
+    "cook": "60 min",
+    "total_label": "1 hr 20 min",
+    "total_min": 80
+  },
+  "servings": "6",
+  "kicker": "The soup your immune system asks for by name. Built from a whole bird, better than medicine.",
+  "story": [
+    "Chicken soup earned its folk-medicine status honestly — and the 2000 journal Chest actually published a study suggesting it slows neutrophil migration, i.e., the myth has a mechanism. But the real reason to make it from a whole chicken is flavor: bones give the broth body, cartilage gives it body-building gelatin, and the meat poached gently in the pot stays tender enough to pull apart with a spoon.",
+    "The architecture is a mirepoix base — onion, carrot, celery cooked down in chicken fat — plus herbs and a broth that is strained, not merely boiled together. Noodles cook separately or they drink your entire pot of broth and bloat. Assemble per bowl: broth, shredded chicken, noodles, herbs, and a squeeze of lemon that wakes the whole thing up."
+  ],
+  "fun_fact": "The 12th-century physician Maimonides prescribed chicken soup for respiratory illness, calling it 'proven medicine'. Eight hundred years of grandmother consensus later, science finally ran the trials.",
+  "ingredients": [
+    {
+      "amount": "1.5 kg",
+      "item": "whole chicken or 1.2 kg bone-in thighs",
+      "note": "bones are the point"
+    },
+    {
+      "amount": "3 L",
+      "item": "water",
+      "note": "or 2 L water + 1 L good chicken stock for a head start"
+    },
+    {
+      "amount": "2",
+      "item": "onions, quartered",
+      "note": ""
+    },
+    {
+      "amount": "3",
+      "item": "carrots",
+      "note": "2 whole for broth, 1 sliced for the bowl"
+    },
+    {
+      "amount": "3 celery stalks",
+      "item": "2 whole, 1 sliced",
+      "note": ""
+    },
+    {
+      "amount": "1 head",
+      "item": "garlic, halved across",
+      "note": ""
+    },
+    {
+      "amount": "1 bundle",
+      "item": "parsley + thyme + bay",
+      "note": "tied with string for easy fishing"
+    },
+    {
+      "amount": "250 g",
+      "item": "wide egg noodles",
+      "note": "cooked separately"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "olive oil or chicken fat",
+      "note": "for the base"
+    },
+    {
+      "amount": "1",
+      "item": "lemon",
+      "note": "the finishing squeeze everyone underestimates"
+    },
+    {
+      "amount": "—",
+      "item": "dill or parsley, chopped",
+      "note": "to finish"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Poach the bird gently",
+      "text": "Chicken, water, the whole vegetables, garlic, herb bundle. Bring to a bare simmer, skim the gray foam, then cook 45 minutes at the laziest possible bubble. Boiling makes tight, rubbery meat; simmering makes spoon-tender."
+    },
+    {
+      "title": "Lift and strain",
+      "text": "Remove the chicken; when cool enough, strip the meat into generous shreds. Strain the broth — the poached vegetables have given everything they own. Discard them."
+    },
+    {
+      "title": "Build the flavor base",
+      "text": "In the soup pot, soften the sliced carrot, celery and onion in chicken fat or oil for 8 minutes. This second wave of vegetables stays in the bowl — they need bite and color, not surrender."
+    },
+    {
+      "title": "Marry broth and meat",
+      "text": "Pour the strained broth over the fresh vegetables, simmer 10 minutes, then return the shredded chicken. Season boldly — a big pot of broth eats salt."
+    },
+    {
+      "title": "Noodles, separately, always",
+      "text": "Cook egg noodles in salted water two minutes under package time. Rinse briefly. Portion into bowls. This keeps the broth clear and the noodles al dente even on day two."
+    },
+    {
+      "title": "Serve hot, with the lemon",
+      "text": "Ladle broth and chicken over noodles, shower with dill, and put a lemon wedge on the rim of each bowl. One squeeze changes the soup's whole personality. Pepper grinder on the table."
+    }
+  ],
+  "notes": [
+    "The broth alone freezes for 3 months — this recipe is secretly a broth recipe with benefits.",
+    "Matzo balls or rice swap in beautifully for the noodles; keep them cooked separately too.",
+    "For the classic Jewish penicillin depth, add a parsnip to the poach and dill at the end."
+  ],
+  "pairings": [
+    "pho-bo",
+    "french-onion-soup"
+  ],
+  "links": [
+    {
+      "title": "Chicken soup — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chicken_soup",
+      "desc": "The folk medicine, the 2000 Chest study, global variants"
+    },
+    {
+      "title": "Maimonides — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maimonides",
+      "desc": "The 12th-century prescription that started the tradition's paper trail"
+    }
+  ],
+  "storage": "Broth and chicken refrigerate 4 days together; noodles separately, 2 days. Freeze broth (with or without chicken) 3 months. Always reassemble with fresh noodles."
+}

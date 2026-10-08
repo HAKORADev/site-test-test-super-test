@@ -1,0 +1,104 @@
+{
+  "slug": "creme-brulee",
+  "title": "Crème Brûlée",
+  "genre": "Sweet & Baked",
+  "tags": [
+    "dessert",
+    "make-ahead",
+    "crowd-pleaser"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min",
+    "cook": "35 min",
+    "total_label": "55 min + 4 hrs chill",
+    "total_min": 295
+  },
+  "servings": "6",
+  "kicker": "A custard so simple it has five ingredients, and a torch moment that never stops being fun.",
+  "story": [
+    "Crème brûlée is custard science at its most elegant: cream, egg yolks, sugar, vanilla, salt — baked gently in a water bath until it barely trembles, then chilled, then capped with a thin layer of sugar that you turn to glass with a torch at the table. The contrast is the entire dessert. Cold silk under warm crunch. The spoon-crack is the event.",
+    "The technique is all temperature. Custard sets around 82°C / 180°F; scrambled eggs start around 85°C. That is the whole margin, which is why the water bath matters and why you pull the ramekins when the centers still wobble like gelatin. The brûlée top is granulated sugar, thinned with water, torched in constant motion — or broiled from above with vigilance and a bit of faith."
+  ],
+  "fun_fact": "The French, English ('burnt cream', Trinity College 17th century) and Catalans (crema catalana) all claim the dessert — the Catalan version is flavored with cinnamon and lemon and torched with an iron rod heated in a fire, which is objectively more theatrical.",
+  "ingredients": [
+    {
+      "amount": "600 ml",
+      "item": "heavy cream",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "vanilla bean (or 2 tsp extract)",
+      "note": "seeds scraped, pod steeped in the cream"
+    },
+    {
+      "amount": "6",
+      "item": "egg yolks",
+      "note": "large"
+    },
+    {
+      "amount": "60 g",
+      "item": "sugar, plus more for the top",
+      "note": ""
+    },
+    {
+      "amount": "1 pinch",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "sugar + 1 tsp water per ramekin",
+      "note": "the brûlée cap — fine granulated, not powdered"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Infuse the cream",
+      "text": "Heat cream with the vanilla seeds and pod until steaming but not boiling. Off heat, cover, steep 15 minutes. This infuses properly and slightly reduces the cream for a silkier set."
+    },
+    {
+      "title": "Whisk yolks and sugar",
+      "text": "Whisk yolks, sugar and salt just until combined — you are dissolving sugar, not making foam. Foam makes bubbles; bubbles make a bumpy top."
+    },
+    {
+      "title": "Temper, strain, skim",
+      "text": "Stream the warm cream into the yolks while whisking. Strain through a fine sieve into a jug, then skim the foam off with a spoon. Skimming is the difference between a mirror-top custard and a bubbly one."
+    },
+    {
+      "title": "Water bath, low and slow",
+      "text": "Fill six ramekins, set them in a deep baking dish, pour hot water halfway up the sides. Bake at 150°C / 300°F for 30-35 minutes until the edges are set and the centers wobble as a unit."
+    },
+    {
+      "title": "Chill completely",
+      "text": "Cool, then refrigerate at least 4 hours. The custard finishes setting as it chills — brûlée served warm is a pudding accident."
+    },
+    {
+      "title": "The crackle",
+      "text": "Per ramekin: 2 tbsp sugar with a teaspoon of water. Spread thin. Torch 5 cm away, sweeping constantly, until deep amber. Rest 2 minutes so the glass hardens. Crack with the back of a spoon, with witnesses."
+    }
+  ],
+  "notes": [
+    "No torch? Broiler, rack at the top, door open, rotating and watching like a hawk — 1-2 minutes of high vigilance.",
+    "The sugar layer goes on just before serving, or humidity melts the glass into a crusty puddle over hours.",
+    "Flavor the base cream with lavender, espresso, orange zest or a spoon of miso — the structure forgives creativity."
+  ],
+  "pairings": [
+    "chocolate-lava-cake",
+    "tiramisu"
+  ],
+  "links": [
+    {
+      "title": "Crème brûlée — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e",
+      "desc": "The French-British-Catalan triple origin claim"
+    },
+    {
+      "title": "Custard science — Serious Eats",
+      "url": "https://www.seriouseats.com/creme-brulee-recipe",
+      "desc": "Set temperatures and water-bath physics, tested"
+    }
+  ],
+  "storage": "Custards keep refrigerated 3 days before torching. Torched and cracked — eat immediately; the glass top weeps within the hour."
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Falafel with Tahini — Salt & Ember</title>
+<meta name="description" content="Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.">
+<meta property="og:title" content="Falafel with Tahini">
+<meta property="og:description" content="Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/falafel-tahini-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/falafel-tahini-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/spice-route.html">← Spice Route</a>
+<h1 class="recipe-title">Falafel with Tahini</h1>
+<p class="recipe-kicker">Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 1 hr + overnight soaking</span>
+<span class="meta-pill">◆ Medium</span>
+<span class="meta-pill">🍽 serves 6</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=vegetarian">vegetarian</a><a class="chip" href="../recipes.html?tag=vegan">vegan</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=budget">budget</a><a class="chip" href="../recipes.html?tag=weekend-project">weekend-project</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="75">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">The great falafel secret, fought over in Egyptian and Levantine kitchens alike, is that the chickpeas are never cooked. Dried chickpeas soak overnight, then go straight into the food processor raw with herbs, onion and garlic. Raw starch fries into that crisp shell and fluffy interior. Cooked chickpeas make falafel mush — the single most common home failure.</p>
+<p>The second secret is a hot, honest fry. Falafel is not health food pretending; it is street food with a job. Fry at 175°C / 350°F until deep mahogany, then let them drain briefly and eat them while the outside still crackles, dunked in tahini sauce loosened with lemon and ice water until it goes white and pourable. Pita, pickles, tomato, amba if you are lucky. Done.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> The Egyptian ta&#x27;ameya — falafel&#x27;s ancestor — is made with fava beans, not chickpeas, and many Egyptians consider the chickpea version a Levantine improvisation.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 6 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">300 g</span><span class="ing-item">dried chickpeas <em>soaked 12-24 hrs — canned will not work</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">small onion <em>quartered</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 bunch</span><span class="ing-item">parsley <em>stems and all</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1/2 bunch</span><span class="ing-item">cilantro</span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 cloves</span><span class="ing-item">garlic</span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">ground cumin + 1 tsp coriander</span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1/4 tsp</span><span class="ing-item">cayenne or chili flakes</span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">baking soda <em>added just before frying</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tbsp</span><span class="ing-item">sesame seeds <em>optional, for coating</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">salt</span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">150 g</span><span class="ing-item">tahini <em>for the sauce</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">80 ml</span><span class="ing-item">lemon juice + ice water <em>for the sauce</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="falafel-tahini"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">pita, tomato, pickles <em>assembly</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Soak, then process raw</h4><p>Soak chickpeas overnight — they triple in size. Drain well. Pulse with onion, herbs, garlic and spices to a coarse, vivid-green rubble that holds when squeezed. Not a smooth hummus — texture is life.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Chill the mix</h4><p>Refrigerate 30 minutes. Cold mix holds together better and fries up less fragile. Stir in baking soda at the last moment — it puffs the interior.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Test batch first</h4><p>Fry one ball. Too soft? Add 2 tbsp flour or breadcrumbs. Falling apart? The mix is too wet — squeeze in a bit more or blitz in a few more chickpeas. Fix it now, not for the whole batch.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Fry at 175°C / 350°F</h4><p>Shape golf balls (or use two spoons for the rustic route). Fry 3-4 minutes to deep brown, in batches, never crowding. Drain on a rack. The color IS the flavor — pale falafel is a missed opportunity.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Tahini sauce</h4><p>Whisk tahini with lemon juice and salt — it will seize up alarmingly, then loosen with ice water, spoon by spoon, until it turns pale, pourable and glossy. It should dress a spoon like cream.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Assemble the sandwich of your mood</h4><p>Warm pita, smear of tahini, falafel (smash a couple — they hold sauce better broken), tomato, pickles, raw onion. Eat over the counter like someone who knows what is good.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-2.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>simply ceecee</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-3.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>Wholly Tasteful</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-4.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>Plays Well With Butter</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-5.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>My Pure Plants</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-6.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>The Hungry Bites</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-7.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>Micheline&#x27;s Pita House</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/falafel-tahini-8.jpg" alt="Falafel with Tahini" loading="lazy"><figcaption>Dassana&#x27;s Veg Recipes</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/121a9b085fc8.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/121a9b085fc8.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/65a01466932f.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/65a01466932f.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7770612925a3.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7770612925a3.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c51dd040a48e.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c51dd040a48e.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cab426645071.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cab426645071.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5f50693dd8e.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5f50693dd8e.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f57e43439ae0.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f57e43439ae0.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="4QoEyTACaos" tabindex="0" role="button" aria-label="Play: Best Homemade Falafels with Tahini Sauce | Bonus Mini Pita Recipe | How to make Falafel Sandwiches">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/4QoEyTACaos/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Best Homemade Falafels with Tahini Sauce | Bonus Mini Pita Recipe | How to make Falafel Sandwiches</h4><p>Sip and App</p></div>
+</div><div class="video-card" data-yt="fSUXX829K1U" tabindex="0" role="button" aria-label="Play: The BEST Homemade Falafel Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/fSUXX829K1U/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>The BEST Homemade Falafel Recipe</h4><p>Brian Lagerstrom </p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>The raw mix keeps 2 days refrigerated and freezes beautifully shaped into balls — fry from frozen, 2 extra minutes.</li><li>Baked falafel (220°C / 425°F, 20 min, well-oiled) is respectable; fried is transcendent. Your conscience, your call.</li><li>Leftover fried falafel re-crisps in a 200°C / 400°F oven for 8 minutes.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Raw mix: 2 days refrigerated, 3 months frozen shaped. Fried falafel: best immediately, re-crisp in the oven next day. Tahini sauce: 5 days refrigerated, whisk back to life with water.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Falafel" target="_blank" rel="noopener"><div class="ext-body"><h4>Falafel — Wikipedia</h4><p>Egyptian origins, the fava-vs-chickpea debate, global takeover</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Tahini" target="_blank" rel="noopener"><div class="ext-body"><h4>Tahini — Wikipedia</h4><p>Sesame paste&#x27;s long history and its sauce physics</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="falafel-tahini" data-title="Falafel with Tahini" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/chana-masala.html" data-genre="Spice Route" data-tags="vegetarian,vegan-option,budget,one-pot,spicy" data-title="chana masala">
+  <div class="card-media"><img src="../assets/img/chana-masala-1.jpg" alt="Chana Masala" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Chana Masala</h3>
+    <p class="card-kicker">Chickpeas that cost nothing and taste like the best curry house in town.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Easy</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan-option</span><span class="tag">budget</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/chicken-shawarma.html" data-genre="Spice Route" data-tags="crowd-pleaser,make-ahead,fresh" data-title="chicken shawarma">
+  <div class="card-media"><img src="../assets/img/chicken-shawarma-1.jpg" alt="Chicken Shawarma" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Chicken Shawarma</h3>
+    <p class="card-kicker">The vertical spit&#x27;s greatest hits, adapted for a humble sheet pan — yogurt, turmeric, seven spices, one addictive garlic sauce.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 50 min + overnight marinade</span><span class="meta-item">◆ Easy</span></div>
+    <div class="card-tags"><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span><span class="tag">fresh</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

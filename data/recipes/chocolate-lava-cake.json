@@ -1,0 +1,114 @@
+{
+  "slug": "chocolate-lava-cake",
+  "title": "Chocolate Lava Cake",
+  "genre": "Sweet & Baked",
+  "tags": [
+    "dessert",
+    "quick",
+    "crowd-pleaser"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "15 min",
+    "cook": "12 min",
+    "total_label": "30 min",
+    "total_min": 30
+  },
+  "servings": "4",
+  "kicker": "Twelve minutes of baking between undercooked and overcooked. Worth every second of the anxiety.",
+  "story": [
+    "The lava cake was born — so the famous story goes — from a mistake: New York chef Jean-Georges Vongerichten pulled a chocolate sponge out of the oven too early in 1987, cut into it, and watched molten batter flow out. He put it on the menu. Half the world's restaurant desserts have been a variation on that 'error' ever since.",
+    "The recipe is a small-format butter cake where the center is deliberately underbaked — batter, not ganache, is what flows (though many modern versions cheat with a frozen ganache core, which is actually a brilliant home-oven insurance policy). Everything depends on the bake: 11-13 minutes at 220°C / 425°F in properly buttered-and-cocoaed ramekins, edges set, center wobbling like a nervous dessert. Under 10, it is soup; over 14, it is a decent brownie with stage fright."
+  ],
+  "fun_fact": "Chocolatier Jacques Torres claims he invented it in 1981 in France — the dessert has two competing origin stories, which is fitting for something that is legally half-cake, half-sauce.",
+  "ingredients": [
+    {
+      "amount": "170 g",
+      "item": "good dark chocolate (60-70%)",
+      "note": "chocolate chips won't do — buy baking chocolate"
+    },
+    {
+      "amount": "115 g",
+      "item": "butter",
+      "note": "plus soft butter and cocoa for the ramekins"
+    },
+    {
+      "amount": "2",
+      "item": "whole eggs + 2 yolks",
+      "note": "room temperature"
+    },
+    {
+      "amount": "70 g",
+      "item": "sugar",
+      "note": ""
+    },
+    {
+      "amount": "30 g",
+      "item": "all-purpose flour",
+      "note": "just enough to give it a spine"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "vanilla extract",
+      "note": ""
+    },
+    {
+      "amount": "1 pinch",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "—",
+      "item": "cocoa powder for dusting, ice cream or berries to serve",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Butter, cocoa, no mercy",
+      "text": "Butter four 180 ml ramekins thoroughly, then dust with cocoa powder, tapping out the excess. This is the escape hatch. A lava cake that sticks to the ramekin is a trifle, and not in a good way."
+    },
+    {
+      "title": "Melt chocolate and butter",
+      "text": "Gently — microwave in 30-second bursts or over a water bath — until smooth and glossy. Let it cool 3 minutes so it doesn't scramble the eggs."
+    },
+    {
+      "title": "Whisk eggs and sugar",
+      "text": "Whisk eggs, yolks and sugar until pale, thick and doubled — 3 minutes by hand, 2 by machine. This foam is most of the cake's lift."
+    },
+    {
+      "title": "Fold it all together",
+      "text": "Stream the chocolate into the eggs while whisking. Add vanilla, salt, then sift the flour over and fold just until no streaks remain. Overmixing now makes a dense, rubbery cake."
+    },
+    {
+      "title": "The bake window",
+      "text": "Divide between ramekins. Bake at 220°C / 425°F for 11-13 minutes: edges set and pulling away, center jiggling as one unit. Do the wobble check at 11."
+    },
+    {
+      "title": "The flip",
+      "text": "Rest exactly 1 minute. Run a thin knife around the edge, invert onto a plate with conviction, lift — cross your fingers with dignity. Dust with cocoa, crown with ice cream, serve within 3 minutes. The lava waits for no one."
+    }
+  ],
+  "notes": [
+    "Fill the ramekins and refrigerate up to a day ahead; bake straight from the fridge, adding 1-2 minutes. Dinner-party cheat code.",
+    "The frozen ganache core trick: freeze 30 g ganache discs, press one into each ramekin's center before baking. Insured lava.",
+    "Ramekin sizes matter — 180 ml gives the classic ratio; larger ones need a longer bake and braver nerves."
+  ],
+  "pairings": [
+    "tiramisu",
+    "creme-brulee"
+  ],
+  "links": [
+    {
+      "title": "Molten chocolate cake — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Molten_chocolate_cake",
+      "desc": "The Vongerichten-Torres origin dispute"
+    },
+    {
+      "title": "Serious Eats — Molten Cake Science",
+      "url": "https://www.seriouseats.com/chocolate-molten-layer-cakes-recipe",
+      "desc": "Bake-time diagrams and the frozen-core technique"
+    }
+  ],
+  "storage": "There is no storage. This is a fresh-bake dessert by definition. The batter (in ramekins) keeps refrigerated a day, and that is the whole point."
+}

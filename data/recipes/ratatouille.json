@@ -1,0 +1,113 @@
+{
+  "slug": "ratatouille",
+  "title": "Ratatouille",
+  "genre": "French Bistro",
+  "tags": [
+    "vegetarian",
+    "vegan-option",
+    "comfort",
+    "make-ahead",
+    "budget"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "25 min",
+    "cook": "45 min",
+    "total_label": "1 hr 10 min",
+    "total_min": 70
+  },
+  "servings": "6",
+  "kicker": "Provençal summer in a pot — each vegetable cooked to its own best self, then married.",
+  "story": [
+    "Real ratatouille — from Nice, ratatouille nicoise — is not a vegetable medley simmered into mush. It is a sequence: each vegetable sautéed separately so eggplant stays silky instead of spongy, zucchini keeps some spine, peppers get charred edges. Then everything meets in one pot with tomato, garlic, olive oil and herbs for a final, gentle union.",
+    "The movie gave the world the confit byaldi version — paper-thin mandolined rounds arranged in a spiral over sauce. Gorgeous, and a different dish in spirit. Make the rustic one first. It tastes more honest, it is faster, and the leftovers on toast with a fried egg might be the best breakfast in French cuisine."
+  ],
+  "fun_fact": "The word entered French print in 1930, but 'rata' was military slang for a coarse stew long before. The Pixar film's rat is named Remy; the dish he builds is the fancy confit byaldi by chef Thomas Keller.",
+  "ingredients": [
+    {
+      "amount": "2",
+      "item": "young eggplants",
+      "note": "cut in 2 cm cubes"
+    },
+    {
+      "amount": "3",
+      "item": "zucchini",
+      "note": "2 cm half-moons"
+    },
+    {
+      "amount": "2",
+      "item": "red or yellow peppers",
+      "note": "in strips"
+    },
+    {
+      "amount": "1 kg",
+      "item": "ripe tomatoes",
+      "note": "peeled and chopped, or good canned"
+    },
+    {
+      "amount": "2",
+      "item": "onions",
+      "note": "sliced"
+    },
+    {
+      "amount": "4 cloves",
+      "item": "garlic",
+      "note": "sliced"
+    },
+    {
+      "amount": "1 bouquet",
+      "item": "thyme, bay and flat parsley",
+      "note": "tied"
+    },
+    {
+      "amount": "120 ml",
+      "item": "olive oil",
+      "note": "split across stages — this dish drinks oil"
+    },
+    {
+      "amount": "—",
+      "item": "salt, black pepper",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Cook separately, on purpose",
+      "text": "In a wide pan, in olive oil, cook each vegetable in its own batch: eggplant until truly golden (7-8 min), zucchini until touched with color (5 min), peppers with charred edges (6 min). Salt each lightly. Set aside in a bowl. This is the whole secret; skipping it makes baby food."
+    },
+    {
+      "title": "Onion-tomato base",
+      "text": "Soften onions in the same pan 8 minutes. Add garlic, then tomatoes, thyme and bay. Simmer 15 minutes until it thickens into a rough sauce."
+    },
+    {
+      "title": "The union",
+      "text": "Return all vegetables to the pot. Fold gently — you are marrying, not mashing. Simmer uncovered 20 minutes on low, stirring occasionally. The dish should be glossy and stew-soft, each vegetable still identifiable."
+    },
+    {
+      "title": "Rest and finish",
+      "text": "Off heat, taste, adjust salt, add a thread of raw olive oil and torn parsley. Ratatouille improves as it sits — serve warm or at room temperature, never fridge-cold straight from the bowl."
+    }
+  ],
+  "notes": [
+    "Young, firm eggplants need no salting; big old ones do — 20 minutes salted, patted dry.",
+    "Eat it cold the next day on grilled bread, or fold through pasta with basil. Day-two ratatouille is a standing argument for day-one planning.",
+    "Swap the herbs with the seasons: herbes de Provence in winter, basil in summer."
+  ],
+  "pairings": [
+    "chicken-souvlaki",
+    "spanish-tortilla"
+  ],
+  "links": [
+    {
+      "title": "Ratatouille — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ratatouille",
+      "desc": "The nicoise original vs. the movie's confit byaldi"
+    },
+    {
+      "title": "Confit byaldi — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Confit_byaldi",
+      "desc": "Thomas Keller's spiral version that inspired the film"
+    }
+  ],
+  "storage": "Refrigerate 5 days — flavor peaks on day two. Freezes acceptably for 2 months, texture slightly softer on thaw. Serve at room temperature after reheating gently."
+}

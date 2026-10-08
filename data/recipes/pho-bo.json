@@ -1,0 +1,139 @@
+{
+  "slug": "pho-bo",
+  "title": "Pho Bo",
+  "genre": "Asian Kitchen",
+  "tags": [
+    "weekend-project",
+    "comfort",
+    "make-ahead"
+  ],
+  "difficulty": "project",
+  "time": {
+    "prep": "40 min",
+    "cook": "4 hrs",
+    "total_label": "5 hrs (mostly unattended)",
+    "total_min": 300
+  },
+  "servings": "6",
+  "kicker": "Hanoi's dawn soup: a beef broth so clear and fragrant you could read a newspaper through it.",
+  "story": [
+    "Pho is a broth with a noodle habit. Everything else — the rice noodles, the rare beef, the mountain of herbs — is a garnish on the real work: beef bones charred with ginger and onion, simmered for hours with star anise, cinnamon and clove until the kitchen smells like a Hanoi street at 6 a.m.",
+    "Clarity is the pride of a northern pho bo. Parboil the bones and rinse them — this single step removes the impurities that would cloud everything. Then the gentlest simmer, skimming, and never a boil. The finished broth should be amber, translucent, and so layered with spice that guests will demand to know your secret. The secret is four hours and a strainer."
+  ],
+  "fun_fact": "Pho likely evolved from French colonial beef culture (pot-au-feu's bones-and-clear-broth logic) meeting Vietnamese rice noodles — the word itself may descend from 'feu'.",
+  "ingredients": [
+    {
+      "amount": "2 kg",
+      "item": "beef bones",
+      "note": "knuckle and marrow bones, plus oxtail if you can"
+    },
+    {
+      "amount": "500 g",
+      "item": "beef brisket",
+      "note": "simmered alongside, later sliced"
+    },
+    {
+      "amount": "200 g",
+      "item": "raw beef sirloin or eye round",
+      "note": "sliced paper-thin for the bowl"
+    },
+    {
+      "amount": "1",
+      "item": "onion, halved",
+      "note": "charred under the broiler"
+    },
+    {
+      "amount": "10 cm",
+      "item": "ginger, halved lengthwise",
+      "note": "charred too"
+    },
+    {
+      "amount": "4",
+      "item": "star anise",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "cinnamon stick",
+      "note": ""
+    },
+    {
+      "amount": "4",
+      "item": "cloves",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "coriander seeds",
+      "note": "toasted"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "fish sauce",
+      "note": "added at the end"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "rock sugar",
+      "note": "or regular sugar"
+    },
+    {
+      "amount": "600 g",
+      "item": "flat rice noodles (banh pho)",
+      "note": "fresh or dried"
+    },
+    {
+      "amount": "—",
+      "item": "the herb plate",
+      "note": "Thai basil, cilantro, sawtooth herb if lucky, lime wedges, bean sprouts, sliced chili"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Parboil and rinse the bones",
+      "text": "Cover bones with water, boil hard 5 minutes — a gray scum rises. Dump everything, rinse bones under running water, scrub the pot. This unglamorous step is the entire secret of a clear broth."
+    },
+    {
+      "title": "Char the aromatics",
+      "text": "Broil onion and ginger until blackened and soft, 15 minutes. Toast the dry spices in a pan until fragrant, then tie loosely in cheesecloth — a spice bag you can fish out."
+    },
+    {
+      "title": "The long, quiet simmer",
+      "text": "Bones, brisket, charred aromatics, spice bag, 4 L water. Bring to a bare simmer and hold there — one bubble every couple of seconds — for 4 hours, skimming occasionally. Remove brisket at the 2.5-hour mark so it stays tender."
+    },
+    {
+      "title": "Season at the end",
+      "text": "Strain the broth. Season with fish sauce and rock sugar — taste: it should be slightly over-seasoned, because noodles and herbs will dilute it in the bowl."
+    },
+    {
+      "title": "Bowls, fast",
+      "text": "Soak/cook noodles, divide into bowls. Lay raw sirloin slices on the noodles, then pour the boiling broth over — the thin slices cook in the bowl. Add brisket slices. Guests top their own with herbs, sprouts, lime and chili."
+    },
+    {
+      "title": "Serve with the herb mountain",
+      "text": "Do not stir the whole bowl into confusion — locals lift noodles, dip into the broth, sip broth between. The plate of herbs is part of the meal, not a garnish. Broth first, noodles second, everything third."
+    }
+  ],
+  "notes": [
+    "Freeze the sirloin 30 minutes for paper-thin slicing with a normal knife.",
+    "Broth keeps 4 days refrigerated (skims solid) and freezes 3 months — one session makes several pho nights.",
+    "Instant pot shortcut: 1 hour at high pressure after parboiling. Purists will say nothing; the broth will know."
+  ],
+  "pairings": [
+    "shoyu-ramen",
+    "chicken-noodle-soup"
+  ],
+  "links": [
+    {
+      "title": "Pho — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pho",
+      "desc": "Hanoi vs. Saigon styles and the pot-au-feu theory"
+    },
+    {
+      "title": "Serious Eats — Pho Recipe",
+      "url": "https://www.seriouseats.com/vietnamese-pho-beef-noodle-soup-from-scratch-recipe",
+      "desc": "Broth clarity techniques, tested exhaustively"
+    }
+  ],
+  "storage": "Broth refrigerates 4 days / freezes 3 months. Assemble bowls fresh every time; noodles and herbs never live in the broth."
+}

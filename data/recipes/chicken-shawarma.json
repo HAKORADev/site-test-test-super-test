@@ -1,0 +1,125 @@
+{
+  "slug": "chicken-shawarma",
+  "title": "Chicken Shawarma",
+  "genre": "Spice Route",
+  "tags": [
+    "crowd-pleaser",
+    "make-ahead",
+    "fresh"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min + marinade",
+    "cook": "30 min",
+    "total_label": "50 min + overnight marinade",
+    "total_min": 110
+  },
+  "servings": "4",
+  "kicker": "The vertical spit's greatest hits, adapted for a humble sheet pan — yogurt, turmeric, seven spices, one addictive garlic sauce.",
+  "story": [
+    "Shawarma is a Levantine word for the vertical rotating spit — the Turkish döner's cousin — where marinated meat shaves off in crispy ribbons. Home ovens can't spin a spit, but a screaming-hot sheet pan gets close: thigh meat, deeply spiced, roasted until the edges blacken and caramelize.",
+    "Two components make it real. First, the marinade: yogurt tenderizes while turmeric, cumin, cardamom, allspice and a pinch of cinnamon take care of everything else — overnight is transformative, 4 hours acceptable. Second, toum, the Lebanese garlic sauce that is just garlic, oil, lemon and emulsion physics. Shawarma without toum is a jacket without sleeves."
+  ],
+  "fun_fact": "Shawarma migrated to Mexico with Lebanese immigrants and became tacos al pastor — the world's most successful recipe diaspora, complete with the spit.",
+  "ingredients": [
+    {
+      "amount": "1 kg",
+      "item": "boneless chicken thighs",
+      "note": "skinless; thighs forgive, breasts punish"
+    },
+    {
+      "amount": "150 g",
+      "item": "yogurt",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "each: cumin, paprika, turmeric",
+      "note": ""
+    },
+    {
+      "amount": "2 tsp",
+      "item": "each: cardamom, allspice, coriander",
+      "note": ""
+    },
+    {
+      "amount": "1/2 tsp",
+      "item": "cinnamon + 1/4 tsp cloves",
+      "note": ""
+    },
+    {
+      "amount": "4 cloves",
+      "item": "garlic, grated",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "lemon juice + 2 tbsp olive oil",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "red onion",
+      "note": "thin-sliced for quick pickles"
+    },
+    {
+      "amount": "80 ml",
+      "item": "vinegar + 1 tsp sugar + salt",
+      "note": "pickle brine"
+    },
+    {
+      "amount": "4",
+      "item": "flatbreads or pitas",
+      "note": ""
+    },
+    {
+      "amount": "—",
+      "item": "toum (garlic sauce), tomato, cucumber",
+      "note": "assembly line"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Marinate overnight",
+      "text": "Whisk marinade, coat the thighs thoroughly, refrigerate at least 4 hours, best overnight. The yogurt works slowly; respect its schedule."
+    },
+    {
+      "title": "Quick-pickle the onion",
+      "text": "Toss sliced onion with vinegar, sugar, salt. Thirty minutes turns it candy-pink and sharp-sweet. It keeps a week and improves everything it touches."
+    },
+    {
+      "title": "Roast hot and hard",
+      "text": "Spread thighs in one layer on a foil-lined sheet pan. 230°C / 450°F for 25-30 minutes until edges char in spots. Rest 5 minutes, then slice thin across the grain — the shaved-ribbon look that makes it shawarma."
+    },
+    {
+      "title": "Crisp the ribbons (optional, glorious)",
+      "text": "Spread the sliced meat back on the pan and broil 3 minutes. The little crispy edges are what the spit-man carves first — claim them."
+    },
+    {
+      "title": "Build the wrap",
+      "text": "Warm the flatbread, spread toum generously, add meat, pickled onion, tomato and cucumber. Roll tight. Or serve as a plate over rice — the wrap is tradition, the plate is lunch tomorrow."
+    }
+  ],
+  "notes": [
+    "Toum in 2 minutes: blitz 4 garlic cloves with lemon juice and salt, then drizzle in 150 ml neutral oil with the blender running until it mayonnaise-ifies. Add an ice cube if it splits.",
+    "Leftover roasted meat freezes well; reheat under the broiler to re-crisp.",
+    "The spice list looks long — it is one trip to a bulk spice bin and it lasts for months of shawarma."
+  ],
+  "pairings": [
+    "falafel-tahini",
+    "butter-chicken"
+  ],
+  "links": [
+    {
+      "title": "Shawarma — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Shawarma",
+      "desc": "The spit, the Levant, and the road to tacos al pastor"
+    },
+    {
+      "title": "Toum — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Toum",
+      "desc": "The four-ingredient garlic emulsion that rules the wrap"
+    }
+  ],
+  "storage": "Marinated raw chicken keeps 2 days. Cooked meat 4 days refrigerated, 2 months frozen. Toum keeps a week refrigerated and gets hotter with age."
+}

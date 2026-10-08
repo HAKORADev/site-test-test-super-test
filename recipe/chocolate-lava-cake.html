@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chocolate Lava Cake — Salt & Ember</title>
+<meta name="description" content="Twelve minutes of baking between undercooked and overcooked. Worth every second of the anxiety.">
+<meta property="og:title" content="Chocolate Lava Cake">
+<meta property="og:description" content="Twelve minutes of baking between undercooked and overcooked. Worth every second of the anxiety.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chocolate-lava-cake-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/chocolate-lava-cake-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/sweet-baked.html">← Sweet &amp; Baked</a>
+<h1 class="recipe-title">Chocolate Lava Cake</h1>
+<p class="recipe-kicker">Twelve minutes of baking between undercooked and overcooked. Worth every second of the anxiety.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 30 min</span>
+<span class="meta-pill">◆ Medium</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=dessert">dessert</a><a class="chip" href="../recipes.html?tag=quick">quick</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="15">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">The lava cake was born — so the famous story goes — from a mistake: New York chef Jean-Georges Vongerichten pulled a chocolate sponge out of the oven too early in 1987, cut into it, and watched molten batter flow out. He put it on the menu. Half the world&#x27;s restaurant desserts have been a variation on that &#x27;error&#x27; ever since.</p>
+<p>The recipe is a small-format butter cake where the center is deliberately underbaked — batter, not ganache, is what flows (though many modern versions cheat with a frozen ganache core, which is actually a brilliant home-oven insurance policy). Everything depends on the bake: 11-13 minutes at 220°C / 425°F in properly buttered-and-cocoaed ramekins, edges set, center wobbling like a nervous dessert. Under 10, it is soup; over 14, it is a decent brownie with stage fright.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Chocolatier Jacques Torres claims he invented it in 1981 in France — the dessert has two competing origin stories, which is fitting for something that is legally half-cake, half-sauce.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">170 g</span><span class="ing-item">good dark chocolate (60-70%) <em>chocolate chips won&#x27;t do — buy baking chocolate</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">115 g</span><span class="ing-item">butter <em>plus soft butter and cocoa for the ramekins</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2</span><span class="ing-item">whole eggs + 2 yolks <em>room temperature</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">70 g</span><span class="ing-item">sugar</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">30 g</span><span class="ing-item">all-purpose flour <em>just enough to give it a spine</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">vanilla extract</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 pinch</span><span class="ing-item">salt</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chocolate-lava-cake"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">cocoa powder for dusting, ice cream or berries to serve</span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Butter, cocoa, no mercy</h4><p>Butter four 180 ml ramekins thoroughly, then dust with cocoa powder, tapping out the excess. This is the escape hatch. A lava cake that sticks to the ramekin is a trifle, and not in a good way.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Melt chocolate and butter</h4><p>Gently — microwave in 30-second bursts or over a water bath — until smooth and glossy. Let it cool 3 minutes so it doesn&#x27;t scramble the eggs.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Whisk eggs and sugar</h4><p>Whisk eggs, yolks and sugar until pale, thick and doubled — 3 minutes by hand, 2 by machine. This foam is most of the cake&#x27;s lift.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Fold it all together</h4><p>Stream the chocolate into the eggs while whisking. Add vanilla, salt, then sift the flour over and fold just until no streaks remain. Overmixing now makes a dense, rubbery cake.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>The bake window</h4><p>Divide between ramekins. Bake at 220°C / 425°F for 11-13 minutes: edges set and pulling away, center jiggling as one unit. Do the wobble check at 11.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>The flip</h4><p>Rest exactly 1 minute. Run a thin knife around the edge, invert onto a plate with conviction, lift — cross your fingers with dignity. Dust with cocoa, crown with ice cream, serve within 3 minutes. The lava waits for no one.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-2.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>Savor the Best</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-3.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>The Global Vegetarian</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-4.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>Teri-Ann Carty</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-5.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>YouTube</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-6.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>Around The Nook</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-7.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>Baked By An Introvert</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chocolate-lava-cake-8.jpg" alt="Chocolate Lava Cake" loading="lazy"><figcaption>Dreamstime</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1442e93c47da.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1442e93c47da.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/55ad23fadf86.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/55ad23fadf86.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6b3b5f9b071b.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6b3b5f9b071b.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8ecbcc7eb82e.png" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8ecbcc7eb82e.png</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9b9924be18ab.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9b9924be18ab.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bed03cec92c7.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bed03cec92c7.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f8ac5b9d073e.png" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f8ac5b9d073e.png</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="gW3JtHpuzrk" tabindex="0" role="button" aria-label="Play: Easy Chocolate Lava Cake Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/gW3JtHpuzrk/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Easy Chocolate Lava Cake Recipe</h4><p>Preppy Kitchen</p></div>
+</div><div class="video-card" data-yt="0gS6qZYxik0" tabindex="0" role="button" aria-label="Play: Perfect Chocolate Lava Cake At Home">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/0gS6qZYxik0/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Perfect Chocolate Lava Cake At Home</h4><p>Nick&#x27;s Kitchen</p></div>
+</div><div class="video-card" data-yt="s5fQEm4jS3c" tabindex="0" role="button" aria-label="Play: Chocolate Lava Cake / Molten Chocolate Cakes">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/s5fQEm4jS3c/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Chocolate Lava Cake / Molten Chocolate Cakes</h4><p>RecipeTin Eats</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Fill the ramekins and refrigerate up to a day ahead; bake straight from the fridge, adding 1-2 minutes. Dinner-party cheat code.</li><li>The frozen ganache core trick: freeze 30 g ganache discs, press one into each ramekin&#x27;s center before baking. Insured lava.</li><li>Ramekin sizes matter — 180 ml gives the classic ratio; larger ones need a longer bake and braver nerves.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> There is no storage. This is a fresh-bake dessert by definition. The batter (in ramekins) keeps refrigerated a day, and that is the whole point.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Molten_chocolate_cake" target="_blank" rel="noopener"><div class="ext-body"><h4>Molten chocolate cake — Wikipedia</h4><p>The Vongerichten-Torres origin dispute</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/chocolate-molten-layer-cakes-recipe" target="_blank" rel="noopener"><div class="ext-body"><h4>Serious Eats — Molten Cake Science</h4><p>Bake-time diagrams and the frozen-core technique</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="chocolate-lava-cake" data-title="Chocolate Lava Cake" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/creme-brulee.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="crème brûlée">
+  <div class="card-media"><img src="../assets/img/creme-brulee-1.jpg" alt="Crème Brûlée" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Sweet &amp; Baked</div>
+    <h3 class="card-title">Crème Brûlée</h3>
+    <p class="card-kicker">A custard so simple it has five ingredients, and a torch moment that never stops being fun.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 55 min + 4 hrs chill</span><span class="meta-item">◆ Easy</span></div>
+    <div class="card-tags"><span class="tag">dessert</span><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/tiramisu.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="classic tiramisu">
+  <div class="card-media"><img src="../assets/img/tiramisu-1.jpg" alt="Classic Tiramisu" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Sweet &amp; Baked</div>
+    <h3 class="card-title">Classic Tiramisu</h3>
+    <p class="card-kicker">No-bake, coffee-soaked, mascarpone-clouded — the Italian dessert that improves while you sleep.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 30 min + 6 hrs chill</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">dessert</span><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

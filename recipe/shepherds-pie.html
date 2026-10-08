@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shepherd&#x27;s Pie — Salt & Ember</title>
+<meta name="description" content="Lamb under a mashed-potato duvet, fork-raked and baked until the ridges go golden. Technically, shepherd&#x27;s pie means lamb.">
+<meta property="og:title" content="Shepherd&#x27;s Pie">
+<meta property="og:description" content="Lamb under a mashed-potato duvet, fork-raked and baked until the ridges go golden. Technically, shepherd&#x27;s pie means lamb.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chrome-ember-2.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/chrome-ember-2.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/comfort-food.html">← Comfort Food</a>
+<h1 class="recipe-title">Shepherd&#x27;s Pie</h1>
+<p class="recipe-kicker">Lamb under a mashed-potato duvet, fork-raked and baked until the ridges go golden. Technically, shepherd&#x27;s pie means lamb.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 1 hr 15 min</span>
+<span class="meta-pill">◆ Easy</span>
+<span class="meta-pill">🍽 serves 6</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=one-pot">one-pot</a><a class="chip" href="../recipes.html?tag=make-ahead">make-ahead</a><a class="chip" href="../recipes.html?tag=comfort">comfort</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="37">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">The pedantry is part of the charm: shepherd&#x27;s pie is made with lamb (shepherds, see), cottage pie with beef, and the mashed potato on top arrived when the potato became cheap enough to be a crust for the poor. Either way, the formula is one of Britain&#x27;s best ideas — a deeply savory mince gravy sealed under potato, baked until the fork-raked ridges crisp and brown.</p>
+<p>The depth comes from building the filling like a stew: brown the lamb hard in batches, then onions and carrot, a tablespoon of flour, stock, Worcestershire, and — the quiet hero — a tablespoon of tomato paste cooked dark. Simmer until thick enough that a spoon leaves a trail. A wet filling under potato makes a swamp; a nappé filling makes a pie. Peas go in at the end for color and sweetness.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Potato-topped pies appear in print from 1791, when potatoes were being promoted as an affordable crop. The &#x27;cottage&#x27; in cottage pie references the dwellings of the rural poor who ate it.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 6 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">700 g</span><span class="ing-item">ground lamb <em>or beef, and rename your dinner accordingly</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 kg</span><span class="ing-item">floury potatoes <em>Maris Piper or Russet, peeled</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">100 g</span><span class="ing-item">butter + 100 ml warm milk <em>for the mash</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2</span><span class="ing-item">onions <em>finely diced</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2</span><span class="ing-item">carrots <em>finely diced</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tbsp</span><span class="ing-item">tomato paste <em>cooked until it darkens</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tbsp</span><span class="ing-item">flour</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">400 ml</span><span class="ing-item">lamb or beef stock</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tsp</span><span class="ing-item">Worcestershire sauce</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">fresh thyme leaves + 1 bay leaf</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">100 g</span><span class="ing-item">frozen peas</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shepherds-pie"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">salt, pepper, a grating of nutmeg in the mash</span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Start the mash</h4><p>Boil potatoes from cold salted water, 20 minutes until a knife slides through. Drain, steam-dry 2 minutes, mash with butter and warm milk. Season hard — under-salted mash ruins pies. Fork-rake the surface when topping for maximum crisp ridges.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Brown the lamb in batches</h4><p>Hot pan, half the lamb at a time, until deeply browned. Crowding steams it gray. Set aside; leave the fat.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Vegetables and tomato paste</h4><p>Soften onion and carrot in the lamb fat, 10 minutes. Add tomato paste and cook 2 minutes until it darkens and sweetens — this is the flavor move.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Make the gravy</h4><p>Return lamb, sprinkle flour, stir 1 minute, add stock, Worcestershire, thyme, bay. Simmer 20 minutes until thick — a spoon should leave a clean trail. Peas in at the end. Season, remove bay.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Assemble</h4><p>Filling in a baking dish, mash on top in big spoonfuls then spread, fork-rake the ridges, dot with butter. Optional but excellent: a thin layer of grated cheddar over the ridges.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Bake at 200°C / 400°F</h4><p>25-30 minutes until bubbling at the edges and the ridges have golden-brown tips. Rest 10 minutes or it will flow like lava and taste of burnt mouth. Serve with extra peas and brown sauce if you know what&#x27;s good.</p></div></li></ol>
+</section>
+
+
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="lElYYrovajg" tabindex="0" role="button" aria-label="Play: Easy Shepherd&#x27;s Pie Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/lElYYrovajg/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Easy Shepherd&#x27;s Pie Recipe</h4><p>Natashas Kitchen</p></div>
+</div><div class="video-card" data-yt="a3EYQARJkLk" tabindex="0" role="button" aria-label="Play: Shepherd&#x27;s Pie Recipe | How to Make Perfect Shepherd&#x27;s Pie">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/a3EYQARJkLk/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Shepherd&#x27;s Pie Recipe | How to Make Perfect Shepherd&#x27;s Pie</h4><p>The Cooking Foodie</p></div>
+</div><div class="video-card" data-yt="TqIoyTImsFQ" tabindex="0" role="button" aria-label="Play: Sheperds Pie Recipe - Super Easy Dinner Recipe!">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/TqIoyTImsFQ/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Sheperds Pie Recipe - Super Easy Dinner Recipe!</h4><p>Laura in the Kitchen</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Assemble entirely ahead and refrigerate — bake 40 minutes from cold. The perfect make-ahead dinner party dish.</li><li>Freezes brilliantly, baked or unbaked, 3 months. Bake from frozen, covered, then uncovered to brown.</li><li>A handful of chopped rosemary in the filling splits the difference between home and gastropub.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Refrigerates 4 days, freezes 3 months — genuinely better reheated. Re-bake covered at 180°C / 350°F until heated through, then uncovered to re-crisp the top.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Shepherd%27s_pie" target="_blank" rel="noopener"><div class="ext-body"><h4>Shepherd&#x27;s pie — Wikipedia</h4><p>Lamb vs. beef naming, the 1791 potato crust origin</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/best-shepherds-pie-recipe" target="_blank" rel="noopener"><div class="ext-body"><h4>Cottage pie — Serious Eats</h4><p>Filling thickness science and topping techniques</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="shepherds-pie" data-title="Shepherd&#x27;s Pie" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/baked-mac-and-cheese.html" data-genre="Comfort Food" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="baked mac and cheese">
+  <div class="card-media"><img src="../assets/img/chrome-ember-2.jpg" alt="Baked Mac and Cheese" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Comfort Food</div>
+    <h3 class="card-title">Baked Mac and Cheese</h3>
+    <p class="card-kicker">A real béchamel, four cheeses, and a crispy top that makes the pan go quiet at the table.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 55 min</span><span class="meta-item">◆ Easy</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/beef-bourguignon.html" data-genre="French Bistro" data-tags="one-pot,comfort,make-ahead,weekend-project" data-title="beef bourguignon">
+  <div class="card-media"><img src="../assets/img/beef-bourguignon-1.jpg" alt="Beef Bourguignon" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">French Bistro</div>
+    <h3 class="card-title">Beef Bourguignon</h3>
+    <p class="card-kicker">Julia Child&#x27;s Sunday stew: cheap cut, expensive taste, the whole house smells like Burgundy.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 3 hr 30 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">one-pot</span><span class="tag">comfort</span><span class="tag">make-ahead</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

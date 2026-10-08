@@ -1,0 +1,141 @@
+{
+  "slug": "falafel-tahini",
+  "title": "Falafel with Tahini",
+  "genre": "Spice Route",
+  "tags": [
+    "vegetarian",
+    "vegan",
+    "crowd-pleaser",
+    "budget",
+    "weekend-project"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "30 min + soaking",
+    "cook": "20 min",
+    "total_label": "1 hr + overnight soaking",
+    "total_min": 150
+  },
+  "servings": "6",
+  "kicker": "Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.",
+  "story": [
+    "The great falafel secret, fought over in Egyptian and Levantine kitchens alike, is that the chickpeas are never cooked. Dried chickpeas soak overnight, then go straight into the food processor raw with herbs, onion and garlic. Raw starch fries into that crisp shell and fluffy interior. Cooked chickpeas make falafel mush — the single most common home failure.",
+    "The second secret is a hot, honest fry. Falafel is not health food pretending; it is street food with a job. Fry at 175°C / 350°F until deep mahogany, then let them drain briefly and eat them while the outside still crackles, dunked in tahini sauce loosened with lemon and ice water until it goes white and pourable. Pita, pickles, tomato, amba if you are lucky. Done."
+  ],
+  "fun_fact": "The Egyptian ta'ameya — falafel's ancestor — is made with fava beans, not chickpeas, and many Egyptians consider the chickpea version a Levantine improvisation.",
+  "ingredients": [
+    {
+      "amount": "300 g",
+      "item": "dried chickpeas",
+      "note": "soaked 12-24 hrs — canned will not work"
+    },
+    {
+      "amount": "1",
+      "item": "small onion",
+      "note": "quartered"
+    },
+    {
+      "amount": "1 bunch",
+      "item": "parsley",
+      "note": "stems and all"
+    },
+    {
+      "amount": "1/2 bunch",
+      "item": "cilantro",
+      "note": ""
+    },
+    {
+      "amount": "4 cloves",
+      "item": "garlic",
+      "note": ""
+    },
+    {
+      "amount": "1 tsp",
+      "item": "ground cumin + 1 tsp coriander",
+      "note": ""
+    },
+    {
+      "amount": "1/4 tsp",
+      "item": "cayenne or chili flakes",
+      "note": ""
+    },
+    {
+      "amount": "1 tsp",
+      "item": "baking soda",
+      "note": "added just before frying"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "sesame seeds",
+      "note": "optional, for coating"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "150 g",
+      "item": "tahini",
+      "note": "for the sauce"
+    },
+    {
+      "amount": "80 ml",
+      "item": "lemon juice + ice water",
+      "note": "for the sauce"
+    },
+    {
+      "amount": "—",
+      "item": "pita, tomato, pickles",
+      "note": "assembly"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Soak, then process raw",
+      "text": "Soak chickpeas overnight — they triple in size. Drain well. Pulse with onion, herbs, garlic and spices to a coarse, vivid-green rubble that holds when squeezed. Not a smooth hummus — texture is life."
+    },
+    {
+      "title": "Chill the mix",
+      "text": "Refrigerate 30 minutes. Cold mix holds together better and fries up less fragile. Stir in baking soda at the last moment — it puffs the interior."
+    },
+    {
+      "title": "Test batch first",
+      "text": "Fry one ball. Too soft? Add 2 tbsp flour or breadcrumbs. Falling apart? The mix is too wet — squeeze in a bit more or blitz in a few more chickpeas. Fix it now, not for the whole batch."
+    },
+    {
+      "title": "Fry at 175°C / 350°F",
+      "text": "Shape golf balls (or use two spoons for the rustic route). Fry 3-4 minutes to deep brown, in batches, never crowding. Drain on a rack. The color IS the flavor — pale falafel is a missed opportunity."
+    },
+    {
+      "title": "Tahini sauce",
+      "text": "Whisk tahini with lemon juice and salt — it will seize up alarmingly, then loosen with ice water, spoon by spoon, until it turns pale, pourable and glossy. It should dress a spoon like cream."
+    },
+    {
+      "title": "Assemble the sandwich of your mood",
+      "text": "Warm pita, smear of tahini, falafel (smash a couple — they hold sauce better broken), tomato, pickles, raw onion. Eat over the counter like someone who knows what is good."
+    }
+  ],
+  "notes": [
+    "The raw mix keeps 2 days refrigerated and freezes beautifully shaped into balls — fry from frozen, 2 extra minutes.",
+    "Baked falafel (220°C / 425°F, 20 min, well-oiled) is respectable; fried is transcendent. Your conscience, your call.",
+    "Leftover fried falafel re-crisps in a 200°C / 400°F oven for 8 minutes."
+  ],
+  "pairings": [
+    "chicken-shawarma",
+    "chana-masala"
+  ],
+  "links": [
+    {
+      "title": "Falafel — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Falafel",
+      "desc": "Egyptian origins, the fava-vs-chickpea debate, global takeover"
+    },
+    {
+      "title": "Tahini — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tahini",
+      "desc": "Sesame paste's long history and its sauce physics"
+    }
+  ],
+  "storage": "Raw mix: 2 days refrigerated, 3 months frozen shaped. Fried falafel: best immediately, re-crisp in the oven next day. Tahini sauce: 5 days refrigerated, whisk back to life with water."
+}

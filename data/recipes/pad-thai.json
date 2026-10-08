@@ -1,0 +1,135 @@
+{
+  "slug": "pad-thai",
+  "title": "Pad Thai",
+  "genre": "Asian Kitchen",
+  "tags": [
+    "quick",
+    "crowd-pleaser",
+    "seafood-option"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "25 min",
+    "cook": "10 min",
+    "total_label": "35 min",
+    "total_min": 35
+  },
+  "servings": "2-3",
+  "kicker": "The wok is screaming, the clock is running, and dinner takes nine minutes.",
+  "story": [
+    "Pad Thai as the world knows it was a 1930s government campaign — a national dish designed to unify Thailand and promote rice-noodle consumption. It worked suspiciously well. The street version is a study in rhythm: tamarind, fish sauce and palm sugar pre-mixed, noodles soaked soft, and then ninety seconds of violent, joyful wok work.",
+    "The home version lives or dies on preparation. Once the pan is hot there is no time to measure anything — everything must be at arm's reach, chopped, soaked, cracked. Cook one serving at a time if your pan is small; a crowded wok steams instead of frying, and steamed pad thai is just wet noodles with regret."
+  ],
+  "fun_fact": "The 1930s promotion was driven by Prime Minister Plaek Phibunsongkhram's nationalism — and a government fear that rice exports were outpacing domestic rice consumption. Noodles as economic policy.",
+  "ingredients": [
+    {
+      "amount": "200 g",
+      "item": "dried flat rice noodles",
+      "note": "Chantaboon style, soaked 30 min in warm water until bendable"
+    },
+    {
+      "amount": "150 g",
+      "item": "shrimp or chicken, or firm tofu",
+      "note": "your call"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "tamarind paste",
+      "note": "the sour heart of the dish — do not substitute vinegar"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "fish sauce",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "palm sugar",
+      "note": "or light brown sugar"
+    },
+    {
+      "amount": "3 cloves",
+      "item": "garlic",
+      "note": "minced"
+    },
+    {
+      "amount": "2",
+      "item": "shallots",
+      "note": "sliced"
+    },
+    {
+      "amount": "2",
+      "item": "eggs",
+      "note": ""
+    },
+    {
+      "amount": "100 g",
+      "item": "pressed tofu or fried tofu puffs",
+      "note": ""
+    },
+    {
+      "amount": "80 g",
+      "item": "bean sprouts",
+      "note": ""
+    },
+    {
+      "amount": "2",
+      "item": "garlic chives (or scallions)",
+      "note": "cut in 4 cm lengths"
+    },
+    {
+      "amount": "30 g",
+      "item": "roasted peanuts",
+      "note": "crushed"
+    },
+    {
+      "amount": "—",
+      "item": "lime wedges, dried chili flakes",
+      "note": "at the table, non-negotiable"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mix the sauce, soak the noodles",
+      "text": "Stir tamarind, fish sauce and palm sugar until dissolved — taste it: sour-salty-sweet, provocative, delicious. Soak noodles until they bend without snapping; they finish cooking in the wok."
+    },
+    {
+      "title": "Scorching hot, everything ready",
+      "text": "Get your widest pan or wok properly hot. Oil. Garlic and shallots in, 20 seconds — aromatic, not brown. Protein next, seared hard."
+    },
+    {
+      "title": "Noodles and sauce",
+      "text": "Add drained noodles and the sauce. Toss continuously for 2 minutes. If the pan is dry, add a splash of water; the noodles steam-tenderize while the sauce reduces and glazes them."
+    },
+    {
+      "title": "The egg curtain",
+      "text": "Push everything to one side, crack the eggs into the empty half, scramble for 20 seconds until half-set, then fold through the noodles. Some cooks wrap the noodles in the egg like a blanket; be that cook."
+    },
+    {
+      "title": "Finish off the heat",
+      "text": "Tofu, sprouts and chives in, toss once, off the pan — sprouts should stay crisp. Peanuts, lime squeeze, chili flakes on top. The best pad thai is sweet-sour-salty in that order and eaten standing at the stove."
+    }
+  ],
+  "notes": [
+    "Tamarind concentrate from an Asian grocery is the flavor backbone. Lime juice is an acceptable improvisation, but it is a different accent.",
+    "One serving per pan. Seriously. The dish takes nine minutes; cook two rounds.",
+    "Soak, never boil, the noodles — boiled rice noodles turn to paste in the wok."
+  ],
+  "pairings": [
+    "chicken-shawarma",
+    "baja-fish-tacos"
+  ],
+  "links": [
+    {
+      "title": "Pad thai — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pad_thai",
+      "desc": "A national dish invented by government decree"
+    },
+    {
+      "title": "Serious Eats — Pad Thai",
+      "url": "https://www.seriouseats.com/pad-thai-recipe",
+      "desc": "Wok technique and tamarind sourcing, tested"
+    }
+  ],
+  "storage": "Best eaten within minutes. The sauce base keeps 3 weeks refrigerated — make a jar, and pad thai becomes a 10-minute weeknight habit."
+}

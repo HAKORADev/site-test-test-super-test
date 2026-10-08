@@ -1,0 +1,105 @@
+{
+  "slug": "no-knead-sourdough",
+  "title": "No-Knead Sourdough",
+  "genre": "Sweet & Baked",
+  "tags": [
+    "vegetarian",
+    "weekend-project",
+    "make-ahead",
+    "budget"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "15 min hands-on",
+    "cook": "45 min",
+    "total_label": "18-24 hrs (mostly waiting)",
+    "total_min": 1260
+  },
+  "servings": "1 large loaf",
+  "kicker": "Flour, water, salt, time. The easiest genuinely great bread in the world takes zero kneading and one night of patience.",
+  "story": [
+    "Jim Lahey of Sullivan Street Bakery published this method in 2006 and rewired home baking overnight: an extremely wet dough, a tiny amount of yeast, a long slow fermentation — and instead of kneading, you just wait. The gluten develops itself while the dough sits. Then a screaming-hot Dutch oven traps steam and gives the crackly, blistered, professional-grade crust that home ovens could never manage before.",
+    "The method is forgiving to a fault — the dough rises while you sleep, and the schedule bends around your day. Use a true sourdough starter version for deeper flavor, or instant yeast for reliability; both make bread that makes people ask where you bought it. The answer, always, is: nowhere. You made it. With waiting."
+  ],
+  "fun_fact": "Mark Bittman's 2006 New York Times column on Lahey's bread became one of the most influential food stories of the decade — home ovens worldwide acquired Dutch ovens in its wake.",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "item": "bread flour",
+      "note": ""
+    },
+    {
+      "amount": "100 g",
+      "item": "whole wheat or rye flour",
+      "note": "optional, for depth"
+    },
+    {
+      "amount": "2 g",
+      "item": "instant yeast",
+      "note": "or 100 g active sourdough starter, skipping the yeast"
+    },
+    {
+      "amount": "8 g",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "350 g",
+      "item": "cool water",
+      "note": "75-78% hydration — wetter than you think"
+    },
+    {
+      "amount": "—",
+      "item": "rice or semolina flour",
+      "note": "for the proofing cloth"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Mix, and that's it",
+      "text": "Stir flours, yeast, salt; add water; mix with a spoon or your hand for 30 seconds until no dry bits remain. It will look like a shaggy, sticky disaster. Cover the bowl. This is the entire 'kneading'."
+    },
+    {
+      "title": "The long ferment",
+      "text": "Rest 12-18 hours at room temperature (18-22°C). It should triple and the surface should be dotted with bubbles. Longer is fine — overnight plus a lazy morning is the intended lifestyle."
+    },
+    {
+      "title": "Shape with wet hands",
+      "text": "Scrape the wet dough onto a floured surface, fold it over itself 3-4 times (a letter fold), rest 15 minutes, then shape into a tight ball by folding edges to the center. The dough is sticky — wet hands, confidence, no panic."
+    },
+    {
+      "title": "Second rise in a cloth",
+      "text": "Dust a tea towel heavily with rice flour, place the ball seam-up, dust the top, cover loosely. Rise 1-2 hours until puffy and slow to spring back when poked."
+    },
+    {
+      "title": "Preheat the Dutch oven like a volcano",
+      "text": "Put your Dutch oven (lid and all) in the oven at 250°C / 475°F for a full 45 minutes before baking. Empty, blazing hot. This is the crust machine."
+    },
+    {
+      "title": "Bake covered, then bare",
+      "text": "Flip the dough into the scorching pot seam-down, slash the top once with a razor, lid on, 30 minutes. Lid off, 12-18 more minutes until the crust is deep mahogany and the internal temp is 96°C / 205°F. Cool on a rack for a full hour — cutting early releases steam and ruins the crumb. Wait. You have come this far."
+    }
+  ],
+  "notes": [
+    "Rice flour (not wheat) for the cloth — it never hydrates and the dough releases like magic.",
+    "Sourdough version: 100 g starter, skip the yeast, first ferment up to 24 hours. Slightly sour, deeper, better.",
+    "No Dutch oven? An oven-safe pot with a metal lid, or even a heavy casserole dish under a foil tent — the steam trap is what matters."
+  ],
+  "pairings": [
+    "french-onion-soup",
+    "apple-pie"
+  ],
+  "links": [
+    {
+      "title": "No-knead bread — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/No-knead_bread",
+      "desc": "Lahey, Bittman, and the Dutch oven revolution"
+    },
+    {
+      "title": "Jim Lahey's original recipe",
+      "url": "https://cooking.nytimes.com/recipes/1017694-artisan-no-knead-bread",
+      "desc": "The 2006 recipe that started it all (NYT Cooking)"
+    }
+  ],
+  "storage": "Crusty bread has a short life: 1 day at peak, 2 days good. Never refrigerate — it stales faster in the fridge. Freeze halves sliced, toast straight from frozen to resurrect."
+}

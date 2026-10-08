@@ -1,0 +1,125 @@
+{
+  "slug": "baked-mac-and-cheese",
+  "title": "Baked Mac and Cheese",
+  "genre": "Comfort Food",
+  "tags": [
+    "vegetarian",
+    "comfort",
+    "crowd-pleaser",
+    "budget"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min",
+    "cook": "35 min",
+    "total_label": "55 min",
+    "total_min": 55
+  },
+  "servings": "6",
+  "kicker": "A real béchamel, four cheeses, and a crispy top that makes the pan go quiet at the table.",
+  "story": [
+    "The mac and cheese that people dream about is built on a proper béchamel: butter, flour, milk cooked into a silken sauce, then real cheese melted into it off the heat. This is the Southern bake — custardy inside, crumb-crusted outside — not the stovetop version, and the difference is the texture that only a short oven ride gives you.",
+    "Two moves prevent the classic failures. Undercook the pasta by two minutes — it finishes in the oven, and pasta cooked to soft before baking turns to mush. And melt the cheese into the sauce off the heat, adding it in handfuls; boiling cheese breaks into graininess and greasiness. A panko-butter crust on top is the crunch that makes people stop talking mid-sentence."
+  ],
+  "fun_fact": "The oldest known printed mac & cheese recipe is from Elizabeth Raffald's 1769 English cookbook — béchamel, cheddar, and a request to send it 'to table in a water pan', effectively a bain-marie.",
+  "ingredients": [
+    {
+      "amount": "450 g",
+      "item": "elbow macaroni",
+      "note": "or cavatappi — ridges hold sauce"
+    },
+    {
+      "amount": "60 g",
+      "item": "butter + 60 g flour",
+      "note": "the roux"
+    },
+    {
+      "amount": "900 ml",
+      "item": "whole milk, warmed",
+      "note": ""
+    },
+    {
+      "amount": "250 g",
+      "item": "sharp cheddar, grated",
+      "note": "grate it yourself — pre-shredded is coated in starch and never melts the same"
+    },
+    {
+      "amount": "120 g",
+      "item": "gruyère or Monterey Jack",
+      "note": "the melt"
+    },
+    {
+      "amount": "60 g",
+      "item": "parmesan",
+      "note": "the salt and depth"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "mustard powder + 1/2 tsp smoked paprika",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "bay leaf",
+      "note": "into the milk"
+    },
+    {
+      "amount": "60 g",
+      "item": "panko + 1 tbsp melted butter",
+      "note": "the crown"
+    },
+    {
+      "amount": "—",
+      "item": "salt, black pepper, cayenne",
+      "note": "a pinch of cayenne is tradition, not heat"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Boil short",
+      "text": "Salted water, macaroni two minutes under package time. Drain, toss with a teaspoon of oil so it doesn't clump while you make the sauce."
+    },
+    {
+      "title": "Roux, then béchamel",
+      "text": "Melt butter, whisk in flour, cook 2 minutes to a blond paste — raw flour taste is real. Warm milk in gradually, whisking, with the bay leaf. Simmer 5 minutes until it coats the back of a spoon."
+    },
+    {
+      "title": "Season the base",
+      "text": "Kill the heat. Mustard powder, paprika, cayenne, a heavy hand of black pepper. Salt now, remembering the cheeses are coming with their own salt."
+    },
+    {
+      "title": "Cheese, off the heat",
+      "text": "Remove the bay. Add cheese in three handfuls, whisking each into the sauce before the next. If the sauce steams too hard, it will split — patience, off-heat, silky."
+    },
+    {
+      "title": "Fold and crown",
+      "text": "Fold in the pasta, taste the sauce (it should be slightly over-seasoned — the pasta dilutes), pour into a buttered dish. Panko mixed with melted butter and a little parmesan scattered on top."
+    },
+    {
+      "title": "Bake at 200°C / 400°F",
+      "text": "25-30 minutes, until bubbling at the edges and the panko is deep gold. Rest 10 minutes — the sauce thickens from lava to custard as it sits. This rest is the hardest instruction on the page."
+    }
+  ],
+  "notes": [
+    "Grate your own cheese. Pre-shredded is anti-caking starch, and it genuinely changes the melt.",
+    "For a crisper, thicker top, bake uncovered the whole way; for the custard-max version, cover with foil for the first 15 minutes.",
+    "Mixes into a full meal with folded-in roasted broccoli or crumbled bacon — the purists can file complaints with the empty pan."
+  ],
+  "pairings": [
+    "authentic-carbonara",
+    "smash-burger"
+  ],
+  "links": [
+    {
+      "title": "Macaroni and cheese — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Macaroni_and_cheese",
+      "desc": "From 1769 England to Jefferson's Virginia to Southern church suppers"
+    },
+    {
+      "title": "Béchamel — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/B%C3%A9chamel_sauce",
+      "desc": "The mother sauce doing the heavy lifting"
+    }
+  ],
+  "storage": "Refrigerates 4 days; reheats covered at 180°C / 350°F with a spoonful of milk stirred in. Freezes well for 2 months — bake from frozen at 180°C for an hour."
+}

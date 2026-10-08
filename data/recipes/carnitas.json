@@ -1,0 +1,121 @@
+{
+  "slug": "carnitas",
+  "title": "Carnitas",
+  "genre": "Street Food",
+  "tags": [
+    "make-ahead",
+    "crowd-pleaser",
+    "one-pot",
+    "weekend-project"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min",
+    "cook": "3 hrs",
+    "total_label": "3 hr 20 min (mostly unattended)",
+    "total_min": 200
+  },
+  "servings": "8",
+  "kicker": "Pork confit, Michoacán style — simmered in its own fat until shreddable, then crisped under the broiler until it crackles.",
+  "story": [
+    "Carnitas ('little meats') is Michoacán's gift to the taco universe: pork shoulder simmered low in lard — traditionally just its own rendered fat — with orange, bay and a suspicious amount of patience. The meat emerges fall-apart tender, then gets crisped hard at the end for that essential duality: silk inside, crackle outside.",
+    "The home version is almost embarrassingly easy. Everything goes in one pot: cubed shoulder, water, a splash of oil, orange peel, onion, garlic, bay. Simmer for three hours while the water cooks off and the fat renders — the meat fries in its own confit for the final phase. Finish under the broiler or in a hot skillet for the crackle. The orange is not optional; it is the flavor thread running through every version."
+  ],
+  "fun_fact": "Traditional Michoacán carnitas are cooked in copper cauldrons (cazo de cobre) over open fires, and the town of Quiroga holds an annual Carnitas Fair where entire pigs are served by part — ears, cheek, stomach — all delicious.",
+  "ingredients": [
+    {
+      "amount": "1.5 kg",
+      "item": "pork shoulder",
+      "note": "cut in 5 cm cubes, fat cap included"
+    },
+    {
+      "amount": "500 ml",
+      "item": "water",
+      "note": ""
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "lard or neutral oil",
+      "note": "lard if you can — it is right there in the name of good cooking"
+    },
+    {
+      "amount": "1",
+      "item": "orange",
+      "note": "halved or thick-peeled strips"
+    },
+    {
+      "amount": "1",
+      "item": "onion, quartered",
+      "note": ""
+    },
+    {
+      "amount": "6 cloves",
+      "item": "garlic",
+      "note": "smashed"
+    },
+    {
+      "amount": "2",
+      "item": "bay leaves",
+      "note": ""
+    },
+    {
+      "amount": "1 tsp",
+      "item": "dried oregano + 1 tsp cumin",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "salt",
+      "note": ""
+    },
+    {
+      "amount": "—",
+      "item": "tortillas, cilantro, onion, salsa, lime",
+      "note": "the taco kit"
+    }
+  ],
+  "steps": [
+    {
+      "title": "One pot, everything in",
+      "text": "Pork, water, fat, orange, onion, garlic, bay, oregano, cumin, salt. Bring to a simmer. That's it — the technique is the time, not the moves."
+    },
+    {
+      "title": "Three low hours",
+      "text": "Simmer uncovered on the lowest flame, stirring occasionally. The water evaporates, the fat renders out, and by hour two the meat is boiling in its own lard. Skim nothing. This is correct confit behavior."
+    },
+    {
+      "title": "Listen for the sizzle",
+      "text": "Around hour 2.5-3 the liquid is gone and the meat starts frying — it sizzles instead of bubbling. Stir more often now so the bottom crisps evenly and nothing catches. The edges brown, the cubes firm up."
+    },
+    {
+      "title": "Shred or crisp in pieces",
+      "text": "Either shred for tacos or keep the chunks and crisp them harder under the broiler for 5 minutes. Both are traditional; the broiler route gives more crackle per square centimeter."
+    },
+    {
+      "title": "Taco time",
+      "text": "Warm tortillas directly over a flame, fill with carnitas, cilantro, raw white onion, salsa verde, lime. Eat two immediately. The third one is 'quality control'."
+    }
+  ],
+  "notes": [
+    "The rendered leftover fat is liquid gold — strain and refrigerate it for your next batch or next month's roast potatoes.",
+    "Carnitas freeze beautifully for 3 months; re-crisp from frozen under the broiler.",
+    "A pinch of ground cinnamon or a can of coke in the pot are two rival family secret schools — pick a side."
+  ],
+  "pairings": [
+    "smash-burger",
+    "baja-fish-tacos"
+  ],
+  "links": [
+    {
+      "title": "Carnitas — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carnitas",
+      "desc": "Michoacán traditions, the copper cauldron, and the part-by-part service"
+    },
+    {
+      "title": "Tacos — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taco",
+      "desc": "The taxonomy of Mexico's greatest export"
+    }
+  ],
+  "storage": "Refrigerates 5 days, freezes 3 months. Always re-crisp under the broiler or in a hot skillet — microwaved carnitas are a betrayal."
+}

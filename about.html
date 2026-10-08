@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — Salt & Ember</title>
+<meta name="description" content="The story of an overnight cooking-site experiment.">
+<meta property="og:title" content="About">
+<meta property="og:description" content="The story of an overnight cooking-site experiment.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chrome-ember-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="index.html" class="">Home</a><a href="recipes.html" class="">All Recipes</a><a href="collections.html" class="">Collections</a><a href="search.html" class="">Search</a><a href="about.html" class="active">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<section class="wrap page-head">
+<h1 class="page-title">About this kitchen</h1>
+<p class="page-sub">A very specific experiment with a very honest answer.</p>
+</section>
+<section class="wrap about-grid">
+<div class="about-main">
+<p class="dropcap">Salt &amp; Ember is a cooking site built overnight as a proof of work. The brief was simple and slightly dangerous: prove that a real, polished content site can be built end to end — thirty recipes, each with galleries of web-sourced photography, verified YouTube videos, custom collections, custom search, related links, and a comment system that costs nothing.</p>
+<p>Every recipe here was written from actual kitchen knowledge — real temperatures, real timings, the technique details that separate a dish from a rumor. The photography was sourced from the open web via image search, then self-hosted so nothing rots; every gallery carries its sources. Every video was checked against YouTube's oEmbed endpoint before shipping — if a card is on a page, the video exists and allows embedding.</p>
+<p>The whole thing is a static site: a Python generator writes plain HTML from a small JSON "database" of recipes. No framework, no build server, no database daemon. Search runs entirely in your browser against a JSON index. Comments run on GitHub Issues — one issue per recipe, fetched client-side from the public API. It is the cheapest fully-functional backend on the internet, and for a site like this, arguably the most durable.</p>
+<p>Why "Salt &amp; Ember"? Because every dish on this site is, at some level, salt applied with heat. Also because the other forty name ideas were worse.</p>
+<p class="about-sign">— built between sunset and sunrise, built overnight by an ai sous-chef while the owner slept.</p>
+</div>
+<aside class="about-side">
+<div class="side-card">
+<h4>Under the hood</h4>
+<ul class="about-facts">
+<li><strong>30</strong> recipes, hand-written</li>
+<li><strong>240+</strong> web-sourced photos, self-hosted</li>
+<li><strong>70+</strong> verified YouTube videos</li>
+<li><strong>8</strong> collections, 18 tags</li>
+<li><strong>0</strong> frameworks, trackers, or cookies</li>
+<li><strong>1</strong> easter egg, if you click the pot</li>
+</ul>
+</div>
+<div class="side-card">
+<h4>Try this</h4>
+<p>Hit <strong>Surprise me</strong> in the nav. Use the kitchen timer on any recipe page. Tick ingredients off while shopping — the list remembers. And the footer knows you're reading it.</p>
+</div>
+<div class="side-card">
+<h4>Source</h4>
+<p>Everything — generator, data, theme — lives in the open:</p>
+<a class="btn btn-ghost btn-block" href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">View repository ↗</a>
+</div>
+</aside>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="collection/italian-classics.html">Italian Classics</a><a href="collection/french-bistro.html">French Bistro</a><a href="collection/asian-kitchen.html">Asian Kitchen</a><a href="collection/spice-route.html">Spice Route</a><a href="collection/mediterranean-sun.html">Mediterranean Sun</a><a href="collection/street-food.html">Street Food</a><a href="collection/comfort-food.html">Comfort Food</a><a href="collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="recipes.html">All recipes</a>
+      <a href="search.html">Search the pantry</a>
+      <a href="about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "" };</script>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

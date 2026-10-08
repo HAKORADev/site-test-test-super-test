@@ -1,0 +1,135 @@
+{
+  "slug": "seafood-paella",
+  "title": "Seafood Paella",
+  "genre": "Mediterranean Sun",
+  "tags": [
+    "seafood",
+    "crowd-pleaser",
+    "weekend-project",
+    "make-ahead"
+  ],
+  "difficulty": "project",
+  "time": {
+    "prep": "40 min",
+    "cook": "35 min",
+    "total_label": "1 hr 15 min",
+    "total_min": 75
+  },
+  "servings": "4-6",
+  "kicker": "Rice cooked dry in a wide pan, saffron, and the crackled bottom that Valencians revere by name.",
+  "story": [
+    "Paella is not risotto — it is the opposite. The rice never stirs. Bomba rice sits in a shallow pan over heat, drinks a saffron-flecked seafood stock, and forms a crackled, toasty crust on the pan bottom called the socarrat, which is the texture Valencians fight over. No stirring means each grain stays distinct, dry yet saturated, and the pan does something a pot cannot.",
+    "The other key is the sofrito — onion, garlic, tomato cooked down slowly until sweet — plus a stock made from shrimp shells, which most recipes treat as optional and which is honestly half the flavor. A real paella pan is wide and thin carbon steel; a wide stainless skillet is a legitimate stand-in. Do not use a deep pot. Paella in a pot is just wet rice with good memories."
+  ],
+  "fun_fact": "The word paella comes from the Valencian word for the pan itself (from Latin patella). The original 'real' paella from Albufera had no seafood at all — rabbit, chicken, snails, and green beans.",
+  "ingredients": [
+    {
+      "amount": "350 g",
+      "item": "bomba or calasparra rice",
+      "note": "or arborio in a pinch — but bomba drinks 3x its weight without bursting"
+    },
+    {
+      "amount": "12",
+      "item": "shrimp or prawns, shell-on",
+      "note": "shells become stock"
+    },
+    {
+      "amount": "300 g",
+      "item": "mussels",
+      "note": "scrubbed"
+    },
+    {
+      "amount": "200 g",
+      "item": "calamari rings",
+      "note": ""
+    },
+    {
+      "amount": "1 L",
+      "item": "seafood stock",
+      "note": "from shrimp shells + good fish stock, hot"
+    },
+    {
+      "amount": "1",
+      "item": "onion, 4 garlic cloves",
+      "note": ""
+    },
+    {
+      "amount": "200 g",
+      "item": "tomato, grated",
+      "note": "for the sofrito"
+    },
+    {
+      "amount": "1 pinch",
+      "item": "saffron threads",
+      "note": "steeped in warm stock 10 min"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "smoked paprika",
+      "note": ""
+    },
+    {
+      "amount": "100 ml",
+      "item": "olive oil",
+      "note": "yes, it is a lot, and it is correct"
+    },
+    {
+      "amount": "100 g",
+      "item": "frozen peas",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "lemon",
+      "note": "wedges to serve"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Shell stock first",
+      "text": "Sauté the shrimp shells in oil 3 minutes, cover with the stock, simmer 15 minutes, strain. This pink liquid is paella's soul — skip it and the rice tastes like plain boiled rice wearing a costume."
+    },
+    {
+      "title": "Sear the seafood, in stages",
+      "text": "Brown calamari in the pan 2 minutes, remove. Sear shrimp 1 minute per side, remove. They finish later; raw-over-rice seafood steams grey and sad."
+    },
+    {
+      "title": "Sofrito, slow",
+      "text": "In the same pan, cook onion 8 minutes until soft and sweet, add garlic, then grated tomato and paprika. Cook 10 minutes until dark and jammy — this base determines everything."
+    },
+    {
+      "title": "Rice in, stir ONCE",
+      "text": "Add rice, stir 1 minute to coat — the only stir of its life. Pour in saffron stock, distribute peas, arrange the seafood on top. From here: no stirring, ever, or the socarrat cannot form."
+    },
+    {
+      "title": "Simmer and listen",
+      "text": "Boil hard 8 minutes, then medium-low 8-10 more until the liquid is absorbed and the rice just peeks above the surface. Now raise the heat 60-90 seconds — you will hear crackling; that is the socarrat forming. Stop when it smells toasty, not burnt."
+    },
+    {
+      "title": "Rest under a cloth",
+      "text": "Off heat, cover with a clean towel for 5 minutes. Serve the whole pan in the middle of the table with lemon, and claim your socarrat wedge early — it goes fast."
+    }
+  ],
+  "notes": [
+    "Saffron is expensive but used by the pinch; fake 'safran' powder is dyed turmeric. Buy threads, crush, steep.",
+    "No paella pan? The widest stainless skillet you own, max 5 cm deep. Surface area is the feature.",
+    "Mussels go in during the last 8 minutes, hinges down, so they open into the rice."
+  ],
+  "pairings": [
+    "spanish-tortilla",
+    "baja-fish-tacos"
+  ],
+  "links": [
+    {
+      "title": "Paella — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paella",
+      "desc": "Valencia's original vs. the seafood vs. the mixed 'tourist' versions"
+    },
+    {
+      "title": "Socarrat — Serious Eats",
+      "url": "https://www.seriouseats.com/the-food-lab-the-best-way-to-cook-paella",
+      "desc": "Crackled-rice science and pan sizing"
+    }
+  ],
+  "storage": "Paella is best within the hour. Refrigerate leftovers up to 2 days; reheat in a covered pan with a splash of stock — the socarrat softens, the flavor remains."
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smash Burger — Salt & Ember</title>
+<meta name="description" content="A ball of beef, a spatula, and the physics of maximum crust. The burger that out-burgered the gourmet burger.">
+<meta property="og:title" content="Smash Burger">
+<meta property="og:description" content="A ball of beef, a spatula, and the physics of maximum crust. The burger that out-burgered the gourmet burger.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/smash-burger-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/smash-burger-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/street-food.html">← Street Food</a>
+<h1 class="recipe-title">Smash Burger</h1>
+<p class="recipe-kicker">A ball of beef, a spatula, and the physics of maximum crust. The burger that out-burgered the gourmet burger.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 25 min</span>
+<span class="meta-pill">◆ Easy</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=quick">quick</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=budget">budget</a><a class="chip" href="../recipes.html?tag=comfort">comfort</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="12">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">The smash burger reverses everything the burger purists told you. Do not handle the meat gently. Do not keep it thick. Do press it — hard — into a screaming hot griddle, where the flattened patty develops a deep brown crust (the Maillard reaction&#x27;s greatest hits album) in under two minutes. The lacy, caramelized edges are the entire point.</p>
+<p>Two rules make it work. First: 80/20 beef, formed into loose balls and seasoned only on the outside — salting early changes the texture. Second: do not press after the first minute. Smash once, hard, with a stiff spatula, then leave it alone while the crust forms. Thin patties mean you stack two for the classic double, and double sauce dripping down your wrist is the standard unit of success.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> The technique traces to Smoky&#x27;s, a 1930s Wisconsin stand, and was revived by Denver&#x27;s Smashburger chain and LA&#x27;s In-N-Out cult. The spatula you use matters so much that dedicated &#x27;smashers&#x27; are now sold.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">800 g</span><span class="ing-item">ground beef, 80/20 <em>chuck grind; do not go lean — the fat is the flavor and the crust</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">8 slices</span><span class="ing-item">American cheese <em>it melts into liquid gold; cheddar refuses to</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4</span><span class="ing-item">soft potato buns <em>or brioche, toasted in beef fat</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1/2 cup</span><span class="ing-item">finely diced white onion <em>smashed into the patty if you like it that way</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 tbsp</span><span class="ing-item">butter <em>for the buns</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">sauce <em>3 tbsp mayo + 1 tbsp ketchup + 1 tsp mustard + 1 tsp pickle brine + paprika</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">dill pickles <em>sliced thin</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="smash-burger"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">salt &amp; pepper <em>outside only, at smash time</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Form balls, not patties</h4><p>Divide beef into 8 loose 100 g balls. Do not compress. Do not season yet. They should look like they were rolled by someone in a hurry.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Nuclear preheat</h4><p>Cast-iron griddle or heavy skillet on high for 5 minutes until it hisses at a water drop. This is the difference between burger and burger-shaped gray meat.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Smash, once, hard</h4><p>Two balls per bun. Place on the griddle, smash flat with a stiff spatula (use a second spatula or a can to press) to 5 mm. Salt and pepper now. Never touch it again for 2 minutes.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Crust, flip, cheese</h4><p>When the edges are dark and lacy and the top is still red-pink, flip once — crust down is what you cooked for. Immediately lay cheese on, stack the second patty on top of the first&#x27;s melted cheese.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Toast the buns in the fat</h4><p>Butter the cut sides and press them onto the griddle during the patties&#x27; final minute. Golden, steaming, slightly greasy — correct.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Build fast, eat faster</h4><p>Sauce on both bun halves, pickles, onions, double patty. Wrap half the burger in paper if you want the authentic grip. The whole thing from skillet to mouth should take under 60 seconds.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-2.jpg" alt="Smash Burger" loading="lazy"><figcaption>Real Simple Good</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-3.jpg" alt="Smash Burger" loading="lazy"><figcaption>Reddit</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-4.jpg" alt="Smash Burger" loading="lazy"><figcaption>Heritage Foods</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-5.jpg" alt="Smash Burger" loading="lazy"><figcaption>im hungry for that</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-6.jpg" alt="Smash Burger" loading="lazy"><figcaption>The Kitchen Coalition</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-7.jpg" alt="Smash Burger" loading="lazy"><figcaption>Nordic Ware</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/smash-burger-8.jpg" alt="Smash Burger" loading="lazy"><figcaption>Or Whatever You Do</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/089b752e2a56.png" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/089b752e2a56.png</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/41fe087e6ad0.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/41fe087e6ad0.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/66b7f2f37c2d.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/66b7f2f37c2d.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/675fa7213e2e.jpeg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/675fa7213e2e.jpeg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9dd3490f0b36.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9dd3490f0b36.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a820b5599474.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a820b5599474.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/db4af357c944.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/db4af357c944.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="qEeg5mnLPzA" tabindex="0" role="button" aria-label="Play: The Perfect Smash Burger Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/qEeg5mnLPzA/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>The Perfect Smash Burger Recipe</h4><p>Nick&#x27;s Kitchen</p></div>
+</div><div class="video-card" data-yt="foD42-73wdI" tabindex="0" role="button" aria-label="Play: Better Than Fast Food! Classic Smash Burger Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/foD42-73wdI/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Better Than Fast Food! Classic Smash Burger Recipe</h4><p>Certified Angus Beef ®</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>American cheese is functionally correct here — it melts. If you must be fancy, grate your cheddar fine and accept less ooze.</li><li>A metal bench scraper lifts the crusty patties cleanly off the griddle.</li><li>No griddle? The biggest cast-iron skillet works; just cook two patties at a time and keep the heat brutal.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Smash burgers are a now-food. Leftover cooked patties keep 2 days and re-crisp in a skillet — but honestly, form the extra balls instead and smash fresh.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Smashburger" target="_blank" rel="noopener"><div class="ext-body"><h4>Smash burger — Wikipedia</h4><p>The chain that named the technique (the technique is older)</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Maillard_reaction" target="_blank" rel="noopener"><div class="ext-body"><h4>Maillard reaction — Wikipedia</h4><p>The browning chemistry your griddle is performing</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="smash-burger" data-title="Smash Burger" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/carnitas.html" data-genre="Street Food" data-tags="make-ahead,crowd-pleaser,one-pot,weekend-project" data-title="carnitas">
+  <div class="card-media"><img src="../assets/img/carnitas-1.jpg" alt="Carnitas" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Street Food</div>
+    <h3 class="card-title">Carnitas</h3>
+    <p class="card-kicker">Pork confit, Michoacán style — simmered in its own fat until shreddable, then crisped under the broiler until it crackles.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 3 hr 20 min (mostly unattended)</span><span class="meta-item">◆ Easy</span></div>
+    <div class="card-tags"><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span><span class="tag">one-pot</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/chicken-katsu-curry.html" data-genre="Asian Kitchen" data-tags="comfort,crowd-pleaser,budget" data-title="chicken katsu curry">
+  <div class="card-media"><img src="../assets/img/chicken-katsu-curry-1.jpg" alt="Chicken Katsu Curry" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Asian Kitchen</div>
+    <h3 class="card-title">Chicken Katsu Curry</h3>
+    <p class="card-kicker">A panko-cutlet the size of your ambition, drowned in sweet Japanese curry. Sleep well after.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr 5 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">budget</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

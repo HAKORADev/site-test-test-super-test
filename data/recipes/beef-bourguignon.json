@@ -1,0 +1,130 @@
+{
+  "slug": "beef-bourguignon",
+  "title": "Beef Bourguignon",
+  "genre": "French Bistro",
+  "tags": [
+    "one-pot",
+    "comfort",
+    "make-ahead",
+    "weekend-project"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "30 min",
+    "cook": "3 hrs",
+    "total_label": "3 hr 30 min",
+    "total_min": 210
+  },
+  "servings": "6",
+  "kicker": "Julia Child's Sunday stew: cheap cut, expensive taste, the whole house smells like Burgundy.",
+  "story": [
+    "Bourguignon is peasant ingenuity dressed for church: a tough, marbled chuck shoulder, cooked slowly in the wine of Burgundy until the connective tissue gives up and turns to silk. Every element builds the same flavor axis — seared beef, bacon lardons, caramelized vegetables, a bottle of red — and three hours does the rest.",
+    "Two things people get wrong. First, they rush the sear; brown meat is flavor, gray meat is boiled meat, and a wide pot in batches is the only way. Second, they serve it immediately. Like all great braises, bourguignon is noticeably better the next day, when the fat has firmed for easy removal and the wine has married everything into one deep voice. Make it Friday for Sunday."
+  ],
+  "fun_fact": "The dish was promoted from peasant food to restaurant classic partly by Auguste Escoffier, and catapulted into every American kitchen by Julia Child's 1961 Mastering the Art of French Cooking.",
+  "ingredients": [
+    {
+      "amount": "1.2 kg",
+      "item": "beef chuck",
+      "note": "cut into 5 cm cubes — fat is flavor"
+    },
+    {
+      "amount": "150 g",
+      "item": "bacon or pancetta lardons",
+      "note": ""
+    },
+    {
+      "amount": "750 ml",
+      "item": "full-bodied red wine",
+      "note": "Burgundy ideally; pinot noir or a chunky côtes-du-rhône in practice"
+    },
+    {
+      "amount": "500 ml",
+      "item": "beef stock",
+      "note": ""
+    },
+    {
+      "amount": "2",
+      "item": "carrots, 1 onion, 1 celery stalk",
+      "note": "roughly chopped for the braise"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "tomato paste",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "bouquet garni",
+      "note": "thyme, bay, parsley tied together"
+    },
+    {
+      "amount": "250 g",
+      "item": "pearl onions",
+      "note": "peeled"
+    },
+    {
+      "amount": "300 g",
+      "item": "button or cremini mushrooms",
+      "note": "quartered"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "flour",
+      "note": "for dusting the beef"
+    },
+    {
+      "amount": "—",
+      "item": "butter, parsley",
+      "note": "for the glaze finish"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Lardons first",
+      "text": "Render the bacon in the dutch oven until crisp; leave the fat behind. Remove lardons. That golden fat is where your stew starts."
+    },
+    {
+      "title": "Sear in batches",
+      "text": "Pat beef bone-dry, season, dust lightly with flour. Brown hard on every side — 8-10 minutes per batch — and do not crowd the pot. Crowding steams instead of sears, and pale stew is forever pale."
+    },
+    {
+      "title": "Build the braise",
+      "text": "Brown the rough vegetables and tomato paste in the same pot. Return beef and lardons, add the wine and enough stock to nearly cover, tuck in the bouquet garni. Bring to a bare simmer."
+    },
+    {
+      "title": "Three quiet hours",
+      "text": "Cover and cook at 160°C / 325°F or the lowest stove flame for 2.5-3 hours, until a fork slides into the meat with no argument. Bubbles should be lazy — a boil toughens the meat you are trying to tenderize."
+    },
+    {
+      "title": "Garnish properly",
+      "text": "The French finish with garnish done separately: pearl onions glazed buttery-sweet, mushrooms browned in butter. Fold them in for the last 15 minutes. Texture earned on its own beats texture boiled along."
+    },
+    {
+      "title": "Skim, rest, serve",
+      "text": "Skim the fat (or chill overnight and lift it off like a lid). Simmer the sauce down until it coats a spoon — nappé. Parsley, and mustard-smearmed bread alongside. Mandatory."
+    }
+  ],
+  "notes": [
+    "Wine rule: if you wouldn't drink a glass, don't cook with the bottle. Cooking wine adds vinegar edges.",
+    "The stew tastes better on day two — make it ahead deliberately.",
+    "Freezes brilliantly for 3 months. Thaw overnight, reheat at a bare simmer."
+  ],
+  "pairings": [
+    "french-onion-soup",
+    "carnitas"
+  ],
+  "links": [
+    {
+      "title": "Beef bourguignon — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beef_bourguignon",
+      "desc": "From Burgundian peasant stew to Escoffier's 'king of stews'"
+    },
+    {
+      "title": "Serious Eats — Beef Bourguignon",
+      "url": "https://www.seriouseats.com/beef-bourguignon-recipe",
+      "desc": "Braise science: collagen, temperature and why low-and-slow wins"
+    }
+  ],
+  "storage": "Refrigerate up to 4 days; flavor peaks at 24-48 hours. Freeze up to 3 months. Skimmed fat keeps well as a roast-potato frying fat — nothing wasted."
+}

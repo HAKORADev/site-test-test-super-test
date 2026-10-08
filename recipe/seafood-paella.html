@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seafood Paella — Salt & Ember</title>
+<meta name="description" content="Rice cooked dry in a wide pan, saffron, and the crackled bottom that Valencians revere by name.">
+<meta property="og:title" content="Seafood Paella">
+<meta property="og:description" content="Rice cooked dry in a wide pan, saffron, and the crackled bottom that Valencians revere by name.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/seafood-paella-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/seafood-paella-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/mediterranean-sun.html">← Mediterranean Sun</a>
+<h1 class="recipe-title">Seafood Paella</h1>
+<p class="recipe-kicker">Rice cooked dry in a wide pan, saffron, and the crackled bottom that Valencians revere by name.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 1 hr 15 min</span>
+<span class="meta-pill">◆ Project</span>
+<span class="meta-pill">🍽 serves 4-6</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=seafood">seafood</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=weekend-project">weekend-project</a><a class="chip" href="../recipes.html?tag=make-ahead">make-ahead</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="37">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">Paella is not risotto — it is the opposite. The rice never stirs. Bomba rice sits in a shallow pan over heat, drinks a saffron-flecked seafood stock, and forms a crackled, toasty crust on the pan bottom called the socarrat, which is the texture Valencians fight over. No stirring means each grain stays distinct, dry yet saturated, and the pan does something a pot cannot.</p>
+<p>The other key is the sofrito — onion, garlic, tomato cooked down slowly until sweet — plus a stock made from shrimp shells, which most recipes treat as optional and which is honestly half the flavor. A real paella pan is wide and thin carbon steel; a wide stainless skillet is a legitimate stand-in. Do not use a deep pot. Paella in a pot is just wet rice with good memories.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> The word paella comes from the Valencian word for the pan itself (from Latin patella). The original &#x27;real&#x27; paella from Albufera had no seafood at all — rabbit, chicken, snails, and green beans.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4-6 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">350 g</span><span class="ing-item">bomba or calasparra rice <em>or arborio in a pinch — but bomba drinks 3x its weight without bursting</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">12</span><span class="ing-item">shrimp or prawns, shell-on <em>shells become stock</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">300 g</span><span class="ing-item">mussels <em>scrubbed</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">200 g</span><span class="ing-item">calamari rings</span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 L</span><span class="ing-item">seafood stock <em>from shrimp shells + good fish stock, hot</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">onion, 4 garlic cloves</span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">200 g</span><span class="ing-item">tomato, grated <em>for the sofrito</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 pinch</span><span class="ing-item">saffron threads <em>steeped in warm stock 10 min</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">smoked paprika</span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">100 ml</span><span class="ing-item">olive oil <em>yes, it is a lot, and it is correct</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">100 g</span><span class="ing-item">frozen peas</span></label></li><li><label class="ing"><input type="checkbox" data-ing="seafood-paella"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">lemon <em>wedges to serve</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Shell stock first</h4><p>Sauté the shrimp shells in oil 3 minutes, cover with the stock, simmer 15 minutes, strain. This pink liquid is paella&#x27;s soul — skip it and the rice tastes like plain boiled rice wearing a costume.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Sear the seafood, in stages</h4><p>Brown calamari in the pan 2 minutes, remove. Sear shrimp 1 minute per side, remove. They finish later; raw-over-rice seafood steams grey and sad.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Sofrito, slow</h4><p>In the same pan, cook onion 8 minutes until soft and sweet, add garlic, then grated tomato and paprika. Cook 10 minutes until dark and jammy — this base determines everything.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Rice in, stir ONCE</h4><p>Add rice, stir 1 minute to coat — the only stir of its life. Pour in saffron stock, distribute peas, arrange the seafood on top. From here: no stirring, ever, or the socarrat cannot form.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Simmer and listen</h4><p>Boil hard 8 minutes, then medium-low 8-10 more until the liquid is absorbed and the rice just peeks above the surface. Now raise the heat 60-90 seconds — you will hear crackling; that is the socarrat forming. Stop when it smells toasty, not burnt.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Rest under a cloth</h4><p>Off heat, cover with a clean towel for 5 minutes. Serve the whole pan in the middle of the table with lemon, and claim your socarrat wedge early — it goes fast.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-2.jpg" alt="Seafood Paella" loading="lazy"><figcaption>RecipeTin Eats</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-3.jpg" alt="Seafood Paella" loading="lazy"><figcaption>DoorDash Blog</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-4.jpg" alt="Seafood Paella" loading="lazy"><figcaption>SheCooks.Design</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-5.jpg" alt="Seafood Paella" loading="lazy"><figcaption>Jo Cooks</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-6.jpg" alt="Seafood Paella" loading="lazy"><figcaption>SheCooks.Design</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-7.jpg" alt="Seafood Paella" loading="lazy"><figcaption>BigBoyRecipe</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/seafood-paella-8.jpg" alt="Seafood Paella" loading="lazy"><figcaption>Reddit</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/01e3633fe74b.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/01e3633fe74b.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/19e33803d48c.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/19e33803d48c.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/408e1dcfa4bd.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/408e1dcfa4bd.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/56ca0701ded4.jpeg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/56ca0701ded4.jpeg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7a5bf3678b00.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7a5bf3678b00.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f262e2b714e6.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f262e2b714e6.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4cd1a2220f1.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4cd1a2220f1.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="vNBuXsTY15E" tabindex="0" role="button" aria-label="Play: Authentic Spanish Seafood Paella Recipe - Colab With Best Bites Forever">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/vNBuXsTY15E/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Authentic Spanish Seafood Paella Recipe - Colab With Best Bites Forever</h4><p>Spain on a Fork</p></div>
+</div><div class="video-card" data-yt="6q_Vs6A2Gmw" tabindex="0" role="button" aria-label="Play: SPECTACULAR Seafood Paella with MINIMAL Effort | Quick &amp; Easy Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/6q_Vs6A2Gmw/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>SPECTACULAR Seafood Paella with MINIMAL Effort | Quick &amp; Easy Recipe</h4><p>Spain on a Fork</p></div>
+</div><div class="video-card" data-yt="yOEq8yimeqk" tabindex="0" role="button" aria-label="Play: How To Make Authentic Spanish Paella">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/yOEq8yimeqk/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How To Make Authentic Spanish Paella</h4><p>Nick&#x27;s Kitchen</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Saffron is expensive but used by the pinch; fake &#x27;safran&#x27; powder is dyed turmeric. Buy threads, crush, steep.</li><li>No paella pan? The widest stainless skillet you own, max 5 cm deep. Surface area is the feature.</li><li>Mussels go in during the last 8 minutes, hinges down, so they open into the rice.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Paella is best within the hour. Refrigerate leftovers up to 2 days; reheat in a covered pan with a splash of stock — the socarrat softens, the flavor remains.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Paella" target="_blank" rel="noopener"><div class="ext-body"><h4>Paella — Wikipedia</h4><p>Valencia&#x27;s original vs. the seafood vs. the mixed &#x27;tourist&#x27; versions</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/the-food-lab-the-best-way-to-cook-paella" target="_blank" rel="noopener"><div class="ext-body"><h4>Socarrat — Serious Eats</h4><p>Crackled-rice science and pan sizing</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="seafood-paella" data-title="Seafood Paella" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/baja-fish-tacos.html" data-genre="Street Food" data-tags="seafood,quick,crowd-pleaser,fresh" data-title="baja fish tacos">
+  <div class="card-media"><img src="../assets/img/baja-fish-tacos-1.jpg" alt="Baja Fish Tacos" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Street Food</div>
+    <h3 class="card-title">Baja Fish Tacos</h3>
+    <p class="card-kicker">Beer-battered fish, cabbage crunch, lime crema — invented by Japanese immigrants in Baja, perfected by everyone since.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">seafood</span><span class="tag">quick</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/spanish-tortilla.html" data-genre="Mediterranean Sun" data-tags="vegetarian,budget,comfort,crowd-pleaser" data-title="spanish tortilla">
+  <div class="card-media"><img src="../assets/img/spanish-tortilla-1.jpg" alt="Spanish Tortilla" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Mediterranean Sun</div>
+    <h3 class="card-title">Spanish Tortilla</h3>
+    <p class="card-kicker">Three ingredients — egg, potato, olive oil — and the most argued-about technique in Spain.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 55 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">budget</span><span class="tag">comfort</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

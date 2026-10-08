@@ -1,0 +1,125 @@
+{
+  "slug": "butter-chicken",
+  "title": "Butter Chicken",
+  "genre": "Spice Route",
+  "tags": [
+    "comfort",
+    "crowd-pleaser",
+    "make-ahead"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "30 min + marinade",
+    "cook": "40 min",
+    "total_label": "1 hr 10 min + overnight marinade",
+    "total_min": 130
+  },
+  "servings": "4-6",
+  "kicker": "Delhi's most famous export: charred yogurt-marinated chicken folded into a velvet tomato gravy.",
+  "story": [
+    "Butter chicken was invented by accident-saving-cuisine: in 1950s Delhi, cooks at Moti Mahal — famous for tandoori chicken — braised leftover tandoori pieces in a tomato-butter gravy so they wouldn't dry out overnight. The rescue dish outgrew the original. Murgh makhani now shadows every tandoor on earth.",
+    "The architecture matters. Yogurt-marinated chicken gets charred first — under a broiler or on a hot grill — so it tastes of smoke. The gravy is tomatoes, cashews or cream, and whole spices simmered then blended dead-smooth. Only at the end do the two meet, with cream and a final knob of butter and a whisper of dried fenugreek (kasuri methi), which is the aroma everyone remembers but nobody can name."
+  ],
+  "fun_fact": "Moti Mahal in Delhi's Daryaganj claims the invention, and the family has fought a 2010s legal battle over the recipe's rights — butter chicken litigation, a genuinely real genre.",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "item": "chicken thighs, boneless",
+      "note": "thighs stay juicy; breast is a compromise"
+    },
+    {
+      "amount": "250 g",
+      "item": "thick yogurt",
+      "note": "for the marinade"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "ginger paste + 1 tbsp garlic paste",
+      "note": ""
+    },
+    {
+      "amount": "2 tsp",
+      "item": "garam masala + 1 tsp kashmiri chili powder",
+      "note": "kashmiri = color without fire"
+    },
+    {
+      "amount": "800 g",
+      "item": "canned tomatoes",
+      "note": "the gravy base"
+    },
+    {
+      "amount": "50 g",
+      "item": "cashews",
+      "note": "soaked — for body and sweetness"
+    },
+    {
+      "amount": "80 g",
+      "item": "butter",
+      "note": "yes, really"
+    },
+    {
+      "amount": "120 ml",
+      "item": "cream",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "dried fenugreek leaves (kasuri methi)",
+      "note": "the secret signature — find it in any Indian grocer"
+    },
+    {
+      "amount": "1",
+      "item": "onion",
+      "note": "sliced"
+    },
+    {
+      "amount": "—",
+      "item": "salt, sugar",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Marinate overnight",
+      "text": "Yogurt, ginger-garlic, spices, salt, chicken. Cover and refrigerate at least 4 hours, ideally overnight. The yogurt tenderizes and flavors in a way a 30-minute dip cannot."
+    },
+    {
+      "title": "Char the chicken",
+      "text": "Broil or grill at high heat until edges blacken in spots and the meat is just cooked, 12-15 minutes. Cut into large chunks. That char is a whole flavor layer — do not skip or fake it by boiling."
+    },
+    {
+      "title": "The gravy",
+      "text": "Melt half the butter, soften the onion, add tomatoes and soaked cashews, simmer 20 minutes until the fat starts to separate at the edges. Blend with an immersion blender until completely smooth — pass through a sieve if you want restaurant silk."
+    },
+    {
+      "title": "Marry them",
+      "text": "Simmer the chicken in the gravy 10 minutes. Add cream, remaining butter, crush the fenugreek between your palms directly over the pot so the aroma falls in. Salt, and a pinch of sugar to balance the tomatoes."
+    },
+    {
+      "title": "Rest, then serve",
+      "text": "Ten minutes off the heat transforms it — the sauce thickens and the flavors knit. Serve with naan or basmati rice and a systematic plan to wipe the bowl with bread."
+    }
+  ],
+  "notes": [
+    "Kasuri methi is non-negotiable for the authentic aroma — dried leaves, crushed fresh at the end.",
+    "The gravy freezes for 3 months; char fresh chicken and fold in for a 20-minute weeknight version.",
+    "For a lighter pot: half the butter, yogurt instead of cream. Still recognizably butter chicken."
+  ],
+  "pairings": [
+    "chicken-shawarma",
+    "chana-masala"
+  ],
+  "links": [
+    {
+      "title": "Butter chicken — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Butter_chicken",
+      "desc": "Moti Mahal, the 1950s origin and the Daryaganj lawsuit"
+    },
+    {
+      "title": "Tandoori chicken — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tandoori_chicken",
+      "desc": "The parent dish from which it was rescued"
+    }
+  ],
+  "storage": "Refrigerates 4 days and freezes 2 months; reheats beautifully with a splash of water. Like all curry-house dishes, day two is arguably the peak."
+}

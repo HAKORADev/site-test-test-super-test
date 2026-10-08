@@ -1,0 +1,100 @@
+{
+  "slug": "spanish-tortilla",
+  "title": "Spanish Tortilla",
+  "genre": "Mediterranean Sun",
+  "tags": [
+    "vegetarian",
+    "budget",
+    "comfort",
+    "crowd-pleaser"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "20 min",
+    "cook": "35 min",
+    "total_label": "55 min",
+    "total_min": 55
+  },
+  "servings": "4-6",
+  "kicker": "Three ingredients — egg, potato, olive oil — and the most argued-about technique in Spain.",
+  "story": [
+    "Tortilla de patatas is Spain's dish of the people: a thick potato omelet, golden outside and barely-set inside, cut in wedges and eaten at any hour. Every bar has one, every family has an opinion about the interior — juicy (jugosa) versus fully set — and the arguments have real geopolitical energy.",
+    "The traditional technique feels extravagant until you try it: potatoes poached in generous olive oil rather than fried hard, so they turn buttery-soft without color. That oil, infused with potato, is strained and reused — it becomes liquid gold for the next tortilla. Some add onion; Spain divides itself over this ('con cebolla' vs 'sin cebolla') with the fervor of a national election. This recipe says yes, onion, and dares you to complain."
+  ],
+  "fun_fact": "Legend places the invention in the 1830s Carlist Wars, where a Basque general was served it by a farmhouse family. First written mention is 1817, scolding Navarran convents for eating eggs and potatoes in omelets while the poor starved.",
+  "ingredients": [
+    {
+      "amount": "700 g",
+      "item": "waxy potatoes",
+      "note": "Yukon gold or similar, sliced 5 mm"
+    },
+    {
+      "amount": "6",
+      "item": "large eggs",
+      "note": "the better the egg, the better the tortilla"
+    },
+    {
+      "amount": "1",
+      "item": "onion",
+      "note": "thin-sliced — the contentious part"
+    },
+    {
+      "amount": "400 ml",
+      "item": "olive oil",
+      "note": "not extra-virgin's expensive cousin; regular olive oil"
+    },
+    {
+      "amount": "—",
+      "item": "salt",
+      "note": "generously, in stages"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Poach in oil",
+      "text": "Warm the oil in a small deep pan over medium-low. Add potato slices and onion; they should barely bubble. Cook 20-25 minutes, occasionally nudging, until potatoes are tender enough to break with a spoon — no browning."
+    },
+    {
+      "title": "Strain the liquid gold",
+      "text": "Drain, reserving the oil. It now tastes of potato; it will make your next tortilla, or this one's flip, measurably better."
+    },
+    {
+      "title": "Rest the mixture",
+      "text": "Beat eggs with a big pinch of salt, fold in warm potatoes gently, and rest 10 minutes. The potatoes drink egg and the whole thing coheres better in the pan."
+    },
+    {
+      "title": "The first side",
+      "text": "Wipe out the pan, film it with the reserved oil, get it properly hot. Pour the mixture. Cook 3 minutes on medium-high, then lower and cook 4-5 more until the bottom is set and golden. The center should still wobble."
+    },
+    {
+      "title": "The flip",
+      "text": "Slide a plate over the pan, flip in one committed motion, slide the tortilla back in raw-side down. Cook 3-4 minutes. Two plates are safer than one; commitment matters more than equipment."
+    },
+    {
+      "title": "Rest before slicing",
+      "text": "Tortilla is best warm or room temperature, never hot — the custard sets as it rests. Wedge it, and eat it as breakfast, lunch, tapa, or midnight snack. It declines no occasions."
+    }
+  ],
+  "notes": [
+    "The interior should still be soft — a tortilla cooked dry all the way through is a different, sadder food.",
+    "Reserved potato oil keeps in the fridge for a month and upgrades everything fried in it.",
+    "Individual tortillas (small, quick, 4 cm tall) are a legit Spanish street food — same recipe, smaller pan, bolder flip."
+  ],
+  "pairings": [
+    "ratatouille",
+    "seafood-paella"
+  ],
+  "links": [
+    {
+      "title": "Spanish tortilla — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Spanish_omelette",
+      "desc": "Origin legends and the onion wars"
+    },
+    {
+      "title": "Tortilla de patatas — Spain culture",
+      "url": "https://www.spain.info/en/recipe/tortilla-de-patatas/",
+      "desc": "The national dish, from Spain's official tourism board"
+    }
+  ],
+  "storage": "Refrigerates 3 days; traditional Spanish bars leave it at room temperature all day, but home food-safety says chill it. Best eaten at room temperature — take it out 30 minutes before serving."
+}

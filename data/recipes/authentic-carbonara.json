@@ -1,0 +1,105 @@
+{
+  "slug": "authentic-carbonara",
+  "title": "Authentic Carbonara",
+  "genre": "Italian Classics",
+  "tags": [
+    "quick",
+    "comfort",
+    "crowd-pleaser"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "10 min",
+    "cook": "15 min",
+    "total_label": "25 min",
+    "total_min": 25
+  },
+  "servings": "4",
+  "kicker": "Guanciale, egg, pecorino, pepper. No cream. We need to talk about the no cream thing.",
+  "story": [
+    "Carbonara is a dish with exactly four ingredients and a thousand opinions. Romans make it with guanciale — cured pork jowl, richer and silkier than bacon — pecorino romano, eggs, and a scandalous amount of black pepper. Cream is not in the recipe anywhere, and adding it is the fastest way to make an Italian grandmother sigh audibly in your general direction.",
+    "The technique lives in a narrow band of temperature. You want the eggs to turn into a custard that coats the pasta — glossy, flowing, tender. One degree too hot and you get scrambled eggs with spaghetti. The insurance policy is simple: work off the heat, use plenty of cheese in the egg mixture, and loosen with pasta water until the sauce pours like heavy cream."
+  ],
+  "fun_fact": "Carbonara's first written appearance is only from 1950, and American cream shows up in early versions. The 'authenticity wars' are younger than most people's grandparents.",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "item": "spaghetti or rigatoni",
+      "note": "rigatoni is the Roman choice"
+    },
+    {
+      "amount": "150 g",
+      "item": "guanciale",
+      "note": "pork jowl; pancetta is the substitute, bacon the last resort"
+    },
+    {
+      "amount": "3",
+      "item": "egg yolks + 1 whole egg",
+      "note": "the biggest, freshest eggs you can find"
+    },
+    {
+      "amount": "80 g",
+      "item": "pecorino romano",
+      "note": "finely grated, plus more at the table"
+    },
+    {
+      "amount": "2 tsp",
+      "item": "coarsely ground black pepper",
+      "note": "toast it in the pork fat"
+    },
+    {
+      "amount": "—",
+      "item": "salt",
+      "note": "lighter than usual — guanciale and pecorino are salty"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Render the guanciale",
+      "text": "Cut into thick matchsticks. Start in a cold pan over medium-low and let the fat render slowly for 8-10 minutes until deep gold and glassy. Kill the heat and leave the fat in the pan — this is your sauce base."
+    },
+    {
+      "title": "Whisk the eggs and cheese",
+      "text": "Yolks, whole egg, pecorino, half the pepper. It forms a thick paste — loosen with a spoonful of pasta water until it looks like wet sand turning to cream."
+    },
+    {
+      "title": "Toast the pepper, cook the pasta",
+      "text": "Salted water, rigatoni or spaghetti a minute under al dente. While it boils, warm the black pepper in a dry pan for 30 seconds until fragrant — small move, big aroma."
+    },
+    {
+      "title": "The custard maneuver",
+      "text": "Pull pasta directly into the pan with a splash of its water. Toss. Then, OFF the heat, add the egg mixture and toss like your dinner depends on it — it does. Add pasta water in splashes until the sauce turns glossy and coats a spoon."
+    },
+    {
+      "title": "Serve before it sets",
+      "text": "Warm bowls. Top with the crisp guanciale, remaining pepper, and a snowfall of pecorino. Carbonara waits for no one — the sauce is at its peak for about ninety seconds."
+    }
+  ],
+  "notes": [
+    "If the eggs scramble anyway: next time pull the pan further off heat and add more pasta water first. Rescue attempt: stir in a yolk off heat; it often re-loosens the sauce.",
+    "Guanciale is widely available online and in Italian delis. Buy extra; it freezes perfectly.",
+    "The whole egg adds body, the extra yolks add silk. All-yolk versions are rounder and richer."
+  ],
+  "pairings": [
+    "baked-mac-and-cheese",
+    "classic-margherita-pizza"
+  ],
+  "links": [
+    {
+      "title": "Carbonara — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carbonara",
+      "desc": "The origin theories, from charcoal workers to 1950s cookbooks"
+    },
+    {
+      "title": "Serious Eats — How to Make Real Carbonara",
+      "url": "https://www.seriouseats.com/the-best-spaghetti-carbonara-recipe",
+      "desc": "Temperature diagrams and rescue techniques for custard sauces"
+    },
+    {
+      "title": "La Cucina Italiana — Carbonara",
+      "url": "https://www.lacucinaitaliana.com/recipes/classic-carbonara-recipe",
+      "desc": "The Roman orthodoxy, from an Italian kitchen"
+    }
+  ],
+  "storage": "Carbonara does not keep — the sauce breaks as it cools. If you must, refrigerate and reheat gently with a splash of water, but know that it is a different, sadder dish."
+}

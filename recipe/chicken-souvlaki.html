@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chicken Souvlaki — Salt & Ember</title>
+<meta name="description" content="Lemon-oregano skewers, tzatziki with real garlic authority, and warm pita — Greece in fifteen minutes of grilling.">
+<meta property="og:title" content="Chicken Souvlaki">
+<meta property="og:description" content="Lemon-oregano skewers, tzatziki with real garlic authority, and warm pita — Greece in fifteen minutes of grilling.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chicken-souvlaki-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/chicken-souvlaki-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/mediterranean-sun.html">← Mediterranean Sun</a>
+<h1 class="recipe-title">Chicken Souvlaki</h1>
+<p class="recipe-kicker">Lemon-oregano skewers, tzatziki with real garlic authority, and warm pita — Greece in fifteen minutes of grilling.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 35 min + 2 hr marinade</span>
+<span class="meta-pill">◆ Easy</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=make-ahead">make-ahead</a><a class="chip" href="../recipes.html?tag=fresh">fresh</a><a class="chip" href="../recipes.html?tag=high-protein">high-protein</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="77">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">Souvlaki is Greek street food distilled: small chunks of marinated meat on skewers, grilled hard, wrapped in pita with tzatziki, tomato, and a shake of dried oregano. Where shawarma is a spice marathon, souvlaki is a sprint — lemon, garlic, oregano, olive oil, done. The marinade is simple because the grilling does the heavy lifting.</p>
+<p>Tzatziki deserves the same respect: full-fat Greek yogurt, cucumber squeezed genuinely dry (wet tzatziki is a puddle), garlic grated to paste, dill, a thread of vinegar. Make it an hour ahead so the flavors settle. Then the only real technique left is knowing when the skewers are done — caramelized edges, springy center, juices running clear, and that instant when the grill smell makes everyone wander into the kitchen.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Souvlaki means &#x27;little skewer&#x27; — the diminutive of souvla. Athens street vendors have served versions of it since at least Aristophanes, who name-dropped grilled skewers in a comedy around 400 BC.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">800 g</span><span class="ing-item">chicken thighs, boneless skinless <em>cut in 3 cm chunks</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 tbsp</span><span class="ing-item">olive oil</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">3 tbsp</span><span class="ing-item">lemon juice <em>plus the grilled lemon halves at the end</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 cloves</span><span class="ing-item">garlic, grated</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tbsp</span><span class="ing-item">dried oregano <em>Greek oregano if possible — it is a different herb</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">sweet paprika + 1/2 tsp each salt &amp; pepper</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">300 g</span><span class="ing-item">Greek yogurt (full fat) <em>for tzatziki</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">cucumber <em>grated and squeezed dead dry</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 cloves</span><span class="ing-item">garlic, grated to paste <em>for tzatziki</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tbsp</span><span class="ing-item">dill, chopped + 1 tsp red wine vinegar <em>for tzatziki</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4</span><span class="ing-item">pitas</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chicken-souvlaki"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">tomato, red onion <em>sliced, for wrapping</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Marinate 2-8 hours</h4><p>Whisk oil, lemon, garlic, oregano, paprika, salt, pepper. Coat the chicken and refrigerate 2 hours minimum, 8 maximum — beyond that the lemon starts curing the surface.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Tzatziki first, so it settles</h4><p>Grate cucumber, salt lightly, squeeze in a towel until almost no water remains — genuinely dry. Fold into yogurt with garlic paste, dill, vinegar, salt. Refrigerate an hour; it thickens and mellows.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Skewer with contact</h4><p>Thread chunks so they touch but aren&#x27;t crushed — packed skewers steam, loose ones dry out. If using wooden skewers, soak 30 minutes so they don&#x27;t become kindling.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Grill hot, turn once</h4><p>High heat, grill or cast-iron pan, 3-4 minutes per side, turning once or twice, until charred at edges and cooked through (74°C / 165°F internal). Total 10-12 minutes.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>The pita finale</h4><p>Warm pitas on the grill for 30 seconds per side. Wrap chicken with tzatziki, tomato, onion, and an extra drizzle of oregano oil. Charred lemon halves squeezed over everything — this is the move people remember.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-2.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Kristine&#x27;s Kitchen</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-3.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Kristine&#x27;s Kitchen</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-4.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Taste of Home</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-5.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>The Domestic Dietitian</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-6.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Lemons for Lulu</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-7.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Jo Cooks</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chicken-souvlaki-8.jpg" alt="Chicken Souvlaki" loading="lazy"><figcaption>Gift of Hospitality</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0fe57ac56b46.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0fe57ac56b46.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/14a261eea3ec.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/14a261eea3ec.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4038133ac1e2.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4038133ac1e2.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/59d0424bf898.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/59d0424bf898.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/87b03c37a34e.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/87b03c37a34e.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c35af44e897b.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c35af44e897b.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c945b2437b64.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c945b2437b64.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="PLd_Uelzvw4" tabindex="0" role="button" aria-label="Play: GREEK CHICKEN SOUVLAKI | The Best Mediterranean Grilled Chicken Skewers">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/PLd_Uelzvw4/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>GREEK CHICKEN SOUVLAKI | The Best Mediterranean Grilled Chicken Skewers</h4><p>Downshiftology</p></div>
+</div><div class="video-card" data-yt="G7hcK6OXGPY" tabindex="0" role="button" aria-label="Play: BEST Greek Chicken Souvlaki Recipe | The Mediterranean Dish">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/G7hcK6OXGPY/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>BEST Greek Chicken Souvlaki Recipe | The Mediterranean Dish</h4><p>The Mediterranean Dish</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Thigh meat is the souvlaki standard; breast works but pull it at 70°C / 158°F to keep it from drying.</li><li>Make double tzatziki — it disappears on everything from fries to roasted vegetables.</li><li>No grill? A screaming cast-iron pan with the window cracked does a respectable job.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Marinated raw chicken keeps 2 days refrigerated. Cooked chicken 4 days — great cold over salad. Tzatziki 4 days refrigerated; stir before serving.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Souvlaki" target="_blank" rel="noopener"><div class="ext-body"><h4>Souvlaki — Wikipedia</h4><p>From Aristophanes&#x27; skewers to Athens&#x27; street culture</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Tzatziki" target="_blank" rel="noopener"><div class="ext-body"><h4>Tzatziki — Wikipedia</h4><p>The yogurt-cucumber sauce family across the Balkans and Levant</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="chicken-souvlaki" data-title="Chicken Souvlaki" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/falafel-tahini.html" data-genre="Spice Route" data-tags="vegetarian,vegan,crowd-pleaser,budget,weekend-project" data-title="falafel with tahini">
+  <div class="card-media"><img src="../assets/img/falafel-tahini-1.jpg" alt="Falafel with Tahini" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Falafel with Tahini</h3>
+    <p class="card-kicker">Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr + overnight soaking</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/spanish-tortilla.html" data-genre="Mediterranean Sun" data-tags="vegetarian,budget,comfort,crowd-pleaser" data-title="spanish tortilla">
+  <div class="card-media"><img src="../assets/img/spanish-tortilla-1.jpg" alt="Spanish Tortilla" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Mediterranean Sun</div>
+    <h3 class="card-title">Spanish Tortilla</h3>
+    <p class="card-kicker">Three ingredients — egg, potato, olive oil — and the most argued-about technique in Spain.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 55 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">budget</span><span class="tag">comfort</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

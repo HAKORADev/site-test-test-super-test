@@ -1,0 +1,136 @@
+{
+  "slug": "bibimbap",
+  "title": "Bibimbap",
+  "genre": "Asian Kitchen",
+  "tags": [
+    "vegetarian-option",
+    "crowd-pleaser",
+    "comfort",
+    "fresh"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "40 min",
+    "cook": "30 min",
+    "total_label": "1 hr 10 min",
+    "total_min": 70
+  },
+  "servings": "4",
+  "kicker": "A rice bowl of individually seasoned vegetables, a fried egg, and gochujang — then you wreck it all with a spoon.",
+  "story": [
+    "Bibimbap means 'mixed rice', and the mixing is the point — but the magic happens before it: each vegetable is cooked separately and seasoned on its own terms. Spinach dressed with sesame and garlic. Bean sprouts with a whisper of chili. Carrots sweet and soft, mushrooms savory and browned. Nine little side dishes that become one giant one.",
+    "The bowl rewards two upgrades. First, a crackling rice bottom — either a hot stone bowl (dolsot) or a well-oiled skillet that toasts the rice against the pan while everything sits. Second, gochujang sauce loosened with sesame oil and a touch of sugar, painted across the top. Then the instruction the dish was named for: mix like you mean it, until every grain of rice has an opinion."
+  ],
+  "fun_fact": "Jeonju, the food capital credited with bibimbap's origin, holds an annual Bibimbap Festival. The royal court version reportedly used up to a dozen seasoned vegetables.",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "item": "short-grain rice",
+      "note": "steamed, kept hot"
+    },
+    {
+      "amount": "200 g",
+      "item": "spinach",
+      "note": "blanched, squeezed dry"
+    },
+    {
+      "amount": "200 g",
+      "item": "soybean sprouts",
+      "note": "simmered 5 min"
+    },
+    {
+      "amount": "2",
+      "item": "carrots",
+      "note": "julienned, sautéed soft"
+    },
+    {
+      "amount": "200 g",
+      "item": "shiitake or cremini mushrooms",
+      "note": "sliced, browned with soy"
+    },
+    {
+      "amount": "1",
+      "item": "zucchini",
+      "note": "half-mooned, sautéed"
+    },
+    {
+      "amount": "200 g",
+      "item": "beef bulgogi strips (optional)",
+      "note": "or extra mushrooms for vegetarian"
+    },
+    {
+      "amount": "4",
+      "item": "eggs",
+      "note": "fried sunny-side up"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "gochujang",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "toasted sesame oil",
+      "note": "plus more for dressing veggies"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "toasted sesame seeds",
+      "note": ""
+    },
+    {
+      "amount": "2 cloves",
+      "item": "garlic, minced",
+      "note": "split among the vegetables"
+    },
+    {
+      "amount": "2 tsp",
+      "item": "sugar, 1 tsp rice vinegar",
+      "note": "into the gochujang sauce"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Season each vegetable alone",
+      "text": "Blanch spinach, squeeze hard, dress with sesame oil, garlic, salt. Simmer sprouts, dress with sesame oil and a pinch of chili. Sauté carrots until sweet-soft, zucchini until just wilted, mushrooms until browned with a splash of soy. Everything gets its own moment — this is what separates bibimbap from a stir-fry pile."
+    },
+    {
+      "title": "Cook the beef (or double the mushrooms)",
+      "text": "Quick marinade of soy, sugar, sesame oil, garlic, 15 minutes. Sear hot until caramelized at the edges, 3-4 minutes."
+    },
+    {
+      "title": "The gochujang sauce",
+      "text": "Stir gochujang with sugar, rice vinegar, sesame oil and a teaspoon of water until it flows lazily off the spoon. Taste — warm, sweet, gently ferocious."
+    },
+    {
+      "title": "Build the bowl",
+      "text": "Hot rice in a warmed bowl, vegetables arranged in wedges around the center like a color wheel, beef in one wedge, fried egg on top. Sesame seeds. Paint sauce across the egg."
+    },
+    {
+      "title": "Mix. Finally.",
+      "text": "The whole show exists so you can destroy it in ten seconds. Fold everything through the rice — sauce reaches every grain. For the crackling bottom, let the bowl sit on high heat two more minutes before mixing and listen for the sizzle."
+    }
+  ],
+  "notes": [
+    "The seasoned vegetables keep 3 days refrigerated — bibimbap is a magnificent weekday assembly job.",
+    "No dolsot? A screaming-hot cast-iron skillet under the rice bowl for 3 minutes fakes the crackle convincingly.",
+    "Namul (the seasoned vegetables) double as Korean side dishes on their own."
+  ],
+  "pairings": [
+    "shoyu-ramen",
+    "chicken-katsu-curry"
+  ],
+  "links": [
+    {
+      "title": "Bibimbap — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bibimbap",
+      "desc": "Jeonju origins, dolsot culture, the namul tradition"
+    },
+    {
+      "title": "Gochujang — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gochujang",
+      "desc": "Korea's fermented chili paste, the sauce's backbone"
+    }
+  ],
+  "storage": "Namul refrigerate 3 days; gochujang sauce a month. Rice and eggs fresh each time. Assembled bowls should be eaten immediately — mixed bibimbap waits for no one."
+}

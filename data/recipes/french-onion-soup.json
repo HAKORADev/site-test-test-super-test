@@ -1,0 +1,111 @@
+{
+  "slug": "french-onion-soup",
+  "title": "French Onion Soup",
+  "genre": "French Bistro",
+  "tags": [
+    "vegetarian-option",
+    "comfort",
+    "budget",
+    "make-ahead"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "15 min",
+    "cook": "75 min",
+    "total_label": "1 hr 30 min",
+    "total_min": 90
+  },
+  "servings": "6",
+  "kicker": "Onions, patience, and a cheese lid that requires commitment and a spoon.",
+  "story": [
+    "Onion soup was 'poor people's food' for centuries — onions are cheap, keep all winter, and turn into deep, jammy sweetness when you give them an hour of quiet attention. The Parisian version with the crouton and the gratinéed cheese lid made it bistro royalty, but the soul of the dish is still the humblest move in cooking: caramelization.",
+    "And there is no rushing it. Forty-five minutes minimum in the pan, letting the onions go from opaque to amber to mahogany, deglazing when the fond darkens. Shortcuts — sugar, faster heat — taste like shortcuts. Do it right and the soup tastes like it simmered for days when it barely made it past lunch."
+  ],
+  "fun_fact": "The legend that Louis XV invented it on a midnight hunt with only onions, butter and champagne is charmingly unverifiable — but champagne in onion soup is genuinely good.",
+  "ingredients": [
+    {
+      "amount": "1.5 kg",
+      "item": "yellow onions",
+      "note": "about 6 large; yellow, not sweet — more depth"
+    },
+    {
+      "amount": "60 g",
+      "item": "butter",
+      "note": ""
+    },
+    {
+      "amount": "1.2 L",
+      "item": "beef stock",
+      "note": "or rich mushroom-vegetable stock for vegetarian"
+    },
+    {
+      "amount": "250 ml",
+      "item": "dry white wine",
+      "note": "for deglazing"
+    },
+    {
+      "amount": "2 sprigs",
+      "item": "thyme",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "bay leaf",
+      "note": ""
+    },
+    {
+      "amount": "1 baguette",
+      "item": "day-old, cut 2 cm thick",
+      "note": "toasted dry first"
+    },
+    {
+      "amount": "200 g",
+      "item": "gruyère",
+      "note": "grated — comté or a mix works"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Slice and commit",
+      "text": "Halve and slice the onions pole to pole, 5 mm thick. Melt the butter in your widest heavy pot over medium. Add the onions, salt them, stir to coat. Now stir only every five minutes for the first 20 — sweat, don't fry."
+    },
+    {
+      "title": "The long amber hour",
+      "text": "Lower the heat to medium-low and keep going: 40-50 more minutes, scraping the fond and stirring more often as they darken. You are aiming for uniform deep amber-brown, reduced to a third of the volume. If anything catches black, the pot is too hot."
+    },
+    {
+      "title": "Deglaze and build",
+      "text": "Add the wine and scrape hard — all that sticky brown stuff is flavor. Reduce until nearly dry, then add stock, thyme, bay. Simmer 20 minutes. Taste; season. The soup should taste concentrated and sweet, not salty water."
+    },
+    {
+      "title": "Assemble for the lid",
+      "text": "Ladle into oven-safe bowls set on a tray. Lay toasted baguette slices to cover the surface, bury them under grated gruyère — a proper seal, no gaps."
+    },
+    {
+      "title": "Gratinate",
+      "text": "Under a full broiler or at 220°C / 425°F, 5-8 minutes, until the cheese is blistered and lava-brown at the edges. Serve with the warning that the inside of the cheese is approximately the temperature of the sun."
+    }
+  ],
+  "notes": [
+    "A pinch of flour sprinkled on the onions before deglazing gives the soup a touch more body — optional but old-fashioned.",
+    "Day-old bread matters: fresh baguette turns to paste under the cheese.",
+    "The soup base keeps 4 days and freezes for months; only add bread and cheese when serving."
+  ],
+  "pairings": [
+    "mushroom-risotto",
+    "beef-bourguignon"
+  ],
+  "links": [
+    {
+      "title": "French onion soup — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/French_onion_soup",
+      "desc": "From Roman onion broths to Les Halles' soupe à l'oignon"
+    },
+    {
+      "title": "Serious Eats — French Onion Soup",
+      "url": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "desc": "Caramelization stages photographed and timed"
+    }
+  ],
+  "storage": "Soup base refrigerates 4-5 days, freezes 3 months. Gratinéed bowls do not keep — assemble those fresh per serving."
+}

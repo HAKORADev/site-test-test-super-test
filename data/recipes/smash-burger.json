@@ -1,0 +1,115 @@
+{
+  "slug": "smash-burger",
+  "title": "Smash Burger",
+  "genre": "Street Food",
+  "tags": [
+    "quick",
+    "crowd-pleaser",
+    "budget",
+    "comfort"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "15 min",
+    "cook": "10 min",
+    "total_label": "25 min",
+    "total_min": 25
+  },
+  "servings": "4",
+  "kicker": "A ball of beef, a spatula, and the physics of maximum crust. The burger that out-burgered the gourmet burger.",
+  "story": [
+    "The smash burger reverses everything the burger purists told you. Do not handle the meat gently. Do not keep it thick. Do press it — hard — into a screaming hot griddle, where the flattened patty develops a deep brown crust (the Maillard reaction's greatest hits album) in under two minutes. The lacy, caramelized edges are the entire point.",
+    "Two rules make it work. First: 80/20 beef, formed into loose balls and seasoned only on the outside — salting early changes the texture. Second: do not press after the first minute. Smash once, hard, with a stiff spatula, then leave it alone while the crust forms. Thin patties mean you stack two for the classic double, and double sauce dripping down your wrist is the standard unit of success."
+  ],
+  "fun_fact": "The technique traces to Smoky's, a 1930s Wisconsin stand, and was revived by Denver's Smashburger chain and LA's In-N-Out cult. The spatula you use matters so much that dedicated 'smashers' are now sold.",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "item": "ground beef, 80/20",
+      "note": "chuck grind; do not go lean — the fat is the flavor and the crust"
+    },
+    {
+      "amount": "8 slices",
+      "item": "American cheese",
+      "note": "it melts into liquid gold; cheddar refuses to"
+    },
+    {
+      "amount": "4",
+      "item": "soft potato buns",
+      "note": "or brioche, toasted in beef fat"
+    },
+    {
+      "amount": "1/2 cup",
+      "item": "finely diced white onion",
+      "note": "smashed into the patty if you like it that way"
+    },
+    {
+      "amount": "4 tbsp",
+      "item": "butter",
+      "note": "for the buns"
+    },
+    {
+      "amount": "—",
+      "item": "sauce",
+      "note": "3 tbsp mayo + 1 tbsp ketchup + 1 tsp mustard + 1 tsp pickle brine + paprika"
+    },
+    {
+      "amount": "—",
+      "item": "dill pickles",
+      "note": "sliced thin"
+    },
+    {
+      "amount": "—",
+      "item": "salt & pepper",
+      "note": "outside only, at smash time"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Form balls, not patties",
+      "text": "Divide beef into 8 loose 100 g balls. Do not compress. Do not season yet. They should look like they were rolled by someone in a hurry."
+    },
+    {
+      "title": "Nuclear preheat",
+      "text": "Cast-iron griddle or heavy skillet on high for 5 minutes until it hisses at a water drop. This is the difference between burger and burger-shaped gray meat."
+    },
+    {
+      "title": "Smash, once, hard",
+      "text": "Two balls per bun. Place on the griddle, smash flat with a stiff spatula (use a second spatula or a can to press) to 5 mm. Salt and pepper now. Never touch it again for 2 minutes."
+    },
+    {
+      "title": "Crust, flip, cheese",
+      "text": "When the edges are dark and lacy and the top is still red-pink, flip once — crust down is what you cooked for. Immediately lay cheese on, stack the second patty on top of the first's melted cheese."
+    },
+    {
+      "title": "Toast the buns in the fat",
+      "text": "Butter the cut sides and press them onto the griddle during the patties' final minute. Golden, steaming, slightly greasy — correct."
+    },
+    {
+      "title": "Build fast, eat faster",
+      "text": "Sauce on both bun halves, pickles, onions, double patty. Wrap half the burger in paper if you want the authentic grip. The whole thing from skillet to mouth should take under 60 seconds."
+    }
+  ],
+  "notes": [
+    "American cheese is functionally correct here — it melts. If you must be fancy, grate your cheddar fine and accept less ooze.",
+    "A metal bench scraper lifts the crusty patties cleanly off the griddle.",
+    "No griddle? The biggest cast-iron skillet works; just cook two patties at a time and keep the heat brutal."
+  ],
+  "pairings": [
+    "chicken-katsu-curry",
+    "carnitas"
+  ],
+  "links": [
+    {
+      "title": "Smash burger — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Smashburger",
+      "desc": "The chain that named the technique (the technique is older)"
+    },
+    {
+      "title": "Maillard reaction — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maillard_reaction",
+      "desc": "The browning chemistry your griddle is performing"
+    }
+  ],
+  "storage": "Smash burgers are a now-food. Leftover cooked patties keep 2 days and re-crisp in a skillet — but honestly, form the extra balls instead and smash fresh."
+}

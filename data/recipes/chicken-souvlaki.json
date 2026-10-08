@@ -1,0 +1,131 @@
+{
+  "slug": "chicken-souvlaki",
+  "title": "Chicken Souvlaki",
+  "genre": "Mediterranean Sun",
+  "tags": [
+    "crowd-pleaser",
+    "make-ahead",
+    "fresh",
+    "high-protein"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "20 min + marinade",
+    "cook": "15 min",
+    "total_label": "35 min + 2 hr marinade",
+    "total_min": 155
+  },
+  "servings": "4",
+  "kicker": "Lemon-oregano skewers, tzatziki with real garlic authority, and warm pita — Greece in fifteen minutes of grilling.",
+  "story": [
+    "Souvlaki is Greek street food distilled: small chunks of marinated meat on skewers, grilled hard, wrapped in pita with tzatziki, tomato, and a shake of dried oregano. Where shawarma is a spice marathon, souvlaki is a sprint — lemon, garlic, oregano, olive oil, done. The marinade is simple because the grilling does the heavy lifting.",
+    "Tzatziki deserves the same respect: full-fat Greek yogurt, cucumber squeezed genuinely dry (wet tzatziki is a puddle), garlic grated to paste, dill, a thread of vinegar. Make it an hour ahead so the flavors settle. Then the only real technique left is knowing when the skewers are done — caramelized edges, springy center, juices running clear, and that instant when the grill smell makes everyone wander into the kitchen."
+  ],
+  "fun_fact": "Souvlaki means 'little skewer' — the diminutive of souvla. Athens street vendors have served versions of it since at least Aristophanes, who name-dropped grilled skewers in a comedy around 400 BC.",
+  "ingredients": [
+    {
+      "amount": "800 g",
+      "item": "chicken thighs, boneless skinless",
+      "note": "cut in 3 cm chunks"
+    },
+    {
+      "amount": "4 tbsp",
+      "item": "olive oil",
+      "note": ""
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "lemon juice",
+      "note": "plus the grilled lemon halves at the end"
+    },
+    {
+      "amount": "4 cloves",
+      "item": "garlic, grated",
+      "note": ""
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "dried oregano",
+      "note": "Greek oregano if possible — it is a different herb"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "sweet paprika + 1/2 tsp each salt & pepper",
+      "note": ""
+    },
+    {
+      "amount": "300 g",
+      "item": "Greek yogurt (full fat)",
+      "note": "for tzatziki"
+    },
+    {
+      "amount": "1",
+      "item": "cucumber",
+      "note": "grated and squeezed dead dry"
+    },
+    {
+      "amount": "2 cloves",
+      "item": "garlic, grated to paste",
+      "note": "for tzatziki"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "dill, chopped + 1 tsp red wine vinegar",
+      "note": "for tzatziki"
+    },
+    {
+      "amount": "4",
+      "item": "pitas",
+      "note": ""
+    },
+    {
+      "amount": "—",
+      "item": "tomato, red onion",
+      "note": "sliced, for wrapping"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Marinate 2-8 hours",
+      "text": "Whisk oil, lemon, garlic, oregano, paprika, salt, pepper. Coat the chicken and refrigerate 2 hours minimum, 8 maximum — beyond that the lemon starts curing the surface."
+    },
+    {
+      "title": "Tzatziki first, so it settles",
+      "text": "Grate cucumber, salt lightly, squeeze in a towel until almost no water remains — genuinely dry. Fold into yogurt with garlic paste, dill, vinegar, salt. Refrigerate an hour; it thickens and mellows."
+    },
+    {
+      "title": "Skewer with contact",
+      "text": "Thread chunks so they touch but aren't crushed — packed skewers steam, loose ones dry out. If using wooden skewers, soak 30 minutes so they don't become kindling."
+    },
+    {
+      "title": "Grill hot, turn once",
+      "text": "High heat, grill or cast-iron pan, 3-4 minutes per side, turning once or twice, until charred at edges and cooked through (74°C / 165°F internal). Total 10-12 minutes."
+    },
+    {
+      "title": "The pita finale",
+      "text": "Warm pitas on the grill for 30 seconds per side. Wrap chicken with tzatziki, tomato, onion, and an extra drizzle of oregano oil. Charred lemon halves squeezed over everything — this is the move people remember."
+    }
+  ],
+  "notes": [
+    "Thigh meat is the souvlaki standard; breast works but pull it at 70°C / 158°F to keep it from drying.",
+    "Make double tzatziki — it disappears on everything from fries to roasted vegetables.",
+    "No grill? A screaming cast-iron pan with the window cracked does a respectable job."
+  ],
+  "pairings": [
+    "spanish-tortilla",
+    "falafel-tahini"
+  ],
+  "links": [
+    {
+      "title": "Souvlaki — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Souvlaki",
+      "desc": "From Aristophanes' skewers to Athens' street culture"
+    },
+    {
+      "title": "Tzatziki — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tzatziki",
+      "desc": "The yogurt-cucumber sauce family across the Balkans and Levant"
+    }
+  ],
+  "storage": "Marinated raw chicken keeps 2 days refrigerated. Cooked chicken 4 days — great cold over salad. Tzatziki 4 days refrigerated; stir before serving."
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "tiramisu",
+  "title": "Classic Tiramisu",
+  "genre": "Sweet & Baked",
+  "tags": [
+    "dessert",
+    "make-ahead",
+    "crowd-pleaser"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "30 min",
+    "cook": "0 min",
+    "total_label": "30 min + 6 hrs chill",
+    "total_min": 390
+  },
+  "servings": "8",
+  "kicker": "No-bake, coffee-soaked, mascarpone-clouded — the Italian dessert that improves while you sleep.",
+  "story": [
+    "Tiramisù means 'pick me up', and the name is the recipe: espresso-dipped savoiardi layered with a cloud of mascarpone cream, dusted in cocoa, and then — this is the real step — rested overnight in the fridge. The biscuits hydrate into cake, the cream sets into silk, and the coffee and cocoa merge into something greater than the parts.",
+    "The authentic version (Treviso, 1970s, claimed by the restaurant Le Beccherie) uses raw eggs — yolks whipped with sugar until ribboned, folded into mascarpone. The sugar-egg yolk whisking over a water bath to 65°C / 150°F is the version I recommend: it pasteurizes, and it makes the cream glossier and more stable. Espresso must be real espresso-strength coffee, cooled — and the dip is a one-second dip, not a soak. Soaked savoiardi collapse into sludge."
+  ],
+  "fun_fact": "Treviso's tiramisu day is celebrated officially, and the original 1972 recipe is inscribed in a local 'deed' — a dessert with paperwork.",
+  "ingredients": [
+    {
+      "amount": "4",
+      "item": "egg yolks",
+      "note": "fresh, from good eggs"
+    },
+    {
+      "amount": "100 g",
+      "item": "sugar",
+      "note": ""
+    },
+    {
+      "amount": "500 g",
+      "item": "mascarpone",
+      "note": "cold, straight from the fridge"
+    },
+    {
+      "amount": "300 ml",
+      "item": "strong espresso, cooled",
+      "note": "brew, then chill — hot coffee melts the cream"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "coffee liqueur or marsala (optional)",
+      "note": "traditional in some houses, heretical in others"
+    },
+    {
+      "amount": "300 g",
+      "item": "savoiardi (ladyfingers)",
+      "note": "the dry Italian kind, not soft sponge fingers"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "unsweetened cocoa powder",
+      "note": "for dusting — bitter, not sweet"
+    },
+    {
+      "amount": "1 pinch",
+      "item": "salt",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Sabayon the yolks",
+      "text": "Whisk yolks, sugar and 2 tbsp water in a bowl over a pot of barely simmering water, 5-8 minutes, until thick, pale and ribboning — and holding 65°C / 150°F for a minute. Off heat, whisk to cool slightly."
+    },
+    {
+      "title": "Fold in mascarpone",
+      "text": "Beat the cold mascarpone briefly to loosen, then fold into the yolk base in three additions. Stop the moment it is uniform — mascarpone over-beaten turns grainy and splits."
+    },
+    {
+      "title": "Coffee station",
+      "text": "Mix cooled espresso with liqueur if using. Pour into a shallow dish. Set up your assembly line: coffee, biscuits, cream, dish, cocoa."
+    },
+    {
+      "title": "The one-second dip",
+      "text": "Dip each savoiardo in the coffee — count 'one'. Turn, count 'one' again. Lift. They should be barely moistened; they hydrate fully in the fridge. Lay them snugly to cover the dish base."
+    },
+    {
+      "title": "Layer and repeat",
+      "text": "Half the mascarpone cream over the biscuits, smooth, then a second dipped layer, then the remaining cream, leveled with an offset spatula. Cover and refrigerate at least 6 hours, ideally overnight."
+    },
+    {
+      "title": "Cocoa at the end",
+      "text": "Dust with cocoa through a fine sieve only before serving — cocoa on wet cream turns to paste overnight. Cut with a hot knife for clean edges. Eat cold, with coffee, at any hour; Italians will defend your breakfast tiramisu."
+    }
+  ],
+  "notes": [
+    "Overnight rest is not optional — day-of tiramisu tastes like construction; day-after tiramisu tastes like invention.",
+    "If your mascarpone is grainy, it was too cold or beaten too hard. Fold gently from the start.",
+    "Individual glasses (tiramisu in coppette) skip the layer-precision problem and look gorgeous."
+  ],
+  "pairings": [
+    "creme-brulee",
+    "chocolate-lava-cake"
+  ],
+  "links": [
+    {
+      "title": "Tiramisu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tiramisu",
+      "desc": "The Treviso origin claims and the raw-egg debate"
+    },
+    {
+      "title": "Savoiardi — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ladyfinger_(biscuit)",
+      "desc": "The sponge finger's long diplomatic career"
+    }
+  ],
+  "storage": "Refrigerates 3 days (cocoa dusted fresh per serving). Freezes surprisingly well for a month — thaw overnight in the fridge. Do not reheat, obviously, and never needed."
+}

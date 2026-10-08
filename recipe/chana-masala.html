@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chana Masala — Salt & Ember</title>
+<meta name="description" content="Chickpeas that cost nothing and taste like the best curry house in town.">
+<meta property="og:title" content="Chana Masala">
+<meta property="og:description" content="Chickpeas that cost nothing and taste like the best curry house in town.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/chana-masala-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/chana-masala-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/spice-route.html">← Spice Route</a>
+<h1 class="recipe-title">Chana Masala</h1>
+<p class="recipe-kicker">Chickpeas that cost nothing and taste like the best curry house in town.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 50 min</span>
+<span class="meta-pill">◆ Easy</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=vegetarian">vegetarian</a><a class="chip" href="../recipes.html?tag=vegan-option">vegan-option</a><a class="chip" href="../recipes.html?tag=budget">budget</a><a class="chip" href="../recipes.html?tag=one-pot">one-pot</a><a class="chip" href="../recipes.html?tag=spicy">spicy</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="25">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">Chana masala is North Indian home cooking at its most confident: chickpeas simmered in a dark, tangy, spiced-onion gravy until they drink up half the sauce. It is vegetarian by tradition, cheap by nature, and the kind of dish that makes people who claim they &#x27;don&#x27;t need meat&#x27; sound insufferably smug for good reason.</p>
+<p>The flavor has two anchors. First, a properly browned onion-tomato masala base — cooked until the oil visibly separates, which is the sign every Indian cook watches for. Second, amchur, dried mango powder, whose sour brightness is the note you could never place in restaurant versions. Black tea bags in the pot is an old trick for deepening the chickpeas&#x27; color; tea-scented curry sounds alarming and tastes like depth.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Amchur — dried unripe mango powder — was reportedly invented so households could add sourness without fresh citrus in months when no lemons were to be had.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 x 400 g</span><span class="ing-item">canned chickpeas <em>or 300 g dried, soaked overnight and boiled</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">3</span><span class="ing-item">onions <em>finely chopped — the gravy needs a long sauté</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">3</span><span class="ing-item">tomatoes <em>finely chopped, or canned</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tbsp</span><span class="ing-item">ginger paste + 1 tbsp garlic paste</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tsp</span><span class="ing-item">ground coriander</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">ground cumin</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1/2 tsp</span><span class="ing-item">turmeric</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1/2-1 tsp</span><span class="ing-item">kashmiri chili powder <em>color-forward, heat-flexible</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">amchur (dried mango powder) <em>or a squeeze of lemon</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 tsp</span><span class="ing-item">garam masala <em>at the end</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">black tea bag <em>optional, for color and depth</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">3 tbsp</span><span class="ing-item">neutral oil or ghee</span></label></li><li><label class="ing"><input type="checkbox" data-ing="chana-masala"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">—</span><span class="ing-item">cilantro, sliced onion, lemon <em>to finish</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Brown the onions properly</h4><p>Oil, onions, medium heat, 12-15 minutes — past golden, into deep brown. This is the gravy&#x27;s backbone and the step people rush. Ginger-garlic in for the last 2 minutes.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Bloom the spices</h4><p>Add the ground spices and 30 seconds of stirring in the hot fat. The kitchen should smell like a spice market; if it smells raw, keep going.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Tomatoes until the oil breaks</h4><p>Add tomatoes and cook 8-10 minutes, stirring, until the masala darkens and oil glistens at the edges. Watch for that separation — it means the sauce is ready to accept liquid.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Simmer the chickpeas</h4><p>Chickpeas, 250 ml water, tea bag if using. Simmer 15-20 minutes, mashing a few chickpeas against the pot to thicken naturally. Pull the tea bag after 5 minutes.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Finish with the bright notes</h4><p>Amchur, garam masala, salt. Simmer 5 more minutes. Top with raw sliced onion, cilantro and a lemon squeeze — the raw crunch against the soft curry is traditional and excellent.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-2.jpg" alt="Chana Masala" loading="lazy"><figcaption>WTTW</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-3.jpg" alt="Chana Masala" loading="lazy"><figcaption>Everyday Nourishing Foods</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-4.jpg" alt="Chana Masala" loading="lazy"><figcaption>Tea for Turmeric</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-5.jpg" alt="Chana Masala" loading="lazy"><figcaption>Tea for Turmeric</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-6.jpg" alt="Chana Masala" loading="lazy"><figcaption>Healthy Vegan</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-7.jpg" alt="Chana Masala" loading="lazy"><figcaption>Garden Fresh Foodie</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/chana-masala-8.jpg" alt="Chana Masala" loading="lazy"><figcaption>Food.com</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a890b8ae1d1.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a890b8ae1d1.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/677c705d085a.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/677c705d085a.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/77714b595010.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/77714b595010.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7aa742d0da42.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7aa742d0da42.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/94b98c59721c.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/94b98c59721c.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b05d1532e67f.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b05d1532e67f.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d6b122b3b5de.jpeg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d6b122b3b5de.jpeg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="3Vf5_St-DEo" tabindex="0" role="button" aria-label="Play: Restaurant Style Chana Masala/ Chole Masala Recipe/ Chana Masala Gravy">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/3Vf5_St-DEo/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Restaurant Style Chana Masala/ Chole Masala Recipe/ Chana Masala Gravy</h4><p>Dindigul Food Court</p></div>
+</div><div class="video-card" data-yt="81qLj6Odfgs" tabindex="0" role="button" aria-label="Play: How to Make Chana Masala">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/81qLj6Odfgs/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How to Make Chana Masala</h4><p>America&#x27;s Test Kitchen</p></div>
+</div><div class="video-card" data-yt="muyq3vjYyvc" tabindex="0" role="button" aria-label="Play: Got Chickpeas? Make My Chana Masala | Zainab Shah | NYT Cooking">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/muyq3vjYyvc/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Got Chickpeas? Make My Chana Masala | Zainab Shah | NYT Cooking</h4><p>NYT Cooking</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Like most curries, this is better on day two — the chickpeas keep drinking.</li><li>Canned chickpea liquid (aquafaba) can replace some water and adds body.</li><li>Serve with basmati rice, or with bhature — the deep-fried bread that makes it chole bhature, Delhi&#x27;s Sunday brunch legend.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Refrigerates 5 days, freezes 3 months. Reheat with a splash of water; the chickpeas reabsorb sauce overnight, so loosen generously.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Chana_masala" target="_blank" rel="noopener"><div class="ext-body"><h4>Chana masala — Wikipedia</h4><p>The Punjabi classic and its regional variants</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Amchoor" target="_blank" rel="noopener"><div class="ext-body"><h4>Amchur — Wikipedia</h4><p>The dried mango powder doing the sour heavy lifting</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="chana-masala" data-title="Chana Masala" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/butter-chicken.html" data-genre="Spice Route" data-tags="comfort,crowd-pleaser,make-ahead" data-title="butter chicken">
+  <div class="card-media"><img src="../assets/img/butter-chicken-1.jpg" alt="Butter Chicken" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Butter Chicken</h3>
+    <p class="card-kicker">Delhi&#x27;s most famous export: charred yogurt-marinated chicken folded into a velvet tomato gravy.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr 10 min + overnight marinade</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/falafel-tahini.html" data-genre="Spice Route" data-tags="vegetarian,vegan,crowd-pleaser,budget,weekend-project" data-title="falafel with tahini">
+  <div class="card-media"><img src="../assets/img/falafel-tahini-1.jpg" alt="Falafel with Tahini" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Falafel with Tahini</h3>
+    <p class="card-kicker">Crushed chickpeas and herbs fried to shatter — the street food that convinced the world meat is optional.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr + overnight soaking</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">vegan</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

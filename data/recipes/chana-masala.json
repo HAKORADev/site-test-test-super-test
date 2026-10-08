@@ -1,0 +1,137 @@
+{
+  "slug": "chana-masala",
+  "title": "Chana Masala",
+  "genre": "Spice Route",
+  "tags": [
+    "vegetarian",
+    "vegan-option",
+    "budget",
+    "one-pot",
+    "spicy"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "15 min",
+    "cook": "35 min",
+    "total_label": "50 min",
+    "total_min": 50
+  },
+  "servings": "4",
+  "kicker": "Chickpeas that cost nothing and taste like the best curry house in town.",
+  "story": [
+    "Chana masala is North Indian home cooking at its most confident: chickpeas simmered in a dark, tangy, spiced-onion gravy until they drink up half the sauce. It is vegetarian by tradition, cheap by nature, and the kind of dish that makes people who claim they 'don't need meat' sound insufferably smug for good reason.",
+    "The flavor has two anchors. First, a properly browned onion-tomato masala base — cooked until the oil visibly separates, which is the sign every Indian cook watches for. Second, amchur, dried mango powder, whose sour brightness is the note you could never place in restaurant versions. Black tea bags in the pot is an old trick for deepening the chickpeas' color; tea-scented curry sounds alarming and tastes like depth."
+  ],
+  "fun_fact": "Amchur — dried unripe mango powder — was reportedly invented so households could add sourness without fresh citrus in months when no lemons were to be had.",
+  "ingredients": [
+    {
+      "amount": "2 x 400 g",
+      "item": "canned chickpeas",
+      "note": "or 300 g dried, soaked overnight and boiled"
+    },
+    {
+      "amount": "3",
+      "item": "onions",
+      "note": "finely chopped — the gravy needs a long sauté"
+    },
+    {
+      "amount": "3",
+      "item": "tomatoes",
+      "note": "finely chopped, or canned"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "ginger paste + 1 tbsp garlic paste",
+      "note": ""
+    },
+    {
+      "amount": "2 tsp",
+      "item": "ground coriander",
+      "note": ""
+    },
+    {
+      "amount": "1 tsp",
+      "item": "ground cumin",
+      "note": ""
+    },
+    {
+      "amount": "1/2 tsp",
+      "item": "turmeric",
+      "note": ""
+    },
+    {
+      "amount": "1/2-1 tsp",
+      "item": "kashmiri chili powder",
+      "note": "color-forward, heat-flexible"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "amchur (dried mango powder)",
+      "note": "or a squeeze of lemon"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "garam masala",
+      "note": "at the end"
+    },
+    {
+      "amount": "1",
+      "item": "black tea bag",
+      "note": "optional, for color and depth"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "neutral oil or ghee",
+      "note": ""
+    },
+    {
+      "amount": "—",
+      "item": "cilantro, sliced onion, lemon",
+      "note": "to finish"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Brown the onions properly",
+      "text": "Oil, onions, medium heat, 12-15 minutes — past golden, into deep brown. This is the gravy's backbone and the step people rush. Ginger-garlic in for the last 2 minutes."
+    },
+    {
+      "title": "Bloom the spices",
+      "text": "Add the ground spices and 30 seconds of stirring in the hot fat. The kitchen should smell like a spice market; if it smells raw, keep going."
+    },
+    {
+      "title": "Tomatoes until the oil breaks",
+      "text": "Add tomatoes and cook 8-10 minutes, stirring, until the masala darkens and oil glistens at the edges. Watch for that separation — it means the sauce is ready to accept liquid."
+    },
+    {
+      "title": "Simmer the chickpeas",
+      "text": "Chickpeas, 250 ml water, tea bag if using. Simmer 15-20 minutes, mashing a few chickpeas against the pot to thicken naturally. Pull the tea bag after 5 minutes."
+    },
+    {
+      "title": "Finish with the bright notes",
+      "text": "Amchur, garam masala, salt. Simmer 5 more minutes. Top with raw sliced onion, cilantro and a lemon squeeze — the raw crunch against the soft curry is traditional and excellent."
+    }
+  ],
+  "notes": [
+    "Like most curries, this is better on day two — the chickpeas keep drinking.",
+    "Canned chickpea liquid (aquafaba) can replace some water and adds body.",
+    "Serve with basmati rice, or with bhature — the deep-fried bread that makes it chole bhature, Delhi's Sunday brunch legend."
+  ],
+  "pairings": [
+    "butter-chicken",
+    "falafel-tahini"
+  ],
+  "links": [
+    {
+      "title": "Chana masala — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chana_masala",
+      "desc": "The Punjabi classic and its regional variants"
+    },
+    {
+      "title": "Amchur — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amchoor",
+      "desc": "The dried mango powder doing the sour heavy lifting"
+    }
+  ],
+  "storage": "Refrigerates 5 days, freezes 3 months. Reheat with a splash of water; the chickpeas reabsorb sauce overnight, so loosen generously."
+}

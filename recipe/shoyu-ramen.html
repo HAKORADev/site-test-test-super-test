@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoyu Ramen — Salt & Ember</title>
+<meta name="description" content="Clear chicken-soy broth, jammy eggs, springy noodles — the Tokyo classic, built from scratch.">
+<meta property="og:title" content="Shoyu Ramen">
+<meta property="og:description" content="Clear chicken-soy broth, jammy eggs, springy noodles — the Tokyo classic, built from scratch.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/shoyu-ramen-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/shoyu-ramen-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/asian-kitchen.html">← Asian Kitchen</a>
+<h1 class="recipe-title">Shoyu Ramen</h1>
+<p class="recipe-kicker">Clear chicken-soy broth, jammy eggs, springy noodles — the Tokyo classic, built from scratch.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 4 hrs (worth it)</span>
+<span class="meta-pill">◆ Project</span>
+<span class="meta-pill">🍽 serves 4</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=weekend-project">weekend-project</a><a class="chip" href="../recipes.html?tag=comfort">comfort</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="120">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">Shoyu ramen is the original ramen — the Tokyo standard, soy-sauce seasoned, clear rather than milky, built on a broth of chicken (often with vegetables) that tastes clean and deeply savory rather than heavy. Where tonkotsu shouts, shoyu speaks at a normal volume and somehow holds the whole room.</p>
+<p>The bowl is assembled in layers, and that is the real lesson of making ramen at home: broth, tare (the seasoning base), aroma oil, noodles, toppings — each one seasoned on its own merit. A soft egg marinated overnight. Chashu pork braised and torched. Scallions cut fine. None of it is hard; all of it adds up to something much larger than a noodle soup has any right to be.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Ramen arrived in Japan via Chinese immigrants in the late 1800s. &#x27;Shoyu&#x27; just means soy sauce — the tare style, not the noodle. Tokyo&#x27;s oldest surviving ramen shop, Rairaiken, opened in 1910.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 4 — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1.5 kg</span><span class="ing-item">chicken backs/wings or a whole carcass <em>for a clear broth, no rolling boil</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1</span><span class="ing-item">onion, 4 scallions, thumb of ginger <em>charred under the broiler first</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 cloves</span><span class="ing-item">garlic</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">80 ml</span><span class="ing-item">soy sauce <em>the tare base</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">30 ml</span><span class="ing-item">mirin</span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tbsp</span><span class="ing-item">toasted sesame oil <em>aroma oil</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4 portions</span><span class="ing-item">fresh ramen noodles <em>fresh from an Asian grocer changes everything</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">4</span><span class="ing-item">eggs <em>soft-boiled, marinated overnight in soy+mirin</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">300 g</span><span class="ing-item">chashu pork (or quick-braised chicken thigh) <em>sliced</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2</span><span class="ing-item">scallions <em>thin-sliced, for the top</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="shoyu-ramen"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 sheet</span><span class="ing-item">nori <em>quartered</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Char the aromatics</h4><p>Broil onion, scallion, ginger and garlic until blackened at the edges. Charred, not burned — this builds the broth&#x27;s backbone without clouding it.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>A clear broth is a gentle broth</h4><p>Cover chicken and aromatics with 3 L cold water. Bring to a bare simmer — bubbles occasionally breaking the surface, never a boil — and cook 3 hours, skimming. Boiling emulsifies fat into milky cloudiness; you want clarity.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Make the tare</h4><p>Combine soy sauce, mirin and 120 ml of the finished broth in a small saucepan; warm through. This concentrated seasoning goes into the bowl first — never season the whole pot.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Eggs and pork</h4><p>Boil eggs exactly 6.5 minutes from fridge-cold, ice bath, peel, marinate overnight in equal soy and mirin thinned with a splash of water. Slice chashu thin; torch or sear the edges until they smell like a festival.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Noodles last, always</h4><p>Cook fresh noodles in unsalted boiling water 60-90 seconds — fresh ramen cooks in the time it takes to breathe. Drain well. Meanwhile heat the bowls with hot water.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Assemble like you mean it</h4><p>Per bowl: 40 ml tare, 400 ml hot broth, a teaspoon of sesame oil. Add noodles, lift them once with chopsticks to fold. Top with pork, egg halves, scallions, nori. Eat immediately, loudly, with unembarrassed slurping.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-2.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>Dreamstime</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-3.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>maru ryouri -</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-4.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>Aaron and Claire</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-5.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>Reddit</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-6.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>Shutterstock</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-7.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>The Wasabi Company</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/shoyu-ramen-8.jpg" alt="Shoyu Ramen" loading="lazy"><figcaption>Punchfork</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/193c30a34da7.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/193c30a34da7.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/37283b11f8b8.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/37283b11f8b8.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3ba977cb5770.webp" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3ba977cb5770.webp</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/63c521951136.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/63c521951136.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a27a6c73f538.jpeg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a27a6c73f538.jpeg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c5c7883d9321.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c5c7883d9321.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f81449f57ac7.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f81449f57ac7.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="cnvomlflES4" tabindex="0" role="button" aria-label="Play: How to Make Authentic Shoyu Ramen at Home (Beginner-Friendly Japanese Classic)">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/cnvomlflES4/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How to Make Authentic Shoyu Ramen at Home (Beginner-Friendly Japanese Classic)</h4><p>Sudachi | Japanese Recipes | Yuto Omura</p></div>
+</div><div class="video-card" data-yt="YWOYPyI5k_A" tabindex="0" role="button" aria-label="Play: How to Make Traditional SHOYU RAMEN at Home (Simple Recipe) with The Sushi Man">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/YWOYPyI5k_A/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How to Make Traditional SHOYU RAMEN at Home (Simple Recipe) with The Sushi Man</h4><p>The Sushi Man</p></div>
+</div><div class="video-card" data-yt="dXrMCkqWCkM" tabindex="0" role="button" aria-label="Play: Easy Shoyu Ramen Broth">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/dXrMCkqWCkM/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Easy Shoyu Ramen Broth</h4><p>No Recipes</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>Broth and tare keep 4-5 days refrigerated; the broth also freezes. Ramen is genuinely better on day two.</li><li>No fresh noodles? Dried work — but cook them a minute less than the package says.</li><li>For a lighter weeknight version, good store-bought chicken stock + tare + fresh toppings gets you 80% of the way in 20 minutes.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Components, not assembled bowls: broth and tare refrigerate 4 days (freeze 3 months); marinated eggs keep 3 days and get progressively more seasoned; noodles only fresh.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Ramen" target="_blank" rel="noopener"><div class="ext-body"><h4>Ramen — Wikipedia</h4><p>Chinese origins, regional Japanese styles, the shoyu lineage</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Ramen#Varieties" target="_blank" rel="noopener"><div class="ext-body"><h4>Shoyu — ramen culture</h4><p>Shoyu vs. shio vs. miso vs. tonkotsu, mapped</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/ramen-recipes" target="_blank" rel="noopener"><div class="ext-body"><h4>Serious Eats — Ramen School</h4><p>Tare theory and broth clarity, tested at length</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="shoyu-ramen" data-title="Shoyu Ramen" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/butter-chicken.html" data-genre="Spice Route" data-tags="comfort,crowd-pleaser,make-ahead" data-title="butter chicken">
+  <div class="card-media"><img src="../assets/img/butter-chicken-1.jpg" alt="Butter Chicken" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Spice Route</div>
+    <h3 class="card-title">Butter Chicken</h3>
+    <p class="card-kicker">Delhi&#x27;s most famous export: charred yogurt-marinated chicken folded into a velvet tomato gravy.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr 10 min + overnight marinade</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">make-ahead</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/chicken-katsu-curry.html" data-genre="Asian Kitchen" data-tags="comfort,crowd-pleaser,budget" data-title="chicken katsu curry">
+  <div class="card-media"><img src="../assets/img/chicken-katsu-curry-1.jpg" alt="Chicken Katsu Curry" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Asian Kitchen</div>
+    <h3 class="card-title">Chicken Katsu Curry</h3>
+    <p class="card-kicker">A panko-cutlet the size of your ambition, drowned in sweet Japanese curry. Sleep well after.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 1 hr 5 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">comfort</span><span class="tag">crowd-pleaser</span><span class="tag">budget</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+{
+  "slug": "chicken-katsu-curry",
+  "title": "Chicken Katsu Curry",
+  "genre": "Asian Kitchen",
+  "tags": [
+    "comfort",
+    "crowd-pleaser",
+    "budget"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "25 min",
+    "cook": "40 min",
+    "total_label": "1 hr 5 min",
+    "total_min": 65
+  },
+  "servings": "4",
+  "kicker": "A panko-cutlet the size of your ambition, drowned in sweet Japanese curry. Sleep well after.",
+  "story": [
+    "Katsu curry is the best of two imports: British-introduced curry powder turned Japanese over a century into thick, sweet, gently spiced sauce, and the Viennese schnitzel transplanted into panko-fried tonkatsu. Put them on rice together and you get Japan's favorite comfort plate — crunch against silk, rich against sweet.",
+    "The curry roux is worth making from scratch: butter and flour cooked dark, curry powder, garam masala, grated apple and a square of dark chocolate for depth. It takes twenty minutes and tastes like the expensive version of the block-shaped shortcuts — which, to be fair, are also good and fully respectable on a Tuesday."
+  ],
+  "fun_fact": "Japanese curry (karē) came via the Royal Navy, which adopted curry from the British. It is now so domesticated that it is considered a national dish — served weekly in a third of Japanese school cafeterias.",
+  "ingredients": [
+    {
+      "amount": "4",
+      "item": "chicken breast or thigh cutlets",
+      "note": "butterflied thin"
+    },
+    {
+      "amount": "flour, 2 beaten eggs, 200 g panko",
+      "item": "breading station",
+      "note": "in that order"
+    },
+    {
+      "amount": "400 g",
+      "item": "short-grain rice",
+      "note": "steamed"
+    },
+    {
+      "amount": "60 g",
+      "item": "butter",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "onion",
+      "note": "grated"
+    },
+    {
+      "amount": "2",
+      "item": "carrots",
+      "note": "finely diced"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "flour",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "mild curry powder",
+      "note": "S&B style if you can find it"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "garam masala",
+      "note": ""
+    },
+    {
+      "amount": "700 ml",
+      "item": "chicken stock",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "grated apple",
+      "note": "the sweetness that makes it 'Japanese'"
+    },
+    {
+      "amount": "1 tbsp",
+      "item": "soy sauce + 1 square dark chocolate",
+      "note": "depth agents"
+    }
+  ],
+  "steps": [
+    {
+      "title": "The roux",
+      "text": "Melt butter, cook onion until translucent. Add flour and cook, stirring, 3 minutes until it smells like shortbread. Add both spice powders and cook 30 seconds more — blooming the spices in fat is the difference between curry that tastes boiled and curry that tastes cooked."
+    },
+    {
+      "title": "Loosen and enrich",
+      "text": "Whisk in stock gradually — lumps are just future gravy, whisk them out. Add carrots, apple, soy, chocolate. Simmer 20 minutes until thick enough to plate in a wave. Taste: it should be gently sweet, warm, not spicy-forward."
+    },
+    {
+      "title": "Bread the cutlets",
+      "text": "Flour, egg, panko — press the crumbs on firmly. Chill 10 minutes; the breading hydrates and grips better."
+    },
+    {
+      "title": "Fry with confidence",
+      "text": "Oil at 170°C / 340°F, medium-high. Fry 3-4 minutes per side to deep gold. Rest on a rack, never paper — trapped steam is the enemy of crunch. Slice across into strips so it fans over the rice."
+    },
+    {
+      "title": "Plate the classic way",
+      "text": "Rice on one side, cutlet fanned over it, curry sauce ladled along the border — not over the whole cutlet, or the crunch dies. Shredded cabbage on the side, tonkatsu sauce for dipping if you have it."
+    }
+  ],
+  "notes": [
+    "Panko vs. breadcrumbs is not close: panko's large flakes fry into shatter. Do not substitute.",
+    "The sauce freezes well for a month — double the batch, thank yourself later.",
+    "Air-fryer cutlets: 200°C / 400°F for 12 minutes, flipped once, sprayed with oil. Respectable crunch."
+  ],
+  "pairings": [
+    "shoyu-ramen",
+    "smash-burger"
+  ],
+  "links": [
+    {
+      "title": "Tonkatsu — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tonkatsu",
+      "desc": "The schnitzel that emigrated and went native"
+    },
+    {
+      "title": "Japanese curry — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Japanese_curry",
+      "desc": "How the Royal Navy's curry became Japan's comfort food"
+    }
+  ],
+  "storage": "Keep sauce refrigerated up to 4 days (freezes 1 month). Cutlets re-crisp in a 200°C / 400°F oven for 10 minutes; the microwave is a crunch assassin."
+}

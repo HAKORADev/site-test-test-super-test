@@ -1,0 +1,140 @@
+{
+  "slug": "baja-fish-tacos",
+  "title": "Baja Fish Tacos",
+  "genre": "Street Food",
+  "tags": [
+    "seafood",
+    "quick",
+    "crowd-pleaser",
+    "fresh"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "30 min",
+    "cook": "20 min",
+    "total_label": "50 min",
+    "total_min": 50
+  },
+  "servings": "4",
+  "kicker": "Beer-battered fish, cabbage crunch, lime crema — invented by Japanese immigrants in Baja, perfected by everyone since.",
+  "story": [
+    "The fish taco story runs through Ensenada and San Felipe, where Japanese immigrants introduced tempura-style frying to local catch in the 1950s. The result is its own thing: strips of white fish in a light beer batter, tucked into warm tortillas with shredded cabbage, pico de gallo, and a lime-heavy crema — street food with a seafood counter's soul.",
+    "Three textures must survive the trip to your mouth: shattering batter, flaky fish, cabbage snap. So the batter stays cold (ice-cold beer, no overmixing — lumps are fine, gluten is not), the oil stays at 190°C / 375°F, and the cabbage gets salted and lime-dressed just before serving. The crema is mayonnaise, Mexican crema and lime whisked loose. Nothing exotic; everything in balance."
+  ],
+  "fun_fact": "Baja fish tacos stayed a regional secret until the 1980s, when a Surfer magazine writer ate them in Ensenada and wrote them up — the surf-food pipeline brought them to California and then everywhere.",
+  "ingredients": [
+    {
+      "amount": "600 g",
+      "item": "white fish fillets",
+      "note": "cod, pollock, or whatever is flaky and local"
+    },
+    {
+      "amount": "150 g",
+      "item": "flour, plus 40 g for dusting",
+      "note": ""
+    },
+    {
+      "amount": "60 g",
+      "item": "cornstarch",
+      "note": "the crunch agent"
+    },
+    {
+      "amount": "200 ml",
+      "item": "cold beer",
+      "note": "a lager; drink the rest"
+    },
+    {
+      "amount": "1 tsp",
+      "item": "baking powder",
+      "note": ""
+    },
+    {
+      "amount": "1/2",
+      "item": "cabbage, shredded fine",
+      "note": "green or a mix with red"
+    },
+    {
+      "amount": "3 tbsp",
+      "item": "mayonnaise + 3 tbsp Mexican crema or sour cream",
+      "note": "the crema base"
+    },
+    {
+      "amount": "2",
+      "item": "limes",
+      "note": "one for crema, one at the table"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "chopped cilantro",
+      "note": ""
+    },
+    {
+      "amount": "1",
+      "item": "jalapeño or serrano",
+      "note": "thin-sliced"
+    },
+    {
+      "amount": "12",
+      "item": "small corn tortillas",
+      "note": "warmed"
+    },
+    {
+      "amount": "—",
+      "item": "pico de gallo",
+      "note": "diced tomato, onion, chili, lime, cilantro"
+    },
+    {
+      "amount": "—",
+      "item": "neutral oil for frying",
+      "note": "190°C / 375°F"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Prep the slaw and crema",
+      "text": "Toss cabbage with a pinch of salt, squeeze of lime and cilantro; rest 15 minutes, then drain any puddle. Whisk mayo, crema, lime juice and a pinch of salt until pourable."
+    },
+    {
+      "title": "Cut and dry the fish",
+      "text": "Cut fillets into 2 cm strips. Pat bone-dry — wet fish makes wet batter slide off. Dust lightly with flour; the batter grips dusted fish."
+    },
+    {
+      "title": "Cold batter, fast mix",
+      "text": "Whisk flour, cornstarch, baking powder, 1/2 tsp salt; pour in the coldest beer you have and stir 10 seconds — lumps are correct. Overmixing develops gluten and makes it bready. Use within 10 minutes."
+    },
+    {
+      "title": "Fry in batches",
+      "text": "Dip, let excess drip, fry 2-3 minutes to deep gold, turning once. Drain on a rack. Between batches, give the oil a moment to return to temperature — dropped oil means fat-soaked batter."
+    },
+    {
+      "title": "Warm the tortillas properly",
+      "text": "Dry comal or skillet, 20 seconds per side until they puff slightly and smell toasted. Wrapped in foil in the oven works; the microwave makes them gummy — avoid."
+    },
+    {
+      "title": "Assembly line",
+      "text": "Tortilla, crema, cabbage, fish, pico, jalapeño slices, more crema. Two tacos per plate, lime wedges everywhere. Eat standing up for maximum authenticity."
+    }
+  ],
+  "notes": [
+    "The batter waits for no one — fry immediately after mixing, and re-stir gently between batches without developing it.",
+    "Beer-free version: cold soda water works. The carbonation is what matters.",
+    "Leftover fried fish re-crisps in a 220°C / 425°F oven for 8 minutes — never the microwave."
+  ],
+  "pairings": [
+    "pad-thai",
+    "carnitas"
+  ],
+  "links": [
+    {
+      "title": "Fish taco — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taco#Fish",
+      "desc": "The Ensenada origin and the Japanese tempura connection"
+    },
+    {
+      "title": "Baja Mediterranean cuisine — CDMX guides",
+      "url": "https://en.wikipedia.org/wiki/Baja_Mediterranean_cuisine",
+      "desc": "The regional cuisine that produced it"
+    }
+  ],
+  "storage": "Everything stores separately: crema 5 days, slaw 1 day (it weeps), fried fish 2 days re-crisped. The assembled taco waits for exactly nobody."
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "mushroom-risotto",
+  "title": "Mushroom Risotto",
+  "genre": "Italian Classics",
+  "tags": [
+    "vegetarian",
+    "comfort",
+    "crowd-pleaser",
+    "budget"
+  ],
+  "difficulty": "medium",
+  "time": {
+    "prep": "15 min",
+    "cook": "35 min",
+    "total_label": "50 min",
+    "total_min": 50
+  },
+  "servings": "4",
+  "kicker": "Twenty minutes of stirring buys you the creamiest rice in the Western canon.",
+  "story": [
+    "Risotto is northern Italy's answer to the question 'what if comfort food were a technique?' Starch-rich short-grain rice — arborio, carnaroli — toasted, then drowned repeatedly in hot stock while you stir. The motion isn't mystical; it just knocks the starch granules loose so they thicken the cooking liquid into a sauce around each grain, which stays pointedly al dente at the center.",
+    "With mushrooms, the dish becomes earthy and deep: brown the mushrooms hard and separately so they develop real color, then fold them through at the end. The finishing move is mantecatura — beating cold butter and parmesan into the pan off the heat until the whole thing turns glossy and waves lazily when you shake it. Italians call that wave all'onda. It is the single most satisfying texture in the recipe."
+  ],
+  "fun_fact": "Risotto likely arrived with Arab rice traders through Venice. The famous 'saffron risotto' legend involves a stained-glass apprentice's yellow pigment — a story Italians themselves admit is too good to check.",
+  "ingredients": [
+    {
+      "amount": "320 g",
+      "item": "carnaroli or arborio rice",
+      "note": "carnaroli forgives more"
+    },
+    {
+      "amount": "450 g",
+      "item": "mixed mushrooms",
+      "note": "cremini, shiitake, oyster — texture contrast matters"
+    },
+    {
+      "amount": "1.2 L",
+      "item": "light mushroom or vegetable stock",
+      "note": "kept hot on a back burner"
+    },
+    {
+      "amount": "1",
+      "item": "shallot",
+      "note": "finely minced"
+    },
+    {
+      "amount": "120 ml",
+      "item": "dry white wine",
+      "note": "something you would drink"
+    },
+    {
+      "amount": "60 g",
+      "item": "parmesan",
+      "note": "finely grated"
+    },
+    {
+      "amount": "60 g",
+      "item": "cold butter, cubed",
+      "note": "for the mantecatura"
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "olive oil",
+      "note": ""
+    },
+    {
+      "amount": "1 sprig",
+      "item": "thyme",
+      "note": ""
+    }
+  ],
+  "steps": [
+    {
+      "title": "Brown the mushrooms first",
+      "text": "Hot pan, oil, mushrooms in a single layer, and then the hard part: leave them alone. Two to three minutes per side for real caramelization. Season at the end, set aside."
+    },
+    {
+      "title": "Soffritto and tostatura",
+      "text": "In a wide pan, sweat the shallot in a knob of butter until translucent. Add the rice and toast two minutes until the edges turn glassy and the centers stay chalk-white."
+    },
+    {
+      "title": "Wine, then the long stir",
+      "text": "Pour in the wine; let it evaporate completely. Then add hot stock a ladle at a time, stirring with a relaxed, constant rhythm. Each addition should just cover the rice. Sixteen to eighteen minutes total."
+    },
+    {
+      "title": "Learn to read the rice",
+      "text": "Taste at fourteen minutes. You want the grain tender outside, with a defiant little center. Undercooked is chalk; overcooked is baby food. Aim between."
+    },
+    {
+      "title": "Off the heat, the finale",
+      "text": "Kill the heat. Beat in the cold butter and parmesan vigorously — this is what makes it creamy, not the stirring. Fold in the mushrooms. Shake the pan; the risotto should ripple like the sea. Serve on flat plates, immediately."
+    }
+  ],
+  "notes": [
+    "Stock must stay hot. Cold stock shocks the rice, stalls the cooking, and gums up the starch release.",
+    "Dried porcini (10 g, soaked, chopped) added with the stock is a cheap depth multiplier.",
+    "Leftover risotto becomes tomorrow's suppì al riso — press into patties, stuff with mozzarella, bread and fry. The leftovers might be better than the dinner."
+  ],
+  "pairings": [
+    "classic-margherita-pizza",
+    "french-onion-soup"
+  ],
+  "links": [
+    {
+      "title": "Risotto — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Risotto",
+      "desc": "Northern Italy's rice tradition and its regional variants"
+    },
+    {
+      "title": "Serious Eats — Risotto Fundamentals",
+      "url": "https://www.seriouseats.com/how-to-make-perfect-risotto-recipe",
+      "desc": "Stirred vs. no-stir methods, tested side by side"
+    }
+  ],
+  "storage": "Risotto waits for nobody at the table, and does not reheat well as risotto. Do chill leftovers and fry them as arancini or patties the next day."
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classic Margherita Pizza — Salt & Ember</title>
+<meta name="description" content="Three ingredients, one blistered crust, zero shortcuts that matter.">
+<meta property="og:title" content="Classic Margherita Pizza">
+<meta property="og:description" content="Three ingredients, one blistered crust, zero shortcuts that matter.">
+<meta property="og:image" content="https://hakoradev.github.io/site-test-test-super-test/assets/img/classic-margherita-pizza-1.jpg">
+<meta property="og:site_name" content="Salt & Ember">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+
+</head>
+<body class="">
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-wrap">
+    <a class="logo" href="../index.html" id="logoLink" title="Salt &amp; Ember — click the pot, it sizzles">
+      <svg class="logo-pot" viewBox="0 0 48 48" aria-hidden="true"><path d="M10 20h28v3c0 9-5 16-14 16S10 32 10 23v-3z" fill="currentColor"/><rect x="6" y="17" width="36" height="4" rx="2" fill="currentColor"/><path d="M17 14c0-3 3-3 3-6M24 14c0-3 3-3 3-6M31 14c0-3 3-3 3-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      <span class="logo-word">Salt <em>&amp;</em> Ember</span>
+    </a>
+    <nav class="nav-links"><a href="../index.html" class="">Home</a><a href="../recipes.html" class="active">All Recipes</a><a href="../collections.html" class="">Collections</a><a href="../search.html" class="">Search</a><a href="../about.html" class="">About</a></nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-dice" id="surpriseBtn" href="#" title="Surprise me">🎲 <span>Surprise me</span></a>
+      <form class="nav-search" action="../search.html" method="get">
+        <input type="search" name="q" placeholder="Search 30 recipes…" autocomplete="off" aria-label="Search recipes">
+        <kbd>/</kbd>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+<article class="recipe-hero">
+<div class="recipe-hero-bg" style="background-image:url('../assets/img/classic-margherita-pizza-1.jpg')"></div>
+<div class="recipe-hero-veil"></div>
+<div class="wrap recipe-hero-inner">
+<a class="crumb" href="../collection/italian-classics.html">← Italian Classics</a>
+<h1 class="recipe-title">Classic Margherita Pizza</h1>
+<p class="recipe-kicker">Three ingredients, one blistered crust, zero shortcuts that matter.</p>
+<div class="recipe-meta">
+<span class="meta-pill">⏱ 4-24 hrs (dough rests)</span>
+<span class="meta-pill">◆ Medium</span>
+<span class="meta-pill">🍽 serves 2 x 12-inch pizzas</span>
+</div>
+<div class="recipe-tags"><a class="chip" href="../recipes.html?tag=vegetarian">vegetarian</a><a class="chip" href="../recipes.html?tag=weekend-project">weekend-project</a><a class="chip" href="../recipes.html?tag=crowd-pleaser">crowd-pleaser</a><a class="chip" href="../recipes.html?tag=cheesy">cheesy</a></div>
+</div>
+</article>
+
+<div class="wrap recipe-layout">
+<aside class="recipe-side">
+<div class="side-card jump-card">
+<h4>On this page</h4>
+<ul class="jump"><li><a href="#story">The story</a></li>
+<li><a href="#ingredients">Ingredients</a></li>
+<li><a href="#method">Method</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#watch">Videos</a></li>
+<li><a href="#notes">Chef's notes</a></li>
+<li><a href="#links">Related links</a></li>
+<li><a href="#comments">Comments</a></li></ul>
+</div>
+<div class="side-card timer-card">
+<h4>Kitchen timer</h4>
+<div class="timer-display" id="timerDisplay">00:00</div>
+<div class="timer-quick"><button class="btn btn-tiny" data-timer="10">10m</button><button class="btn btn-tiny" data-timer="20">20m</button><button class="btn btn-tiny" data-timer="150">½ recipe</button></div>
+<div class="timer-input"><input id="timerMin" type="number" min="0" max="600" placeholder="min"> <button class="btn btn-tiny" id="timerSet">Set</button></div>
+<div class="timer-ctrl"><button class="btn btn-tiny btn-primary" id="timerStart">Start</button><button class="btn btn-tiny" id="timerReset">Reset</button></div>
+</div>
+<div class="side-card print-card">
+<h4>Recipe card</h4>
+<p>Print this page — the layout folds into a real recipe card.</p>
+<button class="btn btn-ghost btn-block" onclick="window.print()">🖨 Print recipe</button>
+</div>
+</aside>
+
+<div class="recipe-main">
+<section class="recipe-section" id="story">
+<p class="dropcap">The Margherita is the pizza every other pizza is measured against, and its genius is how little there is to hide behind. Tomato, mozzarella, basil, olive oil — a dough that has been allowed to ferment properly does all the talking. The legend says Raffaele Esposito made it for Queen Margherita in 1889, arranging the tomatoes, mozzarella and basil to mimic the Italian flag. The legend is probably a legend. The pizza is unquestionably real.</p>
+<p>What separates a great home Margherita from a disappointing one is not a wood-fired oven; it is patience with the dough and restraint with toppings. A long, cold rise in the fridge builds flavor and blistered, leopard-spotted char when it hits screaming heat. And the single most common home-pizza mistake is overloading it. Two ounces of sauce. Not three. The dough needs to breathe.</p>
+<div class="funfact"><span class="funfact-ic">✦</span><div><strong>Kitchen wisdom.</strong> Real pizza al taglio aside, Naples holds a UNESCO World Heritage listing for the art of its pizzaiuoli — the pizza makers themselves, not the pizza.</div></div>
+</section>
+
+<section class="recipe-section" id="ingredients">
+<h2 class="section-title"><span>Ingredients</span></h2>
+<p class="section-sub">serves 2 x 12-inch pizzas — tick items off as you shop; it saves as you go</p>
+<ul class="ing-list"><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">500 g</span><span class="ing-item">bread flour (or 00 flour) <em>00 gives a silkier crust; bread flour is a fine stand-in</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">325 g</span><span class="ing-item">water, cool <em>65% hydration</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">10 g</span><span class="ing-item">fine sea salt</span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 g</span><span class="ing-item">instant dry yeast <em>about half a teaspoon — deliberately little</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">200 g</span><span class="ing-item">whole peeled San Marzano tomatoes <em>crushed by hand, nothing added</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">200 g</span><span class="ing-item">fresh mozzarella (fior di latte) <em>torn and drained 30 min ahead</em></span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">1 bunch</span><span class="ing-item">fresh basil leaves</span></label></li><li><label class="ing"><input type="checkbox" data-ing="classic-margherita-pizza"><span class="ing-box" aria-hidden="true"></span><span class="ing-amount">2 tbsp</span><span class="ing-item">extra-virgin olive oil <em>the good bottle</em></span></label></li></ul>
+</section>
+
+<section class="recipe-section" id="method">
+<h2 class="section-title"><span>Method</span></h2>
+<ol class="steps"><li class="step"><div class="step-num">1</div><div class="step-body"><h4>Mix and rest</h4><p>Dissolve the yeast in the water. Add flour and mix to a shaggy mass, then rest 20 minutes — this autolyse makes the dough dramatically easier to handle. Add the salt, knead 5 minutes until smooth. It will still look slack; that is correct.</p></div></li><li class="step"><div class="step-num">2</div><div class="step-body"><h4>Cold ferment</h4><p>Cover and refrigerate 24 hours (minimum 4). The slow rise is where the crust gets its flavor — skip it and no oven trick will compensate.</p></div></li><li class="step"><div class="step-num">3</div><div class="step-body"><h4>Ball up</h4><p>Divide into two 400 g balls. Let them sit, covered, at room temperature 2 hours before shaping. Cold dough tears; relaxed dough stretches.</p></div></li><li class="step"><div class="step-num">4</div><div class="step-body"><h4>Heat the living daylights out of the oven</h4><p>Set a pizza steel or overturned cast-iron skillet on the top rack and preheat at your oven&#x27;s maximum (275°C / 525°F+) for a full hour. This is the single biggest upgrade available to a home oven.</p></div></li><li class="step"><div class="step-num">5</div><div class="step-body"><h4>Sauce with restraint</h4><p>Crush the tomatoes by hand with a pinch of salt. No cooking, no garlic, no oregano — the sauce cooks on the pizza in 90 seconds.</p></div></li><li class="step"><div class="step-num">6</div><div class="step-body"><h4>Stretch, never roll</h4><p>Press the ball flat from the center, leave a 2 cm rim, then stretch over your knuckles, letting gravity work. A rolling pin crushes the gas bubbles you spent a day building.</p></div></li><li class="step"><div class="step-num">7</div><div class="step-body"><h4>Top and launch</h4><p>Sauce thinly, scatter mozzarella, drizzle oil. Slide onto the screaming steel. Bake 6-8 minutes until the rim is blistered and spotted with char.</p></div></li><li class="step"><div class="step-num">8</div><div class="step-body"><h4>Basil, then eat immediately</h4><p>Tear basil over the top the moment it leaves the oven — added earlier it blackens. Wait 60 seconds before slicing so the cheese sets. That first cut is the whole point.</p></div></li></ol>
+</section>
+
+<section class="recipe-section" id="gallery">
+<h2 class="section-title"><span>Gallery</span></h2>
+<div class="gallery"><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-2.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Dreamstime</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-3.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Dreamstime</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-4.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>123RF</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-5.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Pinterest</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-6.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Alamy</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-7.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Alamy</figcaption></figure><figure class="gal-item" data-lb><img src="../assets/img/classic-margherita-pizza-8.jpg" alt="Classic Margherita Pizza" loading="lazy"><figcaption>Bearded Foodie&#x27;s Kitchen</figcaption></figure></div>
+<details class="credits"><summary>Image sources &amp; credits</summary><p>Images are web-sourced via image search and self-hosted. Original sources:</p><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/28654be7a84c.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/28654be7a84c.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/621a65e7907f.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/621a65e7907f.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/98a8cbaf459a.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/98a8cbaf459a.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6533cda2517.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b6533cda2517.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/baa2e2242bd2.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/baa2e2242bd2.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bae679b31d9a.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/bae679b31d9a.jpg</a><a href="https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed3897fc1f53.jpg" target="_blank" rel="noopener">https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/ed3897fc1f53.jpg</a></details>
+</section>
+<section class="recipe-section" id="watch">
+<h2 class="section-title"><span>Watch it made</span></h2>
+<p class="section-sub">Verified working videos — click a card to load the embed.</p>
+<div class="video-grid"><div class="video-card" data-yt="xKDnD8sJsuY" tabindex="0" role="button" aria-label="Play: How to Make PIZZA MARGHERITA like a Neapolitan Pizza Chef">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/xKDnD8sJsuY/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How to Make PIZZA MARGHERITA like a Neapolitan Pizza Chef</h4><p>Vincenzo&#x27;s Plate</p></div>
+</div><div class="video-card" data-yt="vcfNpDtVqOw" tabindex="0" role="button" aria-label="Play: How to Make Margherita Pizza at Home | Gordon Ramsay">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/vcfNpDtVqOw/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>How to Make Margherita Pizza at Home | Gordon Ramsay</h4><p>Gordon Ramsay</p></div>
+</div><div class="video-card" data-yt="4VSW29yWPlA" tabindex="0" role="button" aria-label="Play: Margherita Pizza Recipe / Homemade Pizza Recipe">
+<div class="video-thumb"><img src="https://i.ytimg.com/vi/4VSW29yWPlA/hqdefault.jpg" alt="" loading="lazy"><div class="video-play">▶</div></div>
+<div class="video-meta"><h4>Margherita Pizza Recipe / Homemade Pizza Recipe</h4><p>Recipes by Carina</p></div>
+</div></div>
+</section>
+
+<section class="recipe-section" id="notes">
+<h2 class="section-title"><span>Chef's notes</span></h2>
+<ul class="notes-list"><li>No steel or stone? A preheated heavy baking sheet on the highest rack for the full hour gets you 70% of the way there.</li><li>Wet mozzarella equals soggy pizza. Tear it and let it drain on a paper towel for half an hour before topping.</li><li>Dough balls freeze beautifully for up to 3 months; thaw overnight in the fridge, then rest 2 hours at room temperature.</li></ul>
+<div class="storage"><strong>Keeping it:</strong> Refrigerate leftover slices up to 3 days. Reheat in a dry skillet over medium heat, lid on for 2 minutes — the crust re-crisps instead of turning to leather.</div>
+</section>
+
+<section class="recipe-section" id="links">
+<h2 class="section-title"><span>Go deeper</span></h2>
+<div class="ext-links"><a class="ext-link" href="https://en.wikipedia.org/wiki/Pizza" target="_blank" rel="noopener"><div class="ext-body"><h4>Pizza — Wikipedia</h4><p>History from ancient flatbreads to the Margherita legend</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://en.wikipedia.org/wiki/Neapolitan_pizza" target="_blank" rel="noopener"><div class="ext-body"><h4>Pizza Napoletana — Wikipedia</h4><p>The rules that make a Neapolitan pizza official</p></div><span class="ext-domain">en.wikipedia.org ↗</span></a><a class="ext-link" href="https://www.seriouseats.com/pizza" target="_blank" rel="noopener"><div class="ext-body"><h4>Serious Eats — Pizza Guide</h4><p>Deep dives on dough hydration and home-oven tricks</p></div><span class="ext-domain">seriouseats.com ↗</span></a></div>
+</section>
+
+<section class="recipe-section" id="comments">
+<h2 class="section-title"><span>Comments</span></h2>
+<p class="section-sub">Powered by GitHub Issues — the backup kitchen. One issue per recipe; your comment lands in the repo.</p>
+<div id="ghComments" data-slug="classic-margherita-pizza" data-title="Classic Margherita Pizza" data-repo="HAKORADev/site-test-test-super-test">
+<div class="comment-loading">Checking the comment box…</div>
+</div>
+<a class="btn btn-primary btn-block" id="ghNewComment" href="#" target="_blank" rel="noopener">💬 Leave a comment on GitHub</a>
+</section>
+
+<section class="recipe-section" id="pairings">
+<h2 class="section-title"><span>Pairs well with</span></h2>
+<div class="pair-grid"><a class="card recipe-card" href="../recipe/mushroom-risotto.html" data-genre="Italian Classics" data-tags="vegetarian,comfort,crowd-pleaser,budget" data-title="mushroom risotto">
+  <div class="card-media"><img src="../assets/img/mushroom-risotto-1.jpg" alt="Mushroom Risotto" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Italian Classics</div>
+    <h3 class="card-title">Mushroom Risotto</h3>
+    <p class="card-kicker">Twenty minutes of stirring buys you the creamiest rice in the Western canon.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 50 min</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">vegetarian</span><span class="tag">comfort</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a><a class="card recipe-card" href="../recipe/tiramisu.html" data-genre="Sweet &amp; Baked" data-tags="dessert,make-ahead,crowd-pleaser" data-title="classic tiramisu">
+  <div class="card-media"><img src="../assets/img/tiramisu-1.jpg" alt="Classic Tiramisu" loading="lazy"></div>
+  <div class="card-body">
+    <div class="card-genre">Sweet &amp; Baked</div>
+    <h3 class="card-title">Classic Tiramisu</h3>
+    <p class="card-kicker">No-bake, coffee-soaked, mascarpone-clouded — the Italian dessert that improves while you sleep.</p>
+    <div class="card-meta"><span class="meta-item">⏱ 30 min + 6 hrs chill</span><span class="meta-item">◆ Medium</span></div>
+    <div class="card-tags"><span class="tag">dessert</span><span class="tag">make-ahead</span><span class="tag">crowd-pleaser</span></div>
+  </div>
+</a></div>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">Salt <em>&amp;</em> Ember</div>
+      <p>A test kitchen with a pot always on. A scratch-built test kitchen — 30 recipes, built overnight by an ai sous-chef while the owner slept.</p>
+      <p class="footer-note">All recipes written with love and exact temperatures. Images sourced from the web with credits on each page.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <a href="../collection/italian-classics.html">Italian Classics</a><a href="../collection/french-bistro.html">French Bistro</a><a href="../collection/asian-kitchen.html">Asian Kitchen</a><a href="../collection/spice-route.html">Spice Route</a><a href="../collection/mediterranean-sun.html">Mediterranean Sun</a><a href="../collection/street-food.html">Street Food</a><a href="../collection/comfort-food.html">Comfort Food</a><a href="../collection/sweet-baked.html">Sweet &amp; Baked</a>
+    </div>
+    <div class="footer-col">
+      <h4>Kitchen</h4>
+      <a href="../recipes.html">All recipes</a>
+      <a href="../search.html">Search the pantry</a>
+      <a href="../about.html">About this test</a>
+      <a href="https://github.com/HAKORADev/site-test-test-super-test" target="_blank" rel="noopener">Source on GitHub ↗</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Salt & Ember — a throwaway test site that got too real.</span>
+    <span class="footer-egg">the pot is listening 👀</span>
+  </div>
+</footer>
+<script>window.__SE_DATA__ = { prefix: "../" };</script>
+<script src="../assets/site.js" defer></script>
+</body>
+</html>

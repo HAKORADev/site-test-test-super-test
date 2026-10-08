@@ -1,0 +1,102 @@
+{
+  "slug": "spaghetti-aglio-e-olio",
+  "title": "Spaghetti Aglio e Olio",
+  "genre": "Italian Classics",
+  "tags": [
+    "vegetarian",
+    "quick",
+    "budget",
+    "comfort"
+  ],
+  "difficulty": "easy",
+  "time": {
+    "prep": "5 min",
+    "cook": "12 min",
+    "total_label": "20 min",
+    "total_min": 20
+  },
+  "servings": "4",
+  "kicker": "Garlic, oil, chili, parsley — the midnight pasta of Naples, and proof that pantry cooking can be poetry.",
+  "story": [
+    "Aglio e olio is the dish Italian cooks make for themselves after service, the one they feed you at 2 a.m., the one that costs almost nothing and asks for nothing but attention. Sliced garlic blooms slowly in olive oil — never browned to bitterness, just turned golden and sweet — then collides with pasta water and starch to make a sauce out of almost nothing.",
+    "That emulsion is the entire trick. People dismiss this as plain noodles with oil, and then they wonder why theirs is greasy and separated while the version at a Roman trattoria clings silky to every strand. The difference is starch: a well-salted pot, a cup of cloudy pasta water, and enough tossing off the heat for oil and water to stop being enemies."
+  ],
+  "fun_fact": "The dish stars in the 2011 film Chef, where a plate of aglio e olio is choreographed so lovingly that pasta sales reportedly jumped after release.",
+  "ingredients": [
+    {
+      "amount": "400 g",
+      "item": "spaghetti",
+      "note": "or linguine"
+    },
+    {
+      "amount": "120 ml",
+      "item": "extra-virgin olive oil",
+      "note": "more than feels reasonable"
+    },
+    {
+      "amount": "8 cloves",
+      "item": "garlic",
+      "note": "sliced thin, not crushed"
+    },
+    {
+      "amount": "2",
+      "item": "dried red chilies",
+      "note": "crumbled, or 1 tsp chili flakes"
+    },
+    {
+      "amount": "1 bunch",
+      "item": "flat-leaf parsley",
+      "note": "finely chopped, stems included"
+    },
+    {
+      "amount": "40 g",
+      "item": "pecorino or parmesan",
+      "note": "optional, and honestly traditional without"
+    },
+    {
+      "amount": "—",
+      "item": "salt for the pasta water",
+      "note": "aggressively salty"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Boil hard-salted water",
+      "text": "A big pot, a fistful of salt. Cook the spaghetti one minute short of the package time. Before draining, scoop out two cups of that cloudy water — it is your sauce."
+    },
+    {
+      "title": "Bloom the garlic gently",
+      "text": "Meanwhile, warm the oil with garlic and chili over medium-low. The garlic should barely sizzle. Ten minutes to pale gold, never brown. Pull it off the heat the instant it looks right; residual heat keeps cooking it."
+    },
+    {
+      "title": "The toss that makes the sauce",
+      "text": "Drain the pasta. Add it to the pan OFF the heat with a big splash of pasta water and the parsley. Toss hard and constantly for a minute — the starch and oil will turn glossy and cling instead of pooling at the bottom of the bowl."
+    },
+    {
+      "title": "Adjust and serve",
+      "text": "Too dry? More pasta water. Taste and salt. Cheese is a polarizing addition — the Naples orthodoxy says no, your kitchen says whatever makes you happy. Serve from the pan, immediately."
+    }
+  ],
+  "notes": [
+    "Sliced garlic, not minced — you want slivers that go golden and sweet, not a paste that burns.",
+    "The pan off the heat during the toss is not a suggestion. Off-heat tossing is what emulsifies.",
+    "Add half a cup of toasted breadcrumbs for a crunchy, whole-meal character — a classic povera move."
+  ],
+  "pairings": [
+    "chicken-souvlaki",
+    "tiramisu"
+  ],
+  "links": [
+    {
+      "title": "Aglio e olio — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aglio_e_olio",
+      "desc": "The Neapolitan tradition of la pasta del poveraccio"
+    },
+    {
+      "title": "Serious Eats — The Science of Emulsified Pasta Sauces",
+      "url": "https://www.seriouseats.com/the-food-labs-ultimate-guide-to-pasta-sauce",
+      "desc": "Why pasta water is the secret ingredient"
+    }
+  ],
+  "storage": "It will not be good tomorrow — this dish has a fifteen-minute lifespan. Make exactly as much as you will eat."
+}

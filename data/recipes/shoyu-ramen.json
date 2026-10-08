@@ -1,0 +1,134 @@
+{
+  "slug": "shoyu-ramen",
+  "title": "Shoyu Ramen",
+  "genre": "Asian Kitchen",
+  "tags": [
+    "weekend-project",
+    "comfort",
+    "crowd-pleaser"
+  ],
+  "difficulty": "project",
+  "time": {
+    "prep": "45 min",
+    "cook": "3 hrs",
+    "total_label": "4 hrs (worth it)",
+    "total_min": 240
+  },
+  "servings": "4",
+  "kicker": "Clear chicken-soy broth, jammy eggs, springy noodles — the Tokyo classic, built from scratch.",
+  "story": [
+    "Shoyu ramen is the original ramen — the Tokyo standard, soy-sauce seasoned, clear rather than milky, built on a broth of chicken (often with vegetables) that tastes clean and deeply savory rather than heavy. Where tonkotsu shouts, shoyu speaks at a normal volume and somehow holds the whole room.",
+    "The bowl is assembled in layers, and that is the real lesson of making ramen at home: broth, tare (the seasoning base), aroma oil, noodles, toppings — each one seasoned on its own merit. A soft egg marinated overnight. Chashu pork braised and torched. Scallions cut fine. None of it is hard; all of it adds up to something much larger than a noodle soup has any right to be."
+  ],
+  "fun_fact": "Ramen arrived in Japan via Chinese immigrants in the late 1800s. 'Shoyu' just means soy sauce — the tare style, not the noodle. Tokyo's oldest surviving ramen shop, Rairaiken, opened in 1910.",
+  "ingredients": [
+    {
+      "amount": "1.5 kg",
+      "item": "chicken backs/wings or a whole carcass",
+      "note": "for a clear broth, no rolling boil"
+    },
+    {
+      "amount": "1",
+      "item": "onion, 4 scallions, thumb of ginger",
+      "note": "charred under the broiler first"
+    },
+    {
+      "amount": "4 cloves",
+      "item": "garlic",
+      "note": ""
+    },
+    {
+      "amount": "80 ml",
+      "item": "soy sauce",
+      "note": "the tare base"
+    },
+    {
+      "amount": "30 ml",
+      "item": "mirin",
+      "note": ""
+    },
+    {
+      "amount": "2 tbsp",
+      "item": "toasted sesame oil",
+      "note": "aroma oil"
+    },
+    {
+      "amount": "4 portions",
+      "item": "fresh ramen noodles",
+      "note": "fresh from an Asian grocer changes everything"
+    },
+    {
+      "amount": "4",
+      "item": "eggs",
+      "note": "soft-boiled, marinated overnight in soy+mirin"
+    },
+    {
+      "amount": "300 g",
+      "item": "chashu pork (or quick-braised chicken thigh)",
+      "note": "sliced"
+    },
+    {
+      "amount": "2",
+      "item": "scallions",
+      "note": "thin-sliced, for the top"
+    },
+    {
+      "amount": "1 sheet",
+      "item": "nori",
+      "note": "quartered"
+    }
+  ],
+  "steps": [
+    {
+      "title": "Char the aromatics",
+      "text": "Broil onion, scallion, ginger and garlic until blackened at the edges. Charred, not burned — this builds the broth's backbone without clouding it."
+    },
+    {
+      "title": "A clear broth is a gentle broth",
+      "text": "Cover chicken and aromatics with 3 L cold water. Bring to a bare simmer — bubbles occasionally breaking the surface, never a boil — and cook 3 hours, skimming. Boiling emulsifies fat into milky cloudiness; you want clarity."
+    },
+    {
+      "title": "Make the tare",
+      "text": "Combine soy sauce, mirin and 120 ml of the finished broth in a small saucepan; warm through. This concentrated seasoning goes into the bowl first — never season the whole pot."
+    },
+    {
+      "title": "Eggs and pork",
+      "text": "Boil eggs exactly 6.5 minutes from fridge-cold, ice bath, peel, marinate overnight in equal soy and mirin thinned with a splash of water. Slice chashu thin; torch or sear the edges until they smell like a festival."
+    },
+    {
+      "title": "Noodles last, always",
+      "text": "Cook fresh noodles in unsalted boiling water 60-90 seconds — fresh ramen cooks in the time it takes to breathe. Drain well. Meanwhile heat the bowls with hot water."
+    },
+    {
+      "title": "Assemble like you mean it",
+      "text": "Per bowl: 40 ml tare, 400 ml hot broth, a teaspoon of sesame oil. Add noodles, lift them once with chopsticks to fold. Top with pork, egg halves, scallions, nori. Eat immediately, loudly, with unembarrassed slurping."
+    }
+  ],
+  "notes": [
+    "Broth and tare keep 4-5 days refrigerated; the broth also freezes. Ramen is genuinely better on day two.",
+    "No fresh noodles? Dried work — but cook them a minute less than the package says.",
+    "For a lighter weeknight version, good store-bought chicken stock + tare + fresh toppings gets you 80% of the way in 20 minutes."
+  ],
+  "pairings": [
+    "chicken-katsu-curry",
+    "butter-chicken"
+  ],
+  "links": [
+    {
+      "title": "Ramen — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ramen",
+      "desc": "Chinese origins, regional Japanese styles, the shoyu lineage"
+    },
+    {
+      "title": "Shoyu — ramen culture",
+      "url": "https://en.wikipedia.org/wiki/Ramen#Varieties",
+      "desc": "Shoyu vs. shio vs. miso vs. tonkotsu, mapped"
+    },
+    {
+      "title": "Serious Eats — Ramen School",
+      "url": "https://www.seriouseats.com/ramen-recipes",
+      "desc": "Tare theory and broth clarity, tested at length"
+    }
+  ],
+  "storage": "Components, not assembled bowls: broth and tare refrigerate 4 days (freeze 3 months); marinated eggs keep 3 days and get progressively more seasoned; noodles only fresh."
+}
