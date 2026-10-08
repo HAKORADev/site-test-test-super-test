@@ -41,7 +41,7 @@ button{font-family:inherit;cursor:pointer}
 .nav-search kbd{position:absolute;right:12px;font-family:var(--sans);font-size:.72rem;color:var(--ink-faint);border:1px solid var(--line);border-radius:5px;padding:1px 6px;background:var(--paper)}
 
 /* ============ buttons & chips ============ */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 20px;border-radius:999px;font-weight:600;font-size:.95rem;transition:.18s;text-decoration:none}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 20px;border-radius:999px;font-weight:600;font-size:.95rem;transition:.18s;text-decoration:none;white-space:nowrap}
 .btn:hover{border-color:var(--ember);color:var(--ember-deep);transform:translateY(-1px);box-shadow:var(--shadow)}
 .btn-primary{background:var(--ember);border-color:var(--ember);color:#fff}
 .btn-primary:hover{background:var(--ember-deep);border-color:var(--ember-deep);color:#fff}
