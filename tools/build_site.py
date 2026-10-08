@@ -129,6 +129,10 @@ body = f'''<section class="wrap page-head">
 write("search.html", layout("Search", "Instant full-text search across every recipe, ingredient and tag.", 0, body, active="search"))
 
 # ---------- about.html ----------
+media_stats = json.load(open(os.path.join(REPO, "assets", "data", "media.json"), encoding="utf-8"))
+n_imgs = sum(len(v["images"]) for k, v in media_stats.items() if not k.startswith("chrome"))
+n_vids = sum(len(v["videos"]) for k, v in media_stats.items() if not k.startswith("chrome"))
+n_tags = len({t for r in recipes for t in r["tags"]})
 about_body = f'''<section class="wrap page-head">
 <h1 class="page-title">About this kitchen</h1>
 <p class="page-sub">A very specific experiment with a very honest answer.</p>
@@ -146,9 +150,10 @@ about_body = f'''<section class="wrap page-head">
 <h4>Under the hood</h4>
 <ul class="about-facts">
 <li><strong>30</strong> recipes, hand-written</li>
-<li><strong>240+</strong> web-sourced photos, self-hosted</li>
-<li><strong>70+</strong> verified YouTube videos</li>
-<li><strong>8</strong> collections, {len({t for r in recipes for t in r['tags']})} tags</li>
+<li><strong>{n_imgs}</strong> web-sourced photos, self-hosted with credits</li>
+<li><strong>{n_vids}</strong> verified YouTube videos</li>
+<li><strong>8</strong> collections, {n_tags} tags</li>
+<li><strong>30</strong> GitHub issues as comment threads</li>
 <li><strong>0</strong> frameworks, trackers, or cookies</li>
 <li><strong>1</strong> easter egg, if you click the pot</li>
 </ul>
