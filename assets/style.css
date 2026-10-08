@@ -31,7 +31,7 @@ button{font-family:inherit;cursor:pointer}
 .logo-word{font-family:var(--serif);font-weight:700;font-size:1.42rem;letter-spacing:-.02em;white-space:nowrap}
 .logo-word em{color:var(--ember);font-style:normal}
 .nav-links{display:flex;gap:4px;margin-left:8px}
-.nav-links a{padding:8px 14px;border-radius:999px;color:var(--ink-soft);font-weight:500;font-size:.95rem;transition:.18s}
+.nav-links a{padding:8px 14px;border-radius:999px;color:var(--ink-soft);font-weight:500;font-size:.95rem;transition:.18s;white-space:nowrap}
 .nav-links a:hover{color:var(--ink);background:var(--paper-deep)}
 .nav-links a.active{color:var(--ember-deep);background:var(--ember-soft)}
 .nav-actions{margin-left:auto;display:flex;align-items:center;gap:12px}

@@ -435,7 +435,7 @@ FACTS = {
         "heat": 0, "budget": "$$", "season": "Any — it is a candle-lit constant",
         "signature": "Vanilla custard under shattering caramel glass",
         "serve_at": "Cold center, hot lid — the 30-second window after the torch", "pour": "Sauternes, the textbook answer that is also the right one",
-        "wiki": "https://en.wikipedia.org/wiki/Cr%C3%A8me_bru%C3%BBl%C3%A9e",
+        "wiki": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e",
     },
 }
 

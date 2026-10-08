@@ -1,5 +1,6 @@
 from common import (esc, rel, fmt_time, GENRES, recipe_card, layout, SITE_URL, REPO_URL,
                     heat_dots, base_axis)
+import urllib.parse
 
 def build_recipe_page(r, all_recipes, kitchen=None):
     depth = 1
@@ -92,7 +93,7 @@ def build_recipe_page(r, all_recipes, kitchen=None):
 <h2 class="section-title"><span>Data sheet</span></h2>
 <p class="section-sub">The dish at a glance — twelve field notes for the collectors.</p>
 <div class="facts-table">{facts_html}
-<div class="fact-row fact-link"><div class="fact-k">Wikipedia</div><div class="fact-v"><a href="{esc(f.get('wiki','#'))}" target="_blank" rel="noopener">{esc(f.get('wiki','#').split('/wiki/')[-1].replace('_',' '))} ↗</a></div></div>
+<div class="fact-row fact-link"><div class="fact-k">Wikipedia</div><div class="fact-v"><a href="{esc(f.get('wiki','#'))}" target="_blank" rel="noopener">{esc(urllib.parse.unquote(f.get('wiki','#').split('/wiki/')[-1]).replace('_',' '))} ↗</a></div></div>
 </div>
 </section>'''
     rels = r.get("relations", {})
